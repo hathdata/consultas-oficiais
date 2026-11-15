@@ -1,7 +1,706 @@
 # Catálogo completo de consultas
 
-1.066 consultas a órgãos oficiais pelo documento da empresa, por esfera e órgão. Atualizado em 2026-11-15. Fonte: [hathdata.com/consultas](https://hathdata.com/consultas). Com busca e filtro: [página do catálogo](https://hathdata.github.io/consultas-oficiais/consultas.html).
+1.066 consultas a órgãos oficiais pelo documento da empresa, por esfera e órgão. Atualizado em 15/11/2026. Fonte: [hathdata.com/consultas](https://hathdata.com/consultas). Com busca e filtro: [página do catálogo](https://hathdata.github.io/consultas-oficiais/consultas.html).
 
+
+## Federal (148)
+
+
+### ANP
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [ANP / Base de Distribuição](https://hathdata.com/api-anp-bases-de-distribuicao) | BR | CNPJ, Tipo instalação | em produção |
+| [ANP / Consumidores Industriais de Solventes](https://hathdata.com/api-anp-consumidores-industriais-de-solventes) | BR | Raiz do CNPJ | em produção |
+| [ANP / Distribuidores com Autorização de Filial](https://hathdata.com/api-anp-filiais-de-distribuidores) | BR | CNPJ | em produção |
+| [ANP / Gasodutos](https://hathdata.com/api-anp-gasodutos) | BR | CNPJ do operador | em produção |
+| [ANP / Instalações de Comércio Exterior](https://hathdata.com/api-anp-comercio-exterior) | BR | Raiz do CNPJ | em produção |
+| [ANP / Instalações do SIMP](https://hathdata.com/api-anp-instalacoes-simp) | BR | CNPJ | em produção |
+| [ANP / Oleodutos](https://hathdata.com/api-anp-oleodutos) | BR | CNPJ do operador, CNPJ da instalação | em produção |
+| [ANP / Registro de Lubrificantes](https://hathdata.com/api-anp-registro-de-lubrificantes) | BR | CNPJ do detentor | em produção |
+
+### ANTT
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [ANTT / SEI / Pesquisa Pública de Processos](https://hathdata.com/api-antt-sei-processos) | BR | Interessado | em produção |
+| [ANTT / SIFAMA / Boletos / Evasão de Pedágio](https://hathdata.com/api-antt-multa-evasao-de-pedagio) | BR | CNPJ do login, Senha | em produção |
+| [ANTT / SIFAMA / Boletos / Excesso de Peso](https://hathdata.com/api-antt-multa-excesso-de-peso) | BR | CNPJ do login, Senha | em produção |
+| [ANTT / SIFAMA / Boletos / Interestadual de Passageiros](https://hathdata.com/api-antt-multa-transporte-interestadual-de-passageiros) | BR | CNPJ do login, Senha | em produção |
+| [ANTT / SIFAMA / Boletos / Internacional de Cargas (TRIC)](https://hathdata.com/api-antt-multa-transporte-internacional-de-cargas) | BR | CNPJ do login, Senha | em produção |
+| [ANTT / SIFAMA / Boletos / Internacional de Passageiros](https://hathdata.com/api-antt-multa-transporte-internacional-de-passageiros) | BR | CNPJ do login, Senha | em produção |
+| [ANTT / SIFAMA / Boletos / Pagamento Eletrônico de Frete (PEF)](https://hathdata.com/api-antt-multa-pagamento-eletronico-de-frete) | BR | CNPJ do login, Senha | em produção |
+| [ANTT / SIFAMA / Boletos / Parcelamento ANTT](https://hathdata.com/api-antt-boleto-parcelamento) | BR | CNPJ do login, Senha | em produção |
+| [ANTT / SIFAMA / Boletos / Parcelamento PRD (Inscritos)](https://hathdata.com/api-antt-boleto-parcelamento-prd-inscritos) | BR | CNPJ do login, Senha | em produção |
+| [ANTT / SIFAMA / Boletos / Parcelamento PRD (Não Inscritos)](https://hathdata.com/api-antt-boleto-parcelamento-prd-nao-inscritos) | BR | CNPJ do login, Senha | em produção |
+| [ANTT / SIFAMA / Boletos / Piso Mínimo de Frete](https://hathdata.com/api-antt-multa-piso-minimo-de-frete) | BR | CNPJ do login, Senha | em produção |
+| [ANTT / SIFAMA / Boletos / Produtos Perigosos (TRPP)](https://hathdata.com/api-antt-multa-produtos-perigosos) | BR | CNPJ do login, Senha | em produção |
+| [ANTT / SIFAMA / Boletos / Produtos Perigosos Internacional (TRPP)](https://hathdata.com/api-antt-multa-produtos-perigosos-internacional) | BR | CNPJ do login, Senha | em produção |
+| [ANTT / SIFAMA / Boletos / RNTRC](https://hathdata.com/api-antt-multa-rntrc) | BR | CNPJ do login, Senha | em produção |
+| [ANTT / SIFAMA / Boletos / SAC TRIP](https://hathdata.com/api-antt-multa-sac-trip) | BR | CNPJ do login, Senha | em produção |
+| [ANTT / SIFAMA / Boletos / Vale Pedágio](https://hathdata.com/api-antt-multa-vale-pedagio) | BR | CNPJ do login, Senha | em produção |
+| [ANTT / SIFAMA / Consultar Multas](https://hathdata.com/api-antt-multas) | BR | CNPJ do login | em produção |
+| [ANTT / SIFAMA / Download de Auto de Infração](https://hathdata.com/api-antt-download-auto-de-infracao) | BR | CNPJ do login | em produção |
+| [ANTT / SIFAMA / Lista de Autos de Infração](https://hathdata.com/api-antt-autos-de-infracao) | BR | CNPJ do login | em produção |
+| [ANTT / SIFAMA / Segunda Via de Boletos (todos os tipos)](https://hathdata.com/api-antt-segunda-via-de-boleto) | BR | CNPJ do login, Senha | em produção |
+| [ANTT / Transportador](https://hathdata.com/api-antt-transportador) | BR | CNPJ | em produção |
+
+### ANVISA
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| ANVISA / Funcionamento de Empresa Nacional | BR | CNPJ | sob demanda |
+
+### Anatel
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [Anatel / Consulta Celular Legal](https://hathdata.com/api-anatel-celular-legal) | BR | IMEI | em produção |
+
+### B3
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| B3 / Participantes | BR | CNPJ | sob demanda |
+
+### BSM (B3 Supervisão de Mercados)
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [BSM / Processos Administrativos Disciplinares (PAD)](https://hathdata.com/api-bsm-processos-disciplinares) | BR | Razão social, CNPJ | em produção |
+
+### Banco Central do Brasil (BCB)
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [Banco Central do Brasil (BCB) / Cadastro de Inidôneos](https://hathdata.com/api-bcb-inabilitados-e-proibidos) | BR | CNPJ | em produção |
+| Banco Central do Brasil (BCB) / Valores a Receber | BR | CNPJ | sob demanda |
+
+### CVM
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [CVM / Suspensão de Atividades (intermediação irregular)](https://hathdata.com/api-cvm-suspensao-de-atividades) | BR | CNPJ, Razão social | em produção |
+| [CVM / Termos de Compromisso](https://hathdata.com/api-cvm-termos-de-compromisso) | BR | CNPJ, Razão social | em produção |
+
+### Cadastur
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| Cadastur / Prestadores | BR | UF, CNPJ | sob demanda |
+
+### Caixa
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [Caixa / Regularidade do Empregador (FGTS)](https://hathdata.com/api-crf-fgts) | BR | CNPJ | em produção |
+
+### Comprot
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| Comprot / Processo | BR | CNPJ | sob demanda |
+
+### Conselho Federal de Contabilidade
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| Conselho Federal de Contabilidade / Cadastro de Profissionais e Empresas | BR | CNPJ | sob demanda |
+
+### Conselho Federal de Medicina
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| Conselho Federal de Medicina / Estabelecimentos de Saúde | BR | CNPJ | sob demanda |
+
+### Conselho Federal de Psicologia
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| Conselho Federal de Psicologia / Cadastro | BR | CNPJ | sob demanda |
+
+### Contas
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [Contas / Comgás / Download de 2ª Via](https://hathdata.com/api-comgas-segunda-via) | BR | CNPJ, Código usuário | em produção |
+| [Contas / Light / Download via CEP](https://hathdata.com/api-light-segunda-via) | BR | CNPJ | em produção |
+| [Contas / Light / Download via CEP + OCR](https://hathdata.com/api-light-segunda-via-ocr) | BR | CNPJ | em produção |
+
+### Controladoria-Geral da União
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [Controladoria-Geral da União / Certidão Negativa Correcional - Entes Privados (ePAD, CGU-PJ, CEIS, CNEP e CEPIM)](https://hathdata.com/api-cgu-certidao-correcional) | BR | CNPJ | em produção |
+
+### DNIT
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [DNIT / Certidão de Multas (Nada Consta)](https://hathdata.com/api-dnit-certidao-de-multas) | BR | CNPJ | em produção |
+| [DNIT / Consulta de Multas (Pessoa Jurídica)](https://hathdata.com/api-dnit-consulta-de-multas) | BR | CNPJ, Login gov.br | em produção |
+| [DNIT / Validação da Certidão de Multas](https://hathdata.com/api-dnit-validar-certidao) | BR | CNPJ, Data, Horário, Código | em produção |
+
+### IBAMA
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [IBAMA / Autuações Ambientais](https://hathdata.com/api-ibama-autuacoes) | BR | CNPJ | em produção |
+| [IBAMA / Certidão de Débitos](https://hathdata.com/api-ibama-certidao-de-debitos) | BR | CNPJ | em produção |
+| [IBAMA / Certidão de Embargos (Nada Consta)](https://hathdata.com/api-ibama-certidao-de-embargos) | BR | CNPJ | em produção |
+| [IBAMA / Certificado de Regularidade](https://hathdata.com/api-ibama-certificado-de-regularidade) | BR | CNPJ | em produção |
+| [IBAMA / Consulta de Embargos (áreas embargadas)](https://hathdata.com/api-ibama-consulta-de-embargos) | BR | CNPJ, UF, Município | em produção |
+| [IBAMA / Verificação de Autenticidade do Certificado de Regularidade](https://hathdata.com/api-ibama-autenticidade-certificado-de-regularidade) | BR | CNPJ, Chave de autenticação | em produção |
+| [IBAMA / Visualizar Embargo Vigente](https://hathdata.com/api-ibama-embargo-vigente) | BR | CNPJ, Razão social | em produção |
+
+### INCRA
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [INCRA / SIGEF / Parcelas](https://hathdata.com/api-incra-sigef-parcelas) | BR | CNPJ | em produção |
+| [INCRA / SIGEF / Requerimentos](https://hathdata.com/api-incra-sigef-requerimentos) | BR | CNPJ | em produção |
+| [INCRA / SNCR / Emissão do CCIR](https://hathdata.com/api-incra-ccir) | BR | CNPJ, Código do imóvel, UF, Município | em produção |
+
+### INPI
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [INPI / Contratos de Transferência de Tecnologia](https://hathdata.com/api-inpi-contratos-de-tecnologia) | BR | CNPJ da cedente ou cessionária | em produção |
+| [INPI / Desenhos Industriais](https://hathdata.com/api-inpi-desenhos-industriais) | BR | CNPJ do depositante | em produção |
+| [INPI / Marcas por CNPJ](https://hathdata.com/api-inpi-marcas) | BR | CNPJ | em produção |
+| [INPI / Patentes](https://hathdata.com/api-inpi-patentes) | BR | CNPJ | em produção |
+| [INPI / Programas de Computador](https://hathdata.com/api-inpi-programas-de-computador) | BR | CNPJ do titular | em produção |
+
+### MDA
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| MDA / SEAD / Declaração de Aptidão ao PRONAF (DAP) | BR | CNPJ | sob demanda |
+
+### MPF
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [MPF / Amazônia Protege](https://hathdata.com/api-mpf-amazonia-protege) | BR | CNPJ | em produção |
+| [MPF / Certidão Negativa](https://hathdata.com/api-mpf-certidao-negativa) | BR | CNPJ | em produção |
+
+### MPT
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| MPT / AC e RO / Certidão Negativa de Feitos | BR | CNPJ | sob demanda |
+| MPT / AL / Certidão Negativa de Feitos | AL | CNPJ | sob demanda |
+| MPT / AM e RR / Certidão Negativa de Feitos | BR | CNPJ | sob demanda |
+| MPT / AP e PA / Certidão Negativa de Feitos | BR | CNPJ | sob demanda |
+| MPT / BA / Certidão Negativa de Feitos | BA | CNPJ | sob demanda |
+| MPT / CE / Certidão Negativa de Feitos | CE | CNPJ | sob demanda |
+| MPT / DF e TO / Certidão Negativa de Feitos | BR | CNPJ | sob demanda |
+| MPT / ES / Certidão Negativa de Feitos | ES | CNPJ | sob demanda |
+| MPT / GO / Certidão Negativa de Feitos | GO | CNPJ | sob demanda |
+| MPT / MA / Certidão Negativa de Feitos | MA | CNPJ | sob demanda |
+| MPT / MG / Certidão Negativa de Feitos | MG | CNPJ | sob demanda |
+| MPT / MS / Certidão Negativa de Feitos | MS | CNPJ | sob demanda |
+| MPT / MT / Certidão Negativa de Feitos | MT | CNPJ | sob demanda |
+| MPT / PB / Certidão Negativa de Feitos | PB | CNPJ | sob demanda |
+| MPT / PE / Certidão Negativa de Feitos | PE | CNPJ | sob demanda |
+| MPT / PI / Certidão Negativa de Feitos | PI | CNPJ | sob demanda |
+| MPT / PR / Certidão Negativa de Feitos | PR | CNPJ | sob demanda |
+| MPT / RJ / Certidão Negativa de Feitos | RJ | CNPJ | sob demanda |
+| MPT / RN / Certidão Negativa de Feitos | RN | CNPJ | sob demanda |
+| MPT / RS / Certidão Negativa de Feitos | RS | CNPJ | sob demanda |
+| MPT / SC / Certidão Negativa de Feitos | SC | CNPJ | sob demanda |
+| MPT / SE / Certidão Negativa de Feitos | SE | CNPJ | sob demanda |
+| MPT / SP / Campinas / Certidão Negativa de Feitos | SP | CNPJ | sob demanda |
+| MPT / SP / Certidão Negativa de Feitos | SP | CNPJ | sob demanda |
+| MPT / Unificada / Certidão Negativa de Feitos | BR | CNPJ | sob demanda |
+
+### MTE
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [MTE / Andamento Processual, processo eletrônico](https://hathdata.com/api-mte-andamento-processual-eletronico) | BR | Número do processo, Número do documento | em produção |
+| [MTE / Andamento Processual, processo físico](https://hathdata.com/api-mte-andamento-processual-fisico) | BR | Tipo (auto ou notificação), Número do processo | em produção |
+| [MTE / Autenticidade de Documento do Processo](https://hathdata.com/api-mte-autenticidade-de-documento) | BR | Número do processo, Código verificador | em produção |
+| [MTE / Auto de Infração, processo físico](https://hathdata.com/api-mte-auto-de-infracao-processo-fisico) | BR | Número do auto, CNPJ, Código de acesso | em produção |
+| [MTE / Certidão de Débitos Trabalhistas](https://hathdata.com/api-mte-certidao-de-debitos-trabalhistas) | BR | CNPJ | em produção |
+| [MTE / DARF de Multa Trabalhista (eletrônico e físico)](https://hathdata.com/api-mte-darf-de-multa-trabalhista) | BR | Número do processo, Número do documento | em produção |
+| [MTE / Defesa, processo físico](https://hathdata.com/api-mte-defesa-processo-fisico) | BR | Tipo (auto ou notificação), Número, Código de acesso | em produção |
+| [MTE / Fundamentação da Decisão (análise), processo físico](https://hathdata.com/api-mte-fundamentacao-da-decisao) | BR | Número do processo, Código verificador | em produção |
+| [MTE / Lista Suja do Trabalho Escravo](https://hathdata.com/api-mte-lista-trabalho-escravo) | BR | CNPJ | em produção |
+| [MTE / Notificação de Débito, processo físico](https://hathdata.com/api-mte-notificacao-de-debito-processo-fisico) | BR | Número da notificação, CNPJ, Código de acesso | em produção |
+| [MTE / Processos por Empregador](https://hathdata.com/api-mte-processos-por-empregador) | BR | CNPJ raiz, CNPJ | em produção |
+| [MTE / Relatório de Transparência Salarial](https://hathdata.com/api-mte-relatorio-de-transparencia-salarial) | BR | CNPJ | em produção |
+| [MTE / Validação da Certidão de Débitos Trabalhistas](https://hathdata.com/api-mte-validacao-da-certidao-de-debitos) | BR | Código da certidão | em produção |
+
+### Portal da Transparência
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [Portal da Transparência / Acordos de Leniência](https://hathdata.com/api-cgu-acordos-de-leniencia) | BR | CNPJ | em produção |
+| [Portal da Transparência / Cadastro Nacional de Empresas Punidas (CNEP)](https://hathdata.com/api-cgu-cnep) | BR | CNPJ | em produção |
+| [Portal da Transparência / Cadastro de Empresas Inidôneas e Suspensas (CEIS)](https://hathdata.com/api-cgu-ceis) | BR | CNPJ | em produção |
+| [Portal da Transparência / Cadastro de Entidades Privadas sem Fins Lucrativos Impedidas (CEPIM)](https://hathdata.com/api-cgu-cepim) | BR | CNPJ | em produção |
+| [Portal da Transparência / Cartões de Pagamento por Favorecido](https://hathdata.com/api-cgu-cartoes-de-pagamento) | BR | CNPJ do favorecido | em produção |
+| [Portal da Transparência / Contratos por Fornecedor](https://hathdata.com/api-cgu-contratos-por-fornecedor) | BR | CNPJ do fornecedor | em produção |
+| [Portal da Transparência / Despesas por Favorecido](https://hathdata.com/api-cgu-despesas-por-favorecido) | BR | CNPJ do favorecido, Fase, Ano | em produção |
+| [Portal da Transparência / Notas Fiscais por Emitente](https://hathdata.com/api-cgu-notas-fiscais-por-emitente) | BR | CNPJ do emitente | em produção |
+| [Portal da Transparência / Panorama da Pessoa Jurídica com o Governo Federal](https://hathdata.com/api-cgu-panorama-pessoa-juridica) | BR | CNPJ | em produção |
+| [Portal da Transparência / Recursos Recebidos por Favorecido](https://hathdata.com/api-cgu-recursos-recebidos) | BR | CNPJ do favorecido, Período | em produção |
+| [Portal da Transparência / Renúncias Fiscais por CNPJ](https://hathdata.com/api-cgu-renuncias-fiscais) | BR | CNPJ | em produção |
+
+### Receita Federal
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [Receita Federal / CNPJ](https://hathdata.com/api-receita-cartao-cnpj) | BR | CNPJ | em produção |
+| [Receita Federal / Comprovante do QSA (Sócios e Administradores)](https://hathdata.com/api-receita-qsa) | BR | CNPJ | em produção |
+| [Receita Federal / Consulta CNPJ completa (Receita Federal)](https://hathdata.com/consultas/consulta-cnpj-completa-receita-federal) | BR | CNPJ | em produção |
+| Receita Federal / MEI | BR | CNPJ | sob demanda |
+| [Receita Federal / NFS-e Nacional / DANFSe](https://hathdata.com/api-nfse-danfse) | BR | Chave de acesso | em produção |
+| Receita Federal / PER/DCOMP | BR | CNPJ | sob demanda |
+| [Receita Federal / PGFN (CND Federal)](https://hathdata.com/api-cnd-federal) | BR | CNPJ | em produção |
+| [Receita Federal / PGFN (CND Federal) - Lista Segunda Via](https://hathdata.com/api-pgfn-historico-de-certidoes) | BR | CNPJ | em produção |
+| Receita Federal / PGFN (CND Federal) - Nova | BR | CNPJ | sob demanda |
+| Receita Federal / PGFN (CND Federal) - Segunda Via | BR | CNPJ | sob demanda |
+| Receita Federal / PGFN / Certidão de Débitos Federais do Imóvel Rural (CND) | BR | CNPJ | em produção |
+| [Receita Federal / PGFN / Histórico de Certidões Federais](https://hathdata.com/api-pgfn-historico-de-certidoes) | BR | CNPJ | em produção |
+| Receita Federal / PGFN / Histórico de Certidões Federais do Imóvel Rural | BR | CNPJ | em produção |
+| Receita Federal / Radar (Habilitação Comércio Exterior) | BR | CNPJ | sob demanda |
+| Receita Federal / SICALC / Gerar DARF | BR | CNPJ | sob demanda |
+| Receita Federal / SIMEI (Declaração Anual) | BR | CNPJ, Tipo declaração | sob demanda |
+| Receita Federal / Simei / MEI / Emissão de Guia de Parcelamento | BR | CNPJ | sob demanda |
+| Receita Federal / Simples (DASN SIMEI) | BR | CNPJ | sob demanda |
+| Receita Federal / Simples (Emissão de DAS de MEI) | BR | CNPJ, Periodo | sob demanda |
+| Receita Federal / Simples (Listagem de Períodos para Emissão de DAS) | BR | CNPJ, Ano | sob demanda |
+| Receita Federal / Simples / MEI / Emissão de Guia de Parcelamento | BR | CNPJ | sob demanda |
+| [Receita Federal / Simples Nacional](https://hathdata.com/api-simples-nacional) | BR | CNPJ | em produção |
+| Receita Federal / Situação Fiscal | BR | Perfil procurador CNPJ | sob demanda |
+
+### SENATRAN
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| SENATRAN / Meus Veículos - Possuidor (Listagem) | BR | CNPJ, Página | sob demanda |
+| SENATRAN / Pedágio Eletrônico (Free Flow) / Detalhes | BR | CNPJ, Chave Passagem | sob demanda |
+| SENATRAN / Pedágio Eletrônico (Free Flow) / Listagem | BR | CNPJ, Pagina | sob demanda |
+
+### SUSEP
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| SUSEP / Administradores | BR | CNPJ | sob demanda |
+| [SUSEP / Corretores](https://hathdata.com/api-susep-certidao-corretores) | BR | CNPJ | em produção |
+
+### TCU
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| TCU / Certidão Negativa de Processos | BR | CNPJ | sob demanda |
+| [TCU / Consulta Consolidada de Pessoa Jurídica (APF)](https://hathdata.com/api-tcu-certidao-consolidada) | BR | CNPJ, Aceita resultado parcial | em produção |
+| [TCU / Lista de Licitantes Inidôneos](https://hathdata.com/api-tcu-licitantes-inidoneos) | BR | CNPJ | em produção |
+
+## Estadual (110)
+
+
+### DER
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [DER / PR / Certidão Negativa de Débitos](https://hathdata.com/api-der-pr-certidao-negativa) | PR | CNPJ | em produção |
+| [DER / PR / Guia de Recolhimento Única (GRU)](https://hathdata.com/api-der-pr-gru) | PR | CNPJ | em produção |
+| [DER / SP / DARE](https://hathdata.com/api-der-sp-dare) | SP | CNPJ, Ait | em produção |
+
+### DETRAN
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| DETRAN / SP / Emissão de CRLV-e | SP | CNPJ do login | sob demanda |
+
+### Junta Comercial
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| Junta Comercial / SP / Consulta Pública de Licenciamento | SP | CNPJ | sob demanda |
+
+### Ministério Público
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [Ministério Público / DF / Certidão Nada Consta (MPDFT)](https://hathdata.com/api-mpdft-certidao) | DF | CNPJ | em produção |
+| [Ministério Público / SP / Inquérito Civil](https://hathdata.com/api-mpsp-inquerito-civil) | SP | CNPJ | em produção |
+
+### Procuradoria Geral do Estado
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| Procuradoria Geral do Estado / CE / Dívida Ativa | CE | CNPJ base | sob demanda |
+| Procuradoria Geral do Estado / MT / Dívida Ativa | MT | CDA, CNPJ | sob demanda |
+| Procuradoria Geral do Estado / SP / Certidão Negativa de Débitos Tributários | SP | CNPJ | sob demanda |
+| Procuradoria Geral do Estado / SP / Dívida Ativa | SP | CDA, CNPJ | sob demanda |
+
+### SEFAZ
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [SEFAZ / AC / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-ac-certidao) | AC | CNPJ | em produção |
+| [SEFAZ / AL / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-al-certidao) | AL | CNPJ | em produção |
+| [SEFAZ / AM / Certidão Negativa de Débitos](https://hathdata.com/consultas/certidao-negativa-de-debitos-estaduais) | AM | CNPJ | em produção |
+| [SEFAZ / AP / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-ap-certidao) | AP | CNPJ | em produção |
+| [SEFAZ / AP / Validação de Certidão de Débito](https://hathdata.com/api-sefaz-ap-validar-certidao) | AP | Documento, Data e hora, Código | em produção |
+| [SEFAZ / BA / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-ba-certidao) | BA | CNPJ | em produção |
+| [SEFAZ / CE / Certidao de Regularidade](https://hathdata.com/api-sefaz-ce-certidao) | CE | CNPJ | em produção |
+| [SEFAZ / CE / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-ce-certidao) | CE | CNPJ | em produção |
+| SEFAZ / Certidão Negativa de Débitos Estaduais | BR | CNPJ | sob demanda |
+| [SEFAZ / DF / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-df-certidao) | DF | CNPJ | em produção |
+| [SEFAZ / DF / Certidão de Dívida Ativa](https://hathdata.com/api-sefaz-df-certidao) | DF | CNPJ | em produção |
+| [SEFAZ / DF / Validação de Certidão](https://hathdata.com/api-sefaz-df-validar-certidao) | DF | Número, Documento | em produção |
+| [SEFAZ / ES / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-es-certidao) | ES | CNPJ | em produção |
+| [SEFAZ / ES / Validação de Certidão Negativa](https://hathdata.com/api-sefaz-es-validar-certidao) | ES | Documento, Número | em produção |
+| [SEFAZ / GO / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-go-certidao) | GO | CNPJ | em produção |
+| [SEFAZ / GO / Validação de Certidão de Débitos](https://hathdata.com/api-sefaz-go-validar-certidao) | GO | Número | em produção |
+| [SEFAZ / MA / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-ma-certidao) | MA | CNPJ | em produção |
+| SEFAZ / MA / Certidão de Dívida Ativa | MA | CNPJ | sob demanda |
+| SEFAZ / MG / CADIN | MG | CNPJ | sob demanda |
+| [SEFAZ / MG / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-mg-certidao) | MG | CNPJ | em produção |
+| SEFAZ / MG / Consulta Parcelamento | MG | CNPJ | sob demanda |
+| SEFAZ / MG / Débitos de IPVA | MG | CNPJ | sob demanda |
+| SEFAZ / MG / Dívida Ativa | MG | CNPJ | sob demanda |
+| SEFAZ / MG / Protesto Inscrito em Dívida Ativa | MG | CNPJ | sob demanda |
+| SEFAZ / MG / Simulação de Parcelamento IPVA | MG | CNPJ | sob demanda |
+| [SEFAZ / MS / Autenticação de Certidão Tributária](https://hathdata.com/api-sefaz-ms-validar-certidao) | MS | Documento, Número, Data e hora | em produção |
+| [SEFAZ / MS / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-ms-certidao) | MS | CNPJ | em produção |
+| [SEFAZ / MT / Autenticidade de Certidão](https://hathdata.com/api-sefaz-mt-validar-certidao) | MT | Número, Emissão, Código | em produção |
+| [SEFAZ / MT / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-mt-certidao) | MT | CNPJ | em produção |
+| [SEFAZ / MT / Reimpressão de Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-mt-certidao) | MT | CNPJ | em produção |
+| [SEFAZ / PA / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-pa-certidao) | PA | CNPJ | em produção |
+| [SEFAZ / PA / IPVA](https://hathdata.com/api-sefaz-pa-certidao) | PA | CNPJ | em produção |
+| [SEFAZ / PB / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-pb-certidao) | PB | CNPJ | em produção |
+| SEFAZ / PB / IPVA | PB | CNPJ | sob demanda |
+| [SEFAZ / PB / Validação de Certidão de Débito](https://hathdata.com/api-sefaz-pb-validar-certidao) | PB | Documento, Data e hora, Código | em produção |
+| SEFAZ / PE | PE | CNPJ | sob demanda |
+| [SEFAZ / PE / Certidão Negativa de Débitos](https://hathdata.com/consultas/certidao-negativa-de-debitos-estaduais) | PE | CNPJ | em produção |
+| SEFAZ / PE / Certidão de Regularidade Fiscal | PE | CNPJ | sob demanda |
+| SEFAZ / PE / Certidão de Regularidade Fiscal (Móvel) | PE | CNPJ | sob demanda |
+| SEFAZ / PE / Dívida Ativa | PE | Raiz CNPJ | sob demanda |
+| SEFAZ / PI / IPVA | PI | CNPJ | sob demanda |
+| [SEFAZ / PI / Solicitar Certidão Negativa da Dívida Ativa (CNDA)](https://hathdata.com/consultas/certidao-negativa-de-debitos-estaduais) | PI | CNPJ | em produção |
+| [SEFAZ / PI / Solicitar Certidão Negativa de Débitos](https://hathdata.com/consultas/certidao-negativa-de-debitos-estaduais) | PI | CNPJ | em produção |
+| SEFAZ / PI / Visualizar certidões CNDA/CND | PI | CNPJ | sob demanda |
+| SEFAZ / PR | PR | CNPJ, IE | sob demanda |
+| [SEFAZ / PR / CADIN](https://hathdata.com/api-sefaz-pr-certidao) | PR | CNPJ | em produção |
+| [SEFAZ / PR / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-pr-certidao) | PR | CNPJ | em produção |
+| [SEFAZ / RJ / Autenticidade da Certidão de Regularidade Fiscal](https://hathdata.com/api-sefaz-rj-validar-certidao) | RJ | Número | em produção |
+| [SEFAZ / RJ / Autenticidade de Certidão (Fisco Fácil)](https://hathdata.com/api-sefaz-rj-autenticidade-certidao) | RJ | Código de verificação | em produção |
+| [SEFAZ / RJ / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-rj-certidao) | RJ | CNPJ | em produção |
+| [SEFAZ / RN / Autenticidade de Certidão Conjunta](https://hathdata.com/api-sefaz-rn-validar-certidao) | RN | Documento, Número, Data e hora | em produção |
+| [SEFAZ / RN / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-rn-certidao) | RN | CNPJ | em produção |
+| [SEFAZ / RO / Autenticação de Certidão Negativa](https://hathdata.com/api-sefaz-ro-validar-certidao) | RO | Documento, Número | em produção |
+| [SEFAZ / RO / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-ro-certidao) | RO | CNPJ | em produção |
+| [SEFAZ / RR / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-rr-certidao) | RR | CNPJ | em produção |
+| [SEFAZ / RR / Validação de Certidão Negativa](https://hathdata.com/api-sefaz-rr-validar-certidao) | RR | Documento, Código, Data | em produção |
+| SEFAZ / RS / CADIN e CFIL | RS | CNPJ | sob demanda |
+| [SEFAZ / RS / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-rs-situacao-fiscal) | RS | CNPJ | em produção |
+| [SEFAZ / RS / Certidão de PJ Não Inscrita no CGCTE](https://hathdata.com/api-sefaz-rs-nao-inscrita) | RS | CNPJ | em produção |
+| [SEFAZ / RS / Consulta Pública ao CGCTE](https://hathdata.com/api-sefaz-rs-cgcte) | RS | CNPJ, IE | em produção |
+| [SEFAZ / SC / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-sc-certidao) | SC | CNPJ | em produção |
+| [SEFAZ / SE / Certidão Negativa de Débitos](https://hathdata.com/consultas/certidao-negativa-de-debitos-estaduais) | SE | CNPJ | em produção |
+| SEFAZ / SP / Cadin | SP | CNPJ | sob demanda |
+| [SEFAZ / SP / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-sp-certidao) | SP | CNPJ | em produção |
+| SEFAZ / SP / Certidão de Débitos Tributários Estaduais | SP | CNPJ | em produção |
+| SEFAZ / SPU / Dados Cadastrais de Imóvel da União | BR | CNPJ | sob demanda |
+| SEFAZ / SPU / Emitir Certidões de Imóveis da União | BR | CNPJ | sob demanda |
+| [SEFAZ / TO / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-to-certidao) | TO | CNPJ | em produção |
+| [SEFAZ / Todas as UFs / Certidão Negativa de Débitos Estaduais (ICMS)](https://hathdata.com/consultas/certidao-negativa-de-debitos-estaduais) | BR | CNPJ | em produção |
+
+### SEMA
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| SEMA / MT / APF Rural | MT | CNPJ proprietário | sob demanda |
+
+### SINTEGRA
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| SINTEGRA / AC | AC | CNPJ, IE | sob demanda |
+| SINTEGRA / AL | AL | IE, CNPJ | sob demanda |
+| SINTEGRA / AM | AM | CNPJ, IE | sob demanda |
+| SINTEGRA / AP | AP | CNPJ, IE | sob demanda |
+| SINTEGRA / BA | BA | CNPJ | sob demanda |
+| SINTEGRA / CE | CE | CNPJ, IE | sob demanda |
+| SINTEGRA / DF | DF | CNPJ, IE | sob demanda |
+| SINTEGRA / ES | ES | CNPJ, IE | sob demanda |
+| SINTEGRA / GO | GO | CNPJ, IE | sob demanda |
+| SINTEGRA / MA | MA | CNPJ, IE | sob demanda |
+| SINTEGRA / MS | MS | CNPJ, IE | sob demanda |
+| SINTEGRA / MT | MT | CNPJ, IE | sob demanda |
+| SINTEGRA / PA | PA | CNPJ, IE | sob demanda |
+| SINTEGRA / PB | PB | CNPJ, IE | sob demanda |
+| SINTEGRA / PE | PE | CNPJ, IE | sob demanda |
+| SINTEGRA / PR | PR | CNPJ, IE | sob demanda |
+| SINTEGRA / RJ | RJ | CNPJ, IE | sob demanda |
+| SINTEGRA / RN | RN | CNPJ, IE | sob demanda |
+| SINTEGRA / RO | RO | CNPJ, IE | sob demanda |
+| SINTEGRA / RR | RR | CNPJ, IE | sob demanda |
+| SINTEGRA / RS | RS | CNPJ, IE | sob demanda |
+| SINTEGRA / SC | SC | CNPJ, IE | sob demanda |
+| SINTEGRA / SE | SE | CNPJ, IE | sob demanda |
+| SINTEGRA / SP | SP | CNPJ, IE | sob demanda |
+| SINTEGRA / SUFRAMA | BR | CNPJ | sob demanda |
+| SINTEGRA / TO | TO | CNPJ, IE | sob demanda |
+| SINTEGRA / Unificada | BR | UF, CNPJ | sob demanda |
+
+### Sivisa
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| Sivisa / SP | SP | CNPJ | sob demanda |
+
+### TCE
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| TCE / SP / Certidão de Apenados | SP | CNPJ | sob demanda |
+
+## Municipal (232)
+
+
+### Prefeitura
+
+| Consulta | UF | Entrada | Situação |
+| --- | --- | --- | --- |
+| [Prefeitura / AM / Manaus / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-manaus) | AM | CNPJ | em produção |
+| Prefeitura / AP / Macapá / Certidão Negativa de Débitos | AP | CNPJ | sob demanda |
+| Prefeitura / AP / Santana / Certidão Negativa de Débitos | AP | CNPJ | sob demanda |
+| [Prefeitura / BA / Feira de Santana / Certidão Negativa de Débitos (empresa)](https://hathdata.com/api-cnd-feira-de-santana) | BA | Inscrição municipal ou CNPJ | em produção |
+| [Prefeitura / BA / Feira de Santana / Certidão Negativa de IPTU](https://hathdata.com/api-iptu-feira-de-santana) | BA | Inscrição imobiliária | em produção |
+| [Prefeitura / BA / Feira de Santana / Certidão Valor Base de Cálculo do IPTU](https://hathdata.com/api-feira-de-santana-valor-base-calculo-iptu) | BA | Inscrição imobiliária | em produção |
+| [Prefeitura / BA / Feira de Santana / Certidão Valor Venal para Averbação](https://hathdata.com/api-feira-de-santana-valor-venal-averbacao) | BA | Inscrição imobiliária | em produção |
+| [Prefeitura / BA / Feira de Santana / Certidão de Baixa de Inscrição](https://hathdata.com/api-feira-de-santana-certidao-baixa-inscricao) | BA | Inscrição ou CNPJ | em produção |
+| [Prefeitura / BA / Feira de Santana / Certidão de Inexistência de Inscrição (CNPJ)](https://hathdata.com/api-feira-de-santana-inexistencia-inscricao) | BA | CNPJ | em produção |
+| [Prefeitura / BA / Feira de Santana / Comprovante de Inscrição](https://hathdata.com/api-feira-de-santana-comprovante-inscricao) | BA | CNPJ, Documento do sócio | em produção |
+| [Prefeitura / BA / Feira de Santana / Validação da Certidão Narrativa](https://hathdata.com/api-feira-de-santana-validar-certidao-narrativa) | BA | Inscrição imobiliária, Número/ano e emissão | em produção |
+| [Prefeitura / BA / Feira de Santana / Validação da Certidão de Baixa de Inscrição](https://hathdata.com/api-feira-de-santana-validar-baixa-inscricao) | BA | Inscrição ou CNPJ, Código e emissão | em produção |
+| [Prefeitura / BA / Feira de Santana / Validação da Certidão de Débitos](https://hathdata.com/api-feira-de-santana-validar-certidao) | BA | Inscrição, Código e validade | em produção |
+| [Prefeitura / BA / Feira de Santana / Validação da Certidão de Transmissão (ITIV)](https://hathdata.com/api-feira-de-santana-validar-itiv) | BA | Inscrição imobiliária, Código e emissão | em produção |
+| [Prefeitura / BA / Feira de Santana / Validação da Declaração de Alteração de Endereço](https://hathdata.com/api-feira-de-santana-validar-alteracao-endereco) | BA | Inscrição imobiliária, Número/ano e emissão | em produção |
+| [Prefeitura / BA / Feira de Santana / Validação da Declaração de Limites](https://hathdata.com/api-feira-de-santana-validar-declaracao-limites) | BA | Inscrição imobiliária, Número/ano e emissão | em produção |
+| [Prefeitura / BA / Feira de Santana / Validação da Inexistência de Inscrição (CNPJ)](https://hathdata.com/api-feira-de-santana-validar-inexistencia-inscricao) | BA | CNPJ, Código e emissão | em produção |
+| [Prefeitura / BA / Feira de Santana / Validação de Certidões do Imóvel](https://hathdata.com/api-feira-de-santana-validar-certidao-imovel) | BA | Inscrição imobiliária, Código e validade | em produção |
+| [Prefeitura / BA / Feira de Santana / Validação do Alvará Provisório](https://hathdata.com/api-feira-de-santana-validar-alvara-provisorio) | BA | Inscrição, Código e validade | em produção |
+| [Prefeitura / BA / Feira de Santana / Validação do Comprovante de Inscrição](https://hathdata.com/api-feira-de-santana-validar-comprovante-inscricao) | BA | Inscrição, Código e validade | em produção |
+| [Prefeitura / BA / Feira de Santana / Validação do Termo de Anuência](https://hathdata.com/api-feira-de-santana-validar-termo-anuencia) | BA | Inscrição imobiliária, Número/ano e emissão | em produção |
+| Prefeitura / BA / Ilheus / Certidão Negativa de Débitos | BA | CNPJ | sob demanda |
+| Prefeitura / BA / Juazeiro / Certidão Negativa de Débitos | BA | CNPJ | sob demanda |
+| [Prefeitura / BA / Salvador / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-salvador) | BA | CNPJ | em produção |
+| Prefeitura / BA / Salvador / NFS-e (Nota Fiscal Eletrônica de Serviços) | BA | CNPJ | sob demanda |
+| Prefeitura / CE / Caucaia / Certidão Negativa de Débitos | CE | CNPJ | sob demanda |
+| Prefeitura / CE / Fortaleza / CPOM | CE | CNPJ | sob demanda |
+| [Prefeitura / CE / Fortaleza / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-fortaleza) | CE | CNPJ | em produção |
+| Prefeitura / CE / Jaguaretama / Certidão Negativa de Débitos | CE | CNPJ | sob demanda |
+| Prefeitura / CPOM | BR | CNPJ, UF | sob demanda |
+| [Prefeitura / ES / Aracruz / Certidão Negativa de Débitos (CNPJ)](https://hathdata.com/api-cnd-aracruz) | ES | CNPJ | em produção |
+| Prefeitura / GO / Anápolis / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
+| Prefeitura / GO / Aparecida de Goiânia / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
+| Prefeitura / GO / Campos Verdes / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
+| Prefeitura / GO / Catalão / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
+| Prefeitura / GO / Firminópolis / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
+| [Prefeitura / GO / Goiânia / Certidão Negativa de Débitos](https://hathdata.com/api-goiania-regularidade-fiscal) | GO | CNPJ | em produção |
+| [Prefeitura / GO / Goiânia / Certidão de Baixa de Inscrição Mobiliária](https://hathdata.com/api-goiania-certidoes-mobiliarias) | GO | CNPJ | em produção |
+| [Prefeitura / GO / Goiânia / Certidão de Débitos de IPTU](https://hathdata.com/api-iptu-goiania) | GO | CNPJ | em produção |
+| [Prefeitura / GO / Goiânia / Certidão de Débitos do Cadastro Mobiliário](https://hathdata.com/api-goiania-certidoes-mobiliarias) | GO | CNPJ | em produção |
+| [Prefeitura / GO / Goiânia / Certidão de Inscrição Imobiliária](https://hathdata.com/api-iptu-goiania) | GO | CNPJ | em produção |
+| [Prefeitura / GO / Goiânia / Certidão de Inscrição Mobiliária](https://hathdata.com/api-goiania-certidoes-mobiliarias) | GO | CNPJ | em produção |
+| [Prefeitura / GO / Goiânia / Certidão de Inscrição no Cadastro Mobiliário](https://hathdata.com/api-goiania-certidao-por-cnpj) | GO | CNPJ | em produção |
+| [Prefeitura / GO / Goiânia / Certidão de Não Inscrição Imobiliária](https://hathdata.com/api-goiania-certidao-por-cnpj) | GO | CNPJ | em produção |
+| [Prefeitura / GO / Goiânia / Certidão de Suspensão de Inscrição Mobiliária](https://hathdata.com/api-goiania-certidoes-mobiliarias) | GO | CNPJ | em produção |
+| [Prefeitura / GO / Goiânia / Comprovante de Pagamento](https://hathdata.com/api-goiania-comprovante-de-pagamento) | GO | Inscrição, Exercício | em produção |
+| [Prefeitura / GO / Goiânia / Validação de Certidão](https://hathdata.com/api-goiania-validar-certidao) | GO | CNPJ | em produção |
+| Prefeitura / GO / Itumbiara / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
+| Prefeitura / GO / Jataí / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
+| Prefeitura / GO / Morrinhos / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
+| Prefeitura / GO / Rio Verde / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
+| Prefeitura / GO / Uruaçu / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
+| Prefeitura / MA / Balsas / Certidão Negativa de Débitos | MA | CNPJ | sob demanda |
+| [Prefeitura / MA / São Luís / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-sao-luis) | MA | CNPJ | em produção |
+| Prefeitura / MG / Araújos / Certidão Negativa de Débitos | MG | CNPJ | sob demanda |
+| [Prefeitura / MG / Belo Horizonte / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-belo-horizonte) | MG | CNPJ | em produção |
+| [Prefeitura / MG / Belo Horizonte / Certidão de Quitação de IPTU e Taxas](https://hathdata.com/api-iptu-belo-horizonte) | MG | Índice cadastral | em produção |
+| [Prefeitura / MG / Betim / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-betim) | MG | CNPJ | em produção |
+| [Prefeitura / MG / Contagem / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-contagem) | MG | CNPJ | em produção |
+| [Prefeitura / MG / Coqueiral / Certidão de Débitos Municipais (CNPJ)](https://hathdata.com/api-cnd-coqueiral) | MG | CNPJ | em produção |
+| [Prefeitura / MG / Divinópolis / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-divinopolis) | MG | CNPJ | em produção |
+| Prefeitura / MG / Itaguara / Certidão Negativa de Econômico | MG | CNPJ | sob demanda |
+| Prefeitura / MG / Itaúna / Certidão Negativa de Débitos | MG | CNPJ | sob demanda |
+| Prefeitura / MG / Janaúba / Certidão Negativa de Débitos | MG | CNPJ | sob demanda |
+| Prefeitura / MG / Juatuba / Certidão Negativa de Débitos | MG | CNPJ | sob demanda |
+| Prefeitura / MG / Luz / Certidão Negativa de Débitos | MG | CNPJ | sob demanda |
+| [Prefeitura / MG / Montes Claros / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-montes-claros) | MG | CNPJ | em produção |
+| Prefeitura / MG / Nova Serrana / Certidão Negativa de Débitos | MG | CNPJ | sob demanda |
+| Prefeitura / MG / Pará de Minas / Certidão Negativa de Débitos | MG | CNPJ | sob demanda |
+| [Prefeitura / MG / Ribeirão das Neves / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-ribeirao-das-neves) | MG | CNPJ | em produção |
+| Prefeitura / MG / Santa Vitória / Certidão Negativa de Débitos | MG | CNPJ | sob demanda |
+| [Prefeitura / MG / Santana do Paraíso / Alvará de Localização e Funcionamento](https://hathdata.com/api-santana-do-paraiso-alvara) | MG | CNPJ | em produção |
+| [Prefeitura / MG / Santana do Paraíso / Autenticidade de Documento](https://hathdata.com/api-santana-do-paraiso-validar-certidao) | MG | Chave de autenticidade | em produção |
+| [Prefeitura / MG / Santana do Paraíso / Certidão Negativa de Débitos (CNPJ)](https://hathdata.com/api-cnd-santana-do-paraiso) | MG | CNPJ | em produção |
+| [Prefeitura / MG / Santana do Paraíso / Certidão Negativa de Débitos (Inscrição Econômica)](https://hathdata.com/api-santana-do-paraiso-cnd-inscricao) | MG | Inscrição econômica | em produção |
+| [Prefeitura / MG / Santana do Paraíso / Comprovante de Inscrição Municipal](https://hathdata.com/api-santana-do-paraiso-comprovante-inscricao) | MG | Inscrição econômica | em produção |
+| [Prefeitura / MG / Três Pontas / Autenticidade da CND](https://hathdata.com/api-tres-pontas-validar-certidao) | MG | Número/ano | em produção |
+| [Prefeitura / MG / Uberaba / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-uberaba) | MG | CNPJ | em produção |
+| [Prefeitura / MG / Uberlândia / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-uberlandia) | MG | CNPJ | em produção |
+| Prefeitura / MS / Campo Grande / NFS-e (Nota Fiscal Eletrônica de Serviços) | MS | CNPJ prestador, Número nota | sob demanda |
+| Prefeitura / MS / Chapadão do Sul / Certidão Negativa de Débitos | MS | CNPJ | sob demanda |
+| Prefeitura / MS / Mundo Novo / Certidão Negativa de Débitos | MS | CNPJ | sob demanda |
+| Prefeitura / MS / Naviraí / Certidão Negativa de Débitos | MS | CNPJ | sob demanda |
+| [Prefeitura / MT / Cuiabá / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-cuiaba) | MT | CNPJ | em produção |
+| [Prefeitura / MT / Ipiranga do Norte / Alvará de Funcionamento](https://hathdata.com/api-ipiranga-do-norte-alvara) | MT | CNPJ | em produção |
+| [Prefeitura / MT / Ipiranga do Norte / Autenticidade de Certidão e Alvará](https://hathdata.com/api-ipiranga-do-norte-validar-certidao) | MT | Código | em produção |
+| [Prefeitura / MT / Ipiranga do Norte / Certidão Negativa de Débitos (CNPJ)](https://hathdata.com/api-cnd-ipiranga-do-norte) | MT | CNPJ | em produção |
+| [Prefeitura / MT / Ipiranga do Norte / Certidão de Dados do Econômico](https://hathdata.com/api-ipiranga-do-norte-dados-economico) | MT | CNPJ | em produção |
+| Prefeitura / MT / Rondonópolis / Certidão Negativa de Débitos | MT | CNPJ | sob demanda |
+| [Prefeitura / PA / Barcarena / Certidão de Débitos de Tributos (CNPJ)](https://hathdata.com/api-cnd-barcarena) | PA | CNPJ, Inscrição municipal | em produção |
+| Prefeitura / PB / Mataraca / Certidão Negativa de Débitos | PB | CNPJ | sob demanda |
+| [Prefeitura / PE / Igarassu / Certidão Negativa de ITBI](https://hathdata.com/api-igarassu-certidao-itbi) | PE | Nº do ITBI, sequencial ou adquirente | em produção |
+| [Prefeitura / PE / Igarassu / Histórico de Certidões Mercantis](https://hathdata.com/api-igarassu-historico-certidao-mercantil) | PE | Inscrição mercantil | em produção |
+| [Prefeitura / PE / Igarassu / Histórico de ITBI](https://hathdata.com/api-igarassu-historico-itbi) | PE | Nº do ITBI com dígito | em produção |
+| [Prefeitura / PE / Igarassu / Validar Certidão Mercantil](https://hathdata.com/api-igarassu-validar-certidao-mercantil) | PE | Código de validação | em produção |
+| [Prefeitura / PE / Igarassu / Validar Certidão Negativa Imobiliária](https://hathdata.com/api-igarassu-validar-certidao-imobiliaria) | PE | Código de validação | em produção |
+| [Prefeitura / PE / Igarassu / Validar Certidão Negativa de ITBI](https://hathdata.com/api-igarassu-validar-certidao-itbi) | PE | Código de validação | em produção |
+| [Prefeitura / PE / Igarassu / Validar Certidão Positiva de Débitos Imobiliários](https://hathdata.com/api-igarassu-validar-certidao-positiva) | PE | Imóvel, Número, Código | em produção |
+| [Prefeitura / PE / Recife / CCOM](https://hathdata.com/api-recife-ccom) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / CPOM](https://hathdata.com/api-recife-cpom) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Cartão de Inscrição Municipal (CIM)](https://hathdata.com/api-recife-cim) | PE | Inscrição mercantil | em produção |
+| [Prefeitura / PE / Recife / Certidão Narrativa Autônomo (NFS-e Autônomo Isento)](https://hathdata.com/api-recife-narrativa-autonomo) | PE | Inscrição mercantil | em produção |
+| [Prefeitura / PE / Recife / Certidão Narrativa Autônomo, Emissor](https://hathdata.com/api-recife-narrativa-autonomo-emissor) | PE | Inscrição mercantil | em produção |
+| [Prefeitura / PE / Recife / Certidão Narrativa Imobiliária, Dados Cadastrais](https://hathdata.com/api-recife-narrativa-imobiliaria) | PE | Sequencial imobiliário | em produção |
+| [Prefeitura / PE / Recife / Certidão Narrativa Mercantil, Dados Cadastrais](https://hathdata.com/api-recife-narrativa-mercantil) | PE | Inscrição mercantil | em produção |
+| [Prefeitura / PE / Recife / Certidão Narrativa da Inscrição Mercantil](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Certidão Narrativa de Autônomo](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Certidão Narrativa de Autônomo Emissor](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Certidão Narrativa de Pagamentos de IPTU/TRSD](https://hathdata.com/api-recife-pagamentos-iptu) | PE | Sequencial imobiliário, Ano inicial, Ano final | em produção |
+| [Prefeitura / PE / Recife / Certidão Narrativa de Pagamentos de Taxas Mercantis](https://hathdata.com/api-recife-pagamentos-taxas-mercantis) | PE | Inscrição mercantil, Ano inicial, Ano final | em produção |
+| [Prefeitura / PE / Recife / Certidão Narrativa do Imóvel](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Certidão Negativa da Inscrição Mercantil](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Certidão Negativa de Débitos Imobiliários](https://hathdata.com/api-iptu-recife) | PE | Sequencial imobiliário | em produção |
+| [Prefeitura / PE / Recife / Certidão Negativa de Débitos para Não Inscrito](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Certidão Negativa de IPTU e Taxas](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Certidão de ITBI](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Certidão de Quitação Imobiliária](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Certidão de Quitação de ITBI](https://hathdata.com/api-recife-quitacao-itbi) | PE | Processo | em produção |
+| [Prefeitura / PE / Recife / Certidão do CCOM](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Certidão do CPOM](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Dados Cadastrais da Inscrição Mercantil](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Dados do Cadastro Municipal](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Dados na Prefeitura do Recife](https://hathdata.com/api-recife-dados-na-prefeitura) | PE | Inscrição mercantil, CNPJ | em produção |
+| [Prefeitura / PE / Recife / Declaração de Informações do Imóvel (DIM)](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Documento Imobiliário Municipal (DIM)](https://hathdata.com/api-recife-dim) | PE | Sequencial imobiliário | em produção |
+| [Prefeitura / PE / Recife / Extrato de Débitos Imobiliários](https://hathdata.com/api-recife-extrato-debitos-imobiliarios) | PE | Sequencial imobiliário | em produção |
+| [Prefeitura / PE / Recife / Extrato de Débitos Mercantis](https://hathdata.com/api-recife-extrato-debitos-mercantis) | PE | Inscrição mercantil | em produção |
+| [Prefeitura / PE / Recife / Extrato de Pagamentos de IPTU](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Extrato de Pagamentos de Tributos Mercantis](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Ficha do Cadastro Imobiliário](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
+| [Prefeitura / PE / Recife / Imagem do Cadastro (Ficha do Imóvel)](https://hathdata.com/api-recife-ficha-do-imovel) | PE | Sequencial imobiliário | em produção |
+| [Prefeitura / PE / Recife / Informações Cadastrais (mercantil)](https://hathdata.com/api-recife-informacoes-cadastrais) | PE | Inscrição mercantil | em produção |
+| Prefeitura / PE / Recife / NFS-e (Nota Fiscal Eletrônica de Serviços) | PE | CNPJ | sob demanda |
+| [Prefeitura / PR / Cascavel / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-cascavel) | PR | CNPJ | em produção |
+| [Prefeitura / PR / Colombo / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-colombo) | PR | CNPJ | em produção |
+| [Prefeitura / PR / Curitiba / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-curitiba) | PR | CNPJ | em produção |
+| [Prefeitura / PR / Foz do Iguaçu / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-foz-do-iguacu) | PR | CNPJ | em produção |
+| Prefeitura / PR / Francisco Beltrão / Certidão Negativa de Débitos | PR | CNPJ, Preferencia emissão | sob demanda |
+| [Prefeitura / PR / Guarapuava / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-guarapuava) | PR | CNPJ | em produção |
+| [Prefeitura / PR / Londrina / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-londrina) | PR | CNPJ | em produção |
+| [Prefeitura / PR / Maringá / Certidão Negativa de Débitos (Contribuinte)](https://hathdata.com/certidao-negativa-municipal-maringa) | PR | CNPJ | em produção |
+| [Prefeitura / PR / Paranaguá / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-paranagua) | PR | CNPJ | em produção |
+| [Prefeitura / PR / Ponta Grossa / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-ponta-grossa) | PR | CNPJ | em produção |
+| [Prefeitura / PR / São José dos Pinhais / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-sao-jose-dos-pinhais) | PR | CNPJ | em produção |
+| [Prefeitura / RJ / Campos dos Goytacazes / Autenticidade de Certidão](https://hathdata.com/api-campos-dos-goytacazes-validar-certidao) | RJ | Código de Verificação | em produção |
+| [Prefeitura / RJ / Campos dos Goytacazes / CND Imobiliária](https://hathdata.com/api-iptu-campos-dos-goytacazes) | RJ | Inscrição do imóvel, Exercício | em produção |
+| [Prefeitura / RJ / Campos dos Goytacazes / Certidão Negativa de Débitos (empresa)](https://hathdata.com/api-cnd-campos-dos-goytacazes) | RJ | CNPJ, Inscrição municipal | em produção |
+| [Prefeitura / RJ / Duque de Caxias / Certidão Negativa de Débitos (CNPJ)](https://hathdata.com/api-cnd-duque-de-caxias) | RJ | CNPJ | em produção |
+| [Prefeitura / RJ / Rio de Janeiro / Certidão de Situação Fiscal do ISS](https://hathdata.com/api-cnd-rio-de-janeiro-iss) | RJ | CNPJ, E-mail | em produção |
+| Prefeitura / RJ / Rio de Janeiro / NFS-e (Nota Fiscal Eletrônica de Serviços) | RJ | CNPJ | sob demanda |
+| [Prefeitura / RN / Natal / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-natal) | RN | CNPJ | em produção |
+| Prefeitura / RN / Touros / Certidão Negativa de Débitos | RN | CNPJ | sob demanda |
+| Prefeitura / RS / Canela / Certidão Negativa de Débitos | RS | CNPJ | sob demanda |
+| [Prefeitura / RS / Caxias do Sul / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-caxias-do-sul) | RS | CNPJ | em produção |
+| Prefeitura / RS / Montenegro / Certidão Negativa de Débitos | RS | CNPJ | sob demanda |
+| [Prefeitura / RS / Porto Alegre / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-porto-alegre) | RS | CNPJ | em produção |
+| [Prefeitura / RS / Porto Alegre / Comprovante de Inscrição do ISSQN](https://hathdata.com/api-cnd-porto-alegre) | RS | CNPJ | em produção |
+| Prefeitura / RS / Santa Cruz do Sul / Certidão Negativa de Débitos | RS | CNPJ | sob demanda |
+| [Prefeitura / RS / São Leopoldo / Certidão Negativa do Imóvel](https://hathdata.com/api-iptu-sao-leopoldo) | RS | Inscrição do imóvel | em produção |
+| [Prefeitura / RS / São Leopoldo / Verificação de Autenticidade](https://hathdata.com/api-sao-leopoldo-validar-certidao) | RS | Chancela | em produção |
+| Prefeitura / RS / Três Coroas / Certidão Negativa de Débitos | RS | CNPJ | sob demanda |
+| [Prefeitura / SC / Balneário Camboriú / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-balneario-camboriu) | SC | CNPJ | em produção |
+| [Prefeitura / SC / Blumenau / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-blumenau) | SC | CNPJ | em produção |
+| [Prefeitura / SC / Brusque / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-brusque) | SC | CNPJ, Cadastro imobiliário | em produção |
+| [Prefeitura / SC / Criciúma / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-criciuma) | SC | CNPJ | em produção |
+| [Prefeitura / SC / Florianópolis / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-florianopolis) | SC | CNPJ | em produção |
+| [Prefeitura / SC / Itajaí / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-itajai) | SC | CNPJ | em produção |
+| [Prefeitura / SC / Jaraguá do Sul / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-jaragua-do-sul) | SC | CNPJ | em produção |
+| [Prefeitura / SC / Joinville / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-joinville) | SC | CNPJ | em produção |
+| [Prefeitura / SC / Lages / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-lages) | SC | CNPJ | em produção |
+| [Prefeitura / SC / São Francisco do Sul / Autenticidade de Certidão](https://hathdata.com/api-sao-francisco-do-sul-validar-certidao) | SC | Número/ano | em produção |
+| [Prefeitura / SC / São Francisco do Sul / Certidão Negativa de Débitos (CNPJ)](https://hathdata.com/api-cnd-sao-francisco-do-sul) | SC | CNPJ | em produção |
+| Prefeitura / SE / Laranjeiras / Certidão Negativa de Débitos | SE | CNPJ | sob demanda |
+| Prefeitura / SP / Araçariguama / NFS-e (Nota Fiscal Eletrônica de Serviços) | SP | CNPJ prestador, Número nota | sob demanda |
+| [Prefeitura / SP / Barueri / Certidão de Débitos ISS/Taxas](https://hathdata.com/api-cnd-barueri) | SP | CNPJ, Inscrição municipal | em produção |
+| [Prefeitura / SP / Campinas / CPOM](https://hathdata.com/api-cnd-campinas) | SP | CNPJ | em produção |
+| [Prefeitura / SP / Campinas / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-campinas) | SP | CNPJ | em produção |
+| [Prefeitura / SP / Catanduva / CND de Imóvel Rural](https://hathdata.com/api-catanduva-cnd-imovel-rural) | SP | Cadastro rural | em produção |
+| [Prefeitura / SP / Catanduva / CND de Imóvel Urbano](https://hathdata.com/api-iptu-catanduva) | SP | Cadastro do imóvel | em produção |
+| [Prefeitura / SP / Catanduva / CND por Inscrição Municipal](https://hathdata.com/api-catanduva-cnd-inscricao-municipal) | SP | Inscrição municipal | em produção |
+| [Prefeitura / SP / Catanduva / Certidão de Isenção (empresa)](https://hathdata.com/api-catanduva-certidao-isencao-empresa) | SP | Inscrição municipal | em produção |
+| [Prefeitura / SP / Catanduva / Certidão de Isenção (imóvel)](https://hathdata.com/api-catanduva-certidao-isencao-imovel) | SP | Cadastro do imóvel | em produção |
+| [Prefeitura / SP / Catanduva / Certidão de Localização (empresa)](https://hathdata.com/api-catanduva-certidao-localizacao-empresa) | SP | Inscrição municipal | em produção |
+| [Prefeitura / SP / Catanduva / Certidão de Localização (imóvel)](https://hathdata.com/api-catanduva-certidao-localizacao-imovel) | SP | Cadastro do imóvel | em produção |
+| [Prefeitura / SP / Catanduva / Certificação de Autenticidade](https://hathdata.com/api-catanduva-validar-certidao) | SP | Número, data e código | em produção |
+| [Prefeitura / SP / Catanduva / Consulta Prévia de Uso do Solo](https://hathdata.com/api-catanduva-uso-do-solo) | SP | Cadastro do imóvel ou endereço | em produção |
+| [Prefeitura / SP / Catanduva / Ficha Cadastral de Projetos](https://hathdata.com/api-catanduva-ficha-de-projetos) | SP | Cadastro do imóvel ou endereço | em produção |
+| [Prefeitura / SP / Franca / Consulta Pública do Cadastro Imobiliário](https://hathdata.com/api-franca-consulta-imovel) | SP | Endereço, Número | em produção |
+| [Prefeitura / SP / Franca / Validação de Documentos](https://hathdata.com/api-franca-validar-documento) | SP | Chave de autenticidade | em produção |
+| [Prefeitura / SP / Guarulhos / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-guarulhos) | SP | CNPJ | em produção |
+| [Prefeitura / SP / Guarulhos / Certidão de Cadastramento Mobiliário](https://hathdata.com/api-guarulhos-cadastro-mobiliario) | SP | CNPJ, Inscrição | em produção |
+| Prefeitura / SP / Hortolândia / Certidão Negativa de Débitos | SP | CNPJ | sob demanda |
+| Prefeitura / SP / Indaiatuba / Certidão Negativa de Débitos | SP | CNPJ | sob demanda |
+| Prefeitura / SP / Indaiatuba / Certidão de Valor Venal | SP | CNPJ | sob demanda |
+| [Prefeitura / SP / Itaquaquecetuba / Consulta de Certidão](https://hathdata.com/api-itaquaquecetuba-consultar-certidao) | SP | Identificação, Controle ou chave | em produção |
+| [Prefeitura / SP / Itaquaquecetuba / Validação de Documentos](https://hathdata.com/api-itaquaquecetuba-validar-certidao) | SP | Chave de autenticidade | em produção |
+| [Prefeitura / SP / Jundiaí / Autenticidade de Certidões](https://hathdata.com/api-jundiai-validar-certidao) | SP | Data e hora, Código de Controle | em produção |
+| [Prefeitura / SP / Jundiaí / Certidão Negativa de Débitos Ambientais](https://hathdata.com/api-jundiai-certidao-ambiental) | SP | Número do contribuinte | em produção |
+| [Prefeitura / SP / Jundiaí / Certidão Negativa de Débitos Municipais (CNPJ)](https://hathdata.com/api-cnd-jundiai) | SP | CNPJ | em produção |
+| [Prefeitura / SP / Jundiaí / Certidão de Tributação Predial](https://hathdata.com/api-jundiai-tributacao-predial) | SP | Número do contribuinte, Exercício | em produção |
+| [Prefeitura / SP / Jundiaí / Certidão de Valor Venal](https://hathdata.com/api-jundiai-valor-venal) | SP | Número do contribuinte, Exercício | em produção |
+| Prefeitura / SP / Mogi das Cruzes / CPOM | SP | CNPJ | sob demanda |
+| Prefeitura / SP / Mogi das Cruzes / Certidão Negativa de Débitos | SP | CNPJ | sob demanda |
+| [Prefeitura / SP / Osasco / Certidão de Não-Inscrição](https://hathdata.com/api-cnd-osasco) | SP | CNPJ contribuinte | em produção |
+| [Prefeitura / SP / Praia Grande / Autenticidade das Certidões](https://hathdata.com/api-praia-grande-validar-certidao) | SP | Número/ano, Tipo | em produção |
+| [Prefeitura / SP / Praia Grande / Certidão de Débitos Mobiliários](https://hathdata.com/api-cnd-praia-grande) | SP | Inscrição municipal | em produção |
+| [Prefeitura / SP / Ribeirão Preto / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-ribeirao-preto) | SP | CNPJ | em produção |
+| [Prefeitura / SP / Ribeirão Preto / Certidão de Situação Cadastral](https://hathdata.com/api-ribeirao-preto-situacao-cadastral) | SP | CNPJ | em produção |
+| [Prefeitura / SP / Ribeirão Preto / Pesquisa de Certidões](https://hathdata.com/api-ribeirao-preto-validar-certidao) | SP | Código de controle | em produção |
+| [Prefeitura / SP / Santo André / Certidão de Débitos Mobiliária](https://hathdata.com/api-cnd-santo-andre) | SP | CNPJ, CMC | em produção |
+| [Prefeitura / SP / Santo André / Certidão de Regularidade Fiscal Mobiliária e Imobiliária](https://hathdata.com/api-santo-andre-regularidade-fiscal) | SP | CNPJ, CMC | em produção |
+| [Prefeitura / SP / Santos / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-santos) | SP | CNPJ | em produção |
+| [Prefeitura / SP / Sorocaba / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-sorocaba) | SP | CNPJ | em produção |
+| [Prefeitura / SP / Suzano / Certidão de Débito](https://hathdata.com/api-cnd-suzano) | SP | Código reduzido, Inscrição, CNPJ | em produção |
+| [Prefeitura / SP / São Caetano do Sul / Certidão Negativa da Empresa](https://hathdata.com/api-cnd-sao-caetano-do-sul) | SP | CCM, CNPJ | em produção |
+| [Prefeitura / SP / São Caetano do Sul / Consulta de Certidão](https://hathdata.com/api-sao-caetano-do-sul-validar-certidao) | SP | Identificação, Controle ou chave | em produção |
+| Prefeitura / SP / São Carlos / Certidão Negativa de Débitos | SP | CNPJ | sob demanda |
+| Prefeitura / SP / São Paulo / AIT | SP | CNPJ do login | sob demanda |
+| Prefeitura / SP / São Paulo / AIT (Últimos 36 meses) | SP | CNPJ do login | sob demanda |
+| Prefeitura / SP / São Paulo / CADIN | SP | CNPJ | sob demanda |
+| Prefeitura / SP / São Paulo / CCM | SP | CNPJ | sob demanda |
+| Prefeitura / SP / São Paulo / CPOM | SP | CNPJ | sob demanda |
+| Prefeitura / SP / São Paulo / Certidão Tributária Mobiliária | SP | CNPJ | sob demanda |
+| Prefeitura / SP / São Paulo / Certidão de Dados Cadastrais do Imóvel | SP | CNPJ do login | sob demanda |
+| [Prefeitura / SP / São Paulo / Dívida Ativa (CCM)](https://hathdata.com/api-sao-paulo-divida-ativa) | SP | CCM | em produção |
+| Prefeitura / SP / São Paulo / Emissão Parcela Simples Nacional | SP | CNPJ, Número parcela | sob demanda |
+| Prefeitura / SP / São Paulo / Multas | SP | CNPJ do login | sob demanda |
+| Prefeitura / SP / São Paulo / Multas (Antiga) | SP | CNPJ do login | sob demanda |
+| Prefeitura / SP / São Paulo / NFS-e (Nota Fiscal Eletrônica de Serviços) | SP | CNPJ | sob demanda |
+| Prefeitura / SP / São Paulo / Recursos de Multas | SP | CNPJ do login | sob demanda |
+| [Prefeitura / TO / Palmas / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-palmas) | TO | CNPJ | em produção |
 
 ## Judiciário (569)
 
@@ -599,705 +1298,6 @@
 | [STJ / Certidão de Andamento Processual](https://hathdata.com/api-stj-certidao-de-andamento) | BR | Número do processo | em produção |
 | [STJ / Validação de Certidão](https://hathdata.com/api-stj-validar-certidao) | BR | Número, Código de segurança | em produção |
 | [Vários tribunais / Processos Judiciais (multi-tribunal)](https://hathdata.com/consultas/processos-judiciais) | BR | CNPJ | em produção |
-
-## Municipal (232)
-
-
-### Prefeitura
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [Prefeitura / AM / Manaus / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-manaus) | AM | CNPJ | em produção |
-| Prefeitura / AP / Macapá / Certidão Negativa de Débitos | AP | CNPJ | sob demanda |
-| Prefeitura / AP / Santana / Certidão Negativa de Débitos | AP | CNPJ | sob demanda |
-| [Prefeitura / BA / Feira de Santana / Certidão Negativa de Débitos (empresa)](https://hathdata.com/api-cnd-feira-de-santana) | BA | Inscrição municipal ou CNPJ | em produção |
-| [Prefeitura / BA / Feira de Santana / Certidão Negativa de IPTU](https://hathdata.com/api-iptu-feira-de-santana) | BA | Inscrição imobiliária | em produção |
-| [Prefeitura / BA / Feira de Santana / Certidão Valor Base de Cálculo do IPTU](https://hathdata.com/api-feira-de-santana-valor-base-calculo-iptu) | BA | Inscrição imobiliária | em produção |
-| [Prefeitura / BA / Feira de Santana / Certidão Valor Venal para Averbação](https://hathdata.com/api-feira-de-santana-valor-venal-averbacao) | BA | Inscrição imobiliária | em produção |
-| [Prefeitura / BA / Feira de Santana / Certidão de Baixa de Inscrição](https://hathdata.com/api-feira-de-santana-certidao-baixa-inscricao) | BA | Inscrição ou CNPJ | em produção |
-| [Prefeitura / BA / Feira de Santana / Certidão de Inexistência de Inscrição (CNPJ)](https://hathdata.com/api-feira-de-santana-inexistencia-inscricao) | BA | CNPJ | em produção |
-| [Prefeitura / BA / Feira de Santana / Comprovante de Inscrição](https://hathdata.com/api-feira-de-santana-comprovante-inscricao) | BA | CNPJ, Documento do sócio | em produção |
-| [Prefeitura / BA / Feira de Santana / Validação da Certidão Narrativa](https://hathdata.com/api-feira-de-santana-validar-certidao-narrativa) | BA | Inscrição imobiliária, Número/ano e emissão | em produção |
-| [Prefeitura / BA / Feira de Santana / Validação da Certidão de Baixa de Inscrição](https://hathdata.com/api-feira-de-santana-validar-baixa-inscricao) | BA | Inscrição ou CNPJ, Código e emissão | em produção |
-| [Prefeitura / BA / Feira de Santana / Validação da Certidão de Débitos](https://hathdata.com/api-feira-de-santana-validar-certidao) | BA | Inscrição, Código e validade | em produção |
-| [Prefeitura / BA / Feira de Santana / Validação da Certidão de Transmissão (ITIV)](https://hathdata.com/api-feira-de-santana-validar-itiv) | BA | Inscrição imobiliária, Código e emissão | em produção |
-| [Prefeitura / BA / Feira de Santana / Validação da Declaração de Alteração de Endereço](https://hathdata.com/api-feira-de-santana-validar-alteracao-endereco) | BA | Inscrição imobiliária, Número/ano e emissão | em produção |
-| [Prefeitura / BA / Feira de Santana / Validação da Declaração de Limites](https://hathdata.com/api-feira-de-santana-validar-declaracao-limites) | BA | Inscrição imobiliária, Número/ano e emissão | em produção |
-| [Prefeitura / BA / Feira de Santana / Validação da Inexistência de Inscrição (CNPJ)](https://hathdata.com/api-feira-de-santana-validar-inexistencia-inscricao) | BA | CNPJ, Código e emissão | em produção |
-| [Prefeitura / BA / Feira de Santana / Validação de Certidões do Imóvel](https://hathdata.com/api-feira-de-santana-validar-certidao-imovel) | BA | Inscrição imobiliária, Código e validade | em produção |
-| [Prefeitura / BA / Feira de Santana / Validação do Alvará Provisório](https://hathdata.com/api-feira-de-santana-validar-alvara-provisorio) | BA | Inscrição, Código e validade | em produção |
-| [Prefeitura / BA / Feira de Santana / Validação do Comprovante de Inscrição](https://hathdata.com/api-feira-de-santana-validar-comprovante-inscricao) | BA | Inscrição, Código e validade | em produção |
-| [Prefeitura / BA / Feira de Santana / Validação do Termo de Anuência](https://hathdata.com/api-feira-de-santana-validar-termo-anuencia) | BA | Inscrição imobiliária, Número/ano e emissão | em produção |
-| Prefeitura / BA / Ilheus / Certidão Negativa de Débitos | BA | CNPJ | sob demanda |
-| Prefeitura / BA / Juazeiro / Certidão Negativa de Débitos | BA | CNPJ | sob demanda |
-| [Prefeitura / BA / Salvador / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-salvador) | BA | CNPJ | em produção |
-| Prefeitura / BA / Salvador / NFS-e (Nota Fiscal Eletrônica de Serviços) | BA | CNPJ | sob demanda |
-| Prefeitura / CE / Caucaia / Certidão Negativa de Débitos | CE | CNPJ | sob demanda |
-| Prefeitura / CE / Fortaleza / CPOM | CE | CNPJ | sob demanda |
-| [Prefeitura / CE / Fortaleza / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-fortaleza) | CE | CNPJ | em produção |
-| Prefeitura / CE / Jaguaretama / Certidão Negativa de Débitos | CE | CNPJ | sob demanda |
-| Prefeitura / CPOM | BR | CNPJ, UF | sob demanda |
-| [Prefeitura / ES / Aracruz / Certidão Negativa de Débitos (CNPJ)](https://hathdata.com/api-cnd-aracruz) | ES | CNPJ | em produção |
-| Prefeitura / GO / Anápolis / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
-| Prefeitura / GO / Aparecida de Goiânia / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
-| Prefeitura / GO / Campos Verdes / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
-| Prefeitura / GO / Catalão / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
-| Prefeitura / GO / Firminópolis / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
-| [Prefeitura / GO / Goiânia / Certidão Negativa de Débitos](https://hathdata.com/api-goiania-regularidade-fiscal) | GO | CNPJ | em produção |
-| [Prefeitura / GO / Goiânia / Certidão de Baixa de Inscrição Mobiliária](https://hathdata.com/api-goiania-certidoes-mobiliarias) | GO | CNPJ | em produção |
-| [Prefeitura / GO / Goiânia / Certidão de Débitos de IPTU](https://hathdata.com/api-iptu-goiania) | GO | CNPJ | em produção |
-| [Prefeitura / GO / Goiânia / Certidão de Débitos do Cadastro Mobiliário](https://hathdata.com/api-goiania-certidoes-mobiliarias) | GO | CNPJ | em produção |
-| [Prefeitura / GO / Goiânia / Certidão de Inscrição Imobiliária](https://hathdata.com/api-iptu-goiania) | GO | CNPJ | em produção |
-| [Prefeitura / GO / Goiânia / Certidão de Inscrição Mobiliária](https://hathdata.com/api-goiania-certidoes-mobiliarias) | GO | CNPJ | em produção |
-| [Prefeitura / GO / Goiânia / Certidão de Inscrição no Cadastro Mobiliário](https://hathdata.com/api-goiania-certidao-por-cnpj) | GO | CNPJ | em produção |
-| [Prefeitura / GO / Goiânia / Certidão de Não Inscrição Imobiliária](https://hathdata.com/api-goiania-certidao-por-cnpj) | GO | CNPJ | em produção |
-| [Prefeitura / GO / Goiânia / Certidão de Suspensão de Inscrição Mobiliária](https://hathdata.com/api-goiania-certidoes-mobiliarias) | GO | CNPJ | em produção |
-| [Prefeitura / GO / Goiânia / Comprovante de Pagamento](https://hathdata.com/api-goiania-comprovante-de-pagamento) | GO | Inscrição, Exercício | em produção |
-| [Prefeitura / GO / Goiânia / Validação de Certidão](https://hathdata.com/api-goiania-validar-certidao) | GO | CNPJ | em produção |
-| Prefeitura / GO / Itumbiara / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
-| Prefeitura / GO / Jataí / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
-| Prefeitura / GO / Morrinhos / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
-| Prefeitura / GO / Rio Verde / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
-| Prefeitura / GO / Uruaçu / Certidão Negativa de Débitos | GO | CNPJ | sob demanda |
-| Prefeitura / MA / Balsas / Certidão Negativa de Débitos | MA | CNPJ | sob demanda |
-| [Prefeitura / MA / São Luís / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-sao-luis) | MA | CNPJ | em produção |
-| Prefeitura / MG / Araújos / Certidão Negativa de Débitos | MG | CNPJ | sob demanda |
-| [Prefeitura / MG / Belo Horizonte / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-belo-horizonte) | MG | CNPJ | em produção |
-| [Prefeitura / MG / Belo Horizonte / Certidão de Quitação de IPTU e Taxas](https://hathdata.com/api-iptu-belo-horizonte) | MG | Índice cadastral | em produção |
-| [Prefeitura / MG / Betim / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-betim) | MG | CNPJ | em produção |
-| [Prefeitura / MG / Contagem / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-contagem) | MG | CNPJ | em produção |
-| [Prefeitura / MG / Coqueiral / Certidão de Débitos Municipais (CNPJ)](https://hathdata.com/api-cnd-coqueiral) | MG | CNPJ | em produção |
-| [Prefeitura / MG / Divinópolis / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-divinopolis) | MG | CNPJ | em produção |
-| Prefeitura / MG / Itaguara / Certidão Negativa de Econômico | MG | CNPJ | sob demanda |
-| Prefeitura / MG / Itaúna / Certidão Negativa de Débitos | MG | CNPJ | sob demanda |
-| Prefeitura / MG / Janaúba / Certidão Negativa de Débitos | MG | CNPJ | sob demanda |
-| Prefeitura / MG / Juatuba / Certidão Negativa de Débitos | MG | CNPJ | sob demanda |
-| Prefeitura / MG / Luz / Certidão Negativa de Débitos | MG | CNPJ | sob demanda |
-| [Prefeitura / MG / Montes Claros / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-montes-claros) | MG | CNPJ | em produção |
-| Prefeitura / MG / Nova Serrana / Certidão Negativa de Débitos | MG | CNPJ | sob demanda |
-| Prefeitura / MG / Pará de Minas / Certidão Negativa de Débitos | MG | CNPJ | sob demanda |
-| [Prefeitura / MG / Ribeirão das Neves / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-ribeirao-das-neves) | MG | CNPJ | em produção |
-| Prefeitura / MG / Santa Vitória / Certidão Negativa de Débitos | MG | CNPJ | sob demanda |
-| [Prefeitura / MG / Santana do Paraíso / Alvará de Localização e Funcionamento](https://hathdata.com/api-santana-do-paraiso-alvara) | MG | CNPJ | em produção |
-| [Prefeitura / MG / Santana do Paraíso / Autenticidade de Documento](https://hathdata.com/api-santana-do-paraiso-validar-certidao) | MG | Chave de autenticidade | em produção |
-| [Prefeitura / MG / Santana do Paraíso / Certidão Negativa de Débitos (CNPJ)](https://hathdata.com/api-cnd-santana-do-paraiso) | MG | CNPJ | em produção |
-| [Prefeitura / MG / Santana do Paraíso / Certidão Negativa de Débitos (Inscrição Econômica)](https://hathdata.com/api-santana-do-paraiso-cnd-inscricao) | MG | Inscrição econômica | em produção |
-| [Prefeitura / MG / Santana do Paraíso / Comprovante de Inscrição Municipal](https://hathdata.com/api-santana-do-paraiso-comprovante-inscricao) | MG | Inscrição econômica | em produção |
-| [Prefeitura / MG / Três Pontas / Autenticidade da CND](https://hathdata.com/api-tres-pontas-validar-certidao) | MG | Número/ano | em produção |
-| [Prefeitura / MG / Uberaba / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-uberaba) | MG | CNPJ | em produção |
-| [Prefeitura / MG / Uberlândia / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-uberlandia) | MG | CNPJ | em produção |
-| Prefeitura / MS / Campo Grande / NFS-e (Nota Fiscal Eletrônica de Serviços) | MS | CNPJ prestador, Número nota | sob demanda |
-| Prefeitura / MS / Chapadão do Sul / Certidão Negativa de Débitos | MS | CNPJ | sob demanda |
-| Prefeitura / MS / Mundo Novo / Certidão Negativa de Débitos | MS | CNPJ | sob demanda |
-| Prefeitura / MS / Naviraí / Certidão Negativa de Débitos | MS | CNPJ | sob demanda |
-| [Prefeitura / MT / Cuiabá / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-cuiaba) | MT | CNPJ | em produção |
-| [Prefeitura / MT / Ipiranga do Norte / Alvará de Funcionamento](https://hathdata.com/api-ipiranga-do-norte-alvara) | MT | CNPJ | em produção |
-| [Prefeitura / MT / Ipiranga do Norte / Autenticidade de Certidão e Alvará](https://hathdata.com/api-ipiranga-do-norte-validar-certidao) | MT | Código | em produção |
-| [Prefeitura / MT / Ipiranga do Norte / Certidão Negativa de Débitos (CNPJ)](https://hathdata.com/api-cnd-ipiranga-do-norte) | MT | CNPJ | em produção |
-| [Prefeitura / MT / Ipiranga do Norte / Certidão de Dados do Econômico](https://hathdata.com/api-ipiranga-do-norte-dados-economico) | MT | CNPJ | em produção |
-| Prefeitura / MT / Rondonópolis / Certidão Negativa de Débitos | MT | CNPJ | sob demanda |
-| [Prefeitura / PA / Barcarena / Certidão de Débitos de Tributos (CNPJ)](https://hathdata.com/api-cnd-barcarena) | PA | CNPJ, Inscrição municipal | em produção |
-| Prefeitura / PB / Mataraca / Certidão Negativa de Débitos | PB | CNPJ | sob demanda |
-| [Prefeitura / PE / Igarassu / Certidão Negativa de ITBI](https://hathdata.com/api-igarassu-certidao-itbi) | PE | Nº do ITBI, sequencial ou adquirente | em produção |
-| [Prefeitura / PE / Igarassu / Histórico de Certidões Mercantis](https://hathdata.com/api-igarassu-historico-certidao-mercantil) | PE | Inscrição mercantil | em produção |
-| [Prefeitura / PE / Igarassu / Histórico de ITBI](https://hathdata.com/api-igarassu-historico-itbi) | PE | Nº do ITBI com dígito | em produção |
-| [Prefeitura / PE / Igarassu / Validar Certidão Mercantil](https://hathdata.com/api-igarassu-validar-certidao-mercantil) | PE | Código de validação | em produção |
-| [Prefeitura / PE / Igarassu / Validar Certidão Negativa Imobiliária](https://hathdata.com/api-igarassu-validar-certidao-imobiliaria) | PE | Código de validação | em produção |
-| [Prefeitura / PE / Igarassu / Validar Certidão Negativa de ITBI](https://hathdata.com/api-igarassu-validar-certidao-itbi) | PE | Código de validação | em produção |
-| [Prefeitura / PE / Igarassu / Validar Certidão Positiva de Débitos Imobiliários](https://hathdata.com/api-igarassu-validar-certidao-positiva) | PE | Imóvel, Número, Código | em produção |
-| [Prefeitura / PE / Recife / CCOM](https://hathdata.com/api-recife-ccom) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / CPOM](https://hathdata.com/api-recife-cpom) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Cartão de Inscrição Municipal (CIM)](https://hathdata.com/api-recife-cim) | PE | Inscrição mercantil | em produção |
-| [Prefeitura / PE / Recife / Certidão Narrativa Autônomo (NFS-e Autônomo Isento)](https://hathdata.com/api-recife-narrativa-autonomo) | PE | Inscrição mercantil | em produção |
-| [Prefeitura / PE / Recife / Certidão Narrativa Autônomo, Emissor](https://hathdata.com/api-recife-narrativa-autonomo-emissor) | PE | Inscrição mercantil | em produção |
-| [Prefeitura / PE / Recife / Certidão Narrativa Imobiliária, Dados Cadastrais](https://hathdata.com/api-recife-narrativa-imobiliaria) | PE | Sequencial imobiliário | em produção |
-| [Prefeitura / PE / Recife / Certidão Narrativa Mercantil, Dados Cadastrais](https://hathdata.com/api-recife-narrativa-mercantil) | PE | Inscrição mercantil | em produção |
-| [Prefeitura / PE / Recife / Certidão Narrativa da Inscrição Mercantil](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Certidão Narrativa de Autônomo](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Certidão Narrativa de Autônomo Emissor](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Certidão Narrativa de Pagamentos de IPTU/TRSD](https://hathdata.com/api-recife-pagamentos-iptu) | PE | Sequencial imobiliário, Ano inicial, Ano final | em produção |
-| [Prefeitura / PE / Recife / Certidão Narrativa de Pagamentos de Taxas Mercantis](https://hathdata.com/api-recife-pagamentos-taxas-mercantis) | PE | Inscrição mercantil, Ano inicial, Ano final | em produção |
-| [Prefeitura / PE / Recife / Certidão Narrativa do Imóvel](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Certidão Negativa da Inscrição Mercantil](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Certidão Negativa de Débitos Imobiliários](https://hathdata.com/api-iptu-recife) | PE | Sequencial imobiliário | em produção |
-| [Prefeitura / PE / Recife / Certidão Negativa de Débitos para Não Inscrito](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Certidão Negativa de IPTU e Taxas](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Certidão de ITBI](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Certidão de Quitação Imobiliária](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Certidão de Quitação de ITBI](https://hathdata.com/api-recife-quitacao-itbi) | PE | Processo | em produção |
-| [Prefeitura / PE / Recife / Certidão do CCOM](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Certidão do CPOM](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Dados Cadastrais da Inscrição Mercantil](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Dados do Cadastro Municipal](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Dados na Prefeitura do Recife](https://hathdata.com/api-recife-dados-na-prefeitura) | PE | Inscrição mercantil, CNPJ | em produção |
-| [Prefeitura / PE / Recife / Declaração de Informações do Imóvel (DIM)](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Documento Imobiliário Municipal (DIM)](https://hathdata.com/api-recife-dim) | PE | Sequencial imobiliário | em produção |
-| [Prefeitura / PE / Recife / Extrato de Débitos Imobiliários](https://hathdata.com/api-recife-extrato-debitos-imobiliarios) | PE | Sequencial imobiliário | em produção |
-| [Prefeitura / PE / Recife / Extrato de Débitos Mercantis](https://hathdata.com/api-recife-extrato-debitos-mercantis) | PE | Inscrição mercantil | em produção |
-| [Prefeitura / PE / Recife / Extrato de Pagamentos de IPTU](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Extrato de Pagamentos de Tributos Mercantis](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Ficha do Cadastro Imobiliário](https://hathdata.com/certidoes-prefeitura-do-recife) | PE | CNPJ | em produção |
-| [Prefeitura / PE / Recife / Imagem do Cadastro (Ficha do Imóvel)](https://hathdata.com/api-recife-ficha-do-imovel) | PE | Sequencial imobiliário | em produção |
-| [Prefeitura / PE / Recife / Informações Cadastrais (mercantil)](https://hathdata.com/api-recife-informacoes-cadastrais) | PE | Inscrição mercantil | em produção |
-| Prefeitura / PE / Recife / NFS-e (Nota Fiscal Eletrônica de Serviços) | PE | CNPJ | sob demanda |
-| [Prefeitura / PR / Cascavel / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-cascavel) | PR | CNPJ | em produção |
-| [Prefeitura / PR / Colombo / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-colombo) | PR | CNPJ | em produção |
-| [Prefeitura / PR / Curitiba / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-curitiba) | PR | CNPJ | em produção |
-| [Prefeitura / PR / Foz do Iguaçu / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-foz-do-iguacu) | PR | CNPJ | em produção |
-| Prefeitura / PR / Francisco Beltrão / Certidão Negativa de Débitos | PR | CNPJ, Preferencia emissão | sob demanda |
-| [Prefeitura / PR / Guarapuava / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-guarapuava) | PR | CNPJ | em produção |
-| [Prefeitura / PR / Londrina / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-londrina) | PR | CNPJ | em produção |
-| [Prefeitura / PR / Maringá / Certidão Negativa de Débitos (Contribuinte)](https://hathdata.com/certidao-negativa-municipal-maringa) | PR | CNPJ | em produção |
-| [Prefeitura / PR / Paranaguá / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-paranagua) | PR | CNPJ | em produção |
-| [Prefeitura / PR / Ponta Grossa / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-ponta-grossa) | PR | CNPJ | em produção |
-| [Prefeitura / PR / São José dos Pinhais / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-sao-jose-dos-pinhais) | PR | CNPJ | em produção |
-| [Prefeitura / RJ / Campos dos Goytacazes / Autenticidade de Certidão](https://hathdata.com/api-campos-dos-goytacazes-validar-certidao) | RJ | Código de Verificação | em produção |
-| [Prefeitura / RJ / Campos dos Goytacazes / CND Imobiliária](https://hathdata.com/api-iptu-campos-dos-goytacazes) | RJ | Inscrição do imóvel, Exercício | em produção |
-| [Prefeitura / RJ / Campos dos Goytacazes / Certidão Negativa de Débitos (empresa)](https://hathdata.com/api-cnd-campos-dos-goytacazes) | RJ | CNPJ, Inscrição municipal | em produção |
-| [Prefeitura / RJ / Duque de Caxias / Certidão Negativa de Débitos (CNPJ)](https://hathdata.com/api-cnd-duque-de-caxias) | RJ | CNPJ | em produção |
-| [Prefeitura / RJ / Rio de Janeiro / Certidão de Situação Fiscal do ISS](https://hathdata.com/api-cnd-rio-de-janeiro-iss) | RJ | CNPJ, E-mail | em produção |
-| Prefeitura / RJ / Rio de Janeiro / NFS-e (Nota Fiscal Eletrônica de Serviços) | RJ | CNPJ | sob demanda |
-| [Prefeitura / RN / Natal / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-natal) | RN | CNPJ | em produção |
-| Prefeitura / RN / Touros / Certidão Negativa de Débitos | RN | CNPJ | sob demanda |
-| Prefeitura / RS / Canela / Certidão Negativa de Débitos | RS | CNPJ | sob demanda |
-| [Prefeitura / RS / Caxias do Sul / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-caxias-do-sul) | RS | CNPJ | em produção |
-| Prefeitura / RS / Montenegro / Certidão Negativa de Débitos | RS | CNPJ | sob demanda |
-| [Prefeitura / RS / Porto Alegre / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-porto-alegre) | RS | CNPJ | em produção |
-| [Prefeitura / RS / Porto Alegre / Comprovante de Inscrição do ISSQN](https://hathdata.com/api-cnd-porto-alegre) | RS | CNPJ | em produção |
-| Prefeitura / RS / Santa Cruz do Sul / Certidão Negativa de Débitos | RS | CNPJ | sob demanda |
-| [Prefeitura / RS / São Leopoldo / Certidão Negativa do Imóvel](https://hathdata.com/api-iptu-sao-leopoldo) | RS | Inscrição do imóvel | em produção |
-| [Prefeitura / RS / São Leopoldo / Verificação de Autenticidade](https://hathdata.com/api-sao-leopoldo-validar-certidao) | RS | Chancela | em produção |
-| Prefeitura / RS / Três Coroas / Certidão Negativa de Débitos | RS | CNPJ | sob demanda |
-| [Prefeitura / SC / Balneário Camboriú / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-balneario-camboriu) | SC | CNPJ | em produção |
-| [Prefeitura / SC / Blumenau / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-blumenau) | SC | CNPJ | em produção |
-| [Prefeitura / SC / Brusque / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-brusque) | SC | CNPJ, Cadastro imobiliário | em produção |
-| [Prefeitura / SC / Criciúma / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-criciuma) | SC | CNPJ | em produção |
-| [Prefeitura / SC / Florianópolis / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-florianopolis) | SC | CNPJ | em produção |
-| [Prefeitura / SC / Itajaí / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-itajai) | SC | CNPJ | em produção |
-| [Prefeitura / SC / Jaraguá do Sul / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-jaragua-do-sul) | SC | CNPJ | em produção |
-| [Prefeitura / SC / Joinville / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-joinville) | SC | CNPJ | em produção |
-| [Prefeitura / SC / Lages / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-lages) | SC | CNPJ | em produção |
-| [Prefeitura / SC / São Francisco do Sul / Autenticidade de Certidão](https://hathdata.com/api-sao-francisco-do-sul-validar-certidao) | SC | Número/ano | em produção |
-| [Prefeitura / SC / São Francisco do Sul / Certidão Negativa de Débitos (CNPJ)](https://hathdata.com/api-cnd-sao-francisco-do-sul) | SC | CNPJ | em produção |
-| Prefeitura / SE / Laranjeiras / Certidão Negativa de Débitos | SE | CNPJ | sob demanda |
-| Prefeitura / SP / Araçariguama / NFS-e (Nota Fiscal Eletrônica de Serviços) | SP | CNPJ prestador, Número nota | sob demanda |
-| [Prefeitura / SP / Barueri / Certidão de Débitos ISS/Taxas](https://hathdata.com/api-cnd-barueri) | SP | CNPJ, Inscrição municipal | em produção |
-| [Prefeitura / SP / Campinas / CPOM](https://hathdata.com/api-cnd-campinas) | SP | CNPJ | em produção |
-| [Prefeitura / SP / Campinas / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-campinas) | SP | CNPJ | em produção |
-| [Prefeitura / SP / Catanduva / CND de Imóvel Rural](https://hathdata.com/api-catanduva-cnd-imovel-rural) | SP | Cadastro rural | em produção |
-| [Prefeitura / SP / Catanduva / CND de Imóvel Urbano](https://hathdata.com/api-iptu-catanduva) | SP | Cadastro do imóvel | em produção |
-| [Prefeitura / SP / Catanduva / CND por Inscrição Municipal](https://hathdata.com/api-catanduva-cnd-inscricao-municipal) | SP | Inscrição municipal | em produção |
-| [Prefeitura / SP / Catanduva / Certidão de Isenção (empresa)](https://hathdata.com/api-catanduva-certidao-isencao-empresa) | SP | Inscrição municipal | em produção |
-| [Prefeitura / SP / Catanduva / Certidão de Isenção (imóvel)](https://hathdata.com/api-catanduva-certidao-isencao-imovel) | SP | Cadastro do imóvel | em produção |
-| [Prefeitura / SP / Catanduva / Certidão de Localização (empresa)](https://hathdata.com/api-catanduva-certidao-localizacao-empresa) | SP | Inscrição municipal | em produção |
-| [Prefeitura / SP / Catanduva / Certidão de Localização (imóvel)](https://hathdata.com/api-catanduva-certidao-localizacao-imovel) | SP | Cadastro do imóvel | em produção |
-| [Prefeitura / SP / Catanduva / Certificação de Autenticidade](https://hathdata.com/api-catanduva-validar-certidao) | SP | Número, data e código | em produção |
-| [Prefeitura / SP / Catanduva / Consulta Prévia de Uso do Solo](https://hathdata.com/api-catanduva-uso-do-solo) | SP | Cadastro do imóvel ou endereço | em produção |
-| [Prefeitura / SP / Catanduva / Ficha Cadastral de Projetos](https://hathdata.com/api-catanduva-ficha-de-projetos) | SP | Cadastro do imóvel ou endereço | em produção |
-| [Prefeitura / SP / Franca / Consulta Pública do Cadastro Imobiliário](https://hathdata.com/api-franca-consulta-imovel) | SP | Endereço, Número | em produção |
-| [Prefeitura / SP / Franca / Validação de Documentos](https://hathdata.com/api-franca-validar-documento) | SP | Chave de autenticidade | em produção |
-| [Prefeitura / SP / Guarulhos / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-guarulhos) | SP | CNPJ | em produção |
-| [Prefeitura / SP / Guarulhos / Certidão de Cadastramento Mobiliário](https://hathdata.com/api-guarulhos-cadastro-mobiliario) | SP | CNPJ, Inscrição | em produção |
-| Prefeitura / SP / Hortolândia / Certidão Negativa de Débitos | SP | CNPJ | sob demanda |
-| Prefeitura / SP / Indaiatuba / Certidão Negativa de Débitos | SP | CNPJ | sob demanda |
-| Prefeitura / SP / Indaiatuba / Certidão de Valor Venal | SP | CNPJ | sob demanda |
-| [Prefeitura / SP / Itaquaquecetuba / Consulta de Certidão](https://hathdata.com/api-itaquaquecetuba-consultar-certidao) | SP | Identificação, Controle ou chave | em produção |
-| [Prefeitura / SP / Itaquaquecetuba / Validação de Documentos](https://hathdata.com/api-itaquaquecetuba-validar-certidao) | SP | Chave de autenticidade | em produção |
-| [Prefeitura / SP / Jundiaí / Autenticidade de Certidões](https://hathdata.com/api-jundiai-validar-certidao) | SP | Data e hora, Código de Controle | em produção |
-| [Prefeitura / SP / Jundiaí / Certidão Negativa de Débitos Ambientais](https://hathdata.com/api-jundiai-certidao-ambiental) | SP | Número do contribuinte | em produção |
-| [Prefeitura / SP / Jundiaí / Certidão Negativa de Débitos Municipais (CNPJ)](https://hathdata.com/api-cnd-jundiai) | SP | CNPJ | em produção |
-| [Prefeitura / SP / Jundiaí / Certidão de Tributação Predial](https://hathdata.com/api-jundiai-tributacao-predial) | SP | Número do contribuinte, Exercício | em produção |
-| [Prefeitura / SP / Jundiaí / Certidão de Valor Venal](https://hathdata.com/api-jundiai-valor-venal) | SP | Número do contribuinte, Exercício | em produção |
-| Prefeitura / SP / Mogi das Cruzes / CPOM | SP | CNPJ | sob demanda |
-| Prefeitura / SP / Mogi das Cruzes / Certidão Negativa de Débitos | SP | CNPJ | sob demanda |
-| [Prefeitura / SP / Osasco / Certidão de Não-Inscrição](https://hathdata.com/api-cnd-osasco) | SP | CNPJ contribuinte | em produção |
-| [Prefeitura / SP / Praia Grande / Autenticidade das Certidões](https://hathdata.com/api-praia-grande-validar-certidao) | SP | Número/ano, Tipo | em produção |
-| [Prefeitura / SP / Praia Grande / Certidão de Débitos Mobiliários](https://hathdata.com/api-cnd-praia-grande) | SP | Inscrição municipal | em produção |
-| [Prefeitura / SP / Ribeirão Preto / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-ribeirao-preto) | SP | CNPJ | em produção |
-| [Prefeitura / SP / Ribeirão Preto / Certidão de Situação Cadastral](https://hathdata.com/api-ribeirao-preto-situacao-cadastral) | SP | CNPJ | em produção |
-| [Prefeitura / SP / Ribeirão Preto / Pesquisa de Certidões](https://hathdata.com/api-ribeirao-preto-validar-certidao) | SP | Código de controle | em produção |
-| [Prefeitura / SP / Santo André / Certidão de Débitos Mobiliária](https://hathdata.com/api-cnd-santo-andre) | SP | CNPJ, CMC | em produção |
-| [Prefeitura / SP / Santo André / Certidão de Regularidade Fiscal Mobiliária e Imobiliária](https://hathdata.com/api-santo-andre-regularidade-fiscal) | SP | CNPJ, CMC | em produção |
-| [Prefeitura / SP / Santos / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-santos) | SP | CNPJ | em produção |
-| [Prefeitura / SP / Sorocaba / Certidão Negativa de Débitos](https://hathdata.com/certidao-negativa-municipal-sorocaba) | SP | CNPJ | em produção |
-| [Prefeitura / SP / Suzano / Certidão de Débito](https://hathdata.com/api-cnd-suzano) | SP | Código reduzido, Inscrição, CNPJ | em produção |
-| [Prefeitura / SP / São Caetano do Sul / Certidão Negativa da Empresa](https://hathdata.com/api-cnd-sao-caetano-do-sul) | SP | CCM, CNPJ | em produção |
-| [Prefeitura / SP / São Caetano do Sul / Consulta de Certidão](https://hathdata.com/api-sao-caetano-do-sul-validar-certidao) | SP | Identificação, Controle ou chave | em produção |
-| Prefeitura / SP / São Carlos / Certidão Negativa de Débitos | SP | CNPJ | sob demanda |
-| Prefeitura / SP / São Paulo / AIT | SP | CNPJ do login | sob demanda |
-| Prefeitura / SP / São Paulo / AIT (Últimos 36 meses) | SP | CNPJ do login | sob demanda |
-| Prefeitura / SP / São Paulo / CADIN | SP | CNPJ | sob demanda |
-| Prefeitura / SP / São Paulo / CCM | SP | CNPJ | sob demanda |
-| Prefeitura / SP / São Paulo / CPOM | SP | CNPJ | sob demanda |
-| Prefeitura / SP / São Paulo / Certidão Tributária Mobiliária | SP | CNPJ | sob demanda |
-| Prefeitura / SP / São Paulo / Certidão de Dados Cadastrais do Imóvel | SP | CNPJ do login | sob demanda |
-| [Prefeitura / SP / São Paulo / Dívida Ativa (CCM)](https://hathdata.com/api-sao-paulo-divida-ativa) | SP | CCM | em produção |
-| Prefeitura / SP / São Paulo / Emissão Parcela Simples Nacional | SP | CNPJ, Número parcela | sob demanda |
-| Prefeitura / SP / São Paulo / Multas | SP | CNPJ do login | sob demanda |
-| Prefeitura / SP / São Paulo / Multas (Antiga) | SP | CNPJ do login | sob demanda |
-| Prefeitura / SP / São Paulo / NFS-e (Nota Fiscal Eletrônica de Serviços) | SP | CNPJ | sob demanda |
-| Prefeitura / SP / São Paulo / Recursos de Multas | SP | CNPJ do login | sob demanda |
-| [Prefeitura / TO / Palmas / Certidão Negativa de Débitos](https://hathdata.com/api-cnd-palmas) | TO | CNPJ | em produção |
-
-## Federal (148)
-
-
-### ANP
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [ANP / Base de Distribuição](https://hathdata.com/api-anp-bases-de-distribuicao) | BR | CNPJ, Tipo instalação | em produção |
-| [ANP / Consumidores Industriais de Solventes](https://hathdata.com/api-anp-consumidores-industriais-de-solventes) | BR | Raiz do CNPJ | em produção |
-| [ANP / Distribuidores com Autorização de Filial](https://hathdata.com/api-anp-filiais-de-distribuidores) | BR | CNPJ | em produção |
-| [ANP / Gasodutos](https://hathdata.com/api-anp-gasodutos) | BR | CNPJ do operador | em produção |
-| [ANP / Instalações de Comércio Exterior](https://hathdata.com/api-anp-comercio-exterior) | BR | Raiz do CNPJ | em produção |
-| [ANP / Instalações do SIMP](https://hathdata.com/api-anp-instalacoes-simp) | BR | CNPJ | em produção |
-| [ANP / Oleodutos](https://hathdata.com/api-anp-oleodutos) | BR | CNPJ do operador, CNPJ da instalação | em produção |
-| [ANP / Registro de Lubrificantes](https://hathdata.com/api-anp-registro-de-lubrificantes) | BR | CNPJ do detentor | em produção |
-
-### ANTT
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [ANTT / SEI / Pesquisa Pública de Processos](https://hathdata.com/api-antt-sei-processos) | BR | Interessado | em produção |
-| [ANTT / SIFAMA / Boletos / Evasão de Pedágio](https://hathdata.com/api-antt-multa-evasao-de-pedagio) | BR | CNPJ do login, Senha | em produção |
-| [ANTT / SIFAMA / Boletos / Excesso de Peso](https://hathdata.com/api-antt-multa-excesso-de-peso) | BR | CNPJ do login, Senha | em produção |
-| [ANTT / SIFAMA / Boletos / Interestadual de Passageiros](https://hathdata.com/api-antt-multa-transporte-interestadual-de-passageiros) | BR | CNPJ do login, Senha | em produção |
-| [ANTT / SIFAMA / Boletos / Internacional de Cargas (TRIC)](https://hathdata.com/api-antt-multa-transporte-internacional-de-cargas) | BR | CNPJ do login, Senha | em produção |
-| [ANTT / SIFAMA / Boletos / Internacional de Passageiros](https://hathdata.com/api-antt-multa-transporte-internacional-de-passageiros) | BR | CNPJ do login, Senha | em produção |
-| [ANTT / SIFAMA / Boletos / Pagamento Eletrônico de Frete (PEF)](https://hathdata.com/api-antt-multa-pagamento-eletronico-de-frete) | BR | CNPJ do login, Senha | em produção |
-| [ANTT / SIFAMA / Boletos / Parcelamento ANTT](https://hathdata.com/api-antt-boleto-parcelamento) | BR | CNPJ do login, Senha | em produção |
-| [ANTT / SIFAMA / Boletos / Parcelamento PRD (Inscritos)](https://hathdata.com/api-antt-boleto-parcelamento-prd-inscritos) | BR | CNPJ do login, Senha | em produção |
-| [ANTT / SIFAMA / Boletos / Parcelamento PRD (Não Inscritos)](https://hathdata.com/api-antt-boleto-parcelamento-prd-nao-inscritos) | BR | CNPJ do login, Senha | em produção |
-| [ANTT / SIFAMA / Boletos / Piso Mínimo de Frete](https://hathdata.com/api-antt-multa-piso-minimo-de-frete) | BR | CNPJ do login, Senha | em produção |
-| [ANTT / SIFAMA / Boletos / Produtos Perigosos (TRPP)](https://hathdata.com/api-antt-multa-produtos-perigosos) | BR | CNPJ do login, Senha | em produção |
-| [ANTT / SIFAMA / Boletos / Produtos Perigosos Internacional (TRPP)](https://hathdata.com/api-antt-multa-produtos-perigosos-internacional) | BR | CNPJ do login, Senha | em produção |
-| [ANTT / SIFAMA / Boletos / RNTRC](https://hathdata.com/api-antt-multa-rntrc) | BR | CNPJ do login, Senha | em produção |
-| [ANTT / SIFAMA / Boletos / SAC TRIP](https://hathdata.com/api-antt-multa-sac-trip) | BR | CNPJ do login, Senha | em produção |
-| [ANTT / SIFAMA / Boletos / Vale Pedágio](https://hathdata.com/api-antt-multa-vale-pedagio) | BR | CNPJ do login, Senha | em produção |
-| [ANTT / SIFAMA / Consultar Multas](https://hathdata.com/api-antt-multas) | BR | CNPJ do login | em produção |
-| [ANTT / SIFAMA / Download de Auto de Infração](https://hathdata.com/api-antt-download-auto-de-infracao) | BR | CNPJ do login | em produção |
-| [ANTT / SIFAMA / Lista de Autos de Infração](https://hathdata.com/api-antt-autos-de-infracao) | BR | CNPJ do login | em produção |
-| [ANTT / SIFAMA / Segunda Via de Boletos (todos os tipos)](https://hathdata.com/api-antt-segunda-via-de-boleto) | BR | CNPJ do login, Senha | em produção |
-| [ANTT / Transportador](https://hathdata.com/api-antt-transportador) | BR | CNPJ | em produção |
-
-### ANVISA
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| ANVISA / Funcionamento de Empresa Nacional | BR | CNPJ | sob demanda |
-
-### Anatel
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [Anatel / Consulta Celular Legal](https://hathdata.com/api-anatel-celular-legal) | BR | IMEI | em produção |
-
-### B3
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| B3 / Participantes | BR | CNPJ | sob demanda |
-
-### BSM (B3 Supervisão de Mercados)
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [BSM / Processos Administrativos Disciplinares (PAD)](https://hathdata.com/api-bsm-processos-disciplinares) | BR | Razão social, CNPJ | em produção |
-
-### Banco Central do Brasil (BCB)
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [Banco Central do Brasil (BCB) / Cadastro de Inidôneos](https://hathdata.com/api-bcb-inabilitados-e-proibidos) | BR | CNPJ | em produção |
-| Banco Central do Brasil (BCB) / Valores a Receber | BR | CNPJ | sob demanda |
-
-### CVM
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [CVM / Suspensão de Atividades (intermediação irregular)](https://hathdata.com/api-cvm-suspensao-de-atividades) | BR | CNPJ, Razão social | em produção |
-| [CVM / Termos de Compromisso](https://hathdata.com/api-cvm-termos-de-compromisso) | BR | CNPJ, Razão social | em produção |
-
-### Cadastur
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| Cadastur / Prestadores | BR | UF, CNPJ | sob demanda |
-
-### Caixa
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [Caixa / Regularidade do Empregador (FGTS)](https://hathdata.com/api-crf-fgts) | BR | CNPJ | em produção |
-
-### Comprot
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| Comprot / Processo | BR | CNPJ | sob demanda |
-
-### Conselho Federal de Contabilidade
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| Conselho Federal de Contabilidade / Cadastro de Profissionais e Empresas | BR | CNPJ | sob demanda |
-
-### Conselho Federal de Medicina
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| Conselho Federal de Medicina / Estabelecimentos de Saúde | BR | CNPJ | sob demanda |
-
-### Conselho Federal de Psicologia
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| Conselho Federal de Psicologia / Cadastro | BR | CNPJ | sob demanda |
-
-### Contas
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [Contas / Comgás / Download de 2ª Via](https://hathdata.com/api-comgas-segunda-via) | BR | CNPJ, Código usuário | em produção |
-| [Contas / Light / Download via CEP](https://hathdata.com/api-light-segunda-via) | BR | CNPJ | em produção |
-| [Contas / Light / Download via CEP + OCR](https://hathdata.com/api-light-segunda-via-ocr) | BR | CNPJ | em produção |
-
-### Controladoria-Geral da União
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [Controladoria-Geral da União / Certidão Negativa Correcional - Entes Privados (ePAD, CGU-PJ, CEIS, CNEP e CEPIM)](https://hathdata.com/api-cgu-certidao-correcional) | BR | CNPJ | em produção |
-
-### DNIT
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [DNIT / Certidão de Multas (Nada Consta)](https://hathdata.com/api-dnit-certidao-de-multas) | BR | CNPJ | em produção |
-| [DNIT / Consulta de Multas (Pessoa Jurídica)](https://hathdata.com/api-dnit-consulta-de-multas) | BR | CNPJ, Login gov.br | em produção |
-| [DNIT / Validação da Certidão de Multas](https://hathdata.com/api-dnit-validar-certidao) | BR | CNPJ, Data, Horário, Código | em produção |
-
-### IBAMA
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [IBAMA / Autuações Ambientais](https://hathdata.com/api-ibama-autuacoes) | BR | CNPJ | em produção |
-| [IBAMA / Certidão de Débitos](https://hathdata.com/api-ibama-certidao-de-debitos) | BR | CNPJ | em produção |
-| [IBAMA / Certidão de Embargos (Nada Consta)](https://hathdata.com/api-ibama-certidao-de-embargos) | BR | CNPJ | em produção |
-| [IBAMA / Certificado de Regularidade](https://hathdata.com/api-ibama-certificado-de-regularidade) | BR | CNPJ | em produção |
-| [IBAMA / Consulta de Embargos (áreas embargadas)](https://hathdata.com/api-ibama-consulta-de-embargos) | BR | CNPJ, UF, Município | em produção |
-| [IBAMA / Verificação de Autenticidade do Certificado de Regularidade](https://hathdata.com/api-ibama-autenticidade-certificado-de-regularidade) | BR | CNPJ, Chave de autenticação | em produção |
-| [IBAMA / Visualizar Embargo Vigente](https://hathdata.com/api-ibama-embargo-vigente) | BR | CNPJ, Razão social | em produção |
-
-### INCRA
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [INCRA / SIGEF / Parcelas](https://hathdata.com/api-incra-sigef-parcelas) | BR | CNPJ | em produção |
-| [INCRA / SIGEF / Requerimentos](https://hathdata.com/api-incra-sigef-requerimentos) | BR | CNPJ | em produção |
-| [INCRA / SNCR / Emissão do CCIR](https://hathdata.com/api-incra-ccir) | BR | CNPJ, Código do imóvel, UF, Município | em produção |
-
-### INPI
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [INPI / Contratos de Transferência de Tecnologia](https://hathdata.com/api-inpi-contratos-de-tecnologia) | BR | CNPJ da cedente ou cessionária | em produção |
-| [INPI / Desenhos Industriais](https://hathdata.com/api-inpi-desenhos-industriais) | BR | CNPJ do depositante | em produção |
-| [INPI / Marcas por CNPJ](https://hathdata.com/api-inpi-marcas) | BR | CNPJ | em produção |
-| [INPI / Patentes](https://hathdata.com/api-inpi-patentes) | BR | CNPJ | em produção |
-| [INPI / Programas de Computador](https://hathdata.com/api-inpi-programas-de-computador) | BR | CNPJ do titular | em produção |
-
-### MDA
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| MDA / SEAD / Declaração de Aptidão ao PRONAF (DAP) | BR | CNPJ | sob demanda |
-
-### MPF
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [MPF / Amazônia Protege](https://hathdata.com/api-mpf-amazonia-protege) | BR | CNPJ | em produção |
-| [MPF / Certidão Negativa](https://hathdata.com/api-mpf-certidao-negativa) | BR | CNPJ | em produção |
-
-### MPT
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| MPT / AC e RO / Certidão Negativa de Feitos | BR | CNPJ | sob demanda |
-| MPT / AL / Certidão Negativa de Feitos | AL | CNPJ | sob demanda |
-| MPT / AM e RR / Certidão Negativa de Feitos | BR | CNPJ | sob demanda |
-| MPT / AP e PA / Certidão Negativa de Feitos | BR | CNPJ | sob demanda |
-| MPT / BA / Certidão Negativa de Feitos | BA | CNPJ | sob demanda |
-| MPT / CE / Certidão Negativa de Feitos | CE | CNPJ | sob demanda |
-| MPT / DF e TO / Certidão Negativa de Feitos | BR | CNPJ | sob demanda |
-| MPT / ES / Certidão Negativa de Feitos | ES | CNPJ | sob demanda |
-| MPT / GO / Certidão Negativa de Feitos | GO | CNPJ | sob demanda |
-| MPT / MA / Certidão Negativa de Feitos | MA | CNPJ | sob demanda |
-| MPT / MG / Certidão Negativa de Feitos | MG | CNPJ | sob demanda |
-| MPT / MS / Certidão Negativa de Feitos | MS | CNPJ | sob demanda |
-| MPT / MT / Certidão Negativa de Feitos | MT | CNPJ | sob demanda |
-| MPT / PB / Certidão Negativa de Feitos | PB | CNPJ | sob demanda |
-| MPT / PE / Certidão Negativa de Feitos | PE | CNPJ | sob demanda |
-| MPT / PI / Certidão Negativa de Feitos | PI | CNPJ | sob demanda |
-| MPT / PR / Certidão Negativa de Feitos | PR | CNPJ | sob demanda |
-| MPT / RJ / Certidão Negativa de Feitos | RJ | CNPJ | sob demanda |
-| MPT / RN / Certidão Negativa de Feitos | RN | CNPJ | sob demanda |
-| MPT / RS / Certidão Negativa de Feitos | RS | CNPJ | sob demanda |
-| MPT / SC / Certidão Negativa de Feitos | SC | CNPJ | sob demanda |
-| MPT / SE / Certidão Negativa de Feitos | SE | CNPJ | sob demanda |
-| MPT / SP / Campinas / Certidão Negativa de Feitos | SP | CNPJ | sob demanda |
-| MPT / SP / Certidão Negativa de Feitos | SP | CNPJ | sob demanda |
-| MPT / Unificada / Certidão Negativa de Feitos | BR | CNPJ | sob demanda |
-
-### MTE
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [MTE / Andamento Processual, processo eletrônico](https://hathdata.com/api-mte-andamento-processual-eletronico) | BR | Número do processo, Número do documento | em produção |
-| [MTE / Andamento Processual, processo físico](https://hathdata.com/api-mte-andamento-processual-fisico) | BR | Tipo (auto ou notificação), Número do processo | em produção |
-| [MTE / Autenticidade de Documento do Processo](https://hathdata.com/api-mte-autenticidade-de-documento) | BR | Número do processo, Código verificador | em produção |
-| [MTE / Auto de Infração, processo físico](https://hathdata.com/api-mte-auto-de-infracao-processo-fisico) | BR | Número do auto, CNPJ, Código de acesso | em produção |
-| [MTE / Certidão de Débitos Trabalhistas](https://hathdata.com/api-mte-certidao-de-debitos-trabalhistas) | BR | CNPJ | em produção |
-| [MTE / DARF de Multa Trabalhista (eletrônico e físico)](https://hathdata.com/api-mte-darf-de-multa-trabalhista) | BR | Número do processo, Número do documento | em produção |
-| [MTE / Defesa, processo físico](https://hathdata.com/api-mte-defesa-processo-fisico) | BR | Tipo (auto ou notificação), Número, Código de acesso | em produção |
-| [MTE / Fundamentação da Decisão (análise), processo físico](https://hathdata.com/api-mte-fundamentacao-da-decisao) | BR | Número do processo, Código verificador | em produção |
-| [MTE / Lista Suja do Trabalho Escravo](https://hathdata.com/api-mte-lista-trabalho-escravo) | BR | CNPJ | em produção |
-| [MTE / Notificação de Débito, processo físico](https://hathdata.com/api-mte-notificacao-de-debito-processo-fisico) | BR | Número da notificação, CNPJ, Código de acesso | em produção |
-| [MTE / Processos por Empregador](https://hathdata.com/api-mte-processos-por-empregador) | BR | CNPJ raiz, CNPJ | em produção |
-| [MTE / Relatório de Transparência Salarial](https://hathdata.com/api-mte-relatorio-de-transparencia-salarial) | BR | CNPJ | em produção |
-| [MTE / Validação da Certidão de Débitos Trabalhistas](https://hathdata.com/api-mte-validacao-da-certidao-de-debitos) | BR | Código da certidão | em produção |
-
-### Portal da Transparência
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [Portal da Transparência / Acordos de Leniência](https://hathdata.com/api-cgu-acordos-de-leniencia) | BR | CNPJ | em produção |
-| [Portal da Transparência / Cadastro Nacional de Empresas Punidas (CNEP)](https://hathdata.com/api-cgu-cnep) | BR | CNPJ | em produção |
-| [Portal da Transparência / Cadastro de Empresas Inidôneas e Suspensas (CEIS)](https://hathdata.com/api-cgu-ceis) | BR | CNPJ | em produção |
-| [Portal da Transparência / Cadastro de Entidades Privadas sem Fins Lucrativos Impedidas (CEPIM)](https://hathdata.com/api-cgu-cepim) | BR | CNPJ | em produção |
-| [Portal da Transparência / Cartões de Pagamento por Favorecido](https://hathdata.com/api-cgu-cartoes-de-pagamento) | BR | CNPJ do favorecido | em produção |
-| [Portal da Transparência / Contratos por Fornecedor](https://hathdata.com/api-cgu-contratos-por-fornecedor) | BR | CNPJ do fornecedor | em produção |
-| [Portal da Transparência / Despesas por Favorecido](https://hathdata.com/api-cgu-despesas-por-favorecido) | BR | CNPJ do favorecido, Fase, Ano | em produção |
-| [Portal da Transparência / Notas Fiscais por Emitente](https://hathdata.com/api-cgu-notas-fiscais-por-emitente) | BR | CNPJ do emitente | em produção |
-| [Portal da Transparência / Panorama da Pessoa Jurídica com o Governo Federal](https://hathdata.com/api-cgu-panorama-pessoa-juridica) | BR | CNPJ | em produção |
-| [Portal da Transparência / Recursos Recebidos por Favorecido](https://hathdata.com/api-cgu-recursos-recebidos) | BR | CNPJ do favorecido, Período | em produção |
-| [Portal da Transparência / Renúncias Fiscais por CNPJ](https://hathdata.com/api-cgu-renuncias-fiscais) | BR | CNPJ | em produção |
-
-### Receita Federal
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [Receita Federal / CNPJ](https://hathdata.com/api-receita-cartao-cnpj) | BR | CNPJ | em produção |
-| [Receita Federal / Comprovante do QSA (Sócios e Administradores)](https://hathdata.com/api-receita-qsa) | BR | CNPJ | em produção |
-| [Receita Federal / Consulta CNPJ completa (Receita Federal)](https://hathdata.com/consultas/consulta-cnpj-completa-receita-federal) | BR | CNPJ | em produção |
-| Receita Federal / MEI | BR | CNPJ | sob demanda |
-| [Receita Federal / NFS-e Nacional / DANFSe](https://hathdata.com/api-nfse-danfse) | BR | Chave de acesso | em produção |
-| Receita Federal / PER/DCOMP | BR | CNPJ | sob demanda |
-| [Receita Federal / PGFN (CND Federal)](https://hathdata.com/api-cnd-federal) | BR | CNPJ | em produção |
-| [Receita Federal / PGFN (CND Federal) - Lista Segunda Via](https://hathdata.com/api-pgfn-historico-de-certidoes) | BR | CNPJ | em produção |
-| Receita Federal / PGFN (CND Federal) - Nova | BR | CNPJ | sob demanda |
-| Receita Federal / PGFN (CND Federal) - Segunda Via | BR | CNPJ | sob demanda |
-| Receita Federal / PGFN / Certidão de Débitos Federais do Imóvel Rural (CND) | BR | CNPJ | em produção |
-| [Receita Federal / PGFN / Histórico de Certidões Federais](https://hathdata.com/api-pgfn-historico-de-certidoes) | BR | CNPJ | em produção |
-| Receita Federal / PGFN / Histórico de Certidões Federais do Imóvel Rural | BR | CNPJ | em produção |
-| Receita Federal / Radar (Habilitação Comércio Exterior) | BR | CNPJ | sob demanda |
-| Receita Federal / SICALC / Gerar DARF | BR | CNPJ | sob demanda |
-| Receita Federal / SIMEI (Declaração Anual) | BR | CNPJ, Tipo declaração | sob demanda |
-| Receita Federal / Simei / MEI / Emissão de Guia de Parcelamento | BR | CNPJ | sob demanda |
-| Receita Federal / Simples (DASN SIMEI) | BR | CNPJ | sob demanda |
-| Receita Federal / Simples (Emissão de DAS de MEI) | BR | CNPJ, Periodo | sob demanda |
-| Receita Federal / Simples (Listagem de Períodos para Emissão de DAS) | BR | CNPJ, Ano | sob demanda |
-| Receita Federal / Simples / MEI / Emissão de Guia de Parcelamento | BR | CNPJ | sob demanda |
-| [Receita Federal / Simples Nacional](https://hathdata.com/api-simples-nacional) | BR | CNPJ | em produção |
-| Receita Federal / Situação Fiscal | BR | Perfil procurador CNPJ | sob demanda |
-
-### SENATRAN
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| SENATRAN / Meus Veículos - Possuidor (Listagem) | BR | CNPJ, Página | sob demanda |
-| SENATRAN / Pedágio Eletrônico (Free Flow) / Detalhes | BR | CNPJ, Chave Passagem | sob demanda |
-| SENATRAN / Pedágio Eletrônico (Free Flow) / Listagem | BR | CNPJ, Pagina | sob demanda |
-
-### SUSEP
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| SUSEP / Administradores | BR | CNPJ | sob demanda |
-| [SUSEP / Corretores](https://hathdata.com/api-susep-certidao-corretores) | BR | CNPJ | em produção |
-
-### TCU
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| TCU / Certidão Negativa de Processos | BR | CNPJ | sob demanda |
-| [TCU / Consulta Consolidada de Pessoa Jurídica (APF)](https://hathdata.com/api-tcu-certidao-consolidada) | BR | CNPJ, Aceita resultado parcial | em produção |
-| [TCU / Lista de Licitantes Inidôneos](https://hathdata.com/api-tcu-licitantes-inidoneos) | BR | CNPJ | em produção |
-
-## Estadual (110)
-
-
-### DER
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [DER / PR / Certidão Negativa de Débitos](https://hathdata.com/api-der-pr-certidao-negativa) | PR | CNPJ | em produção |
-| [DER / PR / Guia de Recolhimento Única (GRU)](https://hathdata.com/api-der-pr-gru) | PR | CNPJ | em produção |
-| [DER / SP / DARE](https://hathdata.com/api-der-sp-dare) | SP | CNPJ, Ait | em produção |
-
-### DETRAN
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| DETRAN / SP / Emissão de CRLV-e | SP | CNPJ do login | sob demanda |
-
-### Junta Comercial
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| Junta Comercial / SP / Consulta Pública de Licenciamento | SP | CNPJ | sob demanda |
-
-### Ministério Público
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [Ministério Público / DF / Certidão Nada Consta (MPDFT)](https://hathdata.com/api-mpdft-certidao) | DF | CNPJ | em produção |
-| [Ministério Público / SP / Inquérito Civil](https://hathdata.com/api-mpsp-inquerito-civil) | SP | CNPJ | em produção |
-
-### Procuradoria Geral do Estado
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| Procuradoria Geral do Estado / CE / Dívida Ativa | CE | CNPJ base | sob demanda |
-| Procuradoria Geral do Estado / MT / Dívida Ativa | MT | CDA, CNPJ | sob demanda |
-| Procuradoria Geral do Estado / SP / Certidão Negativa de Débitos Tributários | SP | CNPJ | sob demanda |
-| Procuradoria Geral do Estado / SP / Dívida Ativa | SP | CDA, CNPJ | sob demanda |
-
-### SEFAZ
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| [SEFAZ / AC / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-ac-certidao) | AC | CNPJ | em produção |
-| [SEFAZ / AL / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-al-certidao) | AL | CNPJ | em produção |
-| [SEFAZ / AM / Certidão Negativa de Débitos](https://hathdata.com/consultas/certidao-negativa-de-debitos-estaduais) | AM | CNPJ | em produção |
-| [SEFAZ / AP / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-ap-certidao) | AP | CNPJ | em produção |
-| [SEFAZ / AP / Validação de Certidão de Débito](https://hathdata.com/api-sefaz-ap-validar-certidao) | AP | Documento, Data e hora, Código | em produção |
-| [SEFAZ / BA / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-ba-certidao) | BA | CNPJ | em produção |
-| [SEFAZ / CE / Certidao de Regularidade](https://hathdata.com/api-sefaz-ce-certidao) | CE | CNPJ | em produção |
-| [SEFAZ / CE / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-ce-certidao) | CE | CNPJ | em produção |
-| SEFAZ / Certidão Negativa de Débitos Estaduais | BR | CNPJ | sob demanda |
-| [SEFAZ / DF / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-df-certidao) | DF | CNPJ | em produção |
-| [SEFAZ / DF / Certidão de Dívida Ativa](https://hathdata.com/api-sefaz-df-certidao) | DF | CNPJ | em produção |
-| [SEFAZ / DF / Validação de Certidão](https://hathdata.com/api-sefaz-df-validar-certidao) | DF | Número, Documento | em produção |
-| [SEFAZ / ES / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-es-certidao) | ES | CNPJ | em produção |
-| [SEFAZ / ES / Validação de Certidão Negativa](https://hathdata.com/api-sefaz-es-validar-certidao) | ES | Documento, Número | em produção |
-| [SEFAZ / GO / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-go-certidao) | GO | CNPJ | em produção |
-| [SEFAZ / GO / Validação de Certidão de Débitos](https://hathdata.com/api-sefaz-go-validar-certidao) | GO | Número | em produção |
-| [SEFAZ / MA / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-ma-certidao) | MA | CNPJ | em produção |
-| SEFAZ / MA / Certidão de Dívida Ativa | MA | CNPJ | sob demanda |
-| SEFAZ / MG / CADIN | MG | CNPJ | sob demanda |
-| [SEFAZ / MG / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-mg-certidao) | MG | CNPJ | em produção |
-| SEFAZ / MG / Consulta Parcelamento | MG | CNPJ | sob demanda |
-| SEFAZ / MG / Débitos de IPVA | MG | CNPJ | sob demanda |
-| SEFAZ / MG / Dívida Ativa | MG | CNPJ | sob demanda |
-| SEFAZ / MG / Protesto Inscrito em Dívida Ativa | MG | CNPJ | sob demanda |
-| SEFAZ / MG / Simulação de Parcelamento IPVA | MG | CNPJ | sob demanda |
-| [SEFAZ / MS / Autenticação de Certidão Tributária](https://hathdata.com/api-sefaz-ms-validar-certidao) | MS | Documento, Número, Data e hora | em produção |
-| [SEFAZ / MS / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-ms-certidao) | MS | CNPJ | em produção |
-| [SEFAZ / MT / Autenticidade de Certidão](https://hathdata.com/api-sefaz-mt-validar-certidao) | MT | Número, Emissão, Código | em produção |
-| [SEFAZ / MT / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-mt-certidao) | MT | CNPJ | em produção |
-| [SEFAZ / MT / Reimpressão de Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-mt-certidao) | MT | CNPJ | em produção |
-| [SEFAZ / PA / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-pa-certidao) | PA | CNPJ | em produção |
-| [SEFAZ / PA / IPVA](https://hathdata.com/api-sefaz-pa-certidao) | PA | CNPJ | em produção |
-| [SEFAZ / PB / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-pb-certidao) | PB | CNPJ | em produção |
-| SEFAZ / PB / IPVA | PB | CNPJ | sob demanda |
-| [SEFAZ / PB / Validação de Certidão de Débito](https://hathdata.com/api-sefaz-pb-validar-certidao) | PB | Documento, Data e hora, Código | em produção |
-| SEFAZ / PE | PE | CNPJ | sob demanda |
-| [SEFAZ / PE / Certidão Negativa de Débitos](https://hathdata.com/consultas/certidao-negativa-de-debitos-estaduais) | PE | CNPJ | em produção |
-| SEFAZ / PE / Certidão de Regularidade Fiscal | PE | CNPJ | sob demanda |
-| SEFAZ / PE / Certidão de Regularidade Fiscal (Móvel) | PE | CNPJ | sob demanda |
-| SEFAZ / PE / Dívida Ativa | PE | Raiz CNPJ | sob demanda |
-| SEFAZ / PI / IPVA | PI | CNPJ | sob demanda |
-| [SEFAZ / PI / Solicitar Certidão Negativa da Dívida Ativa (CNDA)](https://hathdata.com/consultas/certidao-negativa-de-debitos-estaduais) | PI | CNPJ | em produção |
-| [SEFAZ / PI / Solicitar Certidão Negativa de Débitos](https://hathdata.com/consultas/certidao-negativa-de-debitos-estaduais) | PI | CNPJ | em produção |
-| SEFAZ / PI / Visualizar certidões CNDA/CND | PI | CNPJ | sob demanda |
-| SEFAZ / PR | PR | CNPJ, IE | sob demanda |
-| [SEFAZ / PR / CADIN](https://hathdata.com/api-sefaz-pr-certidao) | PR | CNPJ | em produção |
-| [SEFAZ / PR / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-pr-certidao) | PR | CNPJ | em produção |
-| [SEFAZ / RJ / Autenticidade da Certidão de Regularidade Fiscal](https://hathdata.com/api-sefaz-rj-validar-certidao) | RJ | Número | em produção |
-| [SEFAZ / RJ / Autenticidade de Certidão (Fisco Fácil)](https://hathdata.com/api-sefaz-rj-autenticidade-certidao) | RJ | Código de verificação | em produção |
-| [SEFAZ / RJ / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-rj-certidao) | RJ | CNPJ | em produção |
-| [SEFAZ / RN / Autenticidade de Certidão Conjunta](https://hathdata.com/api-sefaz-rn-validar-certidao) | RN | Documento, Número, Data e hora | em produção |
-| [SEFAZ / RN / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-rn-certidao) | RN | CNPJ | em produção |
-| [SEFAZ / RO / Autenticação de Certidão Negativa](https://hathdata.com/api-sefaz-ro-validar-certidao) | RO | Documento, Número | em produção |
-| [SEFAZ / RO / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-ro-certidao) | RO | CNPJ | em produção |
-| [SEFAZ / RR / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-rr-certidao) | RR | CNPJ | em produção |
-| [SEFAZ / RR / Validação de Certidão Negativa](https://hathdata.com/api-sefaz-rr-validar-certidao) | RR | Documento, Código, Data | em produção |
-| SEFAZ / RS / CADIN e CFIL | RS | CNPJ | sob demanda |
-| [SEFAZ / RS / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-rs-situacao-fiscal) | RS | CNPJ | em produção |
-| [SEFAZ / RS / Certidão de PJ Não Inscrita no CGCTE](https://hathdata.com/api-sefaz-rs-nao-inscrita) | RS | CNPJ | em produção |
-| [SEFAZ / RS / Consulta Pública ao CGCTE](https://hathdata.com/api-sefaz-rs-cgcte) | RS | CNPJ, IE | em produção |
-| [SEFAZ / SC / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-sc-certidao) | SC | CNPJ | em produção |
-| [SEFAZ / SE / Certidão Negativa de Débitos](https://hathdata.com/consultas/certidao-negativa-de-debitos-estaduais) | SE | CNPJ | em produção |
-| SEFAZ / SP / Cadin | SP | CNPJ | sob demanda |
-| [SEFAZ / SP / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-sp-certidao) | SP | CNPJ | em produção |
-| SEFAZ / SP / Certidão de Débitos Tributários Estaduais | SP | CNPJ | em produção |
-| SEFAZ / SPU / Dados Cadastrais de Imóvel da União | BR | CNPJ | sob demanda |
-| SEFAZ / SPU / Emitir Certidões de Imóveis da União | BR | CNPJ | sob demanda |
-| [SEFAZ / TO / Certidão Negativa de Débitos](https://hathdata.com/api-sefaz-to-certidao) | TO | CNPJ | em produção |
-| [SEFAZ / Todas as UFs / Certidão Negativa de Débitos Estaduais (ICMS)](https://hathdata.com/consultas/certidao-negativa-de-debitos-estaduais) | BR | CNPJ | em produção |
-
-### SEMA
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| SEMA / MT / APF Rural | MT | CNPJ proprietário | sob demanda |
-
-### SINTEGRA
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| SINTEGRA / AC | AC | CNPJ, IE | sob demanda |
-| SINTEGRA / AL | AL | IE, CNPJ | sob demanda |
-| SINTEGRA / AM | AM | CNPJ, IE | sob demanda |
-| SINTEGRA / AP | AP | CNPJ, IE | sob demanda |
-| SINTEGRA / BA | BA | CNPJ | sob demanda |
-| SINTEGRA / CE | CE | CNPJ, IE | sob demanda |
-| SINTEGRA / DF | DF | CNPJ, IE | sob demanda |
-| SINTEGRA / ES | ES | CNPJ, IE | sob demanda |
-| SINTEGRA / GO | GO | CNPJ, IE | sob demanda |
-| SINTEGRA / MA | MA | CNPJ, IE | sob demanda |
-| SINTEGRA / MS | MS | CNPJ, IE | sob demanda |
-| SINTEGRA / MT | MT | CNPJ, IE | sob demanda |
-| SINTEGRA / PA | PA | CNPJ, IE | sob demanda |
-| SINTEGRA / PB | PB | CNPJ, IE | sob demanda |
-| SINTEGRA / PE | PE | CNPJ, IE | sob demanda |
-| SINTEGRA / PR | PR | CNPJ, IE | sob demanda |
-| SINTEGRA / RJ | RJ | CNPJ, IE | sob demanda |
-| SINTEGRA / RN | RN | CNPJ, IE | sob demanda |
-| SINTEGRA / RO | RO | CNPJ, IE | sob demanda |
-| SINTEGRA / RR | RR | CNPJ, IE | sob demanda |
-| SINTEGRA / RS | RS | CNPJ, IE | sob demanda |
-| SINTEGRA / SC | SC | CNPJ, IE | sob demanda |
-| SINTEGRA / SE | SE | CNPJ, IE | sob demanda |
-| SINTEGRA / SP | SP | CNPJ, IE | sob demanda |
-| SINTEGRA / SUFRAMA | BR | CNPJ | sob demanda |
-| SINTEGRA / TO | TO | CNPJ, IE | sob demanda |
-| SINTEGRA / Unificada | BR | UF, CNPJ | sob demanda |
-
-### Sivisa
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| Sivisa / SP | SP | CNPJ | sob demanda |
-
-### TCE
-
-| Consulta | UF | Entrada | Situação |
-| --- | --- | --- | --- |
-| TCE / SP / Certidão de Apenados | SP | CNPJ | sob demanda |
 
 ## Internacional (7)
 

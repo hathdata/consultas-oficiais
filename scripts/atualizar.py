@@ -23,6 +23,33 @@ UTM = '?utm_source=github&utm_medium=dados-abertos&utm_campaign=consultas-oficia
 ESFERAS = {'judiciario': 'Judiciário', 'municipal': 'Municipal', 'federal': 'Federal', 'estadual': 'Estadual', 'internacional': 'Internacional'}
 
 
+OG = f'{SITE}/og/hathdata.png'
+ESFERA_ORDEM = ['federal', 'estadual', 'municipal', 'judiciario', 'internacional']
+MARCA_CSS = (".brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:inherit;margin-bottom:18px}"
+             ".brand img{height:34px;width:auto}.brand b{font-size:19px;letter-spacing:-.01em}"
+             ".brand b span{background:linear-gradient(112deg,var(--azul),var(--roxo));-webkit-background-clip:text;background-clip:text;color:transparent}"
+             "@media (max-width:640px){.m{display:none}}")
+
+
+def dbr(d):
+    a, m, dia = d.split('-')
+    return f'{dia}/{m}/{a}'
+
+
+def cabeca(titulo, descricao, url):
+    e = html.escape
+    return (f'<meta property="og:type" content="website"><meta property="og:site_name" content="Hath Data">'
+            f'<meta property="og:title" content="{e(titulo)}"><meta property="og:description" content="{e(descricao)}">'
+            f'<meta property="og:url" content="{url}"><meta property="og:image" content="{OG}"><meta property="og:image:width" content="1200">'
+            f'<meta property="og:image:height" content="630"><meta property="og:locale" content="pt_BR"><meta name="twitter:card" content="summary_large_image">'
+            f'<meta name="twitter:image" content="{OG}"><link rel="icon" type="image/png" sizes="32x32" href="{SITE}/favicon-32.png?v=4">'
+            f'<link rel="apple-touch-icon" sizes="180x180" href="{SITE}/apple-touch-icon.png?v=4">')
+
+
+def marca():
+    return f'<a class="brand" href="{SITE}/{UTM}"><img src="{SITE}/logo.svg" alt="" width="34" height="34"><b>Hath <span>Data</span></b></a>'
+
+
 def baixar():
     for arq in ARQUIVOS:
         req = urllib.request.Request(f'{SITE}/dados/abertos/{arq}', headers={'User-Agent': 'consultas-oficiais-sync'})
@@ -70,7 +97,7 @@ páginas oficiais (gov.br, jus.br, leg.br) que sustentam cada regra.
 **Catálogo completo**, por esfera e órgão, com link para cada consulta: [`CATALOGO.md`](CATALOGO.md) e
 [página com filtro]({PAGES}consultas.html). **Mapa do site**, página por página: [{PAGES}paginas.html]({PAGES}paginas.html).
 
-Atualizado em {c['geradoEm']}, todo dia, a partir de `{SITE}/dados/abertos/`.
+Atualizado em {dbr(c['geradoEm'])}, todo dia, a partir de `{SITE}/dados/abertos/`.
 
 ## Consultas por esfera
 
@@ -144,7 +171,7 @@ def pagina(c, p, f):
         linhas.append(
             f'<tr data-q="{e((x["cidade"] + " " + x["uf"]).lower())}"><td>{nome}</td><td>{e(x["uf"])}</td>'
             f'<td><span class="s{"p" if x["situacao"] == "em produção" else "d"}">{e(x["situacao"])}</span></td>'
-            f'<td>{e("; ".join(x["documentos"][:3]))}</td><td>{api}</td><td>{fontes}</td></tr>'
+            f'<td class="m">{e("; ".join(x["documentos"][:3]))}</td><td class="m">{api}</td><td class="m">{fontes}</td></tr>'
         )
     ld = {
         '@context': 'https://schema.org',
@@ -174,6 +201,7 @@ def pagina(c, p, f):
 <title>Consultas oficiais por documento: dados abertos</title>
 <meta name="description" content="{e(ld['description'])}">
 <link rel="canonical" href="{PAGES}">
+{cabeca("Consultas oficiais por documento: dados abertos", ld["description"], PAGES)}
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 <style>
 :root{{--tinta:#19232D;--cinza:#5c6b7d;--linha:#e3e8ef;--papel:#fff;--fundo:#f7f9fc;--azul:#2D6EDC;--roxo:#5A14A0;--ok:#0f7b4f;--dem:#8a5a00}}
@@ -193,19 +221,21 @@ table{{border-collapse:collapse;width:100%;font-size:14px}}th,td{{text-align:lef
 th{{font-size:12px;color:var(--cinza);text-transform:uppercase;letter-spacing:.06em}}
 .sp{{color:var(--ok);white-space:nowrap}}.sd{{color:var(--dem);white-space:nowrap}} a.f{{display:inline-block;min-width:20px;text-align:center;font-size:12px;border:1px solid var(--linha);border-radius:6px;margin:0 2px 2px 0;text-decoration:none}}
 footer{{margin-top:40px;color:var(--cinza);font-size:14px}}
+{MARCA_CSS}
 </style></head><body><div class="rule"></div><div class="w">
-<div class="ey">Dados abertos · Hath Data</div>
+{marca()}
+<div class="ey">Dados abertos</div>
 <h1>Consultas oficiais por documento, <span>em dados abertos.</span></h1>
 <nav style="display:flex;flex-wrap:wrap;gap:8px 16px;margin:8px 0 20px"><a href="./">Prefeituras</a><a href="consultas.html">Catálogo de consultas ({br(c['total'])})</a><a href="paginas.html">Mapa do site</a><a href="{REPO}">GitHub</a></nav>
 <p class="lead">{e(c['slogan'])} {br(c['total'])} consultas a órgãos oficiais pelo documento da empresa,
-{br(p['total'])} prefeituras com a guia de cada cidade e {br(f['total'])} páginas oficiais citadas. Atualizado em {e(c['geradoEm'])}.
+{br(p['total'])} prefeituras com a guia de cada cidade e {br(f['total'])} páginas oficiais citadas. Atualizado em {dbr(c['geradoEm'])}.
 Fonte: <a href="{SITE}/{UTM}">hathdata.com</a>. Código e histórico: <a href="{REPO}">GitHub</a>.</p>
 <div class="ns">{cards}</div>
 <h2>Prefeituras</h2>
 <p class="lead">A certidão municipal não tem regra nacional. Cada guia traz o portal, a validade e a norma da cidade; os números
 levam às páginas oficiais citadas.</p>
 <input id="q" type="search" placeholder="Filtrar por cidade ou UF" aria-label="Filtrar por cidade ou UF">
-<div class="tb"><table><thead><tr><th>Cidade</th><th>UF</th><th>Situação</th><th>Documentos</th><th>API</th><th>Fontes oficiais</th></tr></thead>
+<div class="tb"><table><thead><tr><th>Cidade</th><th>UF</th><th>Situação</th><th class="m">Documentos</th><th class="m">API</th><th class="m">Fontes oficiais</th></tr></thead>
 <tbody id="t">{''.join(linhas)}</tbody></table></div>
 <h2>Arquivos</h2>
 <ul>{''.join(f'<li><a href="{SITE}/dados/abertos/{a}">{a}</a> (<a href="{REPO}/blob/main/dados/{a}">no GitHub</a>)</li>' for a in ARQUIVOS)}</ul>
@@ -244,7 +274,7 @@ def casca(titulo, descricao, url, corpo, ld=None):
     e = html.escape
     ldtag = f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>' if ld else ''
     return (f'<!doctype html>\n<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            f'<title>{e(titulo)}</title><meta name="description" content="{e(descricao)}"><link rel="canonical" href="{url}">{ldtag}{ESTILO}</head>'
+            f'<title>{e(titulo)}</title><meta name="description" content="{e(descricao)}"><link rel="canonical" href="{url}">{cabeca(titulo, descricao, url)}{ldtag}{ESTILO}<style>{MARCA_CSS}</style></head>'
             f'<body><div class="rule"></div><div class="w">{corpo}<footer><a href="{SITE}/{UTM}">Hath Data</a> · Dados sob '
             f'<a href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR">CC BY 4.0</a>, cite "Hath Data (hathdata.com)" com link.</footer></div></body></html>\n')
 
@@ -252,21 +282,21 @@ def casca(titulo, descricao, url, corpo, ld=None):
 def pagina_consultas(c):
     e = html.escape
     linhas = []
-    for x in sorted(c['consultas'], key=lambda x: (x['esfera'], x['orgao'], x['nome'])):
+    for x in sorted(c['consultas'], key=lambda x: (x['situacao'] != 'em produção', ESFERA_ORDEM.index(x['esfera']) if x['esfera'] in ESFERA_ORDEM else 9, x['nome'])):
         nome = f'<a href="{e(x["pagina"] + UTM)}">{e(x["nome"])}</a>' if x['pagina'] else e(x['nome'])
         sit = 'sp' if x['situacao'] == 'em produção' else 'sd'
         linhas.append(f'<tr data-e="{e(x["esfera"])}" data-s="{sit}" data-q="{e((x["nome"] + " " + x["orgao"] + " " + " ".join(x["ufs"])).lower())}">'
-                      f'<td>{nome}</td><td>{e(x["orgao"])}</td><td>{e(ESFERAS.get(x["esfera"], x["esfera"]))}</td><td>{e(", ".join(x["ufs"]) or "BR")}</td>'
-                      f'<td class="c">{e(", ".join(x["entrada"]))}</td><td><span class="{sit}">{e(x["situacao"])}</span></td></tr>')
+                      f'<td>{nome}</td><td class="m">{e(x["orgao"])}</td><td class="m">{e(ESFERAS.get(x["esfera"], x["esfera"]))}</td><td>{e(", ".join(x["ufs"]) or "BR")}</td>'
+                      f'<td class="c m">{e(", ".join(x["entrada"]))}</td><td><span class="{sit}">{e(x["situacao"])}</span></td></tr>')
     opcoes = ''.join(f'<option value="{k}">{v}</option>' for k, v in ESFERAS.items())
-    corpo = (f'<div class="ey">Dados abertos · Hath Data</div><h1>Catálogo de consultas oficiais, <span>completo.</span></h1>{nav(e)}'
+    corpo = (f'{marca()}<div class="ey">Dados abertos</div><h1>Catálogo de consultas oficiais, <span>completo.</span></h1>{nav(e)}'
              f'<p class="lead">{br(c["total"])} consultas a órgãos oficiais pelo documento da empresa: '
              f'{br(sum(1 for x in c["consultas"] if x["situacao"] == "em produção"))} em produção e o restante sob demanda. '
-             f'Cada nome leva à página da consulta no hathdata.com. Atualizado em {e(c["geradoEm"])}.</p>'
+             f'Cada nome leva à página da consulta no hathdata.com. Atualizado em {dbr(c["geradoEm"])}.</p>'
              f'<div class="fx"><input id="q" type="search" placeholder="Filtrar por consulta, órgão ou UF" aria-label="Filtrar">'
              f'<select id="es" aria-label="Esfera"><option value="">Todas as esferas</option>{opcoes}</select>'
              f'<select id="si" aria-label="Situação"><option value="">Toda situação</option><option value="sp">Em produção</option><option value="sd">Sob demanda</option></select></div>'
-             f'<p id="n"></p><div class="tb"><table><thead><tr><th>Consulta</th><th>Órgão</th><th>Esfera</th><th>UF</th><th>Entrada</th><th>Situação</th></tr></thead>'
+             f'<p id="n"></p><div class="tb"><table><thead><tr><th>Consulta</th><th class="m">Órgão</th><th class="m">Esfera</th><th>UF</th><th class="m">Entrada</th><th>Situação</th></tr></thead>'
              f'<tbody id="t">{"".join(linhas)}</tbody></table></div>'
              '<script>var q=document.getElementById("q"),es=document.getElementById("es"),si=document.getElementById("si"),n=document.getElementById("n");'
              'function f(){var v=q.value.toLowerCase(),k=0;document.querySelectorAll("#t tr").forEach(function(r){var ok=r.dataset.q.indexOf(v)>-1&&(!es.value||r.dataset.e==es.value)&&(!si.value||r.dataset.s==si.value);r.style.display=ok?"":"none";if(ok)k++});n.textContent=k+" consultas"}'
@@ -289,20 +319,20 @@ def pagina_mapa(pg):
         li = ''.join(f'<li><a href="{e(x["url"] + UTM)}">{e(x["titulo"] or x["url"])}</a>'
                      f'{" <span class=c>(" + br(len(x["consultas"])) + (" consulta)" if len(x["consultas"]) == 1 else " consultas)") + "</span>" if x["consultas"] else ""}</li>' for x in itens)
         blocos.append(f'<h2>{e(tipo[0].upper() + tipo[1:])} <span class="c">({br(len(itens))})</span></h2><ul>{li}</ul>')
-    corpo = (f'<div class="ey">Dados abertos · Hath Data</div><h1>Mapa do hathdata.com, <span>página por página.</span></h1>{nav(e)}'
+    corpo = (f'{marca()}<div class="ey">Dados abertos</div><h1>Mapa do hathdata.com, <span>página por página.</span></h1>{nav(e)}'
              f'<p class="lead">As {br(pg["total"])} páginas públicas do site, agrupadas por tipo, com as consultas que cada uma atende. '
-             f'O mesmo conteúdo em <a href="{SITE}/dados/abertos/paginas.json">paginas.json</a>. Atualizado em {e(pg["geradoEm"])}.</p>{"".join(blocos)}')
+             f'O mesmo conteúdo em <a href="{SITE}/dados/abertos/paginas.json">paginas.json</a>. Atualizado em {dbr(pg["geradoEm"])}.</p>{"".join(blocos)}')
     return casca('Mapa do hathdata.com: todas as páginas', f'As {pg["total"]} páginas públicas do hathdata.com, por tipo.', PAGES + 'paginas.html', corpo)
 
 
 def catalogo_md(c):
     partes = [f'# Catálogo completo de consultas\n\n{br(c["total"])} consultas a órgãos oficiais pelo documento da empresa, '
-              f'por esfera e órgão. Atualizado em {c["geradoEm"]}. Fonte: [hathdata.com/consultas]({SITE}/consultas). '
+              f'por esfera e órgão. Atualizado em {dbr(c["geradoEm"])}. Fonte: [hathdata.com/consultas]({SITE}/consultas). '
               f'Com busca e filtro: [página do catálogo]({PAGES}consultas.html).\n']
     por = {}
     for x in c['consultas']:
         por.setdefault(x['esfera'], {}).setdefault(x['orgao'], []).append(x)
-    for esf in sorted(por, key=lambda k: -sum(len(v) for v in por[k].values())):
+    for esf in sorted(por, key=lambda k: ESFERA_ORDEM.index(k) if k in ESFERA_ORDEM else 9):
         partes.append(f'\n## {ESFERAS.get(esf, esf)} ({br(sum(len(v) for v in por[esf].values()))})\n')
         for org in sorted(por[esf]):
             partes.append(f'\n### {org}\n\n| Consulta | UF | Entrada | Situação |\n| --- | --- | --- | --- |')
