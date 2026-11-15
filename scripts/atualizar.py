@@ -321,6 +321,9 @@ def main():
     (RAIZ / 'docs' / 'index.html').write_text(pagina(c, p, f), encoding='utf-8')
     (RAIZ / 'docs' / 'consultas.html').write_text(pagina_consultas(c), encoding='utf-8')
     (RAIZ / 'docs' / 'paginas.html').write_text(pagina_mapa(pg), encoding='utf-8')
+    mapa = ''.join(f'<url><loc>{PAGES}{u}</loc><lastmod>{c["geradoEm"]}</lastmod></url>' for u in ['', 'consultas.html', 'paginas.html'])
+    (RAIZ / 'docs' / 'sitemap.xml').write_text(
+        f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{mapa}</urlset>\n', encoding='utf-8')
     print(f"ok: {c['total']} consultas, {p['total']} prefeituras, {f['total']} fontes, {pg['total']} páginas ({c['geradoEm']})")
 
 
