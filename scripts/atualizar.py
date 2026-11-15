@@ -18,7 +18,7 @@ DADOS = RAIZ / 'dados'
 SITE = 'https://hathdata.com'
 REPO = 'https://github.com/hathdata/consultas-oficiais'
 PAGES = 'https://hathdata.github.io/consultas-oficiais/'
-ARQUIVOS = ['consultas.json', 'prefeituras.json', 'fontes-oficiais.json']
+ARQUIVOS = ['consultas.json', 'prefeituras.json', 'fontes-oficiais.json', 'paginas.json']
 UTM = '?utm_source=github&utm_medium=dados-abertos&utm_campaign=consultas-oficiais'
 ESFERAS = {'judiciario': 'Judiciário', 'municipal': 'Municipal', 'federal': 'Federal', 'estadual': 'Estadual', 'internacional': 'Internacional'}
 
@@ -41,13 +41,14 @@ def br(n):
     return f'{n:,}'.replace(',', '.')
 
 
-def readme(c, p, f):
+def readme(c, p, f, pg):
     esferas = Counter(x['esfera'] for x in c['consultas'])
     prod = [x for x in p['prefeituras'] if x['situacao'] == 'em produção' and x['guia']]
     prod.sort(key=lambda x: (x['uf'], x['cidade']))
     linhas = '\n'.join(
         f"| {x['cidade']} | {x['uf']} | {'; '.join(x['documentos'][:3])} | [guia]({x['guia']}) |" for x in prod
     )
+    tabela_tipos = '\n'.join(f'| {k[0].upper() + k[1:]} | {br(v)} |' for k, v in sorted(pg['tipos'].items(), key=lambda kv: -kv[1]))
     tabela_esfera = '\n'.join(f'| {ESFERAS.get(k, k)} | {br(v)} |' for k, v in esferas.most_common())
     return f"""# Consultas oficiais por CNPJ: dados abertos
 
@@ -64,6 +65,10 @@ páginas oficiais (gov.br, jus.br, leg.br) que sustentam cada regra.
 | [`dados/consultas.json`](dados/consultas.json) | consulta, órgão, esfera, UFs, dado de entrada, situação e página | {br(c['total'])} |
 | [`dados/prefeituras.json`](dados/prefeituras.json) | cidade, UF, documentos, guia, página de API e fontes oficiais | {br(p['total'])} ({p['producao']} em produção, {p['estados']} estados) |
 | [`dados/fontes-oficiais.json`](dados/fontes-oficiais.json) | página oficial citada e as guias que a citam | {br(f['total'])} |
+| [`dados/paginas.json`](dados/paginas.json) | todas as páginas públicas do hathdata.com: título, tipo, data e consultas atendidas | {br(pg['total'])} |
+
+**Catálogo completo**, por esfera e órgão, com link para cada consulta: [`CATALOGO.md`](CATALOGO.md) e
+[página com filtro]({PAGES}consultas.html). **Mapa do site**, página por página: [{PAGES}paginas.html]({PAGES}paginas.html).
 
 Atualizado em {c['geradoEm']}, todo dia, a partir de `{SITE}/dados/abertos/`.
 
@@ -72,6 +77,12 @@ Atualizado em {c['geradoEm']}, todo dia, a partir de `{SITE}/dados/abertos/`.
 | Esfera | Consultas |
 | --- | --- |
 {tabela_esfera}
+
+## Páginas do site por tipo
+
+| Tipo | Páginas |
+| --- | --- |
+{tabela_tipos}
 
 ## Prefeituras em produção
 
@@ -185,6 +196,7 @@ footer{{margin-top:40px;color:var(--cinza);font-size:14px}}
 </style></head><body><div class="rule"></div><div class="w">
 <div class="ey">Dados abertos · Hath Data</div>
 <h1>Consultas oficiais por CNPJ, <span>em dados abertos.</span></h1>
+<nav style="display:flex;flex-wrap:wrap;gap:8px 16px;margin:8px 0 20px"><a href="./">Prefeituras</a><a href="consultas.html">Catálogo de consultas ({br(c['total'])})</a><a href="paginas.html">Mapa do site</a><a href="{REPO}">GitHub</a></nav>
 <p class="lead">{e(c['slogan'])} {br(c['total'])} consultas a órgãos oficiais pelo CNPJ ou pela inscrição da empresa,
 {br(p['total'])} prefeituras com a guia de cada cidade e {br(f['total'])} páginas oficiais citadas. Atualizado em {e(c['geradoEm'])}.
 Fonte: <a href="{SITE}/{UTM}">hathdata.com</a>. Código e histórico: <a href="{REPO}">GitHub</a>.</p>
@@ -206,13 +218,110 @@ levam às páginas oficiais citadas.</p>
 """
 
 
+ESTILO = """<style>
+:root{--tinta:#19232D;--cinza:#5c6b7d;--linha:#e3e8ef;--papel:#fff;--fundo:#f7f9fc;--azul:#2D6EDC;--roxo:#5A14A0;--ok:#0f7b4f;--dem:#8a5a00}
+@media (prefers-color-scheme:dark){:root{--tinta:#e8edf4;--cinza:#9aa8b8;--linha:#2a3442;--papel:#121821;--fundo:#0c1118;--azul:#6f9ff0;--roxo:#b38ae6;--ok:#4fd39a;--dem:#e2b34d}}
+*{box-sizing:border-box}body{margin:0;background:var(--fundo);color:var(--tinta);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+.w{max-width:1080px;margin:0 auto;padding:32px 16px 64px}.rule{height:5px;background:linear-gradient(90deg,#00DFEB,#2D6EDC 50%,#5A14A0)}
+.ey{font:500 12px/1 ui-monospace,monospace;letter-spacing:.16em;text-transform:uppercase;color:var(--roxo)}
+h1{font-size:clamp(26px,4.4vw,40px);line-height:1.1;letter-spacing:-.03em;margin:12px 0}h1 span{background:linear-gradient(112deg,var(--azul),var(--roxo));-webkit-background-clip:text;background-clip:text;color:transparent}
+p.lead{color:var(--cinza);max-width:760px}a{color:var(--azul)}nav{display:flex;flex-wrap:wrap;gap:8px 16px;margin:8px 0 20px;font-size:15px}
+.fx{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 12px}.fx input{flex:1 1 260px}
+input,select{padding:11px 13px;border:1px solid var(--linha);border-radius:10px;background:var(--papel);color:var(--tinta);font-size:16px}
+.tb{overflow-x:auto;background:var(--papel);border:1px solid var(--linha);border-radius:12px}table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--linha);vertical-align:top}th{font-size:12px;color:var(--cinza);text-transform:uppercase;letter-spacing:.06em}
+.sp{color:var(--ok);white-space:nowrap}.sd{color:var(--dem);white-space:nowrap}.c{color:var(--cinza);font-size:13px}#n{color:var(--cinza);font-size:14px}
+h2{margin-top:36px}footer{margin-top:40px;color:var(--cinza);font-size:14px}
+</style>"""
+
+
+def nav(e):
+    return (f'<nav><a href="./">Prefeituras</a><a href="consultas.html">Catálogo de consultas</a><a href="paginas.html">Mapa do site</a>'
+            f'<a href="{SITE}/{UTM}">hathdata.com</a><a href="{REPO}">GitHub</a></nav>')
+
+
+def casca(titulo, descricao, url, corpo, ld=None):
+    e = html.escape
+    ldtag = f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>' if ld else ''
+    return (f'<!doctype html>\n<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+            f'<title>{e(titulo)}</title><meta name="description" content="{e(descricao)}"><link rel="canonical" href="{url}">{ldtag}{ESTILO}</head>'
+            f'<body><div class="rule"></div><div class="w">{corpo}<footer><a href="{SITE}/{UTM}">Hath Data</a> · Dados sob '
+            f'<a href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR">CC BY 4.0</a>, cite "Hath Data (hathdata.com)" com link.</footer></div></body></html>\n')
+
+
+def pagina_consultas(c):
+    e = html.escape
+    linhas = []
+    for x in sorted(c['consultas'], key=lambda x: (x['esfera'], x['orgao'], x['nome'])):
+        nome = f'<a href="{e(x["pagina"] + UTM)}">{e(x["nome"])}</a>' if x['pagina'] else e(x['nome'])
+        sit = 'sp' if x['situacao'] == 'em produção' else 'sd'
+        linhas.append(f'<tr data-e="{e(x["esfera"])}" data-s="{sit}" data-q="{e((x["nome"] + " " + x["orgao"] + " " + " ".join(x["ufs"])).lower())}">'
+                      f'<td>{nome}</td><td>{e(x["orgao"])}</td><td>{e(ESFERAS.get(x["esfera"], x["esfera"]))}</td><td>{e(", ".join(x["ufs"]) or "BR")}</td>'
+                      f'<td class="c">{e(", ".join(x["entrada"]))}</td><td><span class="{sit}">{e(x["situacao"])}</span></td></tr>')
+    opcoes = ''.join(f'<option value="{k}">{v}</option>' for k, v in ESFERAS.items())
+    corpo = (f'<div class="ey">Dados abertos · Hath Data</div><h1>Catálogo de consultas oficiais, <span>completo.</span></h1>{nav(e)}'
+             f'<p class="lead">{br(c["total"])} consultas a órgãos oficiais pelo CNPJ ou pela inscrição da empresa: '
+             f'{br(sum(1 for x in c["consultas"] if x["situacao"] == "em produção"))} em produção e o restante sob demanda. '
+             f'Cada nome leva à página da consulta no hathdata.com. Atualizado em {e(c["geradoEm"])}.</p>'
+             f'<div class="fx"><input id="q" type="search" placeholder="Filtrar por consulta, órgão ou UF" aria-label="Filtrar">'
+             f'<select id="es" aria-label="Esfera"><option value="">Todas as esferas</option>{opcoes}</select>'
+             f'<select id="si" aria-label="Situação"><option value="">Toda situação</option><option value="sp">Em produção</option><option value="sd">Sob demanda</option></select></div>'
+             f'<p id="n"></p><div class="tb"><table><thead><tr><th>Consulta</th><th>Órgão</th><th>Esfera</th><th>UF</th><th>Entrada</th><th>Situação</th></tr></thead>'
+             f'<tbody id="t">{"".join(linhas)}</tbody></table></div>'
+             '<script>var q=document.getElementById("q"),es=document.getElementById("es"),si=document.getElementById("si"),n=document.getElementById("n");'
+             'function f(){var v=q.value.toLowerCase(),k=0;document.querySelectorAll("#t tr").forEach(function(r){var ok=r.dataset.q.indexOf(v)>-1&&(!es.value||r.dataset.e==es.value)&&(!si.value||r.dataset.s==si.value);r.style.display=ok?"":"none";if(ok)k++});n.textContent=k+" consultas"}'
+             'q.oninput=es.onchange=si.onchange=f;f()</script>')
+    ld = {'@context': 'https://schema.org', '@type': 'Dataset', 'name': 'Catálogo de consultas oficiais por CNPJ (Hath Data)',
+          'description': f'{c["total"]} consultas a órgãos oficiais pelo CNPJ ou pela inscrição da empresa, com órgão, esfera, UF, dado de entrada e situação.',
+          'url': PAGES + 'consultas.html', 'license': 'https://creativecommons.org/licenses/by/4.0/', 'isAccessibleForFree': True, 'inLanguage': 'pt-BR',
+          'dateModified': c['geradoEm'], 'creator': {'@type': 'Organization', '@id': f'{SITE}/#organization', 'name': 'Hath Data', 'url': SITE},
+          'distribution': [{'@type': 'DataDownload', 'encodingFormat': 'application/json', 'contentUrl': f'{SITE}/dados/abertos/consultas.json'}]}
+    return casca('Catálogo de consultas oficiais por CNPJ', ld['description'], PAGES + 'consultas.html', corpo, ld)
+
+
+def pagina_mapa(pg):
+    e = html.escape
+    grupos = {}
+    for x in pg['paginas']:
+        grupos.setdefault(x['tipo'], []).append(x)
+    blocos = []
+    for tipo, itens in sorted(grupos.items(), key=lambda kv: (kv[0] != 'guia de cidade', -len(kv[1]))):
+        li = ''.join(f'<li><a href="{e(x["url"] + UTM)}">{e(x["titulo"] or x["url"])}</a>'
+                     f'{" <span class=c>(" + br(len(x["consultas"])) + (" consulta)" if len(x["consultas"]) == 1 else " consultas)") + "</span>" if x["consultas"] else ""}</li>' for x in itens)
+        blocos.append(f'<h2>{e(tipo[0].upper() + tipo[1:])} <span class="c">({br(len(itens))})</span></h2><ul>{li}</ul>')
+    corpo = (f'<div class="ey">Dados abertos · Hath Data</div><h1>Mapa do hathdata.com, <span>página por página.</span></h1>{nav(e)}'
+             f'<p class="lead">As {br(pg["total"])} páginas públicas do site, agrupadas por tipo, com as consultas que cada uma atende. '
+             f'O mesmo conteúdo em <a href="{SITE}/dados/abertos/paginas.json">paginas.json</a>. Atualizado em {e(pg["geradoEm"])}.</p>{"".join(blocos)}')
+    return casca('Mapa do hathdata.com: todas as páginas', f'As {pg["total"]} páginas públicas do hathdata.com, por tipo.', PAGES + 'paginas.html', corpo)
+
+
+def catalogo_md(c):
+    partes = [f'# Catálogo completo de consultas\n\n{br(c["total"])} consultas a órgãos oficiais pelo CNPJ ou pela inscrição da empresa, '
+              f'por esfera e órgão. Atualizado em {c["geradoEm"]}. Fonte: [hathdata.com/consultas]({SITE}/consultas). '
+              f'Com busca e filtro: [página do catálogo]({PAGES}consultas.html).\n']
+    por = {}
+    for x in c['consultas']:
+        por.setdefault(x['esfera'], {}).setdefault(x['orgao'], []).append(x)
+    for esf in sorted(por, key=lambda k: -sum(len(v) for v in por[k].values())):
+        partes.append(f'\n## {ESFERAS.get(esf, esf)} ({br(sum(len(v) for v in por[esf].values()))})\n')
+        for org in sorted(por[esf]):
+            partes.append(f'\n### {org}\n\n| Consulta | UF | Entrada | Situação |\n| --- | --- | --- | --- |')
+            for x in sorted(por[esf][org], key=lambda x: x['nome']):
+                nome = f'[{x["nome"]}]({x["pagina"]})' if x['pagina'] else x['nome']
+                partes.append(f'| {nome.replace("|", "/")} | {", ".join(x["ufs"]) or "BR"} | {", ".join(x["entrada"])} | {x["situacao"]} |')
+    return '\n'.join(partes) + '\n'
+
+
 def main():
     if '--local' not in sys.argv:
         baixar()
-    c, p, f = ler('consultas.json'), ler('prefeituras.json'), ler('fontes-oficiais.json')
-    (RAIZ / 'README.md').write_text(readme(c, p, f), encoding='utf-8')
+    c, p, f, pg = ler('consultas.json'), ler('prefeituras.json'), ler('fontes-oficiais.json'), ler('paginas.json')
+    (RAIZ / 'README.md').write_text(readme(c, p, f, pg), encoding='utf-8')
+    (RAIZ / 'CATALOGO.md').write_text(catalogo_md(c), encoding='utf-8')
     (RAIZ / 'docs' / 'index.html').write_text(pagina(c, p, f), encoding='utf-8')
-    print(f"ok: {c['total']} consultas, {p['total']} prefeituras, {f['total']} fontes ({c['geradoEm']})")
+    (RAIZ / 'docs' / 'consultas.html').write_text(pagina_consultas(c), encoding='utf-8')
+    (RAIZ / 'docs' / 'paginas.html').write_text(pagina_mapa(pg), encoding='utf-8')
+    print(f"ok: {c['total']} consultas, {p['total']} prefeituras, {f['total']} fontes, {pg['total']} páginas ({c['geradoEm']})")
 
 
 if __name__ == '__main__':

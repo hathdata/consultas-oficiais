@@ -13,6 +13,10 @@ páginas oficiais (gov.br, jus.br, leg.br) que sustentam cada regra.
 | [`dados/consultas.json`](dados/consultas.json) | consulta, órgão, esfera, UFs, dado de entrada, situação e página | 1.066 |
 | [`dados/prefeituras.json`](dados/prefeituras.json) | cidade, UF, documentos, guia, página de API e fontes oficiais | 123 (79 em produção, 21 estados) |
 | [`dados/fontes-oficiais.json`](dados/fontes-oficiais.json) | página oficial citada e as guias que a citam | 991 |
+| [`dados/paginas.json`](dados/paginas.json) | todas as páginas públicas do hathdata.com: título, tipo, data e consultas atendidas | 1.033 |
+
+**Catálogo completo**, por esfera e órgão, com link para cada consulta: [`CATALOGO.md`](CATALOGO.md) e
+[página com filtro](https://hathdata.github.io/consultas-oficiais/consultas.html). **Mapa do site**, página por página: [https://hathdata.github.io/consultas-oficiais/paginas.html](https://hathdata.github.io/consultas-oficiais/paginas.html).
 
 Atualizado em 2026-11-15, todo dia, a partir de `https://hathdata.com/dados/abertos/`.
 
@@ -25,6 +29,23 @@ Atualizado em 2026-11-15, todo dia, a partir de `https://hathdata.com/dados/aber
 | Federal | 148 |
 | Estadual | 110 |
 | Internacional | 7 |
+
+## Páginas do site por tipo
+
+| Tipo | Páginas |
+| --- | --- |
+| Consulta por órgão | 348 |
+| Consulta: comarca do TJMG | 298 |
+| Guia de cidade | 102 |
+| Guia e página de produto | 98 |
+| API de CND por cidade | 74 |
+| CND estadual | 27 |
+| Artigo | 25 |
+| Integração RD Station CRM | 22 |
+| Catálogo de consultas | 20 |
+| Solução por público | 11 |
+| Integração Omie | 7 |
+| Home | 1 |
 
 ## Prefeituras em produção
 
