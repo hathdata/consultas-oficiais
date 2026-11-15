@@ -50,11 +50,11 @@ def readme(c, p, f, pg):
     )
     tabela_tipos = '\n'.join(f'| {k[0].upper() + k[1:]} | {br(v)} |' for k, v in sorted(pg['tipos'].items(), key=lambda kv: -kv[1]))
     tabela_esfera = '\n'.join(f'| {ESFERAS.get(k, k)} | {br(v)} |' for k, v in esferas.most_common())
-    return f"""# Consultas oficiais por CNPJ: dados abertos
+    return f"""# Consultas oficiais por documento: dados abertos
 
 **{c['slogan']}**
 
-Lista aberta das consultas que a [Hath Data]({SITE}) faz em órgãos oficiais pelo CNPJ ou pela inscrição da
+Lista aberta das consultas que a [Hath Data]({SITE}) faz em órgãos oficiais pelo documento da
 empresa: certidões, situação cadastral, processos e listas oficiais. Cada prefeitura vem com a guia da cidade e as
 páginas oficiais (gov.br, jus.br, leg.br) que sustentam cada regra.
 
@@ -121,7 +121,7 @@ df.groupby("esfera").size()
 Dados sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt_BR). Pode usar, inclusive comercialmente,
 citando a fonte com link:
 
-> Fonte: Hath Data, Consultas oficiais por CNPJ ({SITE}).
+> Fonte: Hath Data, Consultas oficiais por documento ({SITE}).
 
 Há um [`CITATION.cff`](CITATION.cff) para gerar a citação pelo próprio GitHub.
 
@@ -149,9 +149,9 @@ def pagina(c, p, f):
     ld = {
         '@context': 'https://schema.org',
         '@type': 'Dataset',
-        'name': 'Consultas oficiais por CNPJ: dados abertos da Hath Data',
+        'name': 'Consultas oficiais por documento: dados abertos da Hath Data',
         'description': (
-            f'{c["total"]} consultas a órgãos oficiais pelo CNPJ ou pela inscrição da empresa, {p["total"]} prefeituras '
+            f'{c["total"]} consultas a órgãos oficiais pelo documento da empresa, {p["total"]} prefeituras '
             f'({p["producao"]} em produção, {p["estados"]} estados) com a guia de cada cidade e {f["total"]} páginas oficiais citadas.'
         ),
         'url': PAGES,
@@ -171,7 +171,7 @@ def pagina(c, p, f):
     return f"""<!doctype html>
 <html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Consultas oficiais por CNPJ: dados abertos</title>
+<title>Consultas oficiais por documento: dados abertos</title>
 <meta name="description" content="{e(ld['description'])}">
 <link rel="canonical" href="{PAGES}">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
@@ -195,9 +195,9 @@ th{{font-size:12px;color:var(--cinza);text-transform:uppercase;letter-spacing:.0
 footer{{margin-top:40px;color:var(--cinza);font-size:14px}}
 </style></head><body><div class="rule"></div><div class="w">
 <div class="ey">Dados abertos · Hath Data</div>
-<h1>Consultas oficiais por CNPJ, <span>em dados abertos.</span></h1>
+<h1>Consultas oficiais por documento, <span>em dados abertos.</span></h1>
 <nav style="display:flex;flex-wrap:wrap;gap:8px 16px;margin:8px 0 20px"><a href="./">Prefeituras</a><a href="consultas.html">Catálogo de consultas ({br(c['total'])})</a><a href="paginas.html">Mapa do site</a><a href="{REPO}">GitHub</a></nav>
-<p class="lead">{e(c['slogan'])} {br(c['total'])} consultas a órgãos oficiais pelo CNPJ ou pela inscrição da empresa,
+<p class="lead">{e(c['slogan'])} {br(c['total'])} consultas a órgãos oficiais pelo documento da empresa,
 {br(p['total'])} prefeituras com a guia de cada cidade e {br(f['total'])} páginas oficiais citadas. Atualizado em {e(c['geradoEm'])}.
 Fonte: <a href="{SITE}/{UTM}">hathdata.com</a>. Código e histórico: <a href="{REPO}">GitHub</a>.</p>
 <div class="ns">{cards}</div>
@@ -260,7 +260,7 @@ def pagina_consultas(c):
                       f'<td class="c">{e(", ".join(x["entrada"]))}</td><td><span class="{sit}">{e(x["situacao"])}</span></td></tr>')
     opcoes = ''.join(f'<option value="{k}">{v}</option>' for k, v in ESFERAS.items())
     corpo = (f'<div class="ey">Dados abertos · Hath Data</div><h1>Catálogo de consultas oficiais, <span>completo.</span></h1>{nav(e)}'
-             f'<p class="lead">{br(c["total"])} consultas a órgãos oficiais pelo CNPJ ou pela inscrição da empresa: '
+             f'<p class="lead">{br(c["total"])} consultas a órgãos oficiais pelo documento da empresa: '
              f'{br(sum(1 for x in c["consultas"] if x["situacao"] == "em produção"))} em produção e o restante sob demanda. '
              f'Cada nome leva à página da consulta no hathdata.com. Atualizado em {e(c["geradoEm"])}.</p>'
              f'<div class="fx"><input id="q" type="search" placeholder="Filtrar por consulta, órgão ou UF" aria-label="Filtrar">'
@@ -271,12 +271,12 @@ def pagina_consultas(c):
              '<script>var q=document.getElementById("q"),es=document.getElementById("es"),si=document.getElementById("si"),n=document.getElementById("n");'
              'function f(){var v=q.value.toLowerCase(),k=0;document.querySelectorAll("#t tr").forEach(function(r){var ok=r.dataset.q.indexOf(v)>-1&&(!es.value||r.dataset.e==es.value)&&(!si.value||r.dataset.s==si.value);r.style.display=ok?"":"none";if(ok)k++});n.textContent=k+" consultas"}'
              'q.oninput=es.onchange=si.onchange=f;f()</script>')
-    ld = {'@context': 'https://schema.org', '@type': 'Dataset', 'name': 'Catálogo de consultas oficiais por CNPJ (Hath Data)',
-          'description': f'{c["total"]} consultas a órgãos oficiais pelo CNPJ ou pela inscrição da empresa, com órgão, esfera, UF, dado de entrada e situação.',
+    ld = {'@context': 'https://schema.org', '@type': 'Dataset', 'name': 'Catálogo de consultas oficiais por documento (Hath Data)',
+          'description': f'{c["total"]} consultas a órgãos oficiais pelo documento da empresa, com órgão, esfera, UF, dado de entrada e situação.',
           'url': PAGES + 'consultas.html', 'license': 'https://creativecommons.org/licenses/by/4.0/', 'isAccessibleForFree': True, 'inLanguage': 'pt-BR',
           'dateModified': c['geradoEm'], 'creator': {'@type': 'Organization', '@id': f'{SITE}/#organization', 'name': 'Hath Data', 'url': SITE},
           'distribution': [{'@type': 'DataDownload', 'encodingFormat': 'application/json', 'contentUrl': f'{SITE}/dados/abertos/consultas.json'}]}
-    return casca('Catálogo de consultas oficiais por CNPJ', ld['description'], PAGES + 'consultas.html', corpo, ld)
+    return casca('Catálogo de consultas oficiais por documento', ld['description'], PAGES + 'consultas.html', corpo, ld)
 
 
 def pagina_mapa(pg):
@@ -296,7 +296,7 @@ def pagina_mapa(pg):
 
 
 def catalogo_md(c):
-    partes = [f'# Catálogo completo de consultas\n\n{br(c["total"])} consultas a órgãos oficiais pelo CNPJ ou pela inscrição da empresa, '
+    partes = [f'# Catálogo completo de consultas\n\n{br(c["total"])} consultas a órgãos oficiais pelo documento da empresa, '
               f'por esfera e órgão. Atualizado em {c["geradoEm"]}. Fonte: [hathdata.com/consultas]({SITE}/consultas). '
               f'Com busca e filtro: [página do catálogo]({PAGES}consultas.html).\n']
     por = {}

@@ -1,6 +1,6 @@
 # Catálogo completo de consultas
 
-1.066 consultas a órgãos oficiais pelo CNPJ ou pela inscrição da empresa, por esfera e órgão. Atualizado em 2026-11-15. Fonte: [hathdata.com/consultas](https://hathdata.com/consultas). Com busca e filtro: [página do catálogo](https://hathdata.github.io/consultas-oficiais/consultas.html).
+1.066 consultas a órgãos oficiais pelo documento da empresa, por esfera e órgão. Atualizado em 2026-11-15. Fonte: [hathdata.com/consultas](https://hathdata.com/consultas). Com busca e filtro: [página do catálogo](https://hathdata.github.io/consultas-oficiais/consultas.html).
 
 
 ## Judiciário (569)

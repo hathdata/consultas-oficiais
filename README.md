@@ -1,8 +1,8 @@
-# Consultas oficiais por CNPJ: dados abertos
+# Consultas oficiais por documento: dados abertos
 
 **Toda consulta online, automatizada.**
 
-Lista aberta das consultas que a [Hath Data](https://hathdata.com) faz em órgãos oficiais pelo CNPJ ou pela inscrição da
+Lista aberta das consultas que a [Hath Data](https://hathdata.com) faz em órgãos oficiais pelo documento da
 empresa: certidões, situação cadastral, processos e listas oficiais. Cada prefeitura vem com a guia da cidade e as
 páginas oficiais (gov.br, jus.br, leg.br) que sustentam cada regra.
 
@@ -162,7 +162,7 @@ df.groupby("esfera").size()
 Dados sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt_BR). Pode usar, inclusive comercialmente,
 citando a fonte com link:
 
-> Fonte: Hath Data, Consultas oficiais por CNPJ (https://hathdata.com).
+> Fonte: Hath Data, Consultas oficiais por documento (https://hathdata.com).
 
 Há um [`CITATION.cff`](CITATION.cff) para gerar a citação pelo próprio GitHub.
 
