@@ -3,7 +3,7 @@
   "descricao": "Páginas oficiais (gov.br, jus.br, leg.br) citadas nas guias do hathdata.com.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
   "geradoEm": "2026-11-15",
-  "total": 991,
+  "total": 997,
   "slogan": "Toda consulta online, automatizada.",
   "fontes": [
     {
@@ -815,7 +815,8 @@
       "nome": "Prefeitura de Balneário Camboriú: Portal do Cidadão (Certidões)",
       "dominio": "cidadao.bc.sc.gov.br",
       "citadaEm": [
-        "https://hathdata.com/certidao-negativa-municipal-balneario-camboriu"
+        "https://hathdata.com/certidao-negativa-municipal-balneario-camboriu",
+        "https://hathdata.com/api-cnd-balneario-camboriu"
       ]
     },
     {
@@ -840,7 +841,8 @@
       "dominio": "cidadao.maringa.pr.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-maringa",
-        "https://hathdata.com/api-cnd-maringa"
+        "https://hathdata.com/api-cnd-maringa",
+        "https://hathdata.com/api-maringa-validar-certidao"
       ]
     },
     {
@@ -1103,7 +1105,8 @@
       "nome": "Prefeitura de Balneário Camboriú: Lei Complementar nº 116/2025, Código Tributário",
       "dominio": "controladoria.bc.sc.gov.br",
       "citadaEm": [
-        "https://hathdata.com/certidao-negativa-municipal-balneario-camboriu"
+        "https://hathdata.com/certidao-negativa-municipal-balneario-camboriu",
+        "https://hathdata.com/api-cnd-balneario-camboriu"
       ]
     },
     {
@@ -1146,6 +1149,22 @@
       "dominio": "dados.gov.br",
       "citadaEm": [
         "https://hathdata.com/dados-publicos-cnpj"
+      ]
+    },
+    {
+      "url": "https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj",
+      "nome": "dados.gov.br: Cadastro Nacional da Pessoa Jurídica (CNPJ)",
+      "dominio": "dados.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-receita-vinculos-societarios",
+        "https://hathdata.com/api-receita-resumo-dos-socios",
+        "https://hathdata.com/api-receita-participacoes-societarias",
+        "https://hathdata.com/api-receita-contatos-compartilhados",
+        "https://hathdata.com/api-receita-empresas-da-pessoa",
+        "https://hathdata.com/api-receita-resumo-empresas-da-pessoa",
+        "https://hathdata.com/api-receita-co-socios",
+        "https://hathdata.com/api-receita-dados-do-cnpj",
+        "https://hathdata.com/api-receita-situacao-cadastral"
       ]
     },
     {
@@ -1752,7 +1771,8 @@
       "dominio": "fiscalizacao.lages.sc.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-lages",
-        "https://hathdata.com/api-cnd-lages"
+        "https://hathdata.com/api-cnd-lages",
+        "https://hathdata.com/api-lages-validar-certidao"
       ]
     },
     {
@@ -1789,12 +1809,21 @@
       ]
     },
     {
+      "url": "https://governodigital.foz.pr.gov.br/governo-digital/contribuinte/validar-certidao",
+      "nome": "Prefeitura de Foz do Iguaçu: Governo Digital, validar certidão",
+      "dominio": "governodigital.foz.pr.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-foz-do-iguacu-validar-certidao"
+      ]
+    },
+    {
       "url": "https://governodigital.foz.pr.gov.br/governo-digital/servicos/validacao-de-documentos-de-certidao",
       "nome": "Prefeitura de Foz do Iguaçu (PR): Validação de Documentos de Certidão",
       "dominio": "governodigital.foz.pr.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-foz-do-iguacu",
-        "https://hathdata.com/api-cnd-foz-do-iguacu"
+        "https://hathdata.com/api-cnd-foz-do-iguacu",
+        "https://hathdata.com/api-foz-do-iguacu-validar-certidao"
       ]
     },
     {
@@ -1900,7 +1929,8 @@
       "dominio": "iptu.uberaba.mg.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-uberaba",
-        "https://hathdata.com/api-cnd-uberaba"
+        "https://hathdata.com/api-cnd-uberaba",
+        "https://hathdata.com/api-uberaba-validar-certidao"
       ]
     },
     {
@@ -1941,7 +1971,8 @@
       "nome": "Prefeitura de Itajaí: TMI, Consulta validade CND",
       "dominio": "iss.itajai.sc.gov.br",
       "citadaEm": [
-        "https://hathdata.com/certidao-negativa-municipal-itajai"
+        "https://hathdata.com/certidao-negativa-municipal-itajai",
+        "https://hathdata.com/api-itajai-validar-certidao"
       ]
     },
     {
@@ -1949,7 +1980,8 @@
       "nome": "Prefeitura de Itajaí: TMI, Certidões on-line",
       "dominio": "iss.itajai.sc.gov.br",
       "citadaEm": [
-        "https://hathdata.com/certidao-negativa-municipal-itajai"
+        "https://hathdata.com/certidao-negativa-municipal-itajai",
+        "https://hathdata.com/api-cnd-itajai"
       ]
     },
     {
@@ -2649,7 +2681,8 @@
       "dominio": "portal.londrina.pr.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-londrina",
-        "https://hathdata.com/api-cnd-londrina"
+        "https://hathdata.com/api-cnd-londrina",
+        "https://hathdata.com/api-londrina-validar-certidao"
       ]
     },
     {
@@ -2886,7 +2919,8 @@
         "https://hathdata.com/api-cgu-ceis",
         "https://hathdata.com/api-cgu-cnep",
         "https://hathdata.com/api-cgu-cepim",
-        "https://hathdata.com/api-cgu-acordos-de-leniencia"
+        "https://hathdata.com/api-cgu-acordos-de-leniencia",
+        "https://hathdata.com/api-cgu-sancoes-portal-da-transparencia"
       ]
     },
     {
@@ -2902,6 +2936,14 @@
         "https://hathdata.com/rd-station-crm-enriquecimento-de-dados",
         "https://hathdata.com/rd-station-crm-risco-do-cliente",
         "https://hathdata.com/rd-station-crm-monitoramento"
+      ]
+    },
+    {
+      "url": "https://portaldatransparencia.gov.br/sancoes/consulta?ordenarPor=nomeSancionado&direcao=asc",
+      "nome": "CGU: Portal da Transparência, Consulta de Sanções",
+      "dominio": "portaldatransparencia.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-cgu-sancoes-portal-da-transparencia"
       ]
     },
     {
@@ -2966,6 +3008,14 @@
       "dominio": "portalsiat.uberlandia.mg.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-uberlandia"
+      ]
+    },
+    {
+      "url": "https://portalsiat.uberlandia.mg.gov.br/dsf_udi_portal/inicial.do?evento=montaMenu&acronym=VALIDAR",
+      "nome": "Prefeitura de Uberlândia: portal SIAT, Validar Certidões",
+      "dominio": "portalsiat.uberlandia.mg.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-uberlandia-validar-certidao"
       ]
     },
     {
@@ -3281,6 +3331,14 @@
       "dominio": "publicacoes.boavista.rr.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-boa-vista"
+      ]
+    },
+    {
+      "url": "https://radar.serpro.gov.br/main.html#/cidadao",
+      "nome": "Serpro: RADAR, Consulta de Veículo",
+      "dominio": "radar.serpro.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-radar-serpro-multas"
       ]
     },
     {
@@ -4335,7 +4393,8 @@
       "nome": "Prefeitura de Itajaí: Portal de Serviços, CND On-line",
       "dominio": "servicos.itajai.sc.gov.br",
       "citadaEm": [
-        "https://hathdata.com/certidao-negativa-municipal-itajai"
+        "https://hathdata.com/certidao-negativa-municipal-itajai",
+        "https://hathdata.com/api-cnd-itajai"
       ]
     },
     {
@@ -4351,7 +4410,8 @@
       "nome": "Prefeitura de Itajaí: Portal de Serviços, CND Validador",
       "dominio": "servicos.itajai.sc.gov.br",
       "citadaEm": [
-        "https://hathdata.com/certidao-negativa-municipal-itajai"
+        "https://hathdata.com/certidao-negativa-municipal-itajai",
+        "https://hathdata.com/api-itajai-validar-certidao"
       ]
     },
     {
@@ -4367,7 +4427,8 @@
       "nome": "Prefeitura de Ponta Grossa: Portal do Contribuinte, Autenticar Documento",
       "dominio": "servicos.pontagrossa.pr.gov.br",
       "citadaEm": [
-        "https://hathdata.com/api-cnd-ponta-grossa"
+        "https://hathdata.com/api-cnd-ponta-grossa",
+        "https://hathdata.com/api-ponta-grossa-validar-certidao"
       ]
     },
     {
@@ -5498,7 +5559,8 @@
       "dominio": "storage.maringa.pr.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-maringa",
-        "https://hathdata.com/api-cnd-maringa"
+        "https://hathdata.com/api-cnd-maringa",
+        "https://hathdata.com/api-maringa-validar-certidao"
       ]
     },
     {
@@ -5570,7 +5632,9 @@
       "nome": "Prefeitura de Criciúma: Arrecadação e Apoio Tributário",
       "dominio": "tributos.criciuma.sc.gov.br",
       "citadaEm": [
-        "https://hathdata.com/certidao-negativa-municipal-criciuma"
+        "https://hathdata.com/certidao-negativa-municipal-criciuma",
+        "https://hathdata.com/api-cnd-criciuma",
+        "https://hathdata.com/api-criciuma-validar-certidao"
       ]
     },
     {
@@ -5610,7 +5674,8 @@
       "nome": "Prefeitura de Criciúma: Valores em Aberto",
       "dominio": "tributos.criciuma.sc.gov.br",
       "citadaEm": [
-        "https://hathdata.com/certidao-negativa-municipal-criciuma"
+        "https://hathdata.com/certidao-negativa-municipal-criciuma",
+        "https://hathdata.com/api-cnd-criciuma"
       ]
     },
     {
@@ -7332,6 +7397,22 @@
       ]
     },
     {
+      "url": "https://www.gov.br/receitafederal/dados/cnpj-metadados.pdf",
+      "nome": "Receita Federal: metadados do CNPJ (PDF)",
+      "dominio": "www.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-receita-vinculos-societarios",
+        "https://hathdata.com/api-receita-resumo-dos-socios",
+        "https://hathdata.com/api-receita-participacoes-societarias",
+        "https://hathdata.com/api-receita-contatos-compartilhados",
+        "https://hathdata.com/api-receita-empresas-da-pessoa",
+        "https://hathdata.com/api-receita-resumo-empresas-da-pessoa",
+        "https://hathdata.com/api-receita-co-socios",
+        "https://hathdata.com/api-receita-dados-do-cnpj",
+        "https://hathdata.com/api-receita-situacao-cadastral"
+      ]
+    },
+    {
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/cadastros/cib",
       "nome": "Perguntas frequentes do CIB (Receita Federal)",
       "dominio": "www.gov.br",
@@ -7532,7 +7613,9 @@
       "nome": "Prefeitura de Jaraguá do Sul: Certidão Negativa de Débitos (carta de serviços)",
       "dominio": "www.jaraguadosul.sc.gov.br",
       "citadaEm": [
-        "https://hathdata.com/certidao-negativa-municipal-jaragua-do-sul"
+        "https://hathdata.com/certidao-negativa-municipal-jaragua-do-sul",
+        "https://hathdata.com/api-cnd-jaragua-do-sul",
+        "https://hathdata.com/api-jaragua-do-sul-validar-certidao"
       ]
     },
     {
@@ -8317,7 +8400,8 @@
       "citadaEm": [
         "https://hathdata.com/api-antt-multa-excesso-de-peso",
         "https://hathdata.com/api-antt-multa-evasao-de-pedagio",
-        "https://hathdata.com/api-der-sp-dare"
+        "https://hathdata.com/api-der-sp-dare",
+        "https://hathdata.com/api-radar-serpro-multas"
       ]
     },
     {
@@ -9376,7 +9460,8 @@
       "nome": "Prefeitura de Londrina: autenticidade de certidões",
       "dominio": "www2.londrina.pr.gov.br",
       "citadaEm": [
-        "https://hathdata.com/api-cnd-londrina"
+        "https://hathdata.com/api-cnd-londrina",
+        "https://hathdata.com/api-londrina-validar-certidao"
       ]
     },
     {

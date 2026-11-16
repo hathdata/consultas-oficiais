@@ -3,14 +3,14 @@
   "descricao": "Todas as páginas públicas do hathdata.com (sitemap), com título, tipo, data e as consultas que cada uma atende.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
   "geradoEm": "2026-11-15",
-  "total": 1033,
+  "total": 1061,
   "slogan": "Toda consulta online, automatizada.",
   "tipos": {
-    "API de CND por cidade": 74,
+    "API de CND por cidade": 79,
     "artigo": 25,
     "catálogo de consultas": 20,
     "CND estadual": 27,
-    "consulta por órgão": 348,
+    "consulta por órgão": 371,
     "consulta: comarca do TJMG": 298,
     "guia de cidade": 102,
     "guia e página de produto": 98,
@@ -27,9 +27,16 @@
       "h1": "API de CND de Aracruz: dois modelos, duas validades",
       "descricao": "API da Certidão Negativa de Débitos da Prefeitura de Aracruz (ES) pelo CNPJ: negativa com 60 dias ou positiva com efeito de negativa com 30, e a chave de validação.",
       "atualizadoEm": "2026-11-06",
-      "consultas": [
-        "Prefeitura / ES / Aracruz / Certidão Negativa de Débitos (CNPJ)"
-      ]
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-cnd-balneario-camboriu",
+      "tipo": "API de CND por cidade",
+      "titulo": "API de CND de Balneário Camboriú (SC) pelo CNPJ",
+      "h1": "API de CND de Balneário Camboriú: um número por certidão vigente",
+      "descricao": "",
+      "atualizadoEm": "2026-11-15",
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-cnd-barcarena",
@@ -38,9 +45,7 @@
       "h1": "API de CND de Barcarena: CNPJ e inscrição juntos",
       "descricao": "API da Certidão de Débitos de Tributos de Barcarena (PA) pelo CNPJ e a inscrição municipal. A prefeitura emite a positiva: o PDF volta com situação, número e validade de 30 dias.",
       "atualizadoEm": "2026-11-06",
-      "consultas": [
-        "Prefeitura / PA / Barcarena / Certidão de Débitos de Tributos (CNPJ)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-cnd-barueri",
@@ -101,6 +106,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/api-cnd-brusque",
+      "tipo": "API de CND por cidade",
+      "titulo": "API de CND de Brusque (SC): negativa ou aviso no JSON",
+      "h1": "API de CND de Brusque: quando não há certidão, há um campo",
+      "descricao": "",
+      "atualizadoEm": "2026-11-15",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/api-cnd-campinas",
       "tipo": "API de CND por cidade",
       "titulo": "API de CND de Campinas (SP): certidão de qualquer origem pelo CNPJ",
@@ -119,9 +133,7 @@
       "h1": "API de CND de Campos dos Goytacazes: a certidão da empresa",
       "descricao": "API da certidão de débitos da Prefeitura de Campos dos Goytacazes (RJ) pelo CNPJ ou pela inscrição municipal: negativa ou positiva, Código de Verificação e validade de 30 dias.",
       "atualizadoEm": "2026-11-02",
-      "consultas": [
-        "Prefeitura / RJ / Campos dos Goytacazes / Certidão Negativa de Débitos (empresa)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-cnd-cascavel",
@@ -166,9 +178,7 @@
       "h1": "API de CND de Coqueiral: os débitos do CNPJ",
       "descricao": "API da certidão de débitos municipais da Prefeitura de Coqueiral (MG) pelo CNPJ: negativa ou positiva na hora, com o Nº para validação e validade de 90 dias.",
       "atualizadoEm": "2026-11-02",
-      "consultas": [
-        "Prefeitura / MG / Coqueiral / Certidão de Débitos Municipais (CNPJ)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-cnd-cotia",
@@ -177,6 +187,15 @@
       "h1": "API de CND de Cotia: certidão e ficha cadastral",
       "descricao": "",
       "atualizadoEm": "2026-10-27",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-cnd-criciuma",
+      "tipo": "API de CND por cidade",
+      "titulo": "API de CND de Criciúma (SC): 90 ou 30 dias pelo CNPJ",
+      "h1": "API de CND de Criciúma: três validades na mesma rota",
+      "descricao": "",
+      "atualizadoEm": "2026-11-15",
       "consultas": []
     },
     {
@@ -204,9 +223,7 @@
       "h1": "API de CND de Duque de Caxias: a certidão mobiliária",
       "descricao": "API da Certidão Negativa de Tributos Municipais (Mobiliária) de Duque de Caxias (RJ) pelo CNPJ: 90 dias, ISS, taxas, IPTU e dívida ativa, e a recusa do portal explicada.",
       "atualizadoEm": "2026-11-06",
-      "consultas": [
-        "Prefeitura / RJ / Duque de Caxias / Certidão Negativa de Débitos (CNPJ)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-cnd-estadual",
@@ -265,7 +282,7 @@
       "titulo": "API de CND de Foz do Iguaçu (PR): só o CNPJ, Fins de Direito",
       "h1": "API de CND de Foz do Iguaçu: o título do PDF diz tudo",
       "descricao": "",
-      "atualizadoEm": "2026-11-14",
+      "atualizadoEm": "2026-11-15",
       "consultas": []
     },
     {
@@ -340,9 +357,16 @@
       "h1": "API de CND de Ipiranga do Norte: só sai a negativa",
       "descricao": "API da certidão negativa de débitos municipais de Ipiranga do Norte (MT) pelo CNPJ: tributos, taxas e dívida ativa. Com débito, o portal recusa; a resposta explica o motivo.",
       "atualizadoEm": "2026-11-06",
-      "consultas": [
-        "Prefeitura / MT / Ipiranga do Norte / Certidão Negativa de Débitos (CNPJ)"
-      ]
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-cnd-itajai",
+      "tipo": "API de CND por cidade",
+      "titulo": "API de CND de Itajaí (SC): finalidade não muda a situação",
+      "h1": "API de CND de Itajaí: a finalidade vai no PDF, a situação vem do cadastro",
+      "descricao": "",
+      "atualizadoEm": "2026-11-15",
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-cnd-itapema",
@@ -372,6 +396,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/api-cnd-jaragua-do-sul",
+      "tipo": "API de CND por cidade",
+      "titulo": "API de CND de Jaraguá do Sul (SC): CNPJ sem cadastro também",
+      "h1": "API de CND de Jaraguá do Sul: quem não tem cadastro também recebe certidão",
+      "descricao": "",
+      "atualizadoEm": "2026-11-15",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/api-cnd-joinville",
       "tipo": "API de CND por cidade",
       "titulo": "API de CND de Joinville (SC): CND e Não Cadastro pelo CNPJ",
@@ -387,9 +420,7 @@
       "h1": "API de CND de Jundiaí: a CND municipal da empresa",
       "descricao": "API da certidão negativa de débitos municipais da Prefeitura de Jundiaí (SP) pelo CNPJ: o PDF oficial, válido por 180 dias, com o Código de Controle para validar.",
       "atualizadoEm": "2026-10-30",
-      "consultas": [
-        "Prefeitura / SP / Jundiaí / Certidão Negativa de Débitos Municipais (CNPJ)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-cnd-lages",
@@ -408,7 +439,7 @@
       "titulo": "API de CND de Londrina (PR): Certidão Negativa Unificada",
       "h1": "API de CND de Londrina: a Unificada, válida por 120 dias",
       "descricao": "",
-      "atualizadoEm": "2026-11-14",
+      "atualizadoEm": "2026-11-15",
       "consultas": []
     },
     {
@@ -426,7 +457,7 @@
       "titulo": "API de CND de Maringá (PR): finalidade define 60 ou 90 dias",
       "h1": "API de CND de Maringá: a finalidade escolhe o prazo",
       "descricao": "",
-      "atualizadoEm": "2026-11-14",
+      "atualizadoEm": "2026-11-15",
       "consultas": []
     },
     {
@@ -484,7 +515,7 @@
       "titulo": "API de CND de Paranaguá (PR): também para CNPJ de fora",
       "h1": "API de CND de Paranaguá: certidão até para quem não tem inscrição",
       "descricao": "",
-      "atualizadoEm": "2026-11-14",
+      "atualizadoEm": "2026-11-15",
       "consultas": []
     },
     {
@@ -493,7 +524,7 @@
       "titulo": "API de CND de Ponta Grossa (PR): 8 finalidades, 60 dias",
       "h1": "API de CND de Ponta Grossa: imóveis e atividades numa certidão só",
       "descricao": "",
-      "atualizadoEm": "2026-11-14",
+      "atualizadoEm": "2026-11-15",
       "consultas": []
     },
     {
@@ -604,9 +635,7 @@
       "h1": "API de CND de Santana do Paraíso: trinta dias, com chave",
       "descricao": "API da Certidão Negativa de Débitos de Santana do Paraíso (MG) pelo CNPJ: 30 dias, Chave de Autenticidade e o motivo quando a prefeitura recusa por débito.",
       "atualizadoEm": "2026-11-06",
-      "consultas": [
-        "Prefeitura / MG / Santana do Paraíso / Certidão Negativa de Débitos (CNPJ)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-cnd-santo-andre",
@@ -657,9 +686,7 @@
       "h1": "API de CND de São Francisco do Sul: tributos e dívida ativa",
       "descricao": "API da Certidão Negativa de Débitos de São Francisco do Sul (SC) pelo CNPJ: tributos municipais, inscritos ou não em dívida ativa, 60 dias e número para autenticar.",
       "atualizadoEm": "2026-11-06",
-      "consultas": [
-        "Prefeitura / SC / São Francisco do Sul / Certidão Negativa de Débitos (CNPJ)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-cnd-sao-jose",
@@ -972,9 +999,9 @@
     {
       "url": "https://hathdata.com/consultas",
       "tipo": "catálogo de consultas",
-      "titulo": "Catálogo de coletas: 1208+ consultas oficiais por CNPJ",
+      "titulo": "Catálogo de coletas: 1223+ consultas oficiais por CNPJ",
       "h1": "Consultas por órgão, renovadas antes de vencer",
-      "descricao": "1208+ consultas oficiais coletadas por automação em órgãos públicos, 1089+ com documento em PDF emitido na própria fonte e 13.167+ atributos retornados, nos 27 estados. Busque por órgão, categoria, estado e abrangência.",
+      "descricao": "1223+ consultas oficiais coletadas por automação em órgãos públicos, 1104+ com documento em PDF emitido na própria fonte e 13.331+ atributos retornados, nos 27 estados. Busque por órgão, categoria, estado e abrangência.",
       "atualizadoEm": null,
       "consultas": []
     },
@@ -1843,6 +1870,17 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/api-brusque-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Brusque (SC) pelo número/ano",
+      "h1": "API Validação de Certidão de Brusque (SC): a certidão recebida é verdadeira?",
+      "descricao": "API da autenticidade da certidão negativa de Brusque (SC): pelo número/ano impresso, VALIDA com o PDF reemitido ou INVALIDA, sem emitir certidão nova.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": [
+        "Prefeitura / SC / Brusque / Autenticidade de Certidão Negativa"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-bsm-processos-disciplinares",
       "tipo": "consulta por órgão",
       "titulo": "API BSM: processos administrativos disciplinares da B3",
@@ -2250,6 +2288,17 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-criciuma-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Criciúma (SC) pelo código de controle",
+      "h1": "API Validação de Certidão de Criciúma (SC): o código de controle confere?",
+      "descricao": "API da validação de documentos do Cidadão Web de Criciúma (SC): pelo código de controle, valida com a segunda via, vencida ou nao_encontrada.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": [
+        "Prefeitura / SC / Criciúma / Validação de Documentos"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-cvm-penalidades-temporarias",
       "tipo": "consulta por órgão",
       "titulo": "API CVM Penalidades temporárias: impedidos no mercado",
@@ -2312,6 +2361,15 @@
       "consultas": [
         "DER / SP / DARE"
       ]
+    },
+    {
+      "url": "https://hathdata.com/api-divinopolis-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Divinópolis (MG): código de 16 letras",
+      "h1": "Validar certidão de Divinópolis (MG): um código para cada cadastro",
+      "descricao": "API da validação de certidões de Divinópolis (MG): documento e código de controle de 16 caracteres; valida, vencida ou nao_encontrada, por cadastro.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-dnit-certidao-de-multas",
@@ -2465,9 +2523,7 @@
       "h1": "API Certidão de Inexistência de Inscrição de Feira de Santana (BA): a prova de que a empresa não é inscrita",
       "descricao": "API da certidão de inexistência de inscrição de Feira de Santana (BA): prova que o CNPJ não tem cadastro municipal, com código e validade.",
       "atualizadoEm": "2026-10-30",
-      "consultas": [
-        "Prefeitura / BA / Feira de Santana / Certidão de Inexistência de Inscrição (CNPJ)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-feira-de-santana-validar-alteracao-endereco",
@@ -2591,9 +2647,7 @@
       "h1": "API Validar Inexistência de Inscrição de Feira de Santana (BA): a inexistência apresentada confere?",
       "descricao": "API da validação da certidão de inexistência de inscrição de Feira de Santana (BA): CNPJ, código e emissão conferidos na SEFAZ.",
       "atualizadoEm": "2026-10-30",
-      "consultas": [
-        "Prefeitura / BA / Feira de Santana / Validação da Inexistência de Inscrição (CNPJ)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-feira-de-santana-validar-itiv",
@@ -2646,6 +2700,17 @@
       "atualizadoEm": "2026-10-30",
       "consultas": [
         "Prefeitura / BA / Feira de Santana / Certidão Valor Venal para Averbação"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-foz-do-iguacu-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Foz do Iguaçu (PR) pelo código",
+      "h1": "API Validação de Certidão de Foz do Iguaçu (PR): Normal, Negativa e o resto do registro",
+      "descricao": "API da Validação de Documentos de Certidão de Foz do Iguaçu (PR): o Código Autenticador devolve a situação registrada, como Normal - Negativa, e os dados da emissão.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": [
+        "Prefeitura / PR / Foz do Iguaçu / Validação de Certidão"
       ]
     },
     {
@@ -3110,6 +3175,17 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-iptu-brusque",
+      "tipo": "consulta por órgão",
+      "titulo": "API de CND do imóvel em Brusque: cadastro ou inscrição",
+      "h1": "API de CND do imóvel em Brusque: a certidão de um imóvel só",
+      "descricao": "API da certidão negativa de débitos imobiliários de Brusque (SC) pelo cadastro ou pela inscrição imobiliária, com conferência do titular impresso no PDF.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": [
+        "Prefeitura / SC / Brusque / Certidão Negativa de Débitos do Imóvel"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-iptu-campos-dos-goytacazes",
       "tipo": "consulta por órgão",
       "titulo": "API de CND Imobiliária de Campos dos Goytacazes (RJ): IPTU",
@@ -3213,6 +3289,17 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-itajai-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Itajaí (SC): número/ano e chave",
+      "h1": "API Validação de Certidão de Itajaí (SC): número, ano e chave conferem?",
+      "descricao": "API da Consulta validade CND do TMI de Itajaí (SC): pelo número/ano e pela chave de controle, valida com o PDF reaberto e a validade, ou nao_encontrada.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": [
+        "Prefeitura / SC / Itajaí / Consulta Validade CND"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-itaquaquecetuba-consultar-certidao",
       "tipo": "consulta por órgão",
       "titulo": "API Consultar Certidão Emitida em Itaquaquecetuba",
@@ -3251,6 +3338,17 @@
       "descricao": "API da certidão de valor venal da Prefeitura de Itaquaquecetuba (SP): inscrição do imóvel, documento do contribuinte e exercício, com o PDF e o valor venal total.",
       "atualizadoEm": "2026-10-29",
       "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-jaragua-do-sul-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Jaraguá do Sul (SC): código de controle",
+      "h1": "API Validação de Certidão de Jaraguá do Sul (SC): a certidão que chegou é verdadeira e ainda vale?",
+      "descricao": "API da validação de documentos do Cidadão Web de Jaraguá do Sul (SC): pelo código de controle, diz se a certidão está no prazo, fora dele ou não existe, e devolve a segunda via.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": [
+        "Prefeitura / SC / Jaraguá do Sul / Validação de Certidão"
+      ]
     },
     {
       "url": "https://hathdata.com/api-jundiai-certidao-ambiental",
@@ -3324,6 +3422,17 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-lages-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Lages (SC): só o código de controle",
+      "h1": "Validar certidão de Lages (SC): um código e o mês certo",
+      "descricao": "API da validação de documentos de Lages (SC): só o código de controle. Valida, com 2ª via e o endereço do titular, vencida depois dos 30 dias ou nao_encontrada.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": [
+        "Prefeitura / SC / Lages / Validação de Certidão"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-light-segunda-via",
       "tipo": "consulta por órgão",
       "titulo": "API Light 2ª via: conta de luz em PDF pelo CNPJ e CEP",
@@ -3343,6 +3452,26 @@
       "atualizadoEm": "2026-10-27",
       "consultas": [
         "Contas / Light / Download via CEP + OCR"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-londrina-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Londrina (PR): número e código validador",
+      "h1": "API Validação de Certidão de Londrina (PR): a Unificada que chegou é verdadeira?",
+      "descricao": "API da autenticidade de certidões de Londrina (PR): número, código validador e documento do titular; volta valida com emissão e proprietário, ou nao_encontrada.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-maringa-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Maringá (PR): código e PDF reemitido",
+      "h1": "API Autenticar Documento de Maringá (PR): o código do rodapé traz o PDF de volta",
+      "descricao": "API do Autenticar Documento de Maringá (PR): com o código do rodapé, volta valida e o PDF reemitido pelo portal, com situação, finalidade e data de validade.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": [
+        "Prefeitura / PR / Maringá / Validação de Certidão"
       ]
     },
     {
@@ -3593,6 +3722,17 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/api-paranagua-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Paranaguá (PR): código, mesmo sem número",
+      "h1": "API Validação de Certidão de Paranaguá (PR): a certidão sem número também se confere",
+      "descricao": "API da Validação de Certidões de Paranaguá (PR): o código de autenticação confere os quatro modelos, inclusive a negativa sem número de quem não tem inscrição.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": [
+        "Prefeitura / PR / Paranaguá / Validação de Certidão"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-pc-ac-antecedentes",
       "tipo": "consulta por órgão",
       "titulo": "API Antecedentes Criminais do Acre",
@@ -3713,6 +3853,17 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-ponta-grossa-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Ponta Grossa (PR): dados sem PDF novo",
+      "h1": "API Autenticar Documento de Ponta Grossa (PR): o registro da certidão, campo a campo",
+      "descricao": "API da autenticidade de certidões de Ponta Grossa (PR) pelo código impresso: situação, número, titular, requerente, finalidade e datas do registro, sem reemitir o PDF.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": [
+        "Prefeitura / PR / Ponta Grossa / Validação de Certidão"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-praia-grande-validar-certidao",
       "tipo": "consulta por órgão",
       "titulo": "API Validar Certidão de Praia Grande",
@@ -3724,6 +3875,17 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-radar-serpro-multas",
+      "tipo": "consulta por órgão",
+      "titulo": "API RADAR Serpro: multas por placa e RENAVAM",
+      "h1": "API RADAR Serpro: as multas do veículo com os PDFs do auto",
+      "descricao": "API da Consulta de Veículo do RADAR (Serpro): pela placa e o RENAVAM, as infrações exigíveis com órgão, auto, valor e os PDFs oficiais de NA, NP e AIT, prazos e linha digitável.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": [
+        "SERPRO / RADAR / Consulta de Veículo (multas de trânsito)"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-receita-cartao-cnpj",
       "tipo": "consulta por órgão",
       "titulo": "API Cartão CNPJ: comprovante oficial da Receita",
@@ -3732,6 +3894,48 @@
       "atualizadoEm": "2026-10-28",
       "consultas": [
         "Receita Federal / CNPJ"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-receita-co-socios",
+      "tipo": "consulta por órgão",
+      "titulo": "API de co-sócios: a rede societária de uma pessoa",
+      "h1": "API de co-sócios: com quem a pessoa faz negócio",
+      "descricao": "",
+      "atualizadoEm": "2026-11-15",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-receita-contatos-compartilhados",
+      "tipo": "consulta por órgão",
+      "titulo": "Empresas no mesmo endereço, telefone ou e-mail: API",
+      "h1": "API de contatos compartilhados: quem mais usa esse endereço",
+      "descricao": "API de contatos compartilhados: pelo CNPJ, as outras empresas com o mesmo endereço (CEP e número), o mesmo telefone ou o mesmo e-mail no cadastro da Receita, até 500 linhas.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": [
+        "Receita Federal / Vínculos societários / Contatos compartilhados"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-receita-dados-do-cnpj",
+      "tipo": "consulta por órgão",
+      "titulo": "API de dados do CNPJ: ficha da base pública da Receita",
+      "h1": "API de dados do CNPJ: a ficha inteira numa chamada",
+      "descricao": "API com a ficha cadastral do CNPJ na base pública da Receita: empresa, estabelecimento, endereço, contatos, CNAEs, sócios, Simples e MEI com datas e situação especial, numa chamada GET.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": [
+        "Receita Federal / Dados do CNPJ (base pública)"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-receita-participacoes-societarias",
+      "tipo": "consulta por órgão",
+      "titulo": "API de participações societárias: onde a empresa é sócia",
+      "h1": "API de participações societárias: as empresas que a empresa tem",
+      "descricao": "API das participações societárias de uma empresa: pelo CNPJ, as empresas em que ela figura como sócia, com qualificação, data de entrada, situação, atividade e capital de cada uma.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": [
+        "Receita Federal / Vínculos societários / Participações societárias"
       ]
     },
     {
@@ -3753,6 +3957,39 @@
       "descricao": "",
       "atualizadoEm": "2026-10-27",
       "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-receita-resumo-dos-socios",
+      "tipo": "consulta por órgão",
+      "titulo": "API resumo dos sócios: histórico societário pelo CNPJ",
+      "h1": "API resumo dos sócios: o passado de quem assina o contrato",
+      "descricao": "API do resumo por sócio: pelo CNPJ, uma linha por sócio com quantas outras empresas ele tem, quantas ativas, baixadas e suspensas ou inaptas, abertas no último ano e o capital somado.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": [
+        "Receita Federal / Vínculos societários / Resumo dos sócios"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-receita-situacao-cadastral",
+      "tipo": "consulta por órgão",
+      "titulo": "API de situação cadastral do CNPJ: alerta fora de ativa",
+      "h1": "API de situação cadastral: o alerta quando o CNPJ deixa de ser ativo",
+      "descricao": "API de situação cadastral do CNPJ para triagem de carteira: baixada, inapta, suspensa ou nula volta com apontamento, data e motivo, em menos de um segundo por CNPJ.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": [
+        "Receita Federal / Situação cadastral do CNPJ (base pública)"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-receita-vinculos-societarios",
+      "tipo": "consulta por órgão",
+      "titulo": "API de vínculos societários: grupo econômico pelo CNPJ",
+      "h1": "API de vínculos societários: o grupo econômico atrás do CNPJ",
+      "descricao": "API de vínculos societários pelo CNPJ: para cada sócio, as outras empresas em que ele aparece, com cargo, situação, atividade e capital, e quantos sócios cada uma divide com a consultada.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": [
+        "Receita Federal / Vínculos societários / Vínculos dos sócios (grupo econômico)"
+      ]
     },
     {
       "url": "https://hathdata.com/api-recife-ccom",
@@ -3956,6 +4193,15 @@
       "consultas": [
         "Prefeitura / PE / Recife / Certidão de Quitação de ITBI"
       ]
+    },
+    {
+      "url": "https://hathdata.com/api-ribeirao-das-neves-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Ribeirão das Neves (MG) com 2ª via",
+      "h1": "Validar certidão de Ribeirão das Neves (MG): a resposta traz o arquivo da Prefeitura",
+      "descricao": "API da validação de documentos de Ribeirão das Neves (MG) pelo código de controle: valida com a 2ª via do PDF, vencida depois dos 60 dias ou nao_encontrada.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-ribeirao-preto-situacao-cadastral",
@@ -5251,6 +5497,24 @@
       "h1": "API Certidões Eleitorais (TSE): cinco em uma API",
       "descricao": "API das certidões eleitorais do TSE: quitação eleitoral, crimes eleitorais, negativa de alistamento, dados do eleitor e ausência de débito da última eleição, emitidas no Autoatendimento Eleitoral.",
       "atualizadoEm": "2026-10-27",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-uberaba-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Uberaba (MG): hora até o segundo",
+      "h1": "Validar certidão de Uberaba (MG): quatro campos e nenhum separador",
+      "descricao": "API da Confirma Veracidade de Uberaba (MG): documento, data, hora até o segundo e código de controle. Volta valida, com nome e validade, ou nao_encontrada.",
+      "atualizadoEm": "2026-11-15",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-uberlandia-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Uberlândia (MG): número e código",
+      "h1": "Validar certidão de Uberlândia (MG): o que o SIAT registrou, não o que veio no e-mail",
+      "descricao": "API da validação de certidões do SIAT de Uberlândia (MG): número e código de autenticidade; autêntica ou não confere, com tipo, lavratura e validade.",
+      "atualizadoEm": "2026-11-15",
       "consultas": []
     },
     {
@@ -8597,9 +8861,7 @@
       "h1": "CND de Balneário Camboriú: 90 dias, pelo código de 2025",
       "descricao": "Em Balneário Camboriú a CND sai pela internet, sem taxa, e vale 90 dias pelo Código Tributário de 2025 (LC 116). Com parcelamento, só após a 1ª parcela.",
       "atualizadoEm": "2026-11-13",
-      "consultas": [
-        "Prefeitura / SC / Balneário Camboriú / Certidão Negativa de Débitos"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/certidao-negativa-municipal-barcarena",
@@ -8693,9 +8955,7 @@
       "h1": "CND de Brusque: negativa ou aviso de pendência",
       "descricao": "Em Brusque (SC) a CND sai no Atende.Net da Prefeitura, pelo CNPJ ou pelo imóvel. Com pendência, o portal não emite positiva: entrega um aviso em PDF.",
       "atualizadoEm": "2026-11-13",
-      "consultas": [
-        "Prefeitura / SC / Brusque / Certidão Negativa de Débitos"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/certidao-negativa-municipal-campina-grande",
@@ -8820,9 +9080,7 @@
       "h1": "CND de Criciúma (SC): certidão negativa de contribuinte pelo CNPJ",
       "descricao": "A CND da empresa em Criciúma (SC) sai pelo CNPJ no Cidadão Web. Com parcelamento, a positiva com efeito de negativa só sai depois da 1ª parcela paga.",
       "atualizadoEm": "2026-11-13",
-      "consultas": [
-        "Prefeitura / SC / Criciúma / Certidão Negativa de Débitos"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/certidao-negativa-municipal-cuiaba",
@@ -8978,9 +9236,7 @@
       "h1": "CND de Itajaí: o tipo sai pela situação, não pelo pedido",
       "descricao": "Em Itajaí (SC) a CND sai no TMI da Secretaria da Fazenda pelo CNPJ, sem login. O portal imprime negativa, positiva ou positiva com efeito de negativa.",
       "atualizadoEm": "2026-11-13",
-      "consultas": [
-        "Prefeitura / SC / Itajaí / Certidão Negativa de Débitos"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/certidao-negativa-municipal-itapema",
@@ -9025,9 +9281,7 @@
       "h1": "CND de Jaraguá do Sul (SC): certidão negativa de contribuinte na hora",
       "descricao": "Em Jaraguá do Sul (SC), a CND da empresa sai na hora no Cidadão Web pelo CNPJ. O Código Tributário de 2021 dá 10 dias ao pedido e remete a validade a decreto.",
       "atualizadoEm": "2026-11-13",
-      "consultas": [
-        "Prefeitura / SC / Jaraguá do Sul / Certidão Negativa de Débitos"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/certidao-negativa-municipal-joao-pessoa",
@@ -10450,7 +10704,7 @@
       "tipo": "home",
       "titulo": "Hath Data | Coleta de dados ao vivo em órgãos públicos, sob demanda",
       "h1": "A inteligência do tempo real direto na sua operação.",
-      "descricao": "Certidões, cadastros e processos públicos coletados na fonte, sem ninguém abrir portal. A Hath Data não armazena cópias paradas: os robôs vão ao órgão oficial, coletam na fonte em 1208+ consultas, emitem o documento em PDF na própria fonte e entregam estruturado no seu ERP, CRM ou por API.",
+      "descricao": "Certidões, cadastros e processos públicos coletados na fonte, sem ninguém abrir portal. A Hath Data não armazena cópias paradas: os robôs vão ao órgão oficial, coletam na fonte em 1223+ consultas, emitem o documento em PDF na própria fonte e entregam estruturado no seu ERP, CRM ou por API.",
       "atualizadoEm": null,
       "consultas": []
     },
@@ -10522,7 +10776,7 @@
       "tipo": "integração RD Station CRM",
       "titulo": "Integração RD Station CRM: dados do cliente em 1 clique",
       "h1": "Integração RD Station CRM: a ficha completa do cliente em 1 clique",
-      "descricao": "Integração do RD Station CRM com a Hath Data: conecte em um clique e cada negociação ganha a ficha completa do cliente, com cadastro, certidões, processos e sanções de fontes oficiais. Preenchimento automático, funil organizado e 1.208+ consultas.",
+      "descricao": "Integração do RD Station CRM com a Hath Data: conecte em um clique e cada negociação ganha a ficha completa do cliente, com cadastro, certidões, processos e sanções de fontes oficiais. Preenchimento automático, funil organizado e 1.223+ consultas.",
       "atualizadoEm": "2026-10-15",
       "consultas": []
     },

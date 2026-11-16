@@ -10,10 +10,10 @@ páginas oficiais (gov.br, jus.br, leg.br) que sustentam cada regra.
 
 | Arquivo | O que tem | Registros |
 | --- | --- | --- |
-| [`dados/consultas.json`](dados/consultas.json) | consulta, órgão, esfera, UFs, dado de entrada, situação e página | 1.066 |
+| [`dados/consultas.json`](dados/consultas.json) | consulta, órgão, esfera, UFs, dado de entrada, situação e página | 1.067 |
 | [`dados/prefeituras.json`](dados/prefeituras.json) | cidade, UF, documentos, guia, página de API e fontes oficiais | 123 (79 em produção, 21 estados) |
-| [`dados/fontes-oficiais.json`](dados/fontes-oficiais.json) | página oficial citada e as guias que a citam | 991 |
-| [`dados/paginas.json`](dados/paginas.json) | todas as páginas públicas do hathdata.com: título, tipo, data e consultas atendidas | 1.033 |
+| [`dados/fontes-oficiais.json`](dados/fontes-oficiais.json) | página oficial citada e as guias que a citam | 997 |
+| [`dados/paginas.json`](dados/paginas.json) | todas as páginas públicas do hathdata.com: título, tipo, data e consultas atendidas | 1.061 |
 
 **Catálogo completo**, por esfera e órgão, com link para cada consulta: [`CATALOGO.md`](CATALOGO.md) e
 [página com filtro](https://hathdata.github.io/consultas-oficiais/consultas.html). **Mapa do site**, página por página: [https://hathdata.github.io/consultas-oficiais/paginas.html](https://hathdata.github.io/consultas-oficiais/paginas.html).
@@ -25,8 +25,8 @@ Atualizado em 15/11/2026, todo dia, a partir de `https://hathdata.com/dados/aber
 | Esfera | Consultas |
 | --- | --- |
 | Judiciário | 569 |
-| Municipal | 232 |
-| Federal | 148 |
+| Municipal | 226 |
+| Federal | 155 |
 | Estadual | 110 |
 | Internacional | 7 |
 
@@ -34,11 +34,11 @@ Atualizado em 15/11/2026, todo dia, a partir de `https://hathdata.com/dados/aber
 
 | Tipo | Páginas |
 | --- | --- |
-| Consulta por órgão | 348 |
+| Consulta por órgão | 371 |
 | Consulta: comarca do TJMG | 298 |
 | Guia de cidade | 102 |
 | Guia e página de produto | 98 |
-| API de CND por cidade | 74 |
+| API de CND por cidade | 79 |
 | CND estadual | 27 |
 | Artigo | 25 |
 | Integração RD Station CRM | 22 |
@@ -65,30 +65,30 @@ cada cidade traz o passo a passo e a norma, com link para a fonte oficial.
 | Betim | MG | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-betim) |
 | Contagem | MG | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-contagem) |
 | Coqueiral | MG | Certidão de Débitos Municipais (CNPJ); Validação de Certidão | [guia](https://hathdata.com/certidao-negativa-municipal-coqueiral) |
-| Divinópolis | MG | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-divinopolis) |
+| Divinópolis | MG | Certidão Negativa de Débitos; Validação de Certidão | [guia](https://hathdata.com/certidao-negativa-municipal-divinopolis) |
 | Montes Claros | MG | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-montes-claros) |
-| Ribeirão das Neves | MG | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-ribeirao-das-neves) |
+| Ribeirão das Neves | MG | Certidão Negativa de Débitos; Validação de Certidão | [guia](https://hathdata.com/certidao-negativa-municipal-ribeirao-das-neves) |
 | Santana da Vargem | MG | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-santana-da-vargem) |
-| Santana do Paraíso | MG | Certidão Negativa de Débitos (CNPJ); Certidão Negativa de Débitos (Inscrição Econômica) | [guia](https://hathdata.com/certidao-negativa-municipal-santana-do-paraiso) |
+| Santana do Paraíso | MG | Certidão Negativa de Débitos (CNPJ); Certidão Negativa de Débitos (Inscrição Econômica); Alvará de Localização e Funcionamento | [guia](https://hathdata.com/certidao-negativa-municipal-santana-do-paraiso) |
 | Três Pontas | MG | Certidão Negativa de Débitos; Autenticidade da CND | [guia](https://hathdata.com/certidao-negativa-municipal-tres-pontas) |
-| Uberaba | MG | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-uberaba) |
-| Uberlândia | MG | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-uberlandia) |
+| Uberaba | MG | Certidão Negativa de Débitos; Validação de Certidão | [guia](https://hathdata.com/certidao-negativa-municipal-uberaba) |
+| Uberlândia | MG | Certidão Negativa de Débitos; Validação de Certidão | [guia](https://hathdata.com/certidao-negativa-municipal-uberlandia) |
 | Cuiabá | MT | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-cuiaba) |
-| Ipiranga do Norte | MT | Certidão Negativa de Débitos (CNPJ); Certidão de Dados do Econômico | [guia](https://hathdata.com/certidao-negativa-municipal-ipiranga-do-norte) |
+| Ipiranga do Norte | MT | Certidão Negativa de Débitos (CNPJ); Certidão de Dados do Econômico; Alvará de Funcionamento | [guia](https://hathdata.com/certidao-negativa-municipal-ipiranga-do-norte) |
 | Barcarena | PA | Certidão de Débitos de Tributos (CNPJ) | [guia](https://hathdata.com/certidao-negativa-municipal-barcarena) |
 | Igarassu | PE | Certidão Negativa Mercantil; Validar Certidão Mercantil; Histórico de Certidões Mercantis | [guia](https://hathdata.com/certidao-negativa-municipal-igarassu) |
 | Recife | PE | Certidão Negativa de Débitos; CPOM; NFS-e (Nota Fiscal Eletrônica de Serviços) | [guia](https://hathdata.com/certidoes-prefeitura-do-recife) |
 | Cascavel | PR | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-cascavel) |
 | Colombo | PR | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-colombo) |
 | Curitiba | PR | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-curitiba) |
-| Foz do Iguaçu | PR | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-foz-do-iguacu) |
+| Foz do Iguaçu | PR | Certidão Negativa de Débitos; Validação de Certidão | [guia](https://hathdata.com/certidao-negativa-municipal-foz-do-iguacu) |
 | Guarapuava | PR | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-guarapuava) |
-| Londrina | PR | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-londrina) |
-| Maringá | PR | Certidão Negativa de Débitos (Contribuinte) | [guia](https://hathdata.com/certidao-negativa-municipal-maringa) |
-| Paranaguá | PR | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-paranagua) |
-| Ponta Grossa | PR | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-ponta-grossa) |
+| Londrina | PR | Certidão Negativa de Débitos; Validação de Certidão | [guia](https://hathdata.com/certidao-negativa-municipal-londrina) |
+| Maringá | PR | Certidão Negativa de Débitos (Contribuinte); Validação de Certidão | [guia](https://hathdata.com/certidao-negativa-municipal-maringa) |
+| Paranaguá | PR | Certidão Negativa de Débitos; Validação de Certidão | [guia](https://hathdata.com/certidao-negativa-municipal-paranagua) |
+| Ponta Grossa | PR | Certidão Negativa de Débitos; Validação de Certidão | [guia](https://hathdata.com/certidao-negativa-municipal-ponta-grossa) |
 | São José dos Pinhais | PR | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-sao-jose-dos-pinhais) |
-| Campos dos Goytacazes | RJ | Certidão Negativa de Débitos (empresa); Certidão do Contribuinte; CND Imobiliária | [guia](https://hathdata.com/certidao-negativa-municipal-campos-dos-goytacazes) |
+| Campos dos Goytacazes | RJ | Certidão Negativa de Débitos (empresa); CND Imobiliária; Certidão de Quitação de ITBI | [guia](https://hathdata.com/certidao-negativa-municipal-campos-dos-goytacazes) |
 | Duque de Caxias | RJ | Certidão Negativa de Débitos (CNPJ) | [guia](https://hathdata.com/certidao-negativa-municipal-duque-de-caxias) |
 | Rio de Janeiro | RJ | NFS-e (Nota Fiscal Eletrônica de Serviços); Certidão de Situação Fiscal do ISS; Certidão de Dívida Ativa (PGM) | [guia](https://hathdata.com/certidao-negativa-municipal-rio-de-janeiro) |
 | Seropédica | RJ | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-seropedica) |
@@ -99,16 +99,16 @@ cada cidade traz o passo a passo e a norma, com link para a fonte oficial.
 | Balneário Camboriú | SC | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-balneario-camboriu) |
 | Biguaçu | SC | Certidão Negativa de Débitos; Guias de ISS e Alvará | [guia](https://hathdata.com/certidao-negativa-municipal-biguacu) |
 | Blumenau | SC | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-blumenau) |
-| Brusque | SC | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-brusque) |
-| Criciúma | SC | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-criciuma) |
+| Brusque | SC | Certidão Negativa de Débitos; Certidão Negativa de Débitos do Imóvel; Autenticidade de Certidão Negativa | [guia](https://hathdata.com/certidao-negativa-municipal-brusque) |
+| Criciúma | SC | Certidão Negativa de Débitos; Validação de Documentos | [guia](https://hathdata.com/certidao-negativa-municipal-criciuma) |
 | Florianópolis | SC | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-florianopolis) |
 | Garopaba | SC | Guias de ISS e Alvará; Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-garopaba) |
 | Gaspar | SC | Certidão Negativa de Débito Geral | [guia](https://hathdata.com/certidao-negativa-municipal-gaspar) |
-| Itajaí | SC | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-itajai) |
+| Itajaí | SC | Certidão Negativa de Débitos; Consulta Validade CND | [guia](https://hathdata.com/certidao-negativa-municipal-itajai) |
 | Itapema | SC | Certidão de Débito | [guia](https://hathdata.com/certidao-negativa-municipal-itapema) |
-| Jaraguá do Sul | SC | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-jaragua-do-sul) |
+| Jaraguá do Sul | SC | Certidão Negativa de Débitos; Validação de Certidão | [guia](https://hathdata.com/certidao-negativa-municipal-jaragua-do-sul) |
 | Joinville | SC | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-joinville) |
-| Lages | SC | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-lages) |
+| Lages | SC | Certidão Negativa de Débitos; Validação de Certidão | [guia](https://hathdata.com/certidao-negativa-municipal-lages) |
 | Palhoça | SC | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-palhoca) |
 | São Francisco do Sul | SC | Certidão Negativa de Débitos (CNPJ); Autenticidade de Certidão | [guia](https://hathdata.com/certidao-negativa-municipal-sao-francisco-do-sul) |
 | São José | SC | Certidão Negativa de Débitos; Guias de ISS e Taxas | [guia](https://hathdata.com/certidao-negativa-municipal-sao-jose) |
@@ -120,7 +120,7 @@ cada cidade traz o passo a passo e a norma, com link para a fonte oficial.
 | Guarulhos | SP | Certidão Negativa de Débitos; Certidão de Cadastramento Mobiliário | [guia](https://hathdata.com/certidao-negativa-municipal-guarulhos) |
 | Itaquaquecetuba | SP | Certidão Negativa da Empresa; Certidão Negativa de Imóvel; Certidão de Valor Venal | [guia](https://hathdata.com/certidao-negativa-municipal-itaquaquecetuba) |
 | Itu | SP | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-itu) |
-| Jundiaí | SP | Certidão Negativa de Débitos Municipais (CNPJ); Certidão Negativa de Débitos Mobiliários (ISSQN/Alvará/Multa) | [guia](https://hathdata.com/certidao-negativa-municipal-jundiai) |
+| Jundiaí | SP | Certidão Negativa de Débitos Municipais (CNPJ); Certidão Negativa de Débitos Mobiliários (ISSQN/Alvará/Multa); Certidão de Contribuinte Mobiliário | [guia](https://hathdata.com/certidao-negativa-municipal-jundiai) |
 | Osasco | SP | Cadastro Mobiliário de Contribuinte (CMC); Certidão de Não-Inscrição | [guia](https://hathdata.com/certidao-negativa-municipal-osasco) |
 | Praia Grande | SP | Certidão de Débitos Mobiliários; Autenticidade das Certidões | [guia](https://hathdata.com/certidao-negativa-municipal-praia-grande) |
 | Ribeirão Preto | SP | Certidão de Situação Cadastral; Pesquisa de Certidões; Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-ribeirao-preto) |

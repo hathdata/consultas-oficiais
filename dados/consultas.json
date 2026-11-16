@@ -3,7 +3,7 @@
   "descricao": "Consultas a órgãos oficiais feitas pelo CNPJ ou pela inscrição da empresa.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
   "geradoEm": "2026-11-15",
-  "total": 1066,
+  "total": 1067,
   "slogan": "Toda consulta online, automatizada.",
   "consultas": [
     {
@@ -1691,19 +1691,6 @@
       "pagina": "https://hathdata.com/certidao-negativa-municipal-sao-luis"
     },
     {
-      "nome": "Prefeitura / MG / Coqueiral / Certidão de Débitos Municipais (CNPJ)",
-      "orgao": "Prefeitura",
-      "esfera": "municipal",
-      "ufs": [
-        "MG"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-cnd-coqueiral"
-    },
-    {
       "nome": "Prefeitura / MG / Araújos / Certidão Negativa de Débitos",
       "orgao": "Prefeitura",
       "esfera": "municipal",
@@ -2309,6 +2296,19 @@
       "pagina": "https://hathdata.com/certidao-negativa-municipal-maringa"
     },
     {
+      "nome": "Prefeitura / PR / Maringá / Validação de Certidão",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "PR"
+      ],
+      "entrada": [
+        "Código de autenticação"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-maringa-validar-certidao"
+    },
+    {
       "nome": "Prefeitura / PR / Cascavel / Certidão Negativa de Débitos",
       "orgao": "Prefeitura",
       "esfera": "municipal",
@@ -2346,6 +2346,19 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/certidao-negativa-municipal-foz-do-iguacu"
+    },
+    {
+      "nome": "Prefeitura / PR / Foz do Iguaçu / Validação de Certidão",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "PR"
+      ],
+      "entrada": [
+        "Código autenticador"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-foz-do-iguacu-validar-certidao"
     },
     {
       "nome": "Prefeitura / PR / Guarapuava / Certidão Negativa de Débitos",
@@ -2387,6 +2400,19 @@
       "pagina": "https://hathdata.com/certidao-negativa-municipal-paranagua"
     },
     {
+      "nome": "Prefeitura / PR / Paranaguá / Validação de Certidão",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "PR"
+      ],
+      "entrada": [
+        "Código autenticador"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-paranagua-validar-certidao"
+    },
+    {
       "nome": "Prefeitura / PR / Ponta Grossa / Certidão Negativa de Débitos",
       "orgao": "Prefeitura",
       "esfera": "municipal",
@@ -2400,6 +2426,19 @@
       "pagina": "https://hathdata.com/certidao-negativa-municipal-ponta-grossa"
     },
     {
+      "nome": "Prefeitura / PR / Ponta Grossa / Validação de Certidão",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "PR"
+      ],
+      "entrada": [
+        "Código de autenticidade"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-ponta-grossa-validar-certidao"
+    },
+    {
       "nome": "Prefeitura / PR / São José dos Pinhais / Certidão Negativa de Débitos",
       "orgao": "Prefeitura",
       "esfera": "municipal",
@@ -2411,20 +2450,6 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/certidao-negativa-municipal-sao-jose-dos-pinhais"
-    },
-    {
-      "nome": "Prefeitura / RJ / Campos dos Goytacazes / Certidão Negativa de Débitos (empresa)",
-      "orgao": "Prefeitura",
-      "esfera": "municipal",
-      "ufs": [
-        "RJ"
-      ],
-      "entrada": [
-        "CNPJ",
-        "Inscrição municipal"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-cnd-campos-dos-goytacazes"
     },
     {
       "nome": "Prefeitura / RJ / Campos dos Goytacazes / CND Imobiliária",
@@ -2454,45 +2479,6 @@
       "pagina": "https://hathdata.com/api-campos-dos-goytacazes-validar-certidao"
     },
     {
-      "nome": "Prefeitura / ES / Aracruz / Certidão Negativa de Débitos (CNPJ)",
-      "orgao": "Prefeitura",
-      "esfera": "municipal",
-      "ufs": [
-        "ES"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-cnd-aracruz"
-    },
-    {
-      "nome": "Prefeitura / RJ / Duque de Caxias / Certidão Negativa de Débitos (CNPJ)",
-      "orgao": "Prefeitura",
-      "esfera": "municipal",
-      "ufs": [
-        "RJ"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-cnd-duque-de-caxias"
-    },
-    {
-      "nome": "Prefeitura / SC / São Francisco do Sul / Certidão Negativa de Débitos (CNPJ)",
-      "orgao": "Prefeitura",
-      "esfera": "municipal",
-      "ufs": [
-        "SC"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-cnd-sao-francisco-do-sul"
-    },
-    {
       "nome": "Prefeitura / SC / São Francisco do Sul / Autenticidade de Certidão",
       "orgao": "Prefeitura",
       "esfera": "municipal",
@@ -2504,19 +2490,6 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/api-sao-francisco-do-sul-validar-certidao"
-    },
-    {
-      "nome": "Prefeitura / MT / Ipiranga do Norte / Certidão Negativa de Débitos (CNPJ)",
-      "orgao": "Prefeitura",
-      "esfera": "municipal",
-      "ufs": [
-        "MT"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-cnd-ipiranga-do-norte"
     },
     {
       "nome": "Prefeitura / MT / Ipiranga do Norte / Certidão de Dados do Econômico",
@@ -2556,19 +2529,6 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/api-ipiranga-do-norte-validar-certidao"
-    },
-    {
-      "nome": "Prefeitura / MG / Santana do Paraíso / Certidão Negativa de Débitos (CNPJ)",
-      "orgao": "Prefeitura",
-      "esfera": "municipal",
-      "ufs": [
-        "MG"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-cnd-santana-do-paraiso"
     },
     {
       "nome": "Prefeitura / MG / Santana do Paraíso / Certidão Negativa de Débitos (Inscrição Econômica)",
@@ -2621,20 +2581,6 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/api-santana-do-paraiso-validar-certidao"
-    },
-    {
-      "nome": "Prefeitura / PA / Barcarena / Certidão de Débitos de Tributos (CNPJ)",
-      "orgao": "Prefeitura",
-      "esfera": "municipal",
-      "ufs": [
-        "PA"
-      ],
-      "entrada": [
-        "CNPJ",
-        "Inscrição municipal"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-cnd-barcarena"
     },
     {
       "nome": "Prefeitura / RJ / Rio de Janeiro / NFS-e (Nota Fiscal Eletrônica de Serviços)",
@@ -2767,19 +2713,6 @@
       "pagina": null
     },
     {
-      "nome": "Prefeitura / SC / Balneário Camboriú / Certidão Negativa de Débitos",
-      "orgao": "Prefeitura",
-      "esfera": "municipal",
-      "ufs": [
-        "SC"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/certidao-negativa-municipal-balneario-camboriu"
-    },
-    {
       "nome": "Prefeitura / SC / Blumenau / Certidão Negativa de Débitos",
       "orgao": "Prefeitura",
       "esfera": "municipal",
@@ -2793,31 +2726,44 @@
       "pagina": "https://hathdata.com/api-cnd-blumenau"
     },
     {
-      "nome": "Prefeitura / SC / Brusque / Certidão Negativa de Débitos",
+      "nome": "Prefeitura / SC / Brusque / Certidão Negativa de Débitos do Imóvel",
       "orgao": "Prefeitura",
       "esfera": "municipal",
       "ufs": [
         "SC"
       ],
       "entrada": [
-        "CNPJ",
-        "Cadastro imobiliário"
+        "Cadastro imobiliário",
+        "Inscrição imobiliária"
       ],
       "situacao": "em produção",
-      "pagina": "https://hathdata.com/certidao-negativa-municipal-brusque"
+      "pagina": "https://hathdata.com/api-iptu-brusque"
     },
     {
-      "nome": "Prefeitura / SC / Criciúma / Certidão Negativa de Débitos",
+      "nome": "Prefeitura / SC / Brusque / Autenticidade de Certidão Negativa",
       "orgao": "Prefeitura",
       "esfera": "municipal",
       "ufs": [
         "SC"
       ],
       "entrada": [
-        "CNPJ"
+        "Número/ano"
       ],
       "situacao": "em produção",
-      "pagina": "https://hathdata.com/certidao-negativa-municipal-criciuma"
+      "pagina": "https://hathdata.com/api-brusque-validar-certidao"
+    },
+    {
+      "nome": "Prefeitura / SC / Criciúma / Validação de Documentos",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "SC"
+      ],
+      "entrada": [
+        "Código de controle"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-criciuma-validar-certidao"
     },
     {
       "nome": "Prefeitura / SC / Florianópolis / Certidão Negativa de Débitos",
@@ -2833,30 +2779,31 @@
       "pagina": "https://hathdata.com/api-cnd-florianopolis"
     },
     {
-      "nome": "Prefeitura / SC / Itajaí / Certidão Negativa de Débitos",
+      "nome": "Prefeitura / SC / Itajaí / Consulta Validade CND",
       "orgao": "Prefeitura",
       "esfera": "municipal",
       "ufs": [
         "SC"
       ],
       "entrada": [
-        "CNPJ"
+        "Número/ano",
+        "Chave de controle"
       ],
       "situacao": "em produção",
-      "pagina": "https://hathdata.com/certidao-negativa-municipal-itajai"
+      "pagina": "https://hathdata.com/api-itajai-validar-certidao"
     },
     {
-      "nome": "Prefeitura / SC / Jaraguá do Sul / Certidão Negativa de Débitos",
+      "nome": "Prefeitura / SC / Jaraguá do Sul / Validação de Certidão",
       "orgao": "Prefeitura",
       "esfera": "municipal",
       "ufs": [
         "SC"
       ],
       "entrada": [
-        "CNPJ"
+        "Código de controle"
       ],
       "situacao": "em produção",
-      "pagina": "https://hathdata.com/certidao-negativa-municipal-jaragua-do-sul"
+      "pagina": "https://hathdata.com/api-jaragua-do-sul-validar-certidao"
     },
     {
       "nome": "Prefeitura / SC / Lages / Certidão Negativa de Débitos",
@@ -2870,6 +2817,19 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/api-cnd-lages"
+    },
+    {
+      "nome": "Prefeitura / SC / Lages / Validação de Certidão",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "SC"
+      ],
+      "entrada": [
+        "Código de controle"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-lages-validar-certidao"
     },
     {
       "nome": "Prefeitura / SC / Joinville / Certidão Negativa de Débitos",
@@ -3224,19 +3184,6 @@
       "pagina": "https://hathdata.com/api-tres-pontas-validar-certidao"
     },
     {
-      "nome": "Prefeitura / SP / Jundiaí / Certidão Negativa de Débitos Municipais (CNPJ)",
-      "orgao": "Prefeitura",
-      "esfera": "municipal",
-      "ufs": [
-        "SP"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-cnd-jundiai"
-    },
-    {
       "nome": "Prefeitura / SP / Jundiaí / Certidão de Valor Venal",
       "orgao": "Prefeitura",
       "esfera": "municipal",
@@ -3582,33 +3529,6 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/api-feira-de-santana-validar-alvara-provisorio"
-    },
-    {
-      "nome": "Prefeitura / BA / Feira de Santana / Certidão de Inexistência de Inscrição (CNPJ)",
-      "orgao": "Prefeitura",
-      "esfera": "municipal",
-      "ufs": [
-        "BA"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-feira-de-santana-inexistencia-inscricao"
-    },
-    {
-      "nome": "Prefeitura / BA / Feira de Santana / Validação da Inexistência de Inscrição (CNPJ)",
-      "orgao": "Prefeitura",
-      "esfera": "municipal",
-      "ufs": [
-        "BA"
-      ],
-      "entrada": [
-        "CNPJ",
-        "Código e emissão"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-feira-de-santana-validar-inexistencia-inscricao"
     },
     {
       "nome": "Prefeitura / BA / Feira de Santana / Certidão de Baixa de Inscrição",
@@ -4150,6 +4070,72 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/api-receita-cartao-cnpj"
+    },
+    {
+      "nome": "Receita Federal / Vínculos societários / Vínculos dos sócios (grupo econômico)",
+      "orgao": "Receita Federal",
+      "esfera": "federal",
+      "ufs": [],
+      "entrada": [
+        "CNPJ"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-receita-vinculos-societarios"
+    },
+    {
+      "nome": "Receita Federal / Vínculos societários / Resumo dos sócios",
+      "orgao": "Receita Federal",
+      "esfera": "federal",
+      "ufs": [],
+      "entrada": [
+        "CNPJ"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-receita-resumo-dos-socios"
+    },
+    {
+      "nome": "Receita Federal / Vínculos societários / Participações societárias",
+      "orgao": "Receita Federal",
+      "esfera": "federal",
+      "ufs": [],
+      "entrada": [
+        "CNPJ"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-receita-participacoes-societarias"
+    },
+    {
+      "nome": "Receita Federal / Vínculos societários / Contatos compartilhados",
+      "orgao": "Receita Federal",
+      "esfera": "federal",
+      "ufs": [],
+      "entrada": [
+        "CNPJ"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-receita-contatos-compartilhados"
+    },
+    {
+      "nome": "Receita Federal / Dados do CNPJ (base pública)",
+      "orgao": "Receita Federal",
+      "esfera": "federal",
+      "ufs": [],
+      "entrada": [
+        "CNPJ"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-receita-dados-do-cnpj"
+    },
+    {
+      "nome": "Receita Federal / Situação cadastral do CNPJ (base pública)",
+      "orgao": "Receita Federal",
+      "esfera": "federal",
+      "ufs": [],
+      "entrada": [
+        "CNPJ"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-receita-situacao-cadastral"
     },
     {
       "nome": "Receita Federal / NFS-e Nacional / DANFSe",
@@ -6199,6 +6185,18 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/api-dnit-validar-certidao"
+    },
+    {
+      "nome": "SERPRO / RADAR / Consulta de Veículo (multas de trânsito)",
+      "orgao": "SERPRO",
+      "esfera": "federal",
+      "ufs": [],
+      "entrada": [
+        "Placa",
+        "RENAVAM"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-radar-serpro-multas"
     },
     {
       "nome": "CVM / Suspensão de Atividades (intermediação irregular)",

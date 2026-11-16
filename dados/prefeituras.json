@@ -234,7 +234,7 @@
         "Certidão de Débitos de Tributos (CNPJ)"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-barcarena",
-      "api": "https://hathdata.com/api-cnd-barcarena",
+      "api": null,
       "atualizadoEm": "2026-11-06",
       "fontesOficiais": []
     },
@@ -382,7 +382,9 @@
       "uf": "SC",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Certidão Negativa de Débitos do Imóvel",
+        "Autenticidade de Certidão Negativa"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-brusque",
       "api": null,
@@ -503,8 +505,8 @@
       "situacao": "em produção",
       "documentos": [
         "Certidão Negativa de Débitos (empresa)",
-        "Certidão do Contribuinte",
-        "CND Imobiliária"
+        "CND Imobiliária",
+        "Certidão de Quitação de ITBI"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-campos-dos-goytacazes",
       "api": "https://hathdata.com/api-cnd-campos-dos-goytacazes",
@@ -766,7 +768,8 @@
       "uf": "SC",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Validação de Documentos"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-criciuma",
       "api": null,
@@ -925,7 +928,8 @@
       "uf": "MG",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Validação de Certidão"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-divinopolis",
       "api": null,
@@ -1116,7 +1120,8 @@
       "uf": "PR",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Validação de Certidão"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-foz-do-iguacu",
       "api": null,
@@ -1372,7 +1377,8 @@
       "situacao": "em produção",
       "documentos": [
         "Certidão Negativa de Débitos (CNPJ)",
-        "Certidão de Dados do Econômico"
+        "Certidão de Dados do Econômico",
+        "Alvará de Funcionamento"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-ipiranga-do-norte",
       "api": null,
@@ -1396,7 +1402,8 @@
       "uf": "SC",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Consulta Validade CND"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-itajai",
       "api": null,
@@ -1568,7 +1575,8 @@
       "uf": "SC",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Validação de Certidão"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-jaragua-do-sul",
       "api": null,
@@ -1699,7 +1707,8 @@
       "situacao": "em produção",
       "documentos": [
         "Certidão Negativa de Débitos Municipais (CNPJ)",
-        "Certidão Negativa de Débitos Mobiliários (ISSQN/Alvará/Multa)"
+        "Certidão Negativa de Débitos Mobiliários (ISSQN/Alvará/Multa)",
+        "Certidão de Contribuinte Mobiliário"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-jundiai",
       "api": "https://hathdata.com/api-cnd-jundiai",
@@ -1711,7 +1720,8 @@
       "uf": "SC",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Validação de Certidão"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-lages",
       "api": null,
@@ -1740,7 +1750,8 @@
       "uf": "PR",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Validação de Certidão"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-londrina",
       "api": null,
@@ -1871,7 +1882,8 @@
       "uf": "PR",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos (Contribuinte)"
+        "Certidão Negativa de Débitos (Contribuinte)",
+        "Validação de Certidão"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-maringa",
       "api": null,
@@ -2131,7 +2143,8 @@
       "uf": "PR",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Validação de Certidão"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-paranagua",
       "api": null,
@@ -2192,7 +2205,8 @@
       "uf": "PR",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Validação de Certidão"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-ponta-grossa",
       "api": null,
@@ -2310,7 +2324,8 @@
       "uf": "MG",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Validação de Certidão"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-ribeirao-das-neves",
       "api": null,
@@ -2590,7 +2605,8 @@
       "situacao": "em produção",
       "documentos": [
         "Certidão Negativa de Débitos (CNPJ)",
-        "Certidão Negativa de Débitos (Inscrição Econômica)"
+        "Certidão Negativa de Débitos (Inscrição Econômica)",
+        "Alvará de Localização e Funcionamento"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-santana-do-paraiso",
       "api": null,
@@ -3036,7 +3052,8 @@
       "uf": "MG",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Validação de Certidão"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-uberaba",
       "api": null,
@@ -3097,7 +3114,8 @@
       "uf": "MG",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Validação de Certidão"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-uberlandia",
       "api": null,
