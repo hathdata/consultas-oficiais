@@ -3,21 +3,21 @@
   "descricao": "Todas as páginas públicas do hathdata.com (sitemap), com título, tipo, data e as consultas que cada uma atende.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
   "geradoEm": "2026-11-17",
-  "total": 1061,
+  "total": 1064,
   "slogan": "Toda consulta online, automatizada.",
   "tipos": {
     "API de CND por cidade": 79,
     "artigo": 25,
     "catálogo de consultas": 20,
     "CND estadual": 27,
-    "consulta por órgão": 371,
+    "consulta por órgão": 372,
     "consulta: comarca do TJMG": 298,
     "guia de cidade": 102,
     "guia e página de produto": 98,
     "home": 1,
     "integração Omie": 7,
     "integração RD Station CRM": 22,
-    "solução por público": 11
+    "solução por público": 13
   },
   "paginas": [
     {
@@ -999,9 +999,9 @@
     {
       "url": "https://hathdata.com/consultas",
       "tipo": "catálogo de consultas",
-      "titulo": "Catálogo de coletas: 1223+ consultas oficiais por CNPJ",
+      "titulo": "Catálogo de coletas: 1224+ consultas oficiais por CNPJ",
       "h1": "Consultas por órgão, renovadas antes de vencer",
-      "descricao": "1223+ consultas oficiais coletadas por automação em órgãos públicos, 1104+ com documento em PDF emitido na própria fonte e 13.331+ atributos retornados, nos 27 estados. Busque por órgão, categoria, estado e abrangência.",
+      "descricao": "1224+ consultas oficiais coletadas por automação em órgãos públicos, 1105+ com documento em PDF emitido na própria fonte e 13.342+ atributos retornados, nos 27 estados. Busque por órgão, categoria, estado e abrangência.",
       "atualizadoEm": null,
       "consultas": []
     },
@@ -3925,6 +3925,17 @@
       "atualizadoEm": "2026-11-15",
       "consultas": [
         "Receita Federal / Dados do CNPJ (base pública)"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-receita-empresas-no-mesmo-cep",
+      "tipo": "consulta por órgão",
+      "titulo": "Empresas no mesmo CEP: API por CNPJ, prédio e sala",
+      "h1": "API de empresas no mesmo CEP: quem mais está registrado ali",
+      "descricao": "API que lista, pelo CNPJ, todas as empresas registradas no mesmo CEP na base pública da Receita, marcando quem está no mesmo prédio e na mesma sala, com situação, atividade e contato.",
+      "atualizadoEm": "2026-11-17",
+      "consultas": [
+        "Receita Federal / Vínculos societários / Empresas no mesmo CEP"
       ]
     },
     {
@@ -10704,7 +10715,7 @@
       "tipo": "home",
       "titulo": "Hath Data | Coleta de dados ao vivo em órgãos públicos, sob demanda",
       "h1": "A inteligência do tempo real direto na sua operação.",
-      "descricao": "Certidões, cadastros e processos públicos coletados na fonte, sem ninguém abrir portal. A Hath Data não armazena cópias paradas: os robôs vão ao órgão oficial, coletam na fonte em 1223+ consultas, emitem o documento em PDF na própria fonte e entregam estruturado no seu ERP, CRM ou por API.",
+      "descricao": "Certidões, cadastros e processos públicos coletados na fonte, sem ninguém abrir portal. A Hath Data não armazena cópias paradas: os robôs vão ao órgão oficial, coletam na fonte em 1224+ consultas, emitem o documento em PDF na própria fonte e entregam estruturado no seu ERP, CRM ou por API.",
       "atualizadoEm": null,
       "consultas": []
     },
@@ -10776,7 +10787,7 @@
       "tipo": "integração RD Station CRM",
       "titulo": "Integração RD Station CRM: dados do cliente em 1 clique",
       "h1": "Integração RD Station CRM: a ficha completa do cliente em 1 clique",
-      "descricao": "Integração do RD Station CRM com a Hath Data: conecte em um clique e cada negociação ganha a ficha completa do cliente, com cadastro, certidões, processos e sanções de fontes oficiais. Preenchimento automático, funil organizado e 1.223+ consultas.",
+      "descricao": "Integração do RD Station CRM com a Hath Data: conecte em um clique e cada negociação ganha a ficha completa do cliente, com cadastro, certidões, processos e sanções de fontes oficiais. Preenchimento automático, funil organizado e 1.224+ consultas.",
       "atualizadoEm": "2026-10-15",
       "consultas": []
     },
@@ -10997,6 +11008,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/solucoes/certidoes-de-imovel-e-iptu",
+      "tipo": "solução por público",
+      "titulo": "Certidões de imóvel e IPTU em lote, direto na prefeitura",
+      "h1": "A situação do imóvel lida na prefeitura, e não na certidão que veio na pasta do vendedor",
+      "descricao": "Certidões de débitos de IPTU, quitação, ITBI e ficha cadastral do imóvel emitidas no portal da prefeitura, pela inscrição imobiliária, imóvel a imóvel ou para a carteira inteira, com o PDF oficial e o código de verificação.",
+      "atualizadoEm": null,
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/solucoes/certidoes-para-escritorio-contabil",
       "tipo": "solução por público",
       "titulo": "Sistema de controle de CND para contador, sem mensalidade",
@@ -11038,6 +11058,15 @@
       "titulo": "Software de gestão de certidões para empresas e filiais",
       "h1": "Gestão de certidões da empresa e de cada filial, sem planilha",
       "descricao": "Software de gestão de certidões para o departamento fiscal: CND federal, CRF do FGTS de cada filial, CNDT, estaduais e municipais emitidas no site de cada órgão, com validade controlada e aviso de qual unidade travou. Sem mensalidade.",
+      "atualizadoEm": null,
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/solucoes/gestao-de-multas-de-frota",
+      "tipo": "solução por público",
+      "titulo": "Gestão de multas de frota: ANTT, RADAR, DNIT e DER",
+      "h1": "As multas da frota lidas em cada órgão, antes de vencer o prazo de indicar o condutor",
+      "descricao": "Consulta das multas da frota direto nos órgãos autuadores: ANTT, RADAR do Serpro, DNIT e DER, pelo CNPJ da transportadora ou pela placa e o Renavam de cada veículo, com o auto, o valor, os prazos e o boleto oficial.",
       "atualizadoEm": null,
       "consultas": []
     },

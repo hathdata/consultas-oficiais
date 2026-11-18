@@ -3,7 +3,7 @@
   "descricao": "Consultas a órgãos oficiais feitas pelo CNPJ ou pela inscrição da empresa.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
   "geradoEm": "2026-11-17",
-  "total": 1067,
+  "total": 1068,
   "slogan": "Toda consulta online, automatizada.",
   "consultas": [
     {
@@ -4114,6 +4114,17 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/api-receita-contatos-compartilhados"
+    },
+    {
+      "nome": "Receita Federal / Vínculos societários / Empresas no mesmo CEP",
+      "orgao": "Receita Federal",
+      "esfera": "federal",
+      "ufs": [],
+      "entrada": [
+        "CNPJ"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-receita-empresas-no-mesmo-cep"
     },
     {
       "nome": "Receita Federal / Dados do CNPJ (base pública)",

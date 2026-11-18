@@ -10,10 +10,10 @@ páginas oficiais (gov.br, jus.br, leg.br) que sustentam cada regra.
 
 | Arquivo | O que tem | Registros |
 | --- | --- | --- |
-| [`dados/consultas.json`](dados/consultas.json) | consulta, órgão, esfera, UFs, dado de entrada, situação e página | 1.067 |
+| [`dados/consultas.json`](dados/consultas.json) | consulta, órgão, esfera, UFs, dado de entrada, situação e página | 1.068 |
 | [`dados/prefeituras.json`](dados/prefeituras.json) | cidade, UF, documentos, guia, página de API e fontes oficiais | 123 (79 em produção, 21 estados) |
 | [`dados/fontes-oficiais.json`](dados/fontes-oficiais.json) | página oficial citada e as guias que a citam | 997 |
-| [`dados/paginas.json`](dados/paginas.json) | todas as páginas públicas do hathdata.com: título, tipo, data e consultas atendidas | 1.061 |
+| [`dados/paginas.json`](dados/paginas.json) | todas as páginas públicas do hathdata.com: título, tipo, data e consultas atendidas | 1.064 |
 
 **Catálogo completo**, por esfera e órgão, com link para cada consulta: [`CATALOGO.md`](CATALOGO.md) e
 [página com filtro](https://hathdata.github.io/consultas-oficiais/consultas.html). **Mapa do site**, página por página: [https://hathdata.github.io/consultas-oficiais/paginas.html](https://hathdata.github.io/consultas-oficiais/paginas.html).
@@ -26,7 +26,7 @@ Atualizado em 17/11/2026, todo dia, a partir de `https://hathdata.com/dados/aber
 | --- | --- |
 | Judiciário | 569 |
 | Municipal | 226 |
-| Federal | 155 |
+| Federal | 156 |
 | Estadual | 110 |
 | Internacional | 7 |
 
@@ -34,7 +34,7 @@ Atualizado em 17/11/2026, todo dia, a partir de `https://hathdata.com/dados/aber
 
 | Tipo | Páginas |
 | --- | --- |
-| Consulta por órgão | 371 |
+| Consulta por órgão | 372 |
 | Consulta: comarca do TJMG | 298 |
 | Guia de cidade | 102 |
 | Guia e página de produto | 98 |
@@ -43,7 +43,7 @@ Atualizado em 17/11/2026, todo dia, a partir de `https://hathdata.com/dados/aber
 | Artigo | 25 |
 | Integração RD Station CRM | 22 |
 | Catálogo de consultas | 20 |
-| Solução por público | 11 |
+| Solução por público | 13 |
 | Integração Omie | 7 |
 | Home | 1 |
 
