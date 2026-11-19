@@ -2,10 +2,10 @@
   "fonte": "https://hathdata.com",
   "descricao": "Prefeituras atendidas, com a guia de cada cidade e as fontes oficiais citadas nela.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-17",
-  "total": 123,
+  "geradoEm": "2026-11-19",
+  "total": 125,
   "slogan": "Toda consulta online, automatizada.",
-  "producao": 79,
+  "producao": 81,
   "estados": 21,
   "prefeituras": [
     {
@@ -319,7 +319,9 @@
       "uf": "MG",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Certidão de Imóvel por Inscrição",
+        "Validação de Certidão"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-betim",
       "api": null,
@@ -551,7 +553,9 @@
       "uf": "PR",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Certidão Negativa de Débitos do Imóvel",
+        "Certidão Negativa de Débitos do Cadastro Econômico"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-cascavel",
       "api": null,
@@ -608,10 +612,27 @@
       "documentos": [
         "Certidão Negativa de Débitos"
       ],
-      "guia": null,
+      "guia": "https://hathdata.com/certidao-negativa-municipal-caucaia",
       "api": null,
-      "atualizadoEm": null,
-      "fontesOficiais": []
+      "atualizadoEm": "2026-11-19",
+      "fontesOficiais": [
+        {
+          "nome": "Sefin Caucaia: Certidões",
+          "url": "https://sefin.caucaia.ce.gov.br/certidoes/"
+        },
+        {
+          "nome": "Sefin Caucaia: Validação de Certidão",
+          "url": "https://sefin.caucaia.ce.gov.br/validacao-de-certidao/"
+        },
+        {
+          "nome": "Sefin Caucaia: Serviços ISS",
+          "url": "https://sefin.caucaia.ce.gov.br/servicos-iss/"
+        },
+        {
+          "nome": "Sefin Caucaia: Nota Fiscal de Serviços Avulsa pelo Emissor Nacional",
+          "url": "https://sefin.caucaia.ce.gov.br/caucaia-passa-a-emitir-nota-fiscal-de-servicos-avulsa-pelo-emissor-nacional-em-20-de-novembro/"
+        }
+      ]
     },
     {
       "cidade": "Caxias do Sul",
@@ -647,7 +668,9 @@
       "uf": "PR",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Certidão Negativa de Débitos do Imóvel",
+        "Certidão Negativa de Débitos do Cadastro Econômico"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-colombo",
       "api": null,
@@ -708,7 +731,8 @@
       "uf": "MG",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Certidão Negativa por Cadastro (IPTU ou Mobiliário)"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-contagem",
       "api": null,
@@ -751,7 +775,8 @@
       "uf": "SP",
       "situacao": "em produção",
       "documentos": [
-        "Certidão de Débitos Mobiliária"
+        "Certidão de Débitos Mobiliária",
+        "Ficha do Cadastro Mobiliário"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-cotia",
       "api": "https://hathdata.com/api-cnd-cotia",
@@ -1214,7 +1239,8 @@
       "situacao": "em produção",
       "documentos": [
         "Guias de ISS e Alvará",
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Certidão Negativa de Débitos do Imóvel"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-garopaba",
       "api": "https://hathdata.com/api-cnd-garopaba",
@@ -1249,7 +1275,7 @@
       "documentos": [
         "Certidão Negativa de Débitos",
         "Comprovante de Pagamento",
-        "Certidão de Baixa de Inscrição Mobiliária"
+        "Certidão Conjunta de Débitos Mobiliários (CAE)"
       ],
       "guia": "https://hathdata.com/certidoes-prefeitura-de-goiania",
       "api": "https://hathdata.com/api-cnd-goiania",
@@ -1266,7 +1292,9 @@
       "uf": "PR",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Certidão Imobiliária",
+        "Autenticidade da CND"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-guarapuava",
       "api": null,
@@ -1304,7 +1332,8 @@
       "situacao": "em produção",
       "documentos": [
         "Certidão Negativa de Débitos",
-        "Certidão de Cadastramento Mobiliário"
+        "Certidão de Cadastramento Mobiliário",
+        "Comprovante de Inscrição e de Situação Cadastral"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-guarulhos",
       "api": "https://hathdata.com/api-cnd-guarulhos",
@@ -1356,6 +1385,19 @@
       "guia": null,
       "api": null,
       "atualizadoEm": null,
+      "fontesOficiais": []
+    },
+    {
+      "cidade": "Imbituba",
+      "uf": "SC",
+      "situacao": "em produção",
+      "documentos": [
+        "Certidão Negativa de Débitos",
+        "Autenticidade de Certidão"
+      ],
+      "guia": "https://hathdata.com/certidao-negativa-municipal-imbituba",
+      "api": "https://hathdata.com/api-cnd-imbituba",
+      "atualizadoEm": "2026-11-18",
       "fontesOficiais": []
     },
     {
@@ -1527,7 +1569,9 @@
       "uf": "SP",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Certidão por Cadastro (mobiliário ou imobiliário)",
+        "Validação de Certidão"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-itu",
       "api": "https://hathdata.com/api-cnd-itu",
@@ -1732,6 +1776,20 @@
           "url": "https://fiscalizacao.lages.sc.gov.br/servicos.php"
         }
       ]
+    },
+    {
+      "cidade": "Laguna",
+      "uf": "SC",
+      "situacao": "em produção",
+      "documentos": [
+        "Certidão Negativa de Contribuinte",
+        "Certidão Negativa de Econômico",
+        "Validação de Documentos"
+      ],
+      "guia": "https://hathdata.com/certidao-negativa-municipal-laguna",
+      "api": "https://hathdata.com/api-cnd-laguna",
+      "atualizadoEm": "2026-11-18",
+      "fontesOficiais": []
     },
     {
       "cidade": "Laranjeiras",
@@ -1947,10 +2005,23 @@
         "Certidão Negativa de Débitos",
         "CPOM"
       ],
-      "guia": null,
+      "guia": "https://hathdata.com/certidao-negativa-municipal-mogi-das-cruzes",
       "api": null,
-      "atualizadoEm": null,
-      "fontesOficiais": []
+      "atualizadoEm": "2026-11-18",
+      "fontesOficiais": [
+        {
+          "nome": "Prefeitura de Mogi das Cruzes: Cadastro CCM, Certidão Negativa de Débitos Online",
+          "url": "https://www.mogidascruzes.sp.gov.br/servico/alvara-certidoes-e-licencas/cadastro-ccm-certidao-negativa-de-debitos"
+        },
+        {
+          "nome": "Prefeitura de Mogi das Cruzes: IPTU, Certidão Negativa ou Positiva com efeito de Negativa",
+          "url": "https://www.mogidascruzes.sp.gov.br/servico/alvara-certidoes-e-licencas/iptu-certidao-negativa-de-debitos-ou-positiva-com-efeito-de-negativa"
+        },
+        {
+          "nome": "Prefeitura de Mogi das Cruzes: Lei Complementar nº 38/2005 (CCM)",
+          "url": "https://www.mogidascruzes.sp.gov.br/public/site/doc/20251223152919694ad16f67ffb.pdf"
+        }
+      ]
     },
     {
       "cidade": "Montenegro",
@@ -1969,7 +2040,9 @@
       "uf": "MG",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Certidão Negativa de Débitos do Imóvel",
+        "Autenticidade da CND"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-montes-claros",
       "api": null,
@@ -2076,6 +2149,7 @@
       "situacao": "em produção",
       "documentos": [
         "Cadastro Mobiliário de Contribuinte (CMC)",
+        "Certidão de Tributos Municipais pela Inscrição",
         "Certidão de Não-Inscrição"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-osasco",
@@ -2093,7 +2167,8 @@
       "uf": "SC",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Guias de IPTU"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-palhoca",
       "api": "https://hathdata.com/api-cnd-palhoca",
@@ -2106,7 +2181,8 @@
       "situacao": "em produção",
       "documentos": [
         "Certidão de Situação Fiscal",
-        "Certidão Negativa de Débitos"
+        "Certidão de Lançamento do Imóvel",
+        "Certidão de Decadência"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-palmas",
       "api": "https://hathdata.com/api-cnd-palmas",
@@ -2236,6 +2312,7 @@
       "situacao": "em produção",
       "documentos": [
         "Certidão Negativa de Débitos",
+        "Autenticidade da Certidão Geral de Débitos",
         "Comprovante de Inscrição do ISSQN"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-porto-alegre",
@@ -2570,7 +2647,8 @@
       "uf": "MG",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "CND do Imóvel"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-santana-da-vargem",
       "api": "https://hathdata.com/api-cnd-santana-da-vargem",
@@ -2619,7 +2697,8 @@
       "situacao": "em produção",
       "documentos": [
         "Certidão de Regularidade Fiscal Mobiliária e Imobiliária",
-        "Certidão de Débitos Mobiliária"
+        "Certidão de Cadastro Mobiliário",
+        "Certidão de Débitos, Cadastro (pelo documento)"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-santo-andre",
       "api": "https://hathdata.com/api-cnd-santo-andre",
@@ -2641,7 +2720,8 @@
       "situacao": "em produção",
       "documentos": [
         "Certidão de Inexistência de Firma",
-        "Certidão Negativa de Débitos"
+        "Certidão de Tributos Mobiliários",
+        "Certidão de Existência de Firma"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-santos",
       "api": "https://hathdata.com/api-cnd-santos",
@@ -2666,7 +2746,8 @@
       "uf": "SP",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Certidão Negativa Imobiliária"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-sao-bernardo-do-campo",
       "api": "https://hathdata.com/api-cnd-sao-bernardo-do-campo",
@@ -2761,7 +2842,9 @@
       "uf": "PR",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Certidão Socioeconômica",
+        "Certidão Imobiliária"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-sao-jose-dos-pinhais",
       "api": null,
@@ -2961,7 +3044,8 @@
       "uf": "RJ",
       "situacao": "em produção",
       "documentos": [
-        "Certidão Negativa de Débitos"
+        "Certidão Negativa de Débitos",
+        "Certidão Negativa de Quitação Fiscal Imobiliária"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-seropedica",
       "api": "https://hathdata.com/api-cnd-seropedica",
@@ -2998,7 +3082,8 @@
       "uf": "SP",
       "situacao": "em produção",
       "documentos": [
-        "Certidão de Débito"
+        "Certidão de Débito",
+        "Certidão de Débito por Mobiliário"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-suzano",
       "api": "https://hathdata.com/api-cnd-suzano",
@@ -3040,7 +3125,8 @@
       "situacao": "em produção",
       "documentos": [
         "Certidão Negativa de Débitos",
-        "Autenticidade da CND"
+        "Autenticidade da CND",
+        "Certidão de Débitos do Imóvel"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-tres-pontas",
       "api": "https://hathdata.com/api-cnd-tres-pontas",

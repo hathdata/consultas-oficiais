@@ -2,8 +2,8 @@
   "fonte": "https://hathdata.com",
   "descricao": "Páginas oficiais (gov.br, jus.br, leg.br) citadas nas guias do hathdata.com.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-17",
-  "total": 997,
+  "geradoEm": "2026-11-19",
+  "total": 1077,
   "slogan": "Toda consulta online, automatizada.",
   "fontes": [
     {
@@ -508,6 +508,14 @@
       ]
     },
     {
+      "url": "https://cariacica.es.gov.br/servico/ler/419/adequacoes-da-nfs-e-a-reforma-tributaria-do-consumo-ibs-e-cbs",
+      "nome": "Prefeitura de Cariacica: Adequações da NFS-e à Reforma Tributária do Consumo",
+      "dominio": "cariacica.es.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-cariacica"
+      ]
+    },
+    {
       "url": "https://cartadeservicos.campogrande.ms.gov.br/servicos/emissao-de-certidao-de-debitos-gerais/",
       "nome": "Carta de Serviços: Emissão de Certidão de Débitos Gerais",
       "dominio": "cartadeservicos.campogrande.ms.gov.br",
@@ -529,6 +537,22 @@
       "dominio": "cartadeservicos.vitoria.es.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-vitoria"
+      ]
+    },
+    {
+      "url": "https://caruaru.pe.gov.br/",
+      "nome": "Prefeitura de Caruaru: página inicial (Certidão Negativa e Certidão Positiva com Efeito Negativa)",
+      "dominio": "caruaru.pe.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-caruaru"
+      ]
+    },
+    {
+      "url": "https://caruaru.pe.gov.br/carta-de-servicos/?secretary=secretaria-da-fazenda-municipal",
+      "nome": "Prefeitura de Caruaru: Carta de Serviços da Secretaria da Fazenda Municipal",
+      "dominio": "caruaru.pe.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-caruaru"
       ]
     },
     {
@@ -641,7 +665,8 @@
       "nome": "Prefeitura de Montes Claros: autenticidade da certidão",
       "dominio": "certidao.montesclaros.mg.gov.br",
       "citadaEm": [
-        "https://hathdata.com/api-cnd-montes-claros"
+        "https://hathdata.com/api-cnd-montes-claros",
+        "https://hathdata.com/api-montes-claros-validar-certidao"
       ]
     },
     {
@@ -650,7 +675,8 @@
       "dominio": "certidao.montesclaros.mg.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-montes-claros",
-        "https://hathdata.com/api-cnd-montes-claros"
+        "https://hathdata.com/api-cnd-montes-claros",
+        "https://hathdata.com/api-montes-claros-certidao-de-imovel"
       ]
     },
     {
@@ -663,11 +689,43 @@
       ]
     },
     {
+      "url": "https://certidao.palmas.to.gov.br/certidao/decadencia/consulta/",
+      "nome": "Prefeitura de Palmas: Certidão de Decadência",
+      "dominio": "certidao.palmas.to.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-palmas-certidao-de-decadencia"
+      ]
+    },
+    {
+      "url": "https://certidao.palmas.to.gov.br/certidao/lancamento-imovel/consulta/",
+      "nome": "Prefeitura de Palmas: Certidão de Lançamento",
+      "dominio": "certidao.palmas.to.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-palmas-certidao-de-lancamento"
+      ]
+    },
+    {
+      "url": "https://certidao.palmas.to.gov.br/certidao/quitacao-dam/consulta/",
+      "nome": "Prefeitura de Palmas: Certidão de Quitação de DAM",
+      "dominio": "certidao.palmas.to.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-palmas-quitacao-de-dam"
+      ]
+    },
+    {
       "url": "https://certidao.palmas.to.gov.br/certidao/situacao-fiscal/consulta/",
       "nome": "Prefeitura de Palmas: Certidão de Situação Fiscal",
       "dominio": "certidao.palmas.to.gov.br",
       "citadaEm": [
         "https://hathdata.com/api-palmas-situacao-fiscal"
+      ]
+    },
+    {
+      "url": "https://certidao.palmas.to.gov.br/cnd-imovel/",
+      "nome": "Prefeitura de Palmas: CND de Imóvel",
+      "dominio": "certidao.palmas.to.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-palmas-certidao-de-imovel"
       ]
     },
     {
@@ -1114,7 +1172,8 @@
       "nome": "Prefeitura de Cotia: serviços online da Fazenda",
       "dominio": "cotia.sp.gov.br",
       "citadaEm": [
-        "https://hathdata.com/certidao-negativa-municipal-cotia"
+        "https://hathdata.com/certidao-negativa-municipal-cotia",
+        "https://hathdata.com/api-cotia-ficha-cadastral"
       ]
     },
     {
@@ -1177,11 +1236,20 @@
       ]
     },
     {
+      "url": "https://daminternet.rio.rj.gov.br/certidao/AutenticarCertidao",
+      "nome": "PGM Rio: Autenticar Certidão",
+      "dominio": "daminternet.rio.rj.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-rio-de-janeiro-validar-certidao-divida-ativa"
+      ]
+    },
+    {
       "url": "https://daminternet.rio.rj.gov.br/certidao/ConsultarRequerimento",
       "nome": "PGM Rio: consultar requerimentos de certidão",
       "dominio": "daminternet.rio.rj.gov.br",
       "citadaEm": [
-        "https://hathdata.com/api-rio-de-janeiro-divida-ativa"
+        "https://hathdata.com/api-rio-de-janeiro-divida-ativa",
+        "https://hathdata.com/api-rio-de-janeiro-validar-certidao-divida-ativa"
       ]
     },
     {
@@ -1259,6 +1327,22 @@
       ]
     },
     {
+      "url": "https://e-gov.meriti.rj.gov.br/",
+      "nome": "Prefeitura de São João de Meriti: e-GOV, serviços eletrônicos",
+      "dominio": "e-gov.meriti.rj.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-sao-joao-de-meriti"
+      ]
+    },
+    {
+      "url": "https://e-gov.prefeituradebelfordroxo.rj.gov.br/",
+      "nome": "Prefeitura de Belford Roxo: e-GOV, serviços de governo eletrônico",
+      "dominio": "e-gov.prefeituradebelfordroxo.rj.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-belford-roxo"
+      ]
+    },
+    {
       "url": "https://efisco.sefaz.pe.gov.br/sfi_fin_gpc/PREmitirCertidaoRegularidadeWeb",
       "nome": "Sefaz-PE: Emitir Certidão de Regularidade (e-Fisco)",
       "dominio": "efisco.sefaz.pe.gov.br",
@@ -1275,12 +1359,32 @@
       ]
     },
     {
+      "url": "https://egov.santos.sp.gov.br/tribusweb/Certidao/CertidaoAutenticarInicio",
+      "nome": "Prefeitura de Santos: Tribusweb, Autenticidade de Certidão",
+      "dominio": "egov.santos.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-santos-validar-certidao"
+      ]
+    },
+    {
       "url": "https://egov.santos.sp.gov.br/tribusweb/CertidaoGeral/Certidao/Principal",
       "nome": "Prefeitura de Santos: Tribusweb, certidões",
       "dominio": "egov.santos.sp.gov.br",
       "citadaEm": [
         "https://hathdata.com/api-cnd-santos",
-        "https://hathdata.com/api-santos-certidao-de-firma"
+        "https://hathdata.com/api-santos-certidao-de-firma",
+        "https://hathdata.com/api-santos-certidao-mobiliaria",
+        "https://hathdata.com/api-santos-certidao-de-existencia-de-firma",
+        "https://hathdata.com/api-santos-certidao-de-encerramento-de-firma",
+        "https://hathdata.com/api-santos-todas-as-certidoes"
+      ]
+    },
+    {
+      "url": "https://egov.santos.sp.gov.br/tribusweb/Divida/Divida/Principal/1",
+      "nome": "Prefeitura de Santos: Tribusweb, Dívida Ativa - Consulta",
+      "dominio": "egov.santos.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-santos-divida-ativa"
       ]
     },
     {
@@ -1561,7 +1665,8 @@
       "dominio": "fazenda.guarulhos.sp.gov.br",
       "citadaEm": [
         "https://hathdata.com/api-cnd-guarulhos",
-        "https://hathdata.com/api-guarulhos-cadastro-mobiliario"
+        "https://hathdata.com/api-guarulhos-cadastro-mobiliario",
+        "https://hathdata.com/api-guarulhos-comprovante-de-inscricao"
       ]
     },
     {
@@ -1751,6 +1856,23 @@
       ]
     },
     {
+      "url": "https://financas.sjp.pr.gov.br/#/autenticidade-certidao",
+      "nome": "Prefeitura de São José dos Pinhais: Portal de Serviços, Autenticidade da Certidão",
+      "dominio": "financas.sjp.pr.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-sao-jose-dos-pinhais-validar-certidao"
+      ]
+    },
+    {
+      "url": "https://financas.sjp.pr.gov.br/#/certidoes",
+      "nome": "Prefeitura de São José dos Pinhais: Portal de Serviços, Certidões",
+      "dominio": "financas.sjp.pr.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-sao-jose-dos-pinhais-certidao-socioeconomica",
+        "https://hathdata.com/api-sao-jose-dos-pinhais-certidao-de-imovel"
+      ]
+    },
+    {
       "url": "https://financas.sjp.pr.gov.br/imobiliarioGateway/",
       "nome": "Prefeitura de São José dos Pinhais, Secretaria de Finanças: portal imobiliário",
       "dominio": "financas.sjp.pr.gov.br",
@@ -1841,6 +1963,14 @@
       "dominio": "grp.saoleopoldo.rs.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-sao-leopoldo"
+      ]
+    },
+    {
+      "url": "https://grp.suzano.sp.gov.br/portal/feature/servicos?folder=servicos-tributos-etuiyw",
+      "nome": "Prefeitura de Suzano: Portal do Cidadão, Tributos",
+      "dominio": "grp.suzano.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-suzano-certidao-mobiliaria"
       ]
     },
     {
@@ -2377,6 +2507,14 @@
       ]
     },
     {
+      "url": "https://meriti.rj.gov.br/inicio/secretaria-municipal-fazenda/",
+      "nome": "Prefeitura de São João de Meriti: Secretaria Municipal de Fazenda",
+      "dominio": "meriti.rj.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-sao-joao-de-meriti"
+      ]
+    },
+    {
       "url": "https://mid.curitiba.pr.gov.br/2020/00293800.pdf",
       "nome": "Prefeitura de Curitiba: Código Tributário Municipal (Lei Complementar nº 40/2001)",
       "dominio": "mid.curitiba.pr.gov.br",
@@ -2605,7 +2743,9 @@
       "nome": "Lei nº 16/1978, Código Tributário de Colombo (compilação da Fazenda)",
       "dominio": "portal.colombo.pr.gov.br",
       "citadaEm": [
-        "https://hathdata.com/certidao-negativa-municipal-colombo"
+        "https://hathdata.com/certidao-negativa-municipal-colombo",
+        "https://hathdata.com/api-colombo-certidao-de-imovel",
+        "https://hathdata.com/api-colombo-certidao-economica"
       ]
     },
     {
@@ -2638,6 +2778,22 @@
       "dominio": "portal.contagem.mg.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-contagem"
+      ]
+    },
+    {
+      "url": "https://portal.diadema.sp.gov.br/certidao-negativa-mobiliaria-e-imobiliaria-de-debitos/",
+      "nome": "Prefeitura de Diadema: Certidão Negativa, Positiva ou Positiva com Efeito Negativa",
+      "dominio": "portal.diadema.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-diadema"
+      ]
+    },
+    {
+      "url": "https://portal.diadema.sp.gov.br/financas/financas-certidoes/",
+      "nome": "Prefeitura de Diadema: Certidões (Finanças)",
+      "dominio": "portal.diadema.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-diadema"
       ]
     },
     {
@@ -3078,7 +3234,9 @@
       "dominio": "prefeitura.colombo.pr.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-colombo",
-        "https://hathdata.com/api-cnd-colombo"
+        "https://hathdata.com/api-cnd-colombo",
+        "https://hathdata.com/api-colombo-certidao-de-imovel",
+        "https://hathdata.com/api-colombo-validar-certidao"
       ]
     },
     {
@@ -3270,6 +3428,14 @@
       ]
     },
     {
+      "url": "https://prefeituradebelfordroxo.rj.gov.br/",
+      "nome": "Prefeitura de Belford Roxo: site oficial",
+      "dominio": "prefeituradebelfordroxo.rj.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-belford-roxo"
+      ]
+    },
+    {
       "url": "https://procec.curitiba.pr.gov.br/",
       "nome": "Prefeitura de Curitiba: PROCEC, Processo Eletrônico de Curitiba (assuntos de certidão e de baixa de tributo pago)",
       "dominio": "procec.curitiba.pr.gov.br",
@@ -3371,7 +3537,8 @@
       "nome": "Receita Municipal de Contagem: emissão da Certidão Negativa de Débitos",
       "dominio": "receita.contagem.mg.gov.br",
       "citadaEm": [
-        "https://hathdata.com/api-cnd-contagem"
+        "https://hathdata.com/api-cnd-contagem",
+        "https://hathdata.com/api-contagem-certidao-por-inscricao"
       ]
     },
     {
@@ -3379,7 +3546,8 @@
       "nome": "Receita Municipal de Contagem: dúvidas sobre a emissão",
       "dominio": "receita.contagem.mg.gov.br",
       "citadaEm": [
-        "https://hathdata.com/api-cnd-contagem"
+        "https://hathdata.com/api-cnd-contagem",
+        "https://hathdata.com/api-contagem-certidao-por-inscricao"
       ]
     },
     {
@@ -3387,7 +3555,8 @@
       "nome": "Receita Municipal de Contagem: dúvidas sobre a autenticidade",
       "dominio": "receita.contagem.mg.gov.br",
       "citadaEm": [
-        "https://hathdata.com/api-cnd-contagem"
+        "https://hathdata.com/api-cnd-contagem",
+        "https://hathdata.com/api-contagem-certidao-por-inscricao"
       ]
     },
     {
@@ -3634,6 +3803,30 @@
       "dominio": "repositorio.londrina.pr.gov.br",
       "citadaEm": [
         "https://hathdata.com/api-cnd-londrina"
+      ]
+    },
+    {
+      "url": "https://riopreto.sp.gov.br/cartaservicos/fazenda/certidao-de-regularidade-fiscal-de-tributos-municipais-mobiliarios",
+      "nome": "Prefeitura de São José do Rio Preto: regularidade fiscal de tributos mobiliários",
+      "dominio": "riopreto.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-sao-jose-do-rio-preto"
+      ]
+    },
+    {
+      "url": "https://riopreto.sp.gov.br/cartaservicos/fazenda/certidao-negativa-de-debitos",
+      "nome": "Prefeitura de São José do Rio Preto: Certidão Negativa de Débitos",
+      "dominio": "riopreto.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-sao-jose-do-rio-preto"
+      ]
+    },
+    {
+      "url": "https://riopreto.sp.gov.br/cartaservicos/fazenda/confirmacao-de-autenticidade-de-certidoes",
+      "nome": "Prefeitura de São José do Rio Preto: confirmação de autenticidade de certidões",
+      "dominio": "riopreto.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-sao-jose-do-rio-preto"
       ]
     },
     {
@@ -4099,6 +4292,14 @@
       ]
     },
     {
+      "url": "https://sefaz.camacari.ba.gov.br/servicos/",
+      "nome": "Sefaz Camaçari: Serviços",
+      "dominio": "sefaz.camacari.ba.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-camacari"
+      ]
+    },
+    {
       "url": "https://sefaz.es.gov.br/emissao-de-certidoes",
       "nome": "Sefaz-ES: Emissão de Certidões",
       "dominio": "sefaz.es.gov.br",
@@ -4120,11 +4321,51 @@
       ]
     },
     {
+      "url": "https://sefazweb.camacari.ba.gov.br/dividas/emitirCertidaoDebitoPublica.tela",
+      "nome": "Sefaz Camaçari: emissão pública de certidões",
+      "dominio": "sefazweb.camacari.ba.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-camacari"
+      ]
+    },
+    {
       "url": "https://sefin.belem.pa.gov.br/wp-content/uploads/2024/06/Manual_de_Usuario_-_CND-1.pdf",
       "nome": "Sefin e Cinbesa: Manual de Usuário da Certidão Negativa de Débitos (CNDe)",
       "dominio": "sefin.belem.pa.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-belem"
+      ]
+    },
+    {
+      "url": "https://sefin.caucaia.ce.gov.br/caucaia-passa-a-emitir-nota-fiscal-de-servicos-avulsa-pelo-emissor-nacional-em-20-de-novembro/",
+      "nome": "Sefin Caucaia: Nota Fiscal de Serviços Avulsa pelo Emissor Nacional",
+      "dominio": "sefin.caucaia.ce.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-caucaia"
+      ]
+    },
+    {
+      "url": "https://sefin.caucaia.ce.gov.br/certidoes/",
+      "nome": "Sefin Caucaia: Certidões",
+      "dominio": "sefin.caucaia.ce.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-caucaia"
+      ]
+    },
+    {
+      "url": "https://sefin.caucaia.ce.gov.br/servicos-iss/",
+      "nome": "Sefin Caucaia: Serviços ISS",
+      "dominio": "sefin.caucaia.ce.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-caucaia"
+      ]
+    },
+    {
+      "url": "https://sefin.caucaia.ce.gov.br/validacao-de-certidao/",
+      "nome": "Sefin Caucaia: Validação de Certidão",
+      "dominio": "sefin.caucaia.ce.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-caucaia"
       ]
     },
     {
@@ -4262,6 +4503,14 @@
       "dominio": "semfaz.saoluis.ma.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-sao-luis"
+      ]
+    },
+    {
+      "url": "https://serv42.limeira.sp.gov.br/CertidaoOnline/inicio/",
+      "nome": "Prefeitura de Limeira: Certidão On-line",
+      "dominio": "serv42.limeira.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-limeira"
       ]
     },
     {
@@ -4524,6 +4773,14 @@
       "dominio": "servicos1.montesclaros.mg.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-montes-claros"
+      ]
+    },
+    {
+      "url": "https://servicosfinancas.saobernardo.sp.gov.br/servico-financas3/certidaoNegativaDebitos/formularioCertidao",
+      "nome": "Prefeitura de São Bernardo do Campo: formulário da certidão",
+      "dominio": "servicosfinancas.saobernardo.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-sao-bernardo-do-campo-certidao-de-imovel"
       ]
     },
     {
@@ -5291,6 +5548,14 @@
       ]
     },
     {
+      "url": "https://sigt.osasco.sp.gov.br/iTRIB2/ArrSolicitarCnd_Internet.do",
+      "nome": "Prefeitura de Osasco: Emissão de Certidão de Tributos Municipais on-line",
+      "dominio": "sigt.osasco.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-osasco-cnd-pela-inscricao"
+      ]
+    },
+    {
       "url": "https://sigt2.osasco.sp.gov.br/servicos-online",
       "nome": "Prefeitura de Osasco: Serviços Online",
       "dominio": "sigt2.osasco.sp.gov.br",
@@ -5376,6 +5641,14 @@
       "dominio": "sistemas.belem.pa.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-belem"
+      ]
+    },
+    {
+      "url": "https://sistemas.cariacica.es.gov.br/tbw/loginWeb.jsp?execobj=ServicosWebSite",
+      "nome": "Prefeitura de Cariacica: Serviços Web (certidões e pesquisas de débito)",
+      "dominio": "sistemas.cariacica.es.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-cariacica"
       ]
     },
     {
@@ -5569,7 +5842,8 @@
       "nome": "Prefeitura de Suzano: serviços ao cidadão",
       "dominio": "suzano.sp.gov.br",
       "citadaEm": [
-        "https://hathdata.com/certidao-negativa-municipal-suzano"
+        "https://hathdata.com/certidao-negativa-municipal-suzano",
+        "https://hathdata.com/api-suzano-certidao-mobiliaria"
       ]
     },
     {
@@ -6116,6 +6390,22 @@
       ]
     },
     {
+      "url": "https://www.ananindeua.pa.gov.br/",
+      "nome": "Prefeitura de Ananindeua: página inicial",
+      "dominio": "www.ananindeua.pa.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-ananindeua"
+      ]
+    },
+    {
+      "url": "https://www.ananindeua.pa.gov.br/servicos",
+      "nome": "Prefeitura de Ananindeua: serviços (Certidões Digitais)",
+      "dominio": "www.ananindeua.pa.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-ananindeua"
+      ]
+    },
+    {
       "url": "https://www.bc.sc.gov.br/",
       "nome": "Prefeitura de Balneário Camboriú: site oficial",
       "dominio": "www.bc.sc.gov.br",
@@ -6145,7 +6435,8 @@
       "dominio": "www.betim.mg.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-betim",
-        "https://hathdata.com/api-cnd-betim"
+        "https://hathdata.com/api-cnd-betim",
+        "https://hathdata.com/api-betim-certidao-por-inscricao-imobiliaria"
       ]
     },
     {
@@ -6207,6 +6498,14 @@
       ]
     },
     {
+      "url": "https://www.camacari.ba.gov.br/sefaz-define-calendario-de-pagamento-dos-tributos-municipais-para-2027/",
+      "nome": "Prefeitura de Camaçari: calendário de pagamento dos tributos municipais para 2027",
+      "dominio": "www.camacari.ba.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-camacari"
+      ]
+    },
+    {
       "url": "https://www.camarabrusque.sc.gov.br/",
       "nome": "Câmara de Vereadores de Brusque",
       "dominio": "www.camarabrusque.sc.gov.br",
@@ -6215,11 +6514,35 @@
       ]
     },
     {
+      "url": "https://www.camaracascavel.pr.gov.br/download/arquivo/55036/artigo/",
+      "nome": "Câmara de Cascavel: Lei Complementar nº 134/2023 (PDF)",
+      "dominio": "www.camaracascavel.pr.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-cascavel-certidao-economica"
+      ]
+    },
+    {
+      "url": "https://www.camaracascavel.pr.gov.br/download/arquivo/56496/artigo/",
+      "nome": "Câmara de Cascavel: Lei Complementar nº 136/2024 (PDF)",
+      "dominio": "www.camaracascavel.pr.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-cascavel-certidao-economica"
+      ]
+    },
+    {
       "url": "https://www.camaracascavel.pr.gov.br/download/arquivo/60628/artigo/",
       "nome": "Câmara de Cascavel: Lei Complementar nº 138/2025 (PDF)",
       "dominio": "www.camaracascavel.pr.gov.br",
       "citadaEm": [
         "https://hathdata.com/api-cnd-cascavel"
+      ]
+    },
+    {
+      "url": "https://www.camaracascavel.pr.gov.br/legislacoes/categoria/leis-complementares/pagina/13/",
+      "nome": "Câmara de Cascavel: leis complementares (LC nº 1/2001 e LC nº 139/2026)",
+      "dominio": "www.camaracascavel.pr.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-cascavel-certidao-de-imovel"
       ]
     },
     {
@@ -6727,6 +7050,30 @@
       ]
     },
     {
+      "url": "https://www.franca.sp.gov.br/administracao-municipal/administracao-direta/financas/cfm",
+      "nome": "Prefeitura de Franca: Cadastro Fiscal Mobiliário (ISS e Taxa de Licença)",
+      "dominio": "www.franca.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-franca-guia-de-iss"
+      ]
+    },
+    {
+      "url": "https://www.franca.sp.gov.br/administracao-municipal/administracao-direta/financas/iptu-sorteio",
+      "nome": "Prefeitura de Franca: IPTU, sorteio",
+      "dominio": "www.franca.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-franca-numero-da-sorte-iptu"
+      ]
+    },
+    {
+      "url": "https://www.franca.sp.gov.br/administracao-municipal/administracao-direta/financas/sefin-iptu-instrucoes",
+      "nome": "Prefeitura de Franca: IPTU, como emitir o DAM e pagar",
+      "dominio": "www.franca.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-franca-guia-de-iptu"
+      ]
+    },
+    {
       "url": "https://www.gaspar.sc.gov.br/cartaservicos/certidao-negativa-de-debitos-samae/",
       "nome": "Prefeitura de Gaspar: Certidão Negativa de Débitos do Samae",
       "dominio": "www.gaspar.sc.gov.br",
@@ -6768,11 +7115,30 @@
       ]
     },
     {
+      "url": "https://www.goiania.go.gov.br/sistemas/sccer/asp/sccer00100f0.asp",
+      "nome": "Prefeitura de Goiânia: SCCER, menu das certidões mobiliárias",
+      "dominio": "www.goiania.go.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-goiania-certidao-de-debitos-do-cae",
+        "https://hathdata.com/api-goiania-dados-cadastrais-do-cae",
+        "https://hathdata.com/api-goiania-baixa-de-inscricao-no-cae"
+      ]
+    },
+    {
       "url": "https://www.goiania.go.gov.br/sistemas/sccer/asp/sccer00101f0.asp",
       "nome": "Prefeitura de Goiânia: certidão de débitos do CAE",
       "dominio": "www.goiania.go.gov.br",
       "citadaEm": [
-        "https://hathdata.com/api-goiania-certidoes-mobiliarias"
+        "https://hathdata.com/api-goiania-certidoes-mobiliarias",
+        "https://hathdata.com/api-goiania-certidao-de-debitos-do-cae"
+      ]
+    },
+    {
+      "url": "https://www.goiania.go.gov.br/sistemas/sccer/asp/sccer00102f0.asp",
+      "nome": "Prefeitura de Goiânia: SCCER, Dados Cadastrais do CAE",
+      "dominio": "www.goiania.go.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-goiania-dados-cadastrais-do-cae"
       ]
     },
     {
@@ -6780,7 +7146,24 @@
       "nome": "Prefeitura de Goiânia: certidão de baixa do CAE",
       "dominio": "www.goiania.go.gov.br",
       "citadaEm": [
-        "https://hathdata.com/api-goiania-certidoes-mobiliarias"
+        "https://hathdata.com/api-goiania-certidoes-mobiliarias",
+        "https://hathdata.com/api-goiania-baixa-de-inscricao-no-cae"
+      ]
+    },
+    {
+      "url": "https://www.goiania.go.gov.br/sistemas/sccer/asp/sccer00104f0.asp",
+      "nome": "Prefeitura de Goiânia: formulário da suspensão (sccer00104)",
+      "dominio": "www.goiania.go.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-goiania-suspensao-de-atividade-no-cae"
+      ]
+    },
+    {
+      "url": "https://www.goiania.go.gov.br/sistemas/sccer/asp/sccer00200f0.asp",
+      "nome": "Prefeitura de Goiânia: SCCER, menu das certidões imobiliárias",
+      "dominio": "www.goiania.go.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-goiania-dados-cadastrais-do-imovel"
       ]
     },
     {
@@ -6789,6 +7172,14 @@
       "dominio": "www.goiania.go.gov.br",
       "citadaEm": [
         "https://hathdata.com/api-iptu-goiania"
+      ]
+    },
+    {
+      "url": "https://www.goiania.go.gov.br/sistemas/sccer/asp/sccer00202f0.asp",
+      "nome": "Prefeitura de Goiânia: SCCER, Dados Cadastrais do Imóvel",
+      "dominio": "www.goiania.go.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-goiania-dados-cadastrais-do-imovel"
       ]
     },
     {
@@ -7559,7 +7950,8 @@
       "dominio": "www.guarapuava.pr.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-guarapuava",
-        "https://hathdata.com/api-cnd-guarapuava"
+        "https://hathdata.com/api-cnd-guarapuava",
+        "https://hathdata.com/api-guarapuava-certidao-de-imovel"
       ]
     },
     {
@@ -7736,6 +8128,30 @@
       ]
     },
     {
+      "url": "https://www.limeira.sp.gov.br/imprensa/noticias/fazenda/mobiliario-2026-prefeitura-de-limeira-reforca-importancia-do-e-mail-atualizado",
+      "nome": "Prefeitura de Limeira: e-mail atualizado no cadastro mobiliário",
+      "dominio": "www.limeira.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-limeira"
+      ]
+    },
+    {
+      "url": "https://www.limeira.sp.gov.br/imprensa/noticias/fazenda/prefeitura-de-limeira-lanca-refis-2026-com-parcelamentos-em-ate-27-vezes-veja-como-aderir",
+      "nome": "Prefeitura de Limeira: Refis 2026",
+      "dominio": "www.limeira.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-limeira"
+      ]
+    },
+    {
+      "url": "https://www.limeira.sp.gov.br/imprensa/noticias/fazenda/prefeitura-de-limeira-orienta-contribuintes-sobre-acesso-digital-aos-tributos-mobiliarios",
+      "nome": "Prefeitura de Limeira: acesso digital aos tributos mobiliários",
+      "dominio": "www.limeira.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-limeira"
+      ]
+    },
+    {
       "url": "https://www.maringa.pr.gov.br/carta-servico/certidao-negativa-de-debitos/74",
       "nome": "Carta de Serviços: Certidão Negativa de Débitos/Positiva com Efeito de Negativa",
       "dominio": "www.maringa.pr.gov.br",
@@ -7753,6 +8169,46 @@
       ]
     },
     {
+      "url": "https://www.maua.sp.gov.br/Servicos/Detalhes/138",
+      "nome": "Prefeitura de Mauá: Certidão Negativa de Débito Geral / Contribuinte",
+      "dominio": "www.maua.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-maua"
+      ]
+    },
+    {
+      "url": "https://www.maua.sp.gov.br/Servicos/Detalhes/20",
+      "nome": "Prefeitura de Mauá: Validação de Documentos e Certidões",
+      "dominio": "www.maua.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-maua"
+      ]
+    },
+    {
+      "url": "https://www.maua.sp.gov.br/Servicos/Detalhes/6",
+      "nome": "Prefeitura de Mauá: Certidão Cadastral Mobiliária",
+      "dominio": "www.maua.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-maua"
+      ]
+    },
+    {
+      "url": "https://www.maua.sp.gov.br/Servicos/Detalhes/7",
+      "nome": "Prefeitura de Mauá: Certidão Negativa de Débitos da Atividade",
+      "dominio": "www.maua.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-maua"
+      ]
+    },
+    {
+      "url": "https://www.maua.sp.gov.br/Servicos/Detalhes/86",
+      "nome": "Prefeitura de Mauá: Baixa de tributos mobiliários",
+      "dominio": "www.maua.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-maua"
+      ]
+    },
+    {
       "url": "https://www.mg.gov.br/servico/solicitar-cadastro-de-fornecedor-do-estado-de-minas-gerais",
       "nome": "Governo de MG: solicitar cadastro de fornecedor",
       "dominio": "www.mg.gov.br",
@@ -7761,11 +8217,37 @@
       ]
     },
     {
+      "url": "https://www.mogidascruzes.sp.gov.br/public/site/doc/20251223152919694ad16f67ffb.pdf",
+      "nome": "Prefeitura de Mogi das Cruzes: Lei Complementar nº 38/2005 (CCM)",
+      "dominio": "www.mogidascruzes.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-mogi-das-cruzes"
+      ]
+    },
+    {
+      "url": "https://www.mogidascruzes.sp.gov.br/servico/alvara-certidoes-e-licencas/cadastro-ccm-certidao-negativa-de-debitos",
+      "nome": "Prefeitura de Mogi das Cruzes: Cadastro CCM, Certidão Negativa de Débitos Online",
+      "dominio": "www.mogidascruzes.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-mogi-das-cruzes"
+      ]
+    },
+    {
+      "url": "https://www.mogidascruzes.sp.gov.br/servico/alvara-certidoes-e-licencas/iptu-certidao-negativa-de-debitos-ou-positiva-com-efeito-de-negativa",
+      "nome": "Prefeitura de Mogi das Cruzes: IPTU, Certidão Negativa ou Positiva com efeito de Negativa",
+      "dominio": "www.mogidascruzes.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-mogi-das-cruzes"
+      ]
+    },
+    {
       "url": "https://www.montesclaros.mg.gov.br/publica_legais/leis_pdf/leis_2005/dez-05/lei_complementar%20004_05.pdf",
       "nome": "Montes Claros: Lei Complementar nº 04/2005 (Código Tributário)",
       "dominio": "www.montesclaros.mg.gov.br",
       "citadaEm": [
-        "https://hathdata.com/api-cnd-montes-claros"
+        "https://hathdata.com/api-cnd-montes-claros",
+        "https://hathdata.com/api-montes-claros-certidao-de-imovel",
+        "https://hathdata.com/api-montes-claros-validar-certidao"
       ]
     },
     {
@@ -7919,6 +8401,30 @@
       "dominio": "www.pesquisalegislativa.mg.gov.br",
       "citadaEm": [
         "https://hathdata.com/cagef-mg"
+      ]
+    },
+    {
+      "url": "https://www.petropolis.rj.gov.br/index.php/secretaria-de-fazenda",
+      "nome": "Prefeitura de Petrópolis: Secretaria de Fazenda",
+      "dominio": "www.petropolis.rj.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-petropolis"
+      ]
+    },
+    {
+      "url": "https://www.petropolis.rj.gov.br/pmp/index.php/guia-de-migracao-para-a-nfs-e-nacional-em-petropolis",
+      "nome": "Prefeitura de Petrópolis: guia de migração para a NFS-e Nacional",
+      "dominio": "www.petropolis.rj.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-petropolis"
+      ]
+    },
+    {
+      "url": "https://www.petropolis.rj.gov.br/sef/emissao-certidao/",
+      "nome": "Prefeitura de Petrópolis: Sistema de Geração de Certidão",
+      "dominio": "www.petropolis.rj.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-petropolis"
       ]
     },
     {
@@ -8334,6 +8840,10 @@
         "https://hathdata.com/certidao-negativa-municipal-ponta-grossa",
         "https://hathdata.com/certidao-negativa-municipal-betim",
         "https://hathdata.com/certidao-negativa-municipal-sao-jose-dos-pinhais",
+        "https://hathdata.com/api-palmas-certidao-de-imovel",
+        "https://hathdata.com/api-palmas-certidao-de-lancamento",
+        "https://hathdata.com/api-palmas-certidao-de-decadencia",
+        "https://hathdata.com/api-santana-da-vargem-certidao-de-imovel",
         "https://hathdata.com/debitos-da-empresa",
         "https://hathdata.com/exclusao-do-simples-nacional",
         "https://hathdata.com/cnd-nao-sai"
@@ -8520,6 +9030,22 @@
       ]
     },
     {
+      "url": "https://www.pmvc.ba.gov.br/certidao-negativa-de-debitos/",
+      "nome": "Prefeitura de Vitória da Conquista: Certidão Negativa de Débitos",
+      "dominio": "www.pmvc.ba.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-vitoria-da-conquista"
+      ]
+    },
+    {
+      "url": "https://www.pmvc.ba.gov.br/secretaria-de-financas-implanta-sistema-automatico-para-emissao-de-certidoes-negativas-e-boleto-de-iptu/",
+      "nome": "Prefeitura de Vitória da Conquista: Sefin emite certidões negativas pelo WhatsApp (01/11/2024)",
+      "dominio": "www.pmvc.ba.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-vitoria-da-conquista"
+      ]
+    },
+    {
       "url": "https://www.policiacivil.mg.gov.br/pagina/emissao-atestado",
       "nome": "Polícia Civil MG: Emissão do Atestado de Antecedentes",
       "dominio": "www.policiacivil.mg.gov.br",
@@ -8533,6 +9059,14 @@
       "dominio": "www.pontagrossa.pr.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-ponta-grossa"
+      ]
+    },
+    {
+      "url": "https://www.poupatempo.sp.gov.br/wps/portal/poupatempoTaOn/servicos/intermediarias/municipios/santos/divida-ativa/",
+      "nome": "Poupatempo: Dívida Ativa de Santos",
+      "dominio": "www.poupatempo.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-santos-divida-ativa"
       ]
     },
     {
@@ -8689,7 +9223,8 @@
       "dominio": "www.santanadavargem.mg.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-santana-da-vargem",
-        "https://hathdata.com/api-cnd-santana-da-vargem"
+        "https://hathdata.com/api-cnd-santana-da-vargem",
+        "https://hathdata.com/api-santana-da-vargem-certidao-de-imovel"
       ]
     },
     {
@@ -8698,6 +9233,22 @@
       "dominio": "www.santoandre.sp.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-santo-andre"
+      ]
+    },
+    {
+      "url": "https://www.santoandre.sp.gov.br/portalservico/Certidoes/CadastroFiscalMobiliario.aspx",
+      "nome": "Prefeitura de Santo André: Certidão de Cadastro Mobiliário",
+      "dominio": "www.santoandre.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-santo-andre-cadastro-mobiliario"
+      ]
+    },
+    {
+      "url": "https://www.santoandre.sp.gov.br/portalservico/Certidoes/PosNegTribCadastro.aspx",
+      "nome": "Prefeitura de Santo André: Certidão de Débitos - Cadastro",
+      "dominio": "www.santoandre.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-santo-andre-certidao-de-tributos"
       ]
     },
     {
@@ -8717,11 +9268,45 @@
       ]
     },
     {
+      "url": "https://www.santoandre.sp.gov.br/PortalServico/Default.aspx",
+      "nome": "Prefeitura de Santo André: Portal de Serviços",
+      "dominio": "www.santoandre.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-santo-andre-cadastro-mobiliario"
+      ]
+    },
+    {
+      "url": "https://www.santoandre.sp.gov.br/PortalServico/Seguranca/frmPrimeiroAcesso.aspx",
+      "nome": "Prefeitura de Santo André: gerar nova senha do Portal de Serviços",
+      "dominio": "www.santoandre.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-santo-andre-certidao-de-tributos"
+      ]
+    },
+    {
+      "url": "https://www.santos.sp.gov.br/?q=content/alvara-mobiliario-e-certidoes",
+      "nome": "Prefeitura de Santos: Alvará mobiliário e certidões",
+      "dominio": "www.santos.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-santos-todas-as-certidoes"
+      ]
+    },
+    {
       "url": "https://www.santos.sp.gov.br/?q=content/certidoes-mobiliarias",
       "nome": "Prefeitura de Santos: Certidões Mobiliárias",
       "dominio": "www.santos.sp.gov.br",
       "citadaEm": [
-        "https://hathdata.com/certidao-negativa-municipal-santos"
+        "https://hathdata.com/certidao-negativa-municipal-santos",
+        "https://hathdata.com/api-santos-certidao-mobiliaria",
+        "https://hathdata.com/api-santos-certidao-de-existencia-de-firma"
+      ]
+    },
+    {
+      "url": "https://www.santos.sp.gov.br/?q=content/divida-ativa",
+      "nome": "Prefeitura de Santos: Dívida Ativa",
+      "dominio": "www.santos.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-santos-divida-ativa"
       ]
     },
     {
@@ -8733,11 +9318,22 @@
       ]
     },
     {
+      "url": "https://www.santos.sp.gov.br/static/files_www/files/portal_files/SEFIN/ctm_2026.pdf",
+      "nome": "Prefeitura de Santos: Código Tributário do Município (2026)",
+      "dominio": "www.santos.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-santos-certidao-de-existencia-de-firma",
+        "https://hathdata.com/api-santos-certidao-de-encerramento-de-firma"
+      ]
+    },
+    {
       "url": "https://www.santos.sp.gov.br/static/files_www/files/portal_files/SEFIN/manual_das_certidoes.pdf",
       "nome": "Secretaria de Finanças de Santos: Manual das Certidões",
       "dominio": "www.santos.sp.gov.br",
       "citadaEm": [
-        "https://hathdata.com/certidao-negativa-municipal-santos"
+        "https://hathdata.com/certidao-negativa-municipal-santos",
+        "https://hathdata.com/api-santos-certidao-mobiliaria",
+        "https://hathdata.com/api-santos-validar-certidao"
       ]
     },
     {
@@ -8745,7 +9341,8 @@
       "nome": "Prefeitura de São Bernardo do Campo: Negativa de Débitos",
       "dominio": "www.saobernardo.sp.gov.br",
       "citadaEm": [
-        "https://hathdata.com/api-cnd-sao-bernardo-do-campo"
+        "https://hathdata.com/api-cnd-sao-bernardo-do-campo",
+        "https://hathdata.com/api-sao-bernardo-do-campo-certidao-de-imovel"
       ]
     },
     {
@@ -8760,6 +9357,38 @@
         "https://hathdata.com/api-sao-leopoldo-certidao-baixa-cadastral",
         "https://hathdata.com/api-sao-leopoldo-certidao-nao-contribuinte",
         "https://hathdata.com/api-sao-leopoldo-validar-certidao"
+      ]
+    },
+    {
+      "url": "https://www.saovicente.sp.gov.br/carta-de-servicos/comercio-e-empresas/certidao/certidao-de-baixa-para-empresa",
+      "nome": "Prefeitura de São Vicente: Certidão de Baixa para empresa",
+      "dominio": "www.saovicente.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-sao-vicente"
+      ]
+    },
+    {
+      "url": "https://www.saovicente.sp.gov.br/carta-de-servicos/comercio-e-empresas/certidao/certidao-de-existencia-empresa",
+      "nome": "Prefeitura de São Vicente: Certidão de Existência para empresa",
+      "dominio": "www.saovicente.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-sao-vicente"
+      ]
+    },
+    {
+      "url": "https://www.saovicente.sp.gov.br/carta-de-servicos/comercio-e-empresas/certidao/certidao-de-inexistencia",
+      "nome": "Prefeitura de São Vicente: Certidão de Inexistência",
+      "dominio": "www.saovicente.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-sao-vicente"
+      ]
+    },
+    {
+      "url": "https://www.saovicente.sp.gov.br/carta-de-servicos/comercio-e-empresas/certidao/certidao-negativa-de-debitos-somente-taxas",
+      "nome": "Prefeitura de São Vicente: Certidão Negativa de Débitos (Carta de Serviços)",
+      "dominio": "www.saovicente.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-sao-vicente"
       ]
     },
     {
@@ -9234,6 +9863,30 @@
       ]
     },
     {
+      "url": "https://www.taubate.sp.gov.br/",
+      "nome": "Prefeitura de Taubaté: site oficial (Serviços Online)",
+      "dominio": "www.taubate.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-taubate"
+      ]
+    },
+    {
+      "url": "https://www.taubate.sp.gov.br/noticias/fazenda/prefeitura-de-taubate-lanca-programa-de-anistia-com-descontos-de-ate-100-de-juros-e-multas-e-opcao-de-parcelamento",
+      "nome": "Prefeitura de Taubaté: programa de anistia com descontos de juros e multas",
+      "dominio": "www.taubate.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-taubate"
+      ]
+    },
+    {
+      "url": "https://www.taubate.sp.gov.br/noticias/fazenda/taubate-adota-sistema-do-emissor-nacional-para-nota-fiscal-de-servicos",
+      "nome": "Prefeitura de Taubaté: Emissor Nacional para Nota Fiscal de Serviços",
+      "dominio": "www.taubate.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-taubate"
+      ]
+    },
+    {
       "url": "https://www.teresina.pi.gov.br/semf/servicos/",
       "nome": "Teresinense Digital: solicitação de certidões",
       "dominio": "www.teresina.pi.gov.br",
@@ -9441,6 +10094,30 @@
       "dominio": "www.uberaba.mg.gov.br",
       "citadaEm": [
         "https://hathdata.com/certidao-negativa-municipal-uberaba"
+      ]
+    },
+    {
+      "url": "https://www.varzeagrande.mt.gov.br/certidoes",
+      "nome": "Prefeitura de Várzea Grande: Certidões",
+      "dominio": "www.varzeagrande.mt.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-varzea-grande"
+      ]
+    },
+    {
+      "url": "https://www2.bauru.sp.gov.br/financas/assunto.aspx?id=10",
+      "nome": "Prefeitura de Bauru: certidões por protocolo",
+      "dominio": "www2.bauru.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-bauru"
+      ]
+    },
+    {
+      "url": "https://www2.bauru.sp.gov.br/financas/certidoes/",
+      "nome": "Prefeitura de Bauru: Certidões e Documentos",
+      "dominio": "www2.bauru.sp.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/certidao-negativa-municipal-bauru"
       ]
     },
     {

@@ -2,17 +2,17 @@
   "fonte": "https://hathdata.com",
   "descricao": "Todas as páginas públicas do hathdata.com (sitemap), com título, tipo, data e as consultas que cada uma atende.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-17",
-  "total": 1064,
+  "geradoEm": "2026-11-19",
+  "total": 1141,
   "slogan": "Toda consulta online, automatizada.",
   "tipos": {
-    "API de CND por cidade": 79,
+    "API de CND por cidade": 81,
     "artigo": 25,
     "catálogo de consultas": 20,
     "CND estadual": 27,
-    "consulta por órgão": 372,
+    "consulta por órgão": 426,
     "consulta: comarca do TJMG": 298,
-    "guia de cidade": 102,
+    "guia de cidade": 123,
     "guia e página de produto": 98,
     "home": 1,
     "integração Omie": 7,
@@ -351,6 +351,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/api-cnd-imbituba",
+      "tipo": "API de CND por cidade",
+      "titulo": "API de CND de Imbituba (SC): certidão de 180 dias",
+      "h1": "API de CND de Imbituba: seis meses de prazo, só com cadastro",
+      "descricao": "",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/api-cnd-ipiranga-do-norte",
       "tipo": "API de CND por cidade",
       "titulo": "API de CND de Ipiranga do Norte (MT): CNPJ, 30 dias",
@@ -434,6 +443,15 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-cnd-laguna",
+      "tipo": "API de CND por cidade",
+      "titulo": "API de CND de Laguna (SC): certidão de contribuinte",
+      "h1": "API de CND de Laguna: o contribuinte inteiro numa certidão",
+      "descricao": "",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/api-cnd-londrina",
       "tipo": "API de CND por cidade",
       "titulo": "API de CND de Londrina (PR): Certidão Negativa Unificada",
@@ -473,8 +491,8 @@
       "url": "https://hathdata.com/api-cnd-municipal",
       "tipo": "API de CND por cidade",
       "titulo": "API de CND municipal: certidão da prefeitura por CNPJ",
-      "h1": "API de CND municipal: 123 prefeituras pelo CNPJ",
-      "descricao": "API de CND municipal: 123 prefeituras em 21 estados, 79 já em produção, com a certidão mobiliária, a do imóvel e o PDF oficial. Veja, cidade por cidade, o que sai e a página da API.",
+      "h1": "API de CND municipal: 125 prefeituras pelo CNPJ",
+      "descricao": "API de CND municipal: 125 prefeituras em 21 estados, 81 já em produção, com a certidão mobiliária, a do imóvel e o PDF oficial. Veja, cidade por cidade, o que sai e a página da API.",
       "atualizadoEm": "2026-10-13",
       "consultas": []
     },
@@ -740,9 +758,7 @@
       "h1": "API de CND de Suzano: três recortes",
       "descricao": "API da certidão de débito da Prefeitura de Suzano (SP), no Portal do Cidadão: por contribuinte, imóvel ou mobiliário, pelo código reduzido ou pela inscrição cadastral, com dados em tempo real.",
       "atualizadoEm": "2026-10-27",
-      "consultas": [
-        "Prefeitura / SP / Suzano / Certidão de Débito"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-cnd-tres-pontas",
@@ -999,9 +1015,9 @@
     {
       "url": "https://hathdata.com/consultas",
       "tipo": "catálogo de consultas",
-      "titulo": "Catálogo de coletas: 1224+ consultas oficiais por CNPJ",
+      "titulo": "Catálogo de coletas: 1281+ consultas oficiais por CNPJ",
       "h1": "Consultas por órgão, renovadas antes de vencer",
-      "descricao": "1224+ consultas oficiais coletadas por automação em órgãos públicos, 1105+ com documento em PDF emitido na própria fonte e 13.342+ atributos retornados, nos 27 estados. Busque por órgão, categoria, estado e abrangência.",
+      "descricao": "1281+ consultas oficiais coletadas por automação em órgãos públicos, 1162+ com documento em PDF emitido na própria fonte e 13.963+ atributos retornados, nos 27 estados. Busque por órgão, categoria, estado e abrangência.",
       "atualizadoEm": null,
       "consultas": []
     },
@@ -1591,9 +1607,7 @@
       "h1": "API ANTT Boleto do Parcelamento: o boleto de cada parcela",
       "descricao": "API dos boletos do Parcelamento ANTT: as parcelas em aberto do parcelamento de multas não inscritas em Dívida Ativa, em PDF, com valor e vencimento, pela Área do Autuado.",
       "atualizadoEm": "2026-11-09",
-      "consultas": [
-        "ANTT / SIFAMA / Boletos / Parcelamento ANTT"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-antt-boleto-parcelamento-prd-inscritos",
@@ -1602,9 +1616,7 @@
       "h1": "API ANTT Parcelamento PRD (Inscritos): o outro grupo de parcelas do programa",
       "descricao": "API dos boletos do Parcelamento PRD (Inscritos) da ANTT: as parcelas em aberto do programa de regularização de débitos não tributários, em PDF, pela Área do Autuado.",
       "atualizadoEm": "2026-11-09",
-      "consultas": [
-        "ANTT / SIFAMA / Boletos / Parcelamento PRD (Inscritos)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-antt-boleto-parcelamento-prd-nao-inscritos",
@@ -1613,9 +1625,7 @@
       "h1": "API ANTT Parcelamento PRD (Não Inscritos): as parcelas do programa de 2017",
       "descricao": "API dos boletos do Parcelamento PRD (Não Inscritos) da ANTT: as parcelas em aberto do Programa de Regularização de Débitos não Tributários, em PDF, pela Área do Autuado.",
       "atualizadoEm": "2026-11-09",
-      "consultas": [
-        "ANTT / SIFAMA / Boletos / Parcelamento PRD (Não Inscritos)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-antt-download-auto-de-infracao",
@@ -1635,9 +1645,7 @@
       "h1": "API ANTT Multa por Evasão de Pedágio (free flow): os boletos do free flow",
       "descricao": "API das multas por evasão de pedágio da ANTT, inclusive do free flow: os boletos em aberto do tipo Evasão de Pedágio, em PDF, com placa, data e valor, pela Área do Autuado.",
       "atualizadoEm": "2026-11-09",
-      "consultas": [
-        "ANTT / SIFAMA / Boletos / Evasão de Pedágio"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-antt-multa-excesso-de-peso",
@@ -1646,9 +1654,7 @@
       "h1": "API ANTT Multa por Excesso de Peso: os boletos da ANTT pela API",
       "descricao": "API da multa por excesso de peso da ANTT: com o acesso da Área do Autuado, cada boleto em aberto do tipo Excesso de Peso volta em PDF, com valor, vencimento, placa e processo.",
       "atualizadoEm": "2026-11-09",
-      "consultas": [
-        "ANTT / SIFAMA / Boletos / Excesso de Peso"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-antt-multa-pagamento-eletronico-de-frete",
@@ -1657,9 +1663,7 @@
       "h1": "API ANTT Multa de Pagamento Eletrônico de Frete: os boletos do PEF",
       "descricao": "API das multas de Pagamento Eletrônico de Frete da ANTT: os boletos em aberto do tipo PEF, ligados ao CIOT e à forma de pagar o frete, em PDF e com os campos do boleto.",
       "atualizadoEm": "2026-11-09",
-      "consultas": [
-        "ANTT / SIFAMA / Boletos / Pagamento Eletrônico de Frete (PEF)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-antt-multa-piso-minimo-de-frete",
@@ -1668,9 +1672,7 @@
       "h1": "API ANTT Multa do Piso Mínimo de Frete: quem contratou abaixo da tabela",
       "descricao": "API das multas do piso mínimo de frete da ANTT: os boletos em aberto de quem contratou frete abaixo da tabela, em PDF, com processo e data da ocorrência.",
       "atualizadoEm": "2026-11-09",
-      "consultas": [
-        "ANTT / SIFAMA / Boletos / Piso Mínimo de Frete"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-antt-multa-produtos-perigosos",
@@ -1679,9 +1681,7 @@
       "h1": "API ANTT Multa de Produtos Perigosos: os boletos do TRPP",
       "descricao": "API das multas de transporte rodoviário de produtos perigosos da ANTT: os boletos em aberto do tipo TRPP, de transportador e expedidor, em PDF, com processo e placa.",
       "atualizadoEm": "2026-11-09",
-      "consultas": [
-        "ANTT / SIFAMA / Boletos / Produtos Perigosos (TRPP)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-antt-multa-produtos-perigosos-internacional",
@@ -1690,9 +1690,7 @@
       "h1": "API ANTT Multa de Produtos Perigosos Internacional: os boletos de quem cruza a fronteira",
       "descricao": "API das multas de transporte internacional de produtos perigosos da ANTT: os boletos em aberto do tipo TRPP Internacional, em PDF, para quem cruza a fronteira com carga perigosa.",
       "atualizadoEm": "2026-11-09",
-      "consultas": [
-        "ANTT / SIFAMA / Boletos / Produtos Perigosos Internacional (TRPP)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-antt-multa-rntrc",
@@ -1701,9 +1699,7 @@
       "h1": "API ANTT Multa do RNTRC: os boletos do registro do transportador",
       "descricao": "API das multas do RNTRC da ANTT: os boletos em aberto por transporte sem registro, contratação de transportador irregular ou cadastro desatualizado, em PDF e com o processo.",
       "atualizadoEm": "2026-11-09",
-      "consultas": [
-        "ANTT / SIFAMA / Boletos / RNTRC"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-antt-multa-sac-trip",
@@ -1712,9 +1708,7 @@
       "h1": "API ANTT Multa SAC TRIP: o atendimento das empresas de ônibus",
       "descricao": "API das multas do tipo SAC TRIP da ANTT: os boletos em aberto ligados ao atendimento ao consumidor no transporte interestadual de passageiros, em PDF, pela Área do Autuado.",
       "atualizadoEm": "2026-11-09",
-      "consultas": [
-        "ANTT / SIFAMA / Boletos / SAC TRIP"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-antt-multa-transporte-interestadual-de-passageiros",
@@ -1723,9 +1717,7 @@
       "h1": "API ANTT Multa do Transporte Interestadual de Passageiros: os boletos das empresas de ônibus",
       "descricao": "API das multas do transporte rodoviário interestadual de passageiros da ANTT: os boletos em aberto de empresas de ônibus, em PDF, com processo e data da infração.",
       "atualizadoEm": "2026-11-09",
-      "consultas": [
-        "ANTT / SIFAMA / Boletos / Interestadual de Passageiros"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-antt-multa-transporte-internacional-de-cargas",
@@ -1734,9 +1726,7 @@
       "h1": "API ANTT Multa do Transporte Internacional de Cargas (TRIC): as multas do transporte internacional de cargas",
       "descricao": "API das multas do transporte rodoviário internacional de cargas da ANTT: os boletos em aberto do tipo TRIC, em PDF, para transportadoras com licença internacional.",
       "atualizadoEm": "2026-11-09",
-      "consultas": [
-        "ANTT / SIFAMA / Boletos / Internacional de Cargas (TRIC)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-antt-multa-transporte-internacional-de-passageiros",
@@ -1745,9 +1735,7 @@
       "h1": "API ANTT Multa do Transporte Internacional de Passageiros: os boletos em aberto",
       "descricao": "API das multas do transporte rodoviário internacional de passageiros da ANTT: os boletos em aberto desse tipo, em PDF, para empresas com linha ou fretamento internacional.",
       "atualizadoEm": "2026-11-09",
-      "consultas": [
-        "ANTT / SIFAMA / Boletos / Internacional de Passageiros"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-antt-multa-vale-pedagio",
@@ -1756,9 +1744,7 @@
       "h1": "API ANTT Multa do Vale-Pedágio: os boletos do embarcador",
       "descricao": "API das multas de vale-pedágio da ANTT: os boletos em aberto de quem não antecipou o pedágio ao transportador, em PDF, pela Área do Autuado.",
       "atualizadoEm": "2026-11-09",
-      "consultas": [
-        "ANTT / SIFAMA / Boletos / Vale Pedágio"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-antt-multas",
@@ -1778,9 +1764,7 @@
       "h1": "API ANTT segunda via: cada boleto em aberto, em PDF",
       "descricao": "API da segunda via de boleto de multa da ANTT: pela Área do Autuado (SIFAMA), cada boleto em aberto volta em PDF, com valor, vencimento, linha digitável, processo e placa. Uma rota por tipo de multa.",
       "atualizadoEm": "2026-11-09",
-      "consultas": [
-        "ANTT / SIFAMA / Segunda Via de Boletos (todos os tipos)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-antt-sei-processos",
@@ -1852,6 +1836,24 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/api-betim-certidao-por-inscricao-imobiliaria",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de imóvel de Betim (MG) pela inscrição via API",
+      "h1": "Certidão de imóvel de Betim (MG) pela inscrição: um lote, não a empresa inteira",
+      "descricao": "API da certidão Por Cadastro do Portal da Dívida Ativa de Betim (MG): um imóvel pela inscrição imobiliária, com situação, validade impressa e PDF.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-betim-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Betim (MG): código de 20 caracteres",
+      "h1": "Validar certidão de Betim (MG): o código diz se o papel existe",
+      "descricao": "API da validação de certidões do Portal da Dívida Ativa de Betim (MG): pelo código de 20 caracteres, certidão válida ou não encontrada, com número, emissão e validade.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/api-bid-sancoes",
       "tipo": "consulta por órgão",
       "titulo": "API BID Sanções: empresas sancionadas pelo BID",
@@ -1920,6 +1922,37 @@
       "atualizadoEm": "2026-10-27",
       "consultas": [
         "Sanções internacionais / Canadá"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-cascavel-certidao-de-imovel",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão negativa de imóvel de Cascavel (PR) via API",
+      "h1": "Certidão negativa de imóvel de Cascavel (PR): o lote, não a empresa",
+      "descricao": "API da CND de imóvel de Cascavel (PR) pelo cadastro ou pela inscrição imobiliária, com a finalidade Imobiliário impressa e o documento vinculado conferido.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-cascavel-certidao-economica",
+      "tipo": "consulta por órgão",
+      "titulo": "CND do cadastro econômico de Cascavel (PR): API",
+      "h1": "Certidão do cadastro econômico de Cascavel (PR): uma atividade, só para licitação",
+      "descricao": "API da CND de Cascavel (PR) pelo cadastro econômico: a certidão de uma atividade, com as finalidades Licitação - Empresas ou Licitação - Econômico MEI.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / PR / Cascavel / Certidão Negativa de Débitos do Cadastro Econômico"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-cascavel-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Cascavel (PR): número/ano via API",
+      "h1": "Validar certidão de Cascavel (PR): o número/ano devolve o PDF de novo",
+      "descricao": "API da autenticidade da CND de Cascavel (PR): pelo número/ano, VALIDA com o PDF reemitido e a finalidade impressa, ou INVALIDA sem documento.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / PR / Cascavel / Autenticidade da CND"
       ]
     },
     {
@@ -2257,6 +2290,39 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/api-colombo-certidao-de-imovel",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão negativa de imóvel de Colombo (PR) via API",
+      "h1": "Certidão negativa de imóvel de Colombo (PR): quem compra herda o débito",
+      "descricao": "API da CND de imóvel de Colombo (PR) pelo cadastro ou pela inscrição imobiliária, com a finalidade POR IMÓVEL e o titular lido do documento.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / PR / Colombo / Certidão Negativa de Débitos do Imóvel"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-colombo-certidao-economica",
+      "tipo": "consulta por órgão",
+      "titulo": "CND do cadastro econômico de Colombo (PR): API",
+      "h1": "Certidão do cadastro econômico de Colombo (PR): um estabelecimento por vez",
+      "descricao": "API da CND de Colombo (PR) pelo Cadastro Econômico Social: uma certidão por estabelecimento, com a finalidade POR ECONÔMICO; inscrição baixada é recusada.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / PR / Colombo / Certidão Negativa de Débitos do Cadastro Econômico"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-colombo-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Colombo (PR): autenticidade via API",
+      "h1": "Validar certidão de Colombo (PR): a mesma certidão, o mesmo número",
+      "descricao": "API da autenticidade da CND de Colombo (PR) pelo número/ano: VALIDA com o documento reemitido ou INVALIDA; a positiva conferida segue sem validade.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / PR / Colombo / Autenticidade da CND"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-comgas-segunda-via",
       "tipo": "consulta por órgão",
       "titulo": "API Comgás 2ª via: conta de gás em PDF pelo CNPJ",
@@ -2268,12 +2334,30 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-contagem-certidao-por-inscricao",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de Contagem (MG) por inscrição: IPTU ou atividade",
+      "h1": "Certidão de Contagem (MG) por inscrição: a regularidade de um cadastro, não da empresa",
+      "descricao": "API da Certidão Negativa de Débitos de Contagem (MG) por cadastro: índice cadastral do imóvel ou inscrição municipal da atividade, sem o dígito final zero.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/api-coqueiral-validar-certidao",
       "tipo": "consulta por órgão",
       "titulo": "API Validar Certidão de Coqueiral (MG): Nº + CNPJ",
       "h1": "API Validação de Certidão de Coqueiral (MG): a certidão ainda vale?",
       "descricao": "API da validação de certidão de débitos de Coqueiral (MG): pelo Nº do cabeçalho e o CNPJ, VALIDA, VENCIDA ou INVALIDA, com a situação do documento.",
       "atualizadoEm": "2026-11-02",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-cotia-ficha-cadastral",
+      "tipo": "consulta por órgão",
+      "titulo": "Ficha cadastral mobiliária de Cotia (SP) pelo CNPJ: API",
+      "h1": "Ficha do Cadastro Mobiliário de Cotia (SP): o que a prefeitura sabe da empresa",
+      "descricao": "",
+      "atualizadoEm": "2026-11-18",
       "consultas": []
     },
     {
@@ -2378,9 +2462,7 @@
       "h1": "API Certidão de Multas do DNIT (Nada Consta): as multas das rodovias federais",
       "descricao": "API da Certidão de Débitos Relativos a Infrações de Trânsito do DNIT, o Nada Consta: envie o CNPJ e receba se há multas em aberto aplicadas pelo DNIT, com o PDF e o código para validar.",
       "atualizadoEm": "2026-10-27",
-      "consultas": [
-        "DNIT / Certidão de Multas (Nada Consta)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-dnit-consulta-de-multas",
@@ -2734,6 +2816,24 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/api-franca-guia-de-iptu",
+      "tipo": "consulta por órgão",
+      "titulo": "Guia de IPTU de Franca (SP): débitos e DAM pela inscrição",
+      "h1": "Guia de IPTU de Franca (SP): cota única, oito parcelas e o que ficou para trás",
+      "descricao": "API da Pesquisa de Débito Imobiliário da Prefeitura de Franca (SP): pela inscrição ou o controle do imóvel e o documento do proprietário, as parcelas de IPTU em aberto e o DAM.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-franca-guia-de-iss",
+      "tipo": "consulta por órgão",
+      "titulo": "Guia de ISS de Franca (SP): ISS fixo e TLF pelo CCM via API",
+      "h1": "Guia de ISS de Franca (SP): o débito da inscrição, parcela por parcela",
+      "descricao": "API da Pesquisa de Débito Empresa da Prefeitura de Franca (SP): pelo CCM e o CNPJ, as parcelas de ISS fixo e Taxa de Licença em aberto, com extrato e DAM.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/api-franca-guias",
       "tipo": "consulta por órgão",
       "titulo": "API Guias de ISS e IPTU de Franca: débitos e DAM",
@@ -2741,6 +2841,17 @@
       "descricao": "API das guias da Prefeitura de Franca: pelo CCM (ISS) ou pela inscrição do imóvel (IPTU), com o documento, o extrato das parcelas em aberto com correção, juros e multa, e o DAM de cada parcela.",
       "atualizadoEm": "2026-10-28",
       "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-franca-numero-da-sorte-iptu",
+      "tipo": "consulta por órgão",
+      "titulo": "Número da sorte do IPTU de Franca (SP): consulta por API",
+      "h1": "Número da sorte do IPTU de Franca (SP): quem paga em dia concorre",
+      "descricao": "API da consulta de Número da Sorte da Prefeitura de Franca (SP): pela inscrição ou o controle do imóvel, os números do sorteio IPTU em Dia, ou nenhum quando o carnê não concorre.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / SP / Franca / Número da Sorte do IPTU"
+      ]
     },
     {
       "url": "https://hathdata.com/api-franca-rol-de-empresas",
@@ -2792,6 +2903,17 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-garopaba-certidao-de-imovel",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão negativa de imóvel de Garopaba (SC) via API",
+      "h1": "Certidão negativa de imóvel de Garopaba (SC): o código do imóvel basta",
+      "descricao": "API da certidão negativa de imóvel de Garopaba (SC) pelo cadastro imobiliário: sai no nome do proprietário, com inscrição, endereço e loteamento lidos do PDF da prefeitura.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / SC / Garopaba / Certidão Negativa de Débitos do Imóvel"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-garopaba-guias",
       "tipo": "consulta por órgão",
       "titulo": "API Guias de ISS e Alvará de Garopaba (SC)",
@@ -2799,6 +2921,39 @@
       "descricao": "",
       "atualizadoEm": "2026-10-28",
       "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-garopaba-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Garopaba (SC): o PDF de volta via API",
+      "h1": "Validar certidão de Garopaba (SC): o portal devolve o arquivo original",
+      "descricao": "API da autenticidade da CND de Garopaba (SC) pelo número/ano: a situação registrada no portal, nome e documento mascarados, a validade gravada e o mesmo PDF da emissão.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / SC / Garopaba / Autenticidade da CND"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-goiania-baixa-de-inscricao-no-cae",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de baixa do CAE em Goiânia: API pela inscrição",
+      "h1": "Certidão de baixa de inscrição no CAE de Goiânia: a data em que a inscrição deixou de existir",
+      "descricao": "API da Certidão de Baixa da Inscrição no CAE da Prefeitura de Goiânia: os dados da empresa e a data em que a inscrição municipal foi baixada, com número e PDF.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / GO / Goiânia / Certidão de Baixa de Inscrição no CAE"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-goiania-certidao-de-debitos-do-cae",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de débitos mobiliários de Goiânia: API pelo CAE",
+      "h1": "Certidão de débitos mobiliários de Goiânia (CAE): ISS, taxas e multas de uma inscrição",
+      "descricao": "API da Certidão Conjunta de Débitos Mobiliários da Prefeitura de Goiânia: ISS, taxas e multas da inscrição CAE, com número, situação e prazo lidos da certidão.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / GO / Goiânia / Certidão Conjunta de Débitos Mobiliários (CAE)"
+      ]
     },
     {
       "url": "https://hathdata.com/api-goiania-certidao-por-cnpj",
@@ -2838,6 +2993,28 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-goiania-dados-cadastrais-do-cae",
+      "tipo": "consulta por órgão",
+      "titulo": "Dados cadastrais do CAE de Goiânia: certidão por API",
+      "h1": "Certidão de dados cadastrais do CAE de Goiânia: o que Goiânia tem registrado da empresa",
+      "descricao": "API da Certidão de Dados Cadastrais de Atividades Econômicas da Prefeitura de Goiânia: o que o CAE da SEFIN registra para a inscrição, com número e PDF.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / GO / Goiânia / Certidão de Dados Cadastrais do CAE"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-goiania-dados-cadastrais-do-imovel",
+      "tipo": "consulta por órgão",
+      "titulo": "Dados cadastrais do imóvel em Goiânia: certidão por API",
+      "h1": "Certidão de dados cadastrais do imóvel em Goiânia: o cadastro, separado da dívida",
+      "descricao": "API da Certidão de Dados Cadastrais do Imóvel da Prefeitura de Goiânia, pela inscrição de IPTU: o que o cadastro imobiliário registra, sem olhar débitos, com número e PDF.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / GO / Goiânia / Certidão de Dados Cadastrais do Imóvel"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-goiania-regularidade-fiscal",
       "tipo": "consulta por órgão",
       "titulo": "API Certidão de Regularidade Fiscal de Goiânia pelo CNPJ",
@@ -2846,6 +3023,17 @@
       "atualizadoEm": "2026-10-28",
       "consultas": [
         "Prefeitura / GO / Goiânia / Certidão Negativa de Débitos"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-goiania-suspensao-de-atividade-no-cae",
+      "tipo": "consulta por órgão",
+      "titulo": "Suspensão de atividade no CAE de Goiânia: certidão API",
+      "h1": "Certidão de suspensão de atividade no CAE de Goiânia: a certidão que prova a pausa",
+      "descricao": "Goiânia, SCCER: quando uma inscrição municipal parou sem ser encerrada, esta certidão registra desde que dia. API pela inscrição, com número e PDF.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / GO / Goiânia / Certidão de Suspensão de Atividade no CAE"
       ]
     },
     {
@@ -2860,6 +3048,28 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-guarapuava-certidao-de-imovel",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de imóvel de Guarapuava (PR): API da imobiliária",
+      "h1": "Certidão de imóvel de Guarapuava (PR): duas chaves para o mesmo lote",
+      "descricao": "",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / PR / Guarapuava / Certidão Imobiliária"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-guarapuava-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Guarapuava (PR): número/ano via API",
+      "h1": "Validar certidão de Guarapuava (PR): autêntica não quer dizer negativa",
+      "descricao": "API da autenticidade da CND de Guarapuava (PR) pelo número/ano: VALIDA com o PDF reemitido ou INVALIDA. Autêntica pode ser positiva de CNPJ sem vínculo.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / PR / Guarapuava / Autenticidade da CND"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-guarulhos-cadastro-mobiliario",
       "tipo": "consulta por órgão",
       "titulo": "API Certidão de Cadastro Mobiliário de Guarulhos",
@@ -2868,6 +3078,17 @@
       "atualizadoEm": "2026-10-28",
       "consultas": [
         "Prefeitura / SP / Guarulhos / Certidão de Cadastramento Mobiliário"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-guarulhos-comprovante-de-inscricao",
+      "tipo": "consulta por órgão",
+      "titulo": "Comprovante de situação cadastral de Guarulhos (SP): API",
+      "h1": "Comprovante de inscrição e situação cadastral de Guarulhos (SP): o cartão da empresa na prefeitura",
+      "descricao": "API do Comprovante de Inscrição e de Situação Cadastral da Prefeitura de Guarulhos (SP): pela inscrição mobiliária ou pelo CNPJ, um PDF por inscrição, com atividades, sócios e endereço.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / SP / Guarulhos / Comprovante de Inscrição e de Situação Cadastral"
       ]
     },
     {
@@ -2910,9 +3131,7 @@
       "h1": "API Ibama embargos: a certidão de nada consta",
       "descricao": "",
       "atualizadoEm": "2026-10-27",
-      "consultas": [
-        "IBAMA / Certidão de Embargos (Nada Consta)"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-ibama-certificado-de-regularidade",
@@ -3031,6 +3250,17 @@
       "atualizadoEm": "2026-10-30",
       "consultas": [
         "Prefeitura / PE / Igarassu / Validar Certidão Positiva de Débitos Imobiliários"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-imbituba-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Autenticidade da CND de Imbituba (SC) pelo número/ano",
+      "h1": "Validar certidão de Imbituba (SC): número, ano e o PDF de volta",
+      "descricao": "API da Consulta e Autenticidade da CND de Imbituba (SC): o número/ano da certidão basta. Volta VALIDA, com o PDF reemitido, ou INVALIDA.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / SC / Imbituba / Autenticidade de Certidão"
       ]
     },
     {
@@ -3340,6 +3570,24 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/api-itu-certidao-por-cadastro",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de Itu (SP) por cadastro: mobiliário ou imóvel",
+      "h1": "Certidão de Itu (SP) por cadastro mobiliário ou imobiliário: uma inscrição, um PDF",
+      "descricao": "API da certidão de débitos da dívida ativa de Itu (SP) por cadastro: escolha mobiliário ou imobiliário, envie a inscrição e receba o PDF daquele cadastro.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-itu-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Itu (SP): Cod. Certidão via API",
+      "h1": "Validar certidão de Itu (SP): qual cadastro o código cobre",
+      "descricao": "API da validação de certidões da dívida ativa de Itu (SP): pelo Cod. Certidão de 20 caracteres, válida com cadastro e contribuintes, ou não encontrada.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/api-jaragua-do-sul-validar-certidao",
       "tipo": "consulta por órgão",
       "titulo": "Validar certidão de Jaraguá do Sul (SC): código de controle",
@@ -3433,6 +3681,26 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-laguna-cnd-de-economico",
+      "tipo": "consulta por órgão",
+      "titulo": "CND de econômico de Laguna (SC): uma por estabelecimento",
+      "h1": "Certidão de econômico de Laguna (SC): cada estabelecimento com a sua",
+      "descricao": "",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-laguna-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Laguna (SC) pelo código de controle",
+      "h1": "Validar certidão de Laguna (SC): o código e a segunda via",
+      "descricao": "API da validação de documentos de Laguna (SC): o código de controle da certidão basta. Volta valida, com a segunda via em PDF, ou nao_encontrada.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / SC / Laguna / Validação de Documentos"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-light-segunda-via",
       "tipo": "consulta por órgão",
       "titulo": "API Light 2ª via: conta de luz em PDF pelo CNPJ e CEP",
@@ -3475,6 +3743,26 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-montes-claros-certidao-de-imovel",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de imóvel de Montes Claros (MG): API pelo cadastro",
+      "h1": "Certidão de imóvel de Montes Claros (MG): o cadastro sem o dígito, antes da escritura",
+      "descricao": "API da certidão negativa de um imóvel em Montes Claros (MG), pelo cadastro imobiliário sem o dígito: negativa, aviso de pendência ou cadastro não encontrado.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-montes-claros-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Montes Claros (MG): ano, número e código",
+      "h1": "Validar certidão de Montes Claros (MG): três números do rodapé, o PDF de volta",
+      "descricao": "API da autenticidade das certidões da Prefeitura de Montes Claros (MG): ano, número e código de 15 dígitos; VÁLIDA com o PDF original ou dados que não conferem.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / MG / Montes Claros / Autenticidade da CND"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-mpdft-certidao",
       "tipo": "consulta por órgão",
       "titulo": "API Certidão Nada Consta do MPDFT pelo CNPJ",
@@ -3503,9 +3791,7 @@
       "h1": "API MPF certidão: o nada consta do Ministério Público Federal",
       "descricao": "API da certidão negativa do Ministério Público Federal: envie o CNPJ e receba em PDF se há procedimento extrajudicial não sigiloso em tramitação contra a empresa, como inquérito civil.",
       "atualizadoEm": "2026-10-27",
-      "consultas": [
-        "MPF / Certidão Negativa"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-mpf-empresas-suspensas",
@@ -3713,6 +3999,60 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/api-osasco-cnd-pela-inscricao",
+      "tipo": "consulta por órgão",
+      "titulo": "CND de Osasco (SP) pela inscrição municipal via API",
+      "h1": "CND de Osasco (SP) pela inscrição municipal: a certidão de cada estabelecimento",
+      "descricao": "API da Certidão de Tributos Municipais da Prefeitura de Osasco (SP) pela inscrição municipal da empresa: finalidade, solicitante e PDF com número, identificação e validade de 180 dias.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-palhoca-guia-de-iptu",
+      "tipo": "consulta por órgão",
+      "titulo": "Guia de IPTU de Palhoça (SC) via API: parcelas e boleto",
+      "h1": "Guia de IPTU de Palhoça (SC): as parcelas abertas e o boleto de cada uma",
+      "descricao": "",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-palmas-certidao-de-decadencia",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de decadência de Palmas (TO) pelo processo: API",
+      "h1": "Certidão de decadência de Palmas (TO): o número do processo, sem ano nem hífen",
+      "descricao": "API da Certidão de Decadência da Prefeitura de Palmas (TO): número do processo, inteiro, e CCI do imóvel; PDF quando o portal emite, mensagem quando não encontra.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-palmas-certidao-de-imovel",
+      "tipo": "consulta por órgão",
+      "titulo": "CND de imóvel de Palmas (TO) pelo CCI: certidão via API",
+      "h1": "CND de imóvel de Palmas (TO): o CCI do carnê, sem login nem verificação de imagem",
+      "descricao": "API da Certidão Negativa de Débitos de Imóvel da Prefeitura de Palmas (TO): o CCI do carnê do IPTU e o documento do cliente; PDF quando o portal libera, tela quando recusa.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-palmas-certidao-de-lancamento",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de lançamento do imóvel em Palmas (TO) via API",
+      "h1": "Certidão de lançamento de Palmas (TO): o que a prefeitura lançou para o lote",
+      "descricao": "API da Certidão de Lançamento do Imóvel da Prefeitura de Palmas (TO): pelo CCI, o PDF quando o portal emite ou a mensagem quando o cadastro não é encontrado.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-palmas-quitacao-de-dam",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de quitação de DAM de Palmas (TO) via API",
+      "h1": "Quitação de DAM em Palmas (TO): a guia paga vira certidão",
+      "descricao": "API da Certidão de Quitação de DAM da Prefeitura de Palmas (TO): o número da guia e o documento do cliente; o PDF quando o portal emite, a mensagem quando a guia não é encontrada.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/api-palmas-situacao-fiscal",
       "tipo": "consulta por órgão",
       "titulo": "API Certidão de Situação Fiscal de Palmas (TO)",
@@ -3862,6 +4202,15 @@
       "consultas": [
         "Prefeitura / PR / Ponta Grossa / Validação de Certidão"
       ]
+    },
+    {
+      "url": "https://hathdata.com/api-porto-alegre-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Porto Alegre (RS): código do SIAT",
+      "h1": "Validar certidão de Porto Alegre (RS): o código só vale com o documento certo",
+      "descricao": "",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-praia-grande-validar-certidao",
@@ -4246,12 +4595,32 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/api-rio-de-janeiro-validar-certidao-divida-ativa",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de dívida ativa do Rio (PGM) via API",
+      "h1": "Validar certidão de dívida ativa do Rio (PGM): autêntica e ainda no prazo?",
+      "descricao": "API da autenticidade da certidão de dívida ativa da Procuradoria do Município do Rio de Janeiro: pelo código de controle, se a certidão existe, a situação, o protocolo e se a validade já passou.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / RJ / Rio de Janeiro / Autenticidade da Certidão de Dívida Ativa (PGM)"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-rio-de-janeiro-validar-certidao-iss",
       "tipo": "consulta por órgão",
       "titulo": "API Autenticidade da Certidão de ISS do Rio de Janeiro",
       "h1": "API Autenticidade da Certidão de ISS do Rio de Janeiro: três dados para confirmar",
       "descricao": "",
       "atualizadoEm": "2026-10-28",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-santana-da-vargem-certidao-de-imovel",
+      "tipo": "consulta por órgão",
+      "titulo": "CND do imóvel de Santana da Vargem (MG) via API",
+      "h1": "CND do imóvel de Santana da Vargem (MG): código do imóvel ou inscrição imobiliária",
+      "descricao": "",
+      "atualizadoEm": "2026-11-18",
       "consultas": []
     },
     {
@@ -4326,6 +4695,17 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/api-santo-andre-cadastro-mobiliario",
+      "tipo": "consulta por órgão",
+      "titulo": "Cadastro mobiliário de Santo André (SP): certidão do CMC",
+      "h1": "Certidão de cadastro mobiliário de Santo André (SP): o que o CMC diz da empresa",
+      "descricao": "API da Certidão de Cadastro Mobiliário da Prefeitura de Santo André (SP): pelo CNPJ e o CMC, a situação da inscrição, início, atividades, sócios e lançamentos, em PDF.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / SP / Santo André / Certidão de Cadastro Mobiliário"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-santo-andre-regularidade-fiscal",
       "tipo": "consulta por órgão",
       "titulo": "API Certidão de Regularidade Fiscal de Santo André",
@@ -4337,12 +4717,81 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-santos-certidao-de-encerramento-de-firma",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de encerramento de firma de Santos (SP) via API",
+      "h1": "Certidão de encerramento de firma de Santos (SP): a baixa registrada, com número e código",
+      "descricao": "API da certidão de encerramento de firma da Prefeitura de Santos (SP): pela inscrição mobiliária, o Tribusweb certifica a baixa no cadastro, com número, código de controle e PDF.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / SP / Santos / Certidão de Encerramento de Firma"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-santos-certidao-de-existencia-de-firma",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de existência de firma em Santos (SP) via API",
+      "h1": "Certidão de existência de firma de Santos (SP): o cadastro, não o débito",
+      "descricao": "API da certidão de existência de firma da Prefeitura de Santos (SP): pela inscrição mobiliária, o Tribusweb certifica a firma no cadastro municipal, com número, código de controle e PDF.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / SP / Santos / Certidão de Existência de Firma"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-santos-certidao-de-firma",
       "tipo": "consulta por órgão",
       "titulo": "API Certidão de Inexistência de Firma de Santos",
       "h1": "API Certidões de Firma de Santos: inexistência, existência e encerramento: a firma existe ou não",
       "descricao": "",
       "atualizadoEm": "2026-10-28",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-santos-certidao-mobiliaria",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão mobiliária de Santos (SP): ISS e taxa via API",
+      "h1": "Certidão de tributos mobiliários de Santos (SP): o ISS e a taxa de licença, sem o resto",
+      "descricao": "",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-santos-divida-ativa",
+      "tipo": "consulta por órgão",
+      "titulo": "Dívida ativa de Santos (SP) via API: inscrição ou execução",
+      "h1": "Dívida ativa de Santos (SP): a consulta pela inscrição, sem ir ao Poupatempo",
+      "descricao": "API da consulta de dívida ativa da Prefeitura de Santos (SP) no Tribusweb: pela inscrição imobiliária, pela mobiliária ou pelo número da execução fiscal; sem débitos ou com débitos, com a tela.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / SP / Santos / Dívida Ativa"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-santos-todas-as-certidoes",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidões de Santos (SP) numa chamada: municipal e mais",
+      "h1": "Todas as certidões de Santos (SP) numa chamada: três respostas, um documento",
+      "descricao": "",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-santos-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de Santos (SP): código de controle",
+      "h1": "Validar certidão de Santos (SP): três dados do papel, uma resposta",
+      "descricao": "API da autenticidade das certidões da Prefeitura de Santos (SP): documento, data de emissão e código de controle; válida ou não encontrada, com número, validade e raiz do documento.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-sao-bernardo-do-campo-certidao-de-imovel",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de imóvel de São Bernardo do Campo (SP) via API",
+      "h1": "Certidão de imóvel de São Bernardo do Campo (SP): completa ou só do IPTU",
+      "descricao": "API da certidão negativa imobiliária da Prefeitura de São Bernardo do Campo (SP): pela inscrição zona, quadra, unidade e subunidade, completa ou só de IPTU, válida por 180 dias.",
+      "atualizadoEm": "2026-11-18",
       "consultas": []
     },
     {
@@ -4383,6 +4832,39 @@
       "atualizadoEm": "2026-11-06",
       "consultas": [
         "Prefeitura / SC / São Francisco do Sul / Autenticidade de Certidão"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-sao-jose-dos-pinhais-certidao-de-imovel",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de imóvel de São José dos Pinhais (PR) via API",
+      "h1": "Certidão de imóvel de São José dos Pinhais: a inscrição do carnê e o exercício",
+      "descricao": "API da certidão imobiliária da Prefeitura de São José dos Pinhais (PR): inscrição do imóvel e exercício; volta o PDF, o cadastro imobiliário e a chave. Inscrição inexistente nunca vira negativa.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / PR / São José dos Pinhais / Certidão Imobiliária"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-sao-jose-dos-pinhais-certidao-socioeconomica",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão socioeconômica de São José dos Pinhais via API",
+      "h1": "Certidão socioeconômica de São José dos Pinhais: a empresa que tem cadastro na cidade",
+      "descricao": "API da certidão socioeconômica da Prefeitura de São José dos Pinhais (PR): busca pelo CNPJ ou pela inscrição municipal; volta o PDF, a inscrição, a situação do cadastro e a chave HASH.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / PR / São José dos Pinhais / Certidão Socioeconômica"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-sao-jose-dos-pinhais-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão de São José dos Pinhais (PR): chave HASH",
+      "h1": "Validar certidão de São José dos Pinhais: a chave devolve o PDF original",
+      "descricao": "API da autenticidade de certidões da Prefeitura de São José dos Pinhais (PR): a chave HASH de 32 caracteres devolve a certidão original guardada pela prefeitura, ou não encontrada.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / PR / São José dos Pinhais / Autenticidade de Certidão"
       ]
     },
     {
@@ -4865,6 +5347,15 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-seropedica-certidao-de-imovel",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de quitação imobiliária de Seropédica (RJ) via API",
+      "h1": "Certidão de quitação fiscal imobiliária de Seropédica (RJ): com dívida, o sistema recusa e diz quanto",
+      "descricao": "API da Certidão Negativa de Quitação Fiscal Imobiliária de Seropédica (RJ): inscrição do imóvel, nome e documento de quem pede; negativa em PDF ou a recusa com o valor da dívida.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/api-simples-nacional",
       "tipo": "consulta por órgão",
       "titulo": "API Simples Nacional: optante e SIMEI pelo CNPJ",
@@ -4900,9 +5391,7 @@
       "h1": "API Certidão do STJ (Superior Tribunal de Justiça): consta ou nada consta",
       "descricao": "",
       "atualizadoEm": "2026-10-27",
-      "consultas": [
-        "STJ / Certidão Negativa"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-stj-certidao-de-andamento",
@@ -4944,6 +5433,17 @@
       "atualizadoEm": "2026-11-14",
       "consultas": [
         "SUSEP / Corretores"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-suzano-certidao-mobiliaria",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão mobiliária de Suzano (SP) pela inscrição via API",
+      "h1": "Certidão mobiliária de Suzano (SP): a inscrição da empresa, não o contribuinte",
+      "descricao": "API da certidão de débito Por Mobiliário da Prefeitura de Suzano (SP): pela inscrição mobiliária, os tributos da atividade, com a situação e o PDF.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / SP / Suzano / Certidão de Débito por Mobiliário"
       ]
     },
     {
@@ -5319,6 +5819,28 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-tres-pontas-certidao-de-imovel",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de imóvel de Três Pontas (MG) via API: 180 dias",
+      "h1": "Certidão de imóvel de Três Pontas (MG): cadastro ou inscrição, nunca os dois",
+      "descricao": "API da certidão de débitos de imóvel de Três Pontas (MG): pelo cadastro ou pela inscrição imobiliária, com a finalidade Certidão Débito Imóvel e validade de 180 dias.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / MG / Três Pontas / Certidão de Débitos do Imóvel"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-tres-pontas-certidao-economica",
+      "tipo": "consulta por órgão",
+      "titulo": "CND do cadastro econômico de Três Pontas (MG) via API",
+      "h1": "CND do cadastro econômico de Três Pontas (MG): a prova de que a empresa está na cidade",
+      "descricao": "API da certidão de débitos pelo cadastro econômico de Três Pontas (MG): a inscrição municipal da empresa, a finalidade Certidão Débito Econômico e o titular impresso conferido.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": [
+        "Prefeitura / MG / Três Pontas / Certidão de Débitos do Cadastro Econômico"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-tres-pontas-validar-certidao",
       "tipo": "consulta por órgão",
       "titulo": "API Validar CND de Três Pontas (MG)",
@@ -5496,7 +6018,6 @@
       "descricao": "",
       "atualizadoEm": "2026-10-27",
       "consultas": [
-        "TRT2 / Certidão Eletrônica de Ações Trabalhistas (CEAT) - Processos Digitais",
         "TRT2 / Certidão Trabalhista de Processos Físicos",
         "TRT2 / Certidão Trabalhista Eletrônica"
       ]
@@ -8839,6 +9360,15 @@
       ]
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-ananindeua",
+      "tipo": "guia de cidade",
+      "titulo": "CND Ananindeua (PA): certidões digitais do município",
+      "h1": "CND de Ananindeua: débitos, regularidade ou baixa",
+      "descricao": "Em Ananindeua as certidões municipais saem pelo link Certidões Digitais do site da prefeitura: de débitos, de regularidade, de baixa e as do cadastro imobiliário.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-aparecida-de-goiania",
       "tipo": "guia de cidade",
       "titulo": "CND Aparecida de Goiânia (GO): certidão em até 10 dias",
@@ -8893,12 +9423,30 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-bauru",
+      "tipo": "guia de cidade",
+      "titulo": "CND Bauru (SP): mobiliária, imobiliária ou contribuinte",
+      "h1": "CND de Bauru: três certidões e uma senha",
+      "descricao": "Em Bauru as certidões de tributos municipais saem separadas: mobiliária, imobiliária ou de contribuinte, que abrange todo débito do documento. Veja qual pedir.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-belem",
       "tipo": "guia de cidade",
       "titulo": "CND Belém (Sefin): certidão negativa municipal online",
       "h1": "Certidão negativa municipal de Belém: CND da Sefin, só eletrônica",
       "descricao": "A CND da Sefin Belém só vale eletrônica: cadastro no Acesso Belém, pedido pelo site ou pelo Agiliza Belém e validade de 180 dias. Passo a passo e link oficial.",
       "atualizadoEm": "2026-11-10",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-belford-roxo",
+      "tipo": "guia de cidade",
+      "titulo": "CND Belford Roxo (RJ): certidão no e-GOV da prefeitura",
+      "h1": "CND de Belford Roxo: contribuinte, imóvel ou empresa",
+      "descricao": "Em Belford Roxo a certidão sai no e-GOV da prefeitura, com três abas: contribuinte, imóvel e empresa. A validação e o extrato de dívida ficam no mesmo portal.",
+      "atualizadoEm": "2026-11-18",
       "consultas": []
     },
     {
@@ -8969,6 +9517,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-camacari",
+      "tipo": "guia de cidade",
+      "titulo": "CND Camaçari (BA): certidão de débitos ou de regularidade",
+      "h1": "CND de Camaçari: a pública e a do sistema tributário",
+      "descricao": "Em Camaçari a Sefaz tem a emissão pública da Certidão de Débitos, por imóvel ou empresa, e a Certidão de Regularidade Fiscal no Sistema Tributário Municipal.",
+      "atualizadoEm": "2026-11-19",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-campina-grande",
       "tipo": "guia de cidade",
       "titulo": "CND Campina Grande (PB): CNPJ e inscrição no e-Cidade",
@@ -9014,6 +9571,24 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-cariacica",
+      "tipo": "guia de cidade",
+      "titulo": "CND Cariacica (ES): da empresa ou de débitos municipais",
+      "h1": "CND de Cariacica: três negativas e uma pesquisa antes",
+      "descricao": "Em Cariacica os Serviços Web da prefeitura separam a Certidão Negativa da Empresa, a de Débitos Municipais e a do imóvel, com pesquisa de débito e validação.",
+      "atualizadoEm": "2026-11-19",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-caruaru",
+      "tipo": "guia de cidade",
+      "titulo": "CND Caruaru (PE): certidão negativa CGM e com efeito",
+      "h1": "CND de Caruaru: negativa ou com efeito, em telas separadas",
+      "descricao": "Em Caruaru a CND sai no Contribuinte On-line da prefeitura pelo documento, com a positiva com efeito negativa em tela própria e a autenticidade no mesmo portal.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-cascavel",
       "tipo": "guia de cidade",
       "titulo": "CND Cascavel (PR): certidão no Autoatendimento",
@@ -9031,6 +9606,15 @@
       "h1": "CND de Catanduva: trinta dias, só com o CNPJ",
       "descricao": "Em Catanduva a CND sai no Cidadão Online da prefeitura, só com o CNPJ, e vale 30 dias. Veja o passo a passo, as três situações possíveis e como conferir a autenticidade.",
       "atualizadoEm": "2026-10-31",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-caucaia",
+      "tipo": "guia de cidade",
+      "titulo": "CND Caucaia (CE): certidão de tributos municipais",
+      "h1": "CND de Caucaia: certidão de tributos no Integra",
+      "descricao": "Em Caucaia a Sefin emite a Certidão de Tributos Municipais e a negativa de IPTU pelo Integra Caucaia. A validação pede número, ano, data e hora da emissão.",
+      "atualizadoEm": "2026-11-19",
       "consultas": []
     },
     {
@@ -9114,6 +9698,15 @@
       "consultas": [
         "Prefeitura / PR / Curitiba / Certidão Negativa de Débitos"
       ]
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-diadema",
+      "tipo": "guia de cidade",
+      "titulo": "CND Diadema (SP): negativa, positiva ou com efeito",
+      "h1": "CND de Diadema: três respostas no mesmo formulário",
+      "descricao": "Em Diadema a certidão de débitos sai no Portal de Serviços da prefeitura, com três resultados possíveis, e o CCM tem certidões próprias de existência e de atividade.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/certidao-negativa-municipal-divinopolis",
@@ -9232,6 +9825,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-imbituba",
+      "tipo": "guia de cidade",
+      "titulo": "CND Imbituba (SC): certidão no Autoatendimento",
+      "h1": "CND de Imbituba: seis meses e cadastro obrigatório",
+      "descricao": "Em Imbituba (SC) a Certidão Negativa de Débitos sai no Autoatendimento da prefeitura, vale 180 dias e se confere pelo número/ano. Só para quem tem cadastro.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-ipiranga-do-norte",
       "tipo": "guia de cidade",
       "titulo": "CND Ipiranga do Norte (MT): Portal do Cidadão, sem login",
@@ -9342,6 +9944,24 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-laguna",
+      "tipo": "guia de cidade",
+      "titulo": "CND Laguna (SC): contribuinte, econômico ou imóvel",
+      "h1": "CND de Laguna: três certidões no mesmo portal",
+      "descricao": "Em Laguna (SC) as certidões negativas de contribuinte, de econômico e de imóvel saem no Cidadão Web da prefeitura, com validação pelo código de controle.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-limeira",
+      "tipo": "guia de cidade",
+      "titulo": "CND Limeira (SP): tributos mobiliários e ISSQN",
+      "h1": "CND de Limeira: mobiliários e ISSQN numa certidão",
+      "descricao": "Em Limeira a Certidão Negativa de Tributos Mobiliários e ISSQN sai na Certidão On-line, pela inscrição cadastral. Lançamentos mobiliários agora são só digitais.",
+      "atualizadoEm": "2026-11-19",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-londrina",
       "tipo": "guia de cidade",
       "titulo": "CND Londrina: Certidão Negativa Unificada, 120 dias",
@@ -9391,6 +10011,24 @@
       "consultas": [
         "Prefeitura / PR / Maringá / Certidão Negativa de Débitos (Contribuinte)"
       ]
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-maua",
+      "tipo": "guia de cidade",
+      "titulo": "CND Mauá (SP): geral, da atividade ou do imóvel",
+      "h1": "CND de Mauá: o contribuinte inteiro ou uma inscrição",
+      "descricao": "Em Mauá a prefeitura separa a certidão negativa geral do contribuinte, a da atividade (inscrição mobiliária) e a do imóvel, todas gratuitas, com validação por código.",
+      "atualizadoEm": "2026-11-19",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-mogi-das-cruzes",
+      "tipo": "guia de cidade",
+      "titulo": "CND Mogi das Cruzes (SP): certidão do CCM e do IPTU",
+      "h1": "CND de Mogi das Cruzes: o número do CCM antes de tudo",
+      "descricao": "Em Mogi das Cruzes a CND da empresa sai pelo CCM e pelo CNPJ nos Serviços Online, sem custo; a do imóvel é outra, pelo número do cadastro imobiliário.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/certidao-negativa-municipal-montes-claros",
@@ -9469,6 +10107,24 @@
       "consultas": [
         "Prefeitura / PR / Paranaguá / Certidão Negativa de Débitos"
       ]
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-pelotas",
+      "tipo": "guia de cidade",
+      "titulo": "CND Pelotas (RS): certidões tributárias da Fazenda",
+      "h1": "CND de Pelotas: sete certidões, quatro delas de imóvel",
+      "descricao": "Em Pelotas as certidões tributárias saem pela área Certidões da Fazenda municipal: de débitos, de baixa de atividade, de atividade econômica e as do imóvel.",
+      "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-petropolis",
+      "tipo": "guia de cidade",
+      "titulo": "CND Petrópolis (RJ): certidão do ISS e por requisição",
+      "h1": "CND de Petrópolis: a do ISS e a por requisição",
+      "descricao": "Em Petrópolis a certidão da empresa e a validação ficam no serviço Nota Fiscal Imperial; o Sistema de Geração de Certidão trabalha por requisição numerada.",
+      "atualizadoEm": "2026-11-19",
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/certidao-negativa-municipal-ponta-grossa",
@@ -9639,12 +10295,30 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-sao-joao-de-meriti",
+      "tipo": "guia de cidade",
+      "titulo": "CND São João de Meriti (RJ): inscrito ou não inscrito",
+      "h1": "CND de São João de Meriti: duas portas no mesmo e-GOV",
+      "descricao": "Em São João de Meriti a certidão sai no e-GOV da prefeitura: a unificada, para contribuinte, imóvel ou empresa, e a de regularidade para quem não tem inscrição.",
+      "atualizadoEm": "2026-11-19",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-sao-jose",
       "tipo": "guia de cidade",
       "titulo": "CND São José (SC): certidão municipal vale 180 dias",
       "h1": "CND de São José (SC): 180 dias pela LC 149/2024",
       "descricao": "A CND da Prefeitura de São José (SC) sai pelo Atende.Net e vale 180 dias corridos desde a LC 149/2024. Com débito, os boletos de cada parcela saem no mesmo portal.",
       "atualizadoEm": "2026-11-10",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-sao-jose-do-rio-preto",
+      "tipo": "guia de cidade",
+      "titulo": "CND São José do Rio Preto (SP): regularidade fiscal",
+      "h1": "CND de São José do Rio Preto: regularidade fiscal, cadastro a cadastro",
+      "descricao": "Em Rio Preto a CND é a Certidão de Regularidade Fiscal da Secretaria da Fazenda, pelo cadastro e pelo documento, com mobiliária própria e autenticidade on-line.",
+      "atualizadoEm": "2026-11-18",
       "consultas": []
     },
     {
@@ -9697,6 +10371,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-sao-vicente",
+      "tipo": "guia de cidade",
+      "titulo": "CND São Vicente (SP): pela inscrição municipal",
+      "h1": "CND de São Vicente: seis dígitos e o PDF na hora",
+      "descricao": "Em São Vicente a certidão negativa de débitos sai na hora, pela inscrição municipal de 6 dígitos. Existência, inexistência e baixa são pedidas por requerimento.",
+      "atualizadoEm": "2026-11-19",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-seropedica",
       "tipo": "guia de cidade",
       "titulo": "CND Seropédica (RJ): Certidão Online da prefeitura",
@@ -9732,6 +10415,15 @@
       "h1": "Certidão negativa municipal de Suzano: como emitir sem perder tempo",
       "descricao": "A Prefeitura de Suzano emite a certidão negativa de débitos mobiliários (empresa) e a do IPTU (imóvel) no portal de serviços. Onde emitir e o que cada uma prova.",
       "atualizadoEm": "2026-09-25",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-taubate",
+      "tipo": "guia de cidade",
+      "titulo": "CND Taubaté (SP): tributos imobiliários e mobiliários",
+      "h1": "CND de Taubaté: imóvel e empresa na mesma certidão",
+      "descricao": "Em Taubaté a certidão de débitos de tributos imobiliários e mobiliários sai nos Serviços Online da prefeitura, com código validador. Anistia até 18/12/2026.",
+      "atualizadoEm": "2026-11-19",
       "consultas": []
     },
     {
@@ -9775,6 +10467,15 @@
       ]
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-varzea-grande",
+      "tipo": "guia de cidade",
+      "titulo": "CND Várzea Grande (MT): certidão de débitos sem login",
+      "h1": "CND de Várzea Grande: cinco certidões numa página só",
+      "descricao": "Em Várzea Grande a página de Certidões da prefeitura reúne a Certidão de Débitos, a do imóvel, a de baixa de atividade, o valor venal e a emissão via autenticação.",
+      "atualizadoEm": "2026-11-19",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-vila-velha",
       "tipo": "guia de cidade",
       "titulo": "CND Vila Velha (ES): certidão de empresa pelo CCM e CNPJ",
@@ -9790,6 +10491,15 @@
       "h1": "Certidão municipal de Vitória: negativa ou de regularidade",
       "descricao": "A certidão negativa ou de regularidade de tributos municipais de Vitória sai no sistema tributário da Semfa, por inscrição fiscal ou CNPJ. Passo a passo e conferência.",
       "atualizadoEm": "2026-11-10",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-vitoria-da-conquista",
+      "tipo": "guia de cidade",
+      "titulo": "CND Vitória da Conquista (BA): Sefin e WhatsApp",
+      "h1": "CND de Vitória da Conquista: balcão, WhatsApp ou formulário",
+      "descricao": "Em Vitória da Conquista a Certidão Negativa de Débitos é da Sefin: no balcão, na hora, ou pelo WhatsApp automático, 24 horas. A específica leva até 10 dias.",
+      "atualizadoEm": "2026-11-18",
       "consultas": []
     },
     {
@@ -10715,7 +11425,7 @@
       "tipo": "home",
       "titulo": "Hath Data | Coleta de dados ao vivo em órgãos públicos, sob demanda",
       "h1": "A inteligência do tempo real direto na sua operação.",
-      "descricao": "Certidões, cadastros e processos públicos coletados na fonte, sem ninguém abrir portal. A Hath Data não armazena cópias paradas: os robôs vão ao órgão oficial, coletam na fonte em 1224+ consultas, emitem o documento em PDF na própria fonte e entregam estruturado no seu ERP, CRM ou por API.",
+      "descricao": "Certidões, cadastros e processos públicos coletados na fonte, sem ninguém abrir portal. A Hath Data não armazena cópias paradas: os robôs vão ao órgão oficial, coletam na fonte em 1281+ consultas, emitem o documento em PDF na própria fonte e entregam estruturado no seu ERP, CRM ou por API.",
       "atualizadoEm": null,
       "consultas": []
     },
@@ -10787,7 +11497,7 @@
       "tipo": "integração RD Station CRM",
       "titulo": "Integração RD Station CRM: dados do cliente em 1 clique",
       "h1": "Integração RD Station CRM: a ficha completa do cliente em 1 clique",
-      "descricao": "Integração do RD Station CRM com a Hath Data: conecte em um clique e cada negociação ganha a ficha completa do cliente, com cadastro, certidões, processos e sanções de fontes oficiais. Preenchimento automático, funil organizado e 1.224+ consultas.",
+      "descricao": "Integração do RD Station CRM com a Hath Data: conecte em um clique e cada negociação ganha a ficha completa do cliente, com cadastro, certidões, processos e sanções de fontes oficiais. Preenchimento automático, funil organizado e 1.281+ consultas.",
       "atualizadoEm": "2026-10-15",
       "consultas": []
     },

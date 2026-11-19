@@ -2,8 +2,8 @@
   "fonte": "https://hathdata.com",
   "descricao": "Consultas a órgãos oficiais feitas pelo CNPJ ou pela inscrição da empresa.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-17",
-  "total": 1068,
+  "geradoEm": "2026-11-19",
+  "total": 1076,
   "slogan": "Toda consulta online, automatizada.",
   "consultas": [
     {
@@ -139,198 +139,6 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/api-antt-autos-de-infracao"
-    },
-    {
-      "nome": "ANTT / SIFAMA / Segunda Via de Boletos (todos os tipos)",
-      "orgao": "ANTT",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ do login",
-        "Senha"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-antt-segunda-via-de-boleto"
-    },
-    {
-      "nome": "ANTT / SIFAMA / Boletos / Excesso de Peso",
-      "orgao": "ANTT",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ do login",
-        "Senha"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-antt-multa-excesso-de-peso"
-    },
-    {
-      "nome": "ANTT / SIFAMA / Boletos / Pagamento Eletrônico de Frete (PEF)",
-      "orgao": "ANTT",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ do login",
-        "Senha"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-antt-multa-pagamento-eletronico-de-frete"
-    },
-    {
-      "nome": "ANTT / SIFAMA / Boletos / Parcelamento ANTT",
-      "orgao": "ANTT",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ do login",
-        "Senha"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-antt-boleto-parcelamento"
-    },
-    {
-      "nome": "ANTT / SIFAMA / Boletos / Parcelamento PRD (Não Inscritos)",
-      "orgao": "ANTT",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ do login",
-        "Senha"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-antt-boleto-parcelamento-prd-nao-inscritos"
-    },
-    {
-      "nome": "ANTT / SIFAMA / Boletos / RNTRC",
-      "orgao": "ANTT",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ do login",
-        "Senha"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-antt-multa-rntrc"
-    },
-    {
-      "nome": "ANTT / SIFAMA / Boletos / SAC TRIP",
-      "orgao": "ANTT",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ do login",
-        "Senha"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-antt-multa-sac-trip"
-    },
-    {
-      "nome": "ANTT / SIFAMA / Boletos / Produtos Perigosos (TRPP)",
-      "orgao": "ANTT",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ do login",
-        "Senha"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-antt-multa-produtos-perigosos"
-    },
-    {
-      "nome": "ANTT / SIFAMA / Boletos / Produtos Perigosos Internacional (TRPP)",
-      "orgao": "ANTT",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ do login",
-        "Senha"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-antt-multa-produtos-perigosos-internacional"
-    },
-    {
-      "nome": "ANTT / SIFAMA / Boletos / Interestadual de Passageiros",
-      "orgao": "ANTT",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ do login",
-        "Senha"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-antt-multa-transporte-interestadual-de-passageiros"
-    },
-    {
-      "nome": "ANTT / SIFAMA / Boletos / Internacional de Cargas (TRIC)",
-      "orgao": "ANTT",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ do login",
-        "Senha"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-antt-multa-transporte-internacional-de-cargas"
-    },
-    {
-      "nome": "ANTT / SIFAMA / Boletos / Internacional de Passageiros",
-      "orgao": "ANTT",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ do login",
-        "Senha"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-antt-multa-transporte-internacional-de-passageiros"
-    },
-    {
-      "nome": "ANTT / SIFAMA / Boletos / Vale Pedágio",
-      "orgao": "ANTT",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ do login",
-        "Senha"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-antt-multa-vale-pedagio"
-    },
-    {
-      "nome": "ANTT / SIFAMA / Boletos / Parcelamento PRD (Inscritos)",
-      "orgao": "ANTT",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ do login",
-        "Senha"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-antt-boleto-parcelamento-prd-inscritos"
-    },
-    {
-      "nome": "ANTT / SIFAMA / Boletos / Piso Mínimo de Frete",
-      "orgao": "ANTT",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ do login",
-        "Senha"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-antt-multa-piso-minimo-de-frete"
-    },
-    {
-      "nome": "ANTT / SIFAMA / Boletos / Evasão de Pedágio",
-      "orgao": "ANTT",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ do login",
-        "Senha"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-antt-multa-evasao-de-pedagio"
     },
     {
       "nome": "ANTT / Transportador",
@@ -575,17 +383,6 @@
       "pagina": "https://hathdata.com/api-ibama-certidao-de-debitos"
     },
     {
-      "nome": "IBAMA / Certidão de Embargos (Nada Consta)",
-      "orgao": "IBAMA",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-ibama-certidao-de-embargos"
-    },
-    {
       "nome": "IBAMA / Certificado de Regularidade",
       "orgao": "IBAMA",
       "esfera": "federal",
@@ -771,17 +568,6 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/api-mpf-amazonia-protege"
-    },
-    {
-      "nome": "MPF / Certidão Negativa",
-      "orgao": "MPF",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-mpf-certidao-negativa"
     },
     {
       "nome": "MPT / AC e RO / Certidão Negativa de Feitos",
@@ -1834,6 +1620,21 @@
       "pagina": "https://hathdata.com/certidao-negativa-municipal-montes-claros"
     },
     {
+      "nome": "Prefeitura / MG / Montes Claros / Autenticidade da CND",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "MG"
+      ],
+      "entrada": [
+        "Ano",
+        "Número",
+        "Código de autenticidade"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-montes-claros-validar-certidao"
+    },
+    {
       "nome": "Prefeitura / MG / Nova Serrana / Certidão Negativa de Débitos",
       "orgao": "Prefeitura",
       "esfera": "municipal",
@@ -2322,6 +2123,32 @@
       "pagina": "https://hathdata.com/certidao-negativa-municipal-cascavel"
     },
     {
+      "nome": "Prefeitura / PR / Cascavel / Certidão Negativa de Débitos do Cadastro Econômico",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "PR"
+      ],
+      "entrada": [
+        "Cadastro econômico"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-cascavel-certidao-economica"
+    },
+    {
+      "nome": "Prefeitura / PR / Cascavel / Autenticidade da CND",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "PR"
+      ],
+      "entrada": [
+        "Número/ano"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-cascavel-validar-certidao"
+    },
+    {
       "nome": "Prefeitura / PR / Colombo / Certidão Negativa de Débitos",
       "orgao": "Prefeitura",
       "esfera": "municipal",
@@ -2333,6 +2160,46 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/certidao-negativa-municipal-colombo"
+    },
+    {
+      "nome": "Prefeitura / PR / Colombo / Certidão Negativa de Débitos do Imóvel",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "PR"
+      ],
+      "entrada": [
+        "Cadastro imobiliário",
+        "Inscrição imobiliária"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-colombo-certidao-de-imovel"
+    },
+    {
+      "nome": "Prefeitura / PR / Colombo / Certidão Negativa de Débitos do Cadastro Econômico",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "PR"
+      ],
+      "entrada": [
+        "Cadastro econômico"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-colombo-certidao-economica"
+    },
+    {
+      "nome": "Prefeitura / PR / Colombo / Autenticidade da CND",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "PR"
+      ],
+      "entrada": [
+        "Número/ano"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-colombo-validar-certidao"
     },
     {
       "nome": "Prefeitura / PR / Foz do Iguaçu / Certidão Negativa de Débitos",
@@ -2372,6 +2239,33 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/certidao-negativa-municipal-guarapuava"
+    },
+    {
+      "nome": "Prefeitura / PR / Guarapuava / Certidão Imobiliária",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "PR"
+      ],
+      "entrada": [
+        "Cadastro imobiliário",
+        "Inscrição imobiliária"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-guarapuava-certidao-de-imovel"
+    },
+    {
+      "nome": "Prefeitura / PR / Guarapuava / Autenticidade da CND",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "PR"
+      ],
+      "entrada": [
+        "Número/ano"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-guarapuava-validar-certidao"
     },
     {
       "nome": "Prefeitura / PR / Londrina / Certidão Negativa de Débitos",
@@ -2450,6 +2344,47 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/certidao-negativa-municipal-sao-jose-dos-pinhais"
+    },
+    {
+      "nome": "Prefeitura / PR / São José dos Pinhais / Certidão Socioeconômica",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "PR"
+      ],
+      "entrada": [
+        "CNPJ",
+        "Inscrição municipal"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-sao-jose-dos-pinhais-certidao-socioeconomica"
+    },
+    {
+      "nome": "Prefeitura / PR / São José dos Pinhais / Certidão Imobiliária",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "PR"
+      ],
+      "entrada": [
+        "Inscrição do imóvel",
+        "Exercício"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-sao-jose-dos-pinhais-certidao-de-imovel"
+    },
+    {
+      "nome": "Prefeitura / PR / São José dos Pinhais / Autenticidade de Certidão",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "PR"
+      ],
+      "entrada": [
+        "Chave de autenticação (HASH)"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-sao-jose-dos-pinhais-validar-certidao"
     },
     {
       "nome": "Prefeitura / RJ / Campos dos Goytacazes / CND Imobiliária",
@@ -2832,6 +2767,32 @@
       "pagina": "https://hathdata.com/api-lages-validar-certidao"
     },
     {
+      "nome": "Prefeitura / SC / Laguna / Validação de Documentos",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "SC"
+      ],
+      "entrada": [
+        "Código de controle"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-laguna-validar-certidao"
+    },
+    {
+      "nome": "Prefeitura / SC / Imbituba / Autenticidade de Certidão",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "SC"
+      ],
+      "entrada": [
+        "Número/ano"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-imbituba-validar-certidao"
+    },
+    {
       "nome": "Prefeitura / SC / Joinville / Certidão Negativa de Débitos",
       "orgao": "Prefeitura",
       "esfera": "municipal",
@@ -2925,19 +2886,18 @@
       "pagina": "https://hathdata.com/api-cnd-guarulhos"
     },
     {
-      "nome": "Prefeitura / SP / Suzano / Certidão de Débito",
+      "nome": "Prefeitura / SP / Suzano / Certidão de Débito por Mobiliário",
       "orgao": "Prefeitura",
       "esfera": "municipal",
       "ufs": [
         "SP"
       ],
       "entrada": [
-        "Código reduzido",
-        "Inscrição",
+        "Inscrição mobiliária",
         "CNPJ"
       ],
       "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-cnd-suzano"
+      "pagina": "https://hathdata.com/api-suzano-certidao-mobiliaria"
     },
     {
       "nome": "Prefeitura / SP / São Caetano do Sul / Certidão Negativa da Empresa",
@@ -2981,6 +2941,46 @@
       "pagina": "https://hathdata.com/api-iptu-belo-horizonte"
     },
     {
+      "nome": "Prefeitura / SP / Santos / Certidão de Existência de Firma",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "SP"
+      ],
+      "entrada": [
+        "Inscrição mobiliária"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-santos-certidao-de-existencia-de-firma"
+    },
+    {
+      "nome": "Prefeitura / SP / Santos / Certidão de Encerramento de Firma",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "SP"
+      ],
+      "entrada": [
+        "Inscrição mobiliária"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-santos-certidao-de-encerramento-de-firma"
+    },
+    {
+      "nome": "Prefeitura / SP / Santos / Dívida Ativa",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "SP"
+      ],
+      "entrada": [
+        "Inscrição",
+        "Execução fiscal"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-santos-divida-ativa"
+    },
+    {
       "nome": "Prefeitura / SP / Guarulhos / Certidão de Cadastramento Mobiliário",
       "orgao": "Prefeitura",
       "esfera": "municipal",
@@ -2993,6 +2993,20 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/api-guarulhos-cadastro-mobiliario"
+    },
+    {
+      "nome": "Prefeitura / SP / Guarulhos / Comprovante de Inscrição e de Situação Cadastral",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "SP"
+      ],
+      "entrada": [
+        "CNPJ",
+        "Inscrição"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-guarulhos-comprovante-de-inscricao"
     },
     {
       "nome": "Prefeitura / SP / Ribeirão Preto / Certidão de Situação Cadastral",
@@ -3022,6 +3036,20 @@
       "pagina": "https://hathdata.com/api-santo-andre-regularidade-fiscal"
     },
     {
+      "nome": "Prefeitura / SP / Santo André / Certidão de Cadastro Mobiliário",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "SP"
+      ],
+      "entrada": [
+        "CNPJ",
+        "CMC"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-santo-andre-cadastro-mobiliario"
+    },
+    {
       "nome": "Prefeitura / GO / Goiânia / Comprovante de Pagamento",
       "orgao": "Prefeitura",
       "esfera": "municipal",
@@ -3036,6 +3064,71 @@
       "pagina": "https://hathdata.com/api-goiania-comprovante-de-pagamento"
     },
     {
+      "nome": "Prefeitura / GO / Goiânia / Certidão Conjunta de Débitos Mobiliários (CAE)",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "GO"
+      ],
+      "entrada": [
+        "Inscrição CAE"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-goiania-certidao-de-debitos-do-cae"
+    },
+    {
+      "nome": "Prefeitura / GO / Goiânia / Certidão de Dados Cadastrais do CAE",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "GO"
+      ],
+      "entrada": [
+        "Inscrição CAE"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-goiania-dados-cadastrais-do-cae"
+    },
+    {
+      "nome": "Prefeitura / GO / Goiânia / Certidão de Baixa de Inscrição no CAE",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "GO"
+      ],
+      "entrada": [
+        "Inscrição CAE"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-goiania-baixa-de-inscricao-no-cae"
+    },
+    {
+      "nome": "Prefeitura / GO / Goiânia / Certidão de Suspensão de Atividade no CAE",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "GO"
+      ],
+      "entrada": [
+        "Inscrição CAE"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-goiania-suspensao-de-atividade-no-cae"
+    },
+    {
+      "nome": "Prefeitura / GO / Goiânia / Certidão de Dados Cadastrais do Imóvel",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "GO"
+      ],
+      "entrada": [
+        "Inscrição IPTU"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-goiania-dados-cadastrais-do-imovel"
+    },
+    {
       "nome": "Prefeitura / SP / Franca / Consulta Pública do Cadastro Imobiliário",
       "orgao": "Prefeitura",
       "esfera": "municipal",
@@ -3048,6 +3141,32 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/api-franca-consulta-imovel"
+    },
+    {
+      "nome": "Prefeitura / SP / Franca / Número da Sorte do IPTU",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "SP"
+      ],
+      "entrada": [
+        "Inscrição do imóvel"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-franca-numero-da-sorte-iptu"
+    },
+    {
+      "nome": "Prefeitura / RJ / Rio de Janeiro / Autenticidade da Certidão de Dívida Ativa (PGM)",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "RJ"
+      ],
+      "entrada": [
+        "Código de controle"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-rio-de-janeiro-validar-certidao-divida-ativa"
     },
     {
       "nome": "Prefeitura / SP / Franca / Validação de Documentos",
@@ -3182,6 +3301,33 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/api-tres-pontas-validar-certidao"
+    },
+    {
+      "nome": "Prefeitura / MG / Três Pontas / Certidão de Débitos do Imóvel",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "MG"
+      ],
+      "entrada": [
+        "Cadastro imobiliário",
+        "Inscrição imobiliária"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-tres-pontas-certidao-de-imovel"
+    },
+    {
+      "nome": "Prefeitura / MG / Três Pontas / Certidão de Débitos do Cadastro Econômico",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "MG"
+      ],
+      "entrada": [
+        "Cadastro econômico"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-tres-pontas-certidao-economica"
     },
     {
       "nome": "Prefeitura / SP / Jundiaí / Certidão de Valor Venal",
@@ -5724,17 +5870,6 @@
       "pagina": "https://hathdata.com/api-tcu-certidao-consolidada"
     },
     {
-      "nome": "STJ / Certidão Negativa",
-      "orgao": "Tribunais superiores e outros",
-      "esfera": "judiciario",
-      "ufs": [],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-stj-certidao"
-    },
-    {
       "nome": "TJDF / Nada Consta",
       "orgao": "Tribunais de Justiça",
       "esfera": "judiciario",
@@ -5999,19 +6134,6 @@
       "pagina": "https://hathdata.com/consultas/certidao-trabalhista"
     },
     {
-      "nome": "TRT2 / Certidão Eletrônica de Ações Trabalhistas (CEAT) - Processos Digitais",
-      "orgao": "Justiça do Trabalho",
-      "esfera": "judiciario",
-      "ufs": [
-        "SP"
-      ],
-      "entrada": [
-        "CNPJ raiz"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-trt2-certidao"
-    },
-    {
       "nome": "TJMG / Certidão Judicial (RUPE, 1ª e 2ª instância, 298 comarcas)",
       "orgao": "Tribunais de Justiça",
       "esfera": "judiciario",
@@ -6161,17 +6283,6 @@
       "pagina": "https://hathdata.com/api-cndt-validar-certidao"
     },
     {
-      "nome": "DNIT / Certidão de Multas (Nada Consta)",
-      "orgao": "DNIT",
-      "esfera": "federal",
-      "ufs": [],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/api-dnit-certidao-de-multas"
-    },
-    {
       "nome": "DNIT / Consulta de Multas (Pessoa Jurídica)",
       "orgao": "DNIT",
       "esfera": "federal",
@@ -6312,6 +6423,32 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/api-bsm-processos-disciplinares"
+    },
+    {
+      "nome": "Prefeitura / SC / Garopaba / Certidão Negativa de Débitos do Imóvel",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "SC"
+      ],
+      "entrada": [
+        "Cadastro imobiliário"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-garopaba-certidao-de-imovel"
+    },
+    {
+      "nome": "Prefeitura / SC / Garopaba / Autenticidade da CND",
+      "orgao": "Prefeitura",
+      "esfera": "municipal",
+      "ufs": [
+        "SC"
+      ],
+      "entrada": [
+        "Número/ano"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-garopaba-validar-certidao"
     },
     {
       "nome": "Risco-país / GAFI/FATF, jurisdições de alto risco",
