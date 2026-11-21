@@ -2,8 +2,8 @@
   "fonte": "https://hathdata.com",
   "descricao": "Todas as páginas públicas do hathdata.com (sitemap), com título, tipo, data e as consultas que cada uma atende.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-19",
-  "total": 1141,
+  "geradoEm": "2026-11-21",
+  "total": 1167,
   "slogan": "Toda consulta online, automatizada.",
   "tipos": {
     "API de CND por cidade": 81,
@@ -12,7 +12,7 @@
     "CND estadual": 27,
     "consulta por órgão": 426,
     "consulta: comarca do TJMG": 298,
-    "guia de cidade": 123,
+    "guia de cidade": 149,
     "guia e página de produto": 98,
     "home": 1,
     "integração Omie": 7,
@@ -9369,6 +9369,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-anapolis",
+      "tipo": "guia de cidade",
+      "titulo": "CND Anápolis (GO): 30 dias de validade e sem taxa",
+      "h1": "CND de Anápolis (GO): a Certidão de Débitos da SEMEC, lida no Código e no decreto",
+      "descricao": "CND de Anápolis (GO): o Decreto nº 43.011/2018 dá 30 dias de validade, dispensa requerimento escrito e taxa e traz o VALIDADOR para conferir o documento.",
+      "atualizadoEm": "2026-11-21",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-aparecida-de-goiania",
       "tipo": "guia de cidade",
       "titulo": "CND Aparecida de Goiânia (GO): certidão em até 10 dias",
@@ -9393,6 +9402,15 @@
       "h1": "CND de Aracruz: sessenta dias na negativa",
       "descricao": "Em Aracruz a certidão de débitos sai no Portal de Serviços da prefeitura pelo CNPJ ou pela inscrição, sem cadastro. A negativa vale 60 dias; o modelo com efeito de negativa, 30.",
       "atualizadoEm": "2026-11-06",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-araraquara",
+      "tipo": "guia de cidade",
+      "titulo": "CND Araraquara: 6 meses de validade pela LC nº 17/1997",
+      "h1": "CND de Araraquara (SP): a Certidão Negativa Fiscal e seus seis meses",
+      "descricao": "CND de Araraquara (SP): o Código Tributário (LC nº 17/1997, art. 388) dá 6 meses de vigência à Certidão Negativa Fiscal. Veja onde emitir e conferir.",
+      "atualizadoEm": "2026-11-21",
       "consultas": []
     },
     {
@@ -9629,6 +9647,15 @@
       ]
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-chapeco",
+      "tipo": "guia de cidade",
+      "titulo": "CND Chapecó (SC): Certidão de Situação Fiscal on-line",
+      "h1": "CND de Chapecó (SC): a Certidão de Situação Fiscal, do pedido à conferência",
+      "descricao": "CND de Chapecó (SC): a Certidão de Situação Fiscal sai na hora pelo site da Prefeitura quando não há débito nem bloqueio cadastral. Veja os erros e o que fazer.",
+      "atualizadoEm": "2026-11-21",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-colombo",
       "tipo": "guia de cidade",
       "titulo": "CND Colombo (PR): certidão negativa vale 90 dias, Lei 1.692",
@@ -9720,12 +9747,30 @@
       ]
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-dourados",
+      "tipo": "guia de cidade",
+      "titulo": "CND Dourados (MS): prazo de 10 dias no Código Tributário",
+      "h1": "CND de Dourados (MS): o que o Código Tributário manda e como emitir no Portal CAC",
+      "descricao": "CND de Dourados (MS): a LC nº 71/2003 define CND, CPD e CPDN e dá 10 dias para a expedição. Veja como emitir no Portal CAC e o que fazer se sair positiva.",
+      "atualizadoEm": "2026-11-21",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-duque-de-caxias",
       "tipo": "guia de cidade",
       "titulo": "CND Duque de Caxias (RJ): certidão mobiliária, 90 dias",
       "h1": "CND de Duque de Caxias: a certidão mobiliária",
       "descricao": "Em Duque de Caxias a CND da empresa é a Certidão de Tributos Municipais, Mobiliária, do Portal do Contribuinte. Vale 90 dias. Veja o caminho e o que fazer quando ela não imprime.",
       "atualizadoEm": "2026-11-06",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-embu-das-artes",
+      "tipo": "guia de cidade",
+      "titulo": "CND Embu das Artes: emissão por inscrição mobiliária",
+      "h1": "CND de Embu das Artes (SP): a certidão que sai pelo número da inscrição",
+      "descricao": "CND de Embu das Artes (SP): sai no Embu Online pelo número da inscrição (imobiliária, mobiliária ou outra) e é conferida por código de validação.",
+      "atualizadoEm": "2026-11-21",
       "consultas": []
     },
     {
@@ -9796,6 +9841,24 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-governador-valadares",
+      "tipo": "guia de cidade",
+      "titulo": "CND Governador Valadares (MG): validade de 180 dias",
+      "h1": "CND de Governador Valadares (MG): 180 dias de validade, escritos na lei",
+      "descricao": "Em Governador Valadares (MG), a CND municipal é pedida no e-CND da Prefeitura; o Código Tributário (LC 34/2001) dá 10 dias para expedir e 180 dias de validade.",
+      "atualizadoEm": "2026-11-20",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-gravatai",
+      "tipo": "guia de cidade",
+      "titulo": "CND Gravataí (RS): validade de 90 dias pela LC 9/2023",
+      "h1": "CND de Gravataí (RS): quatro formas de pedir, 90 dias de validade",
+      "descricao": "Em Gravataí (RS), a CND vale 90 dias se outro prazo não constar nela e sai em até 5 dias quando pedida fora da internet (LC 9/2023, arts. 112 e 116).",
+      "atualizadoEm": "2026-11-20",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-guarapuava",
       "tipo": "guia de cidade",
       "titulo": "CND Guarapuava (PR): certidão pelo CNPJ ou pelo imóvel",
@@ -9831,6 +9894,24 @@
       "h1": "CND de Imbituba: seis meses e cadastro obrigatório",
       "descricao": "Em Imbituba (SC) a Certidão Negativa de Débitos sai no Autoatendimento da prefeitura, vale 180 dias e se confere pelo número/ano. Só para quem tem cadastro.",
       "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-imperatriz",
+      "tipo": "guia de cidade",
+      "titulo": "CND Imperatriz (MA): emissão e validação no portal SEFAZGO",
+      "h1": "CND de Imperatriz: a certidão da SEFAZGO e o que o CTMI exige",
+      "descricao": "Em Imperatriz (MA), a CND sai pela SEFAZGO no portal de débitos. Fornecedor da Prefeitura junta certidão de até 3 dias úteis a cada pedido de pagamento.",
+      "atualizadoEm": "2026-11-20",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-indaiatuba",
+      "tipo": "guia de cidade",
+      "titulo": "CND Indaiatuba: 15 dias para sair e validade de até 90",
+      "h1": "CND de Indaiatuba (SP): o que o Código Tributário de 2023 diz sobre a certidão",
+      "descricao": "CND de Indaiatuba (SP): o Código Tributário de 2023 (LC nº 102) dá 15 dias para a Prefeitura entregar e até 90 dias de validade, sem taxa.",
+      "atualizadoEm": "2026-11-21",
       "consultas": []
     },
     {
@@ -9917,6 +9998,15 @@
       ]
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-juazeiro-do-norte",
+      "tipo": "guia de cidade",
+      "titulo": "CND Juazeiro do Norte (CE): 60 dias de validade pelo CTM",
+      "h1": "CND de Juazeiro do Norte (CE): o que o Código de 2013 garante e onde a empresa emite",
+      "descricao": "CND de Juazeiro do Norte (CE): a LC nº 93/2013 manda entregar a certidão em 5 dias e fixa 60 dias de validade. Empresa emite pela opção CND Econômico.",
+      "atualizadoEm": "2026-11-21",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-juiz-de-fora",
       "tipo": "guia de cidade",
       "titulo": "CND Juiz de Fora (MG): CNDA de 180 dias, sem revalidação",
@@ -9973,6 +10063,15 @@
       ]
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-macae",
+      "tipo": "guia de cidade",
+      "titulo": "CND Macaé: 180 dias de validade pelo Decreto 122/2019",
+      "h1": "CND de Macaé (RJ): a certidão conjunta do SIARM e o Decreto 122/2019",
+      "descricao": "CND de Macaé (RJ): certidão conjunta de tributos e dívida ativa, emitida no SIARM, com 180 dias de validade pelo Decreto 122/2019. Veja como pedir e conferir.",
+      "atualizadoEm": "2026-11-21",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-macapa",
       "tipo": "guia de cidade",
       "titulo": "CND Macapá (AP): conjunta, mobiliária ou imobiliária",
@@ -10000,6 +10099,15 @@
       "consultas": [
         "Prefeitura / AM / Manaus / Certidão Negativa de Débitos"
       ]
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-maraba",
+      "tipo": "guia de cidade",
+      "titulo": "CND Marabá (PA): certidão válida por 60 dias pelo Código",
+      "h1": "CND de Marabá (PA): 60 dias de validade e o que mais o Código manda",
+      "descricao": "CND de Marabá (PA): o Código Tributário (LC nº 4/2010) dá 60 dias de validade à certidão negativa e 10 dias úteis para a Gestão Fazendária entregar o pedido.",
+      "atualizadoEm": "2026-11-20",
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/certidao-negativa-municipal-maringa",
@@ -10042,6 +10150,15 @@
       ]
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-mossoro",
+      "tipo": "guia de cidade",
+      "titulo": "CND Mossoró (RN): certidão só digital, válida por 60 dias",
+      "h1": "CND de Mossoró: certidão digital do Sefaz Digital, válida por 60 dias",
+      "descricao": "Em Mossoró (RN), a CND Fazendária sai só em meio digital pelo Sefaz Digital (LC nº 234/2025) e vale 60 dias da expedição pelo art. 328 do Código Tributário.",
+      "atualizadoEm": "2026-11-20",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-natal",
       "tipo": "guia de cidade",
       "titulo": "CND Natal (Semut): certidão municipal no Portal Directa",
@@ -10068,6 +10185,15 @@
       "h1": "CND de Nova Iguaçu (RJ): CNPJ, imóvel ou documento do titular",
       "descricao": "Em Nova Iguaçu (RJ) a CND municipal sai pelo CNPJ no Portal do Contribuinte da SEMEF. A lei prevê CND, CPND e CPD; a validade é a impressa na certidão.",
       "atualizadoEm": "2026-11-10",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-olinda",
+      "tipo": "guia de cidade",
+      "titulo": "CND Olinda (PE): Certidão de Regularidade Fiscal pelo CNPJ",
+      "h1": "CND de Olinda: a Certidão de Regularidade Fiscal da Secretaria da Fazenda",
+      "descricao": "Em Olinda (PE), a CND da empresa é a Certidão de Regularidade Fiscal, emitida pelo CNPJ. Com parcelamento, a lei fixa validade de 30 dias (CTM, art. 309).",
+      "atualizadoEm": "2026-11-21",
       "consultas": []
     },
     {
@@ -10109,6 +10235,33 @@
       ]
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-parauapebas",
+      "tipo": "guia de cidade",
+      "titulo": "CND Parauapebas (PA): quatro certidões no ISS Digital",
+      "h1": "CND de Parauapebas (PA): as certidões do ISS Digital e o que a lei diz",
+      "descricao": "CND de Parauapebas (PA): o ISS Digital oferece certidão de débitos, imobiliária, de regularidade e de baixa. O Código Tributário de 2020 rege as quatro.",
+      "atualizadoEm": "2026-11-20",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-parnamirim",
+      "tipo": "guia de cidade",
+      "titulo": "CND Parnamirim (RN): três certidões no portal da SEMUT",
+      "h1": "CND de Parnamirim (RN): a certidão da Fazenda Municipal e as outras duas do portal da SEMUT",
+      "descricao": "CND de Parnamirim (RN): o portal da SEMUT separa as certidões da Fazenda Municipal, imobiliária e de ITIV. Veja qual a empresa usa e como validar.",
+      "atualizadoEm": "2026-11-21",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-paulista",
+      "tipo": "guia de cidade",
+      "titulo": "CND Paulista (PE): certidão mercantil com senha por e-mail",
+      "h1": "CND de Paulista: Mercantil ou Imobiliário, cada um com a sua certidão",
+      "descricao": "Em Paulista (PE), a Certidão Negativa Mercantil sai no Portal do Contribuinte pelo CNPJ ou inscrição, após senha enviada ao e-mail do cadastro.",
+      "atualizadoEm": "2026-11-21",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-pelotas",
       "tipo": "guia de cidade",
       "titulo": "CND Pelotas (RS): certidões tributárias da Fazenda",
@@ -10124,6 +10277,15 @@
       "h1": "CND de Petrópolis: a do ISS e a por requisição",
       "descricao": "Em Petrópolis a certidão da empresa e a validação ficam no serviço Nota Fiscal Imperial; o Sistema de Geração de Certidão trabalha por requisição numerada.",
       "atualizadoEm": "2026-11-19",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-piracicaba",
+      "tipo": "guia de cidade",
+      "titulo": "CND Piracicaba: validade de 180 dias no novo Código",
+      "h1": "CND de Piracicaba (SP): 180 dias de validade e as regras do Código de 2025",
+      "descricao": "CND de Piracicaba (SP): o Código Tributário de 2025 (LC nº 477) fixa 180 dias de validade, prazo de 10 dias e três tipos de certidão. Veja onde pedir.",
+      "atualizadoEm": "2026-11-21",
       "consultas": []
     },
     {
@@ -10203,6 +10365,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-rondonopolis",
+      "tipo": "guia de cidade",
+      "titulo": "CND Rondonópolis: positiva com efeito de negativa on-line",
+      "h1": "CND de Rondonópolis (MT): o portal ÁGILI Blue e a Lei 1.800/1990",
+      "descricao": "CND de Rondonópolis (MT): desde fevereiro de 2025 a positiva com efeito de negativa sai no portal ÁGILI Blue. Veja a Lei 1.800/1990, o passo a passo e a validação.",
+      "atualizadoEm": "2026-11-21",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-salvador",
       "tipo": "guia de cidade",
       "titulo": "CND Salvador: certidão de regularidade fiscal Sefaz/PGMS",
@@ -10212,6 +10383,15 @@
       "consultas": [
         "Prefeitura / BA / Salvador / Certidão Negativa de Débitos"
       ]
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-santa-maria",
+      "tipo": "guia de cidade",
+      "titulo": "CND Santa Maria (RS): vale 90 dias pelo art. 213 do CTM",
+      "h1": "CND de Santa Maria (RS): 90 dias de validade, 30 para a positiva com efeito",
+      "descricao": "Em Santa Maria (RS), a Certidão Negativa Municipal vale 90 dias e a positiva com efeito de negativa, 30 (LC 2/2001, art. 213). Pedido on-line pelo CNPJ.",
+      "atualizadoEm": "2026-11-20",
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/certidao-negativa-municipal-santana-da-vargem",
@@ -10238,6 +10418,15 @@
       "h1": "CND de Santana do Paraíso: nos Serviços Web",
       "descricao": "Em Santana do Paraíso a certidão de débitos sai nos Serviços Web da prefeitura pelo CNPJ, pela inscrição econômica ou imobiliária, e vale 30 dias. Veja o caminho e como autenticar.",
       "atualizadoEm": "2026-11-06",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-santarem",
+      "tipo": "guia de cidade",
+      "titulo": "CND Santarém (PA): 5 dias úteis pelo Código Tributário",
+      "h1": "CND de Santarém (PA): o prazo de 5 dias úteis e o pedido pelo SIAP",
+      "descricao": "CND de Santarém (PA): o Código Tributário (LC nº 13/2022) manda expedir a certidão negativa em até 5 dias úteis. Pedido no SIAP pela inscrição municipal.",
+      "atualizadoEm": "2026-11-21",
       "consultas": []
     },
     {
@@ -10277,6 +10466,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-sao-carlos",
+      "tipo": "guia de cidade",
+      "titulo": "CND São Carlos (SP): certidão no SIM em 3 a 10 dias",
+      "h1": "CND de São Carlos (SP): certidão da empresa e do imóvel pelo SIM",
+      "descricao": "CND de São Carlos (SP): a certidão da empresa sai pelo SIM, com resposta de 3 a 10 dias, e exige estar em dia com ISSQN, taxas e escrituração fiscal.",
+      "atualizadoEm": "2026-11-21",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-sao-francisco-do-sul",
       "tipo": "guia de cidade",
       "titulo": "CND São Francisco do Sul (SC): Autoatendimento, 60 dias",
@@ -10310,6 +10508,15 @@
       "h1": "CND de São José (SC): 180 dias pela LC 149/2024",
       "descricao": "A CND da Prefeitura de São José (SC) sai pelo Atende.Net e vale 180 dias corridos desde a LC 149/2024. Com débito, os boletos de cada parcela saem no mesmo portal.",
       "atualizadoEm": "2026-11-10",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-sao-jose-de-ribamar",
+      "tipo": "guia de cidade",
+      "titulo": "CND São José de Ribamar (MA): 180 dias pelo Código de 2002",
+      "h1": "CND de São José de Ribamar (MA): 180 dias de validade e o caminho da SEMREC para a empresa",
+      "descricao": "CND de São José de Ribamar (MA): a Lei Complementar nº 02/2002 dá 180 dias de validade e 10 dias de prazo. Empresa emite pela SEMREC; veja como validar.",
+      "atualizadoEm": "2026-11-21",
       "consultas": []
     },
     {
@@ -10409,12 +10616,30 @@
       ]
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-sumare",
+      "tipo": "guia de cidade",
+      "titulo": "CND Sumaré (SP): certidão pelo Autoatendimento, CTM de 1990",
+      "h1": "CND de Sumaré (SP): a certidão negativa de débitos no Autoatendimento",
+      "descricao": "Em Sumaré (SP), a CND sai no Autoatendimento da Prefeitura pelo CNPJ ou pelo cadastro econômico. O Código Tributário (Lei 2.244/1990) fixa 10 dias ao pedido.",
+      "atualizadoEm": "2026-11-20",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-suzano",
       "tipo": "guia de cidade",
       "titulo": "CND Suzano: certidão de débitos mobiliários e IPTU",
       "h1": "Certidão negativa municipal de Suzano: como emitir sem perder tempo",
       "descricao": "A Prefeitura de Suzano emite a certidão negativa de débitos mobiliários (empresa) e a do IPTU (imóvel) no portal de serviços. Onde emitir e o que cada uma prova.",
       "atualizadoEm": "2026-09-25",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-taboao-da-serra",
+      "tipo": "guia de cidade",
+      "titulo": "CND Taboão da Serra: certidão do mobiliário pelo CCM",
+      "h1": "CND de Taboão da Serra (SP): a Certidão Negativa do Mobiliário, passo a passo",
+      "descricao": "Em Taboão da Serra (SP), a CND da empresa é a Certidão Negativa do Mobiliário, emitida no portal Atende com o número do CCM. Como achar o CCM pelo CNPJ.",
+      "atualizadoEm": "2026-11-20",
       "consultas": []
     },
     {
@@ -10500,6 +10725,15 @@
       "h1": "CND de Vitória da Conquista: balcão, WhatsApp ou formulário",
       "descricao": "Em Vitória da Conquista a Certidão Negativa de Débitos é da Sefin: no balcão, na hora, ou pelo WhatsApp automático, 24 horas. A específica leva até 10 dias.",
       "atualizadoEm": "2026-11-18",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-volta-redonda",
+      "tipo": "guia de cidade",
+      "titulo": "CND Volta Redonda (RJ): pedido à PGM, prazo de 10 dias",
+      "h1": "CND de Volta Redonda (RJ): o requerimento que passa por seis setores",
+      "descricao": "Em Volta Redonda (RJ), a CND da empresa é pedida à Procuradoria do Município por requerimento eletrônico e sai em até 10 dias, pela Portaria Conjunta 01/2018.",
+      "atualizadoEm": "2026-11-20",
       "consultas": []
     },
     {

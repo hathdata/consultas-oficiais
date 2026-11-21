@@ -2,7 +2,7 @@
   "fonte": "https://hathdata.com",
   "descricao": "Prefeituras atendidas, com a guia de cada cidade e as fontes oficiais citadas nela.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-19",
+  "geradoEm": "2026-11-21",
   "total": 125,
   "slogan": "Toda consulta online, automatizada.",
   "producao": 81,
@@ -15,10 +15,91 @@
       "documentos": [
         "Certidão Negativa de Débitos"
       ],
-      "guia": null,
+      "guia": "https://hathdata.com/certidao-negativa-municipal-anapolis",
       "api": null,
-      "atualizadoEm": null,
-      "fontesOficiais": []
+      "atualizadoEm": "2026-11-21",
+      "fontesOficiais": [
+        {
+          "nome": "Secretaria Municipal de Economia de Anápolis (SEMEC)",
+          "url": "https://semec.anapolis.go.gov.br/"
+        },
+        {
+          "nome": "Prefeitura de Anápolis",
+          "url": "https://www.anapolis.go.gov.br/"
+        },
+        {
+          "nome": "LC nº 136/2006 (Código Tributário e de Rendas do Município), ficha no SAPL",
+          "url": "https://sapl.anapolis.go.leg.br/norma/218"
+        },
+        {
+          "nome": "LC nº 136/2006, texto compilado (PDF)",
+          "url": "https://sapl.anapolis.go.leg.br/media/sapl/public/normajuridica/2006/218/218_texto_integral.pdf"
+        },
+        {
+          "nome": "LC nº 140/2007 (altera os arts. 420 e 422)",
+          "url": "https://sapl.anapolis.go.leg.br/norma/214"
+        },
+        {
+          "nome": "LC nº 262/2011 (altera o parcelamento)",
+          "url": "https://sapl.anapolis.go.leg.br/norma/91"
+        },
+        {
+          "nome": "LC nº 327/2014 (validade de 30 dias)",
+          "url": "https://sapl.anapolis.go.leg.br/norma/26"
+        },
+        {
+          "nome": "LC nº 593/2025 (altera o CTRMA), ficha",
+          "url": "https://sapl.anapolis.go.leg.br/norma/8157"
+        },
+        {
+          "nome": "LC nº 593/2025, texto (PDF)",
+          "url": "https://sapl.anapolis.go.leg.br/media/sapl/public/normajuridica/2025/8157/lei_complementar_no_593_de_30_de_dezembro_de_2025.pdf"
+        },
+        {
+          "nome": "Decreto nº 43.011/2018 (Certidão de Débitos), Diário Oficial de 17/12/2018",
+          "url": "https://api.anapolis.go.gov.br/apiupload/diario/00000000000/DIARIO-OFICIAL-1679044366865.pdf"
+        },
+        {
+          "nome": "Diário Oficial do Município de Anápolis",
+          "url": "https://dom.anapolis.go.gov.br/"
+        },
+        {
+          "nome": "Lei nº 4.598/2026 (Programa FIQUE EM DIA)",
+          "url": "https://dom.anapolis.go.gov.br/materias/165976"
+        },
+        {
+          "nome": "Código Tributário Nacional (Lei nº 5.172/1966)",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html"
+        },
+        {
+          "nome": "Receita Federal: certidões",
+          "url": "https://servicos.receitafederal.gov.br/servico/certidoes/"
+        },
+        {
+          "nome": "Caixa: regularidade do empregador (FGTS)",
+          "url": "https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf"
+        },
+        {
+          "nome": "TST: Certidão Negativa de Débitos Trabalhistas",
+          "url": "https://www.tst.jus.br/certidao1"
+        },
+        {
+          "nome": "Secretaria de Estado da Economia de Goiás",
+          "url": "https://goias.gov.br/economia/"
+        },
+        {
+          "nome": "Junta Comercial do Estado de Goiás",
+          "url": "https://www.juceg.go.gov.br/"
+        },
+        {
+          "nome": "REDESIM",
+          "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim"
+        },
+        {
+          "nome": "Portal do Empreendedor Goiano",
+          "url": "https://portaldoempreendedorgoiano.go.gov.br/"
+        }
+      ]
     },
     {
       "cidade": "Aparecida de Goiânia",
@@ -1408,10 +1489,107 @@
         "Certidão de Valor Venal",
         "Certidão Negativa de Débitos"
       ],
-      "guia": null,
+      "guia": "https://hathdata.com/certidao-negativa-municipal-indaiatuba",
       "api": null,
-      "atualizadoEm": null,
-      "fontesOficiais": []
+      "atualizadoEm": "2026-11-21",
+      "fontesOficiais": [
+        {
+          "nome": "Prefeitura de Indaiatuba: Certidão de Débitos",
+          "url": "https://www.indaiatuba.sp.gov.br/fazenda/certidao-de-debitos/"
+        },
+        {
+          "nome": "Lei Complementar nº 102/2023 (Código Tributário do Município de Indaiatuba)",
+          "url": "https://www.indaiatuba.sp.gov.br/download/61107/"
+        },
+        {
+          "nome": "Lei Complementar nº 110/2024 (altera o Código Tributário)",
+          "url": "https://www.indaiatuba.sp.gov.br/download/66790/"
+        },
+        {
+          "nome": "Prefeitura de Indaiatuba: legislação de Rendas Mobiliárias",
+          "url": "https://www.indaiatuba.sp.gov.br/fazenda/rendas-mobiliarias/legislacao/"
+        },
+        {
+          "nome": "Prefeitura de Indaiatuba: legislação da Dívida Ativa",
+          "url": "https://www.indaiatuba.sp.gov.br/juridico/divida-ativa/legislacao/"
+        },
+        {
+          "nome": "Prefeitura de Indaiatuba: Dívida Ativa",
+          "url": "https://www.indaiatuba.sp.gov.br/juridico/divida-ativa/"
+        },
+        {
+          "nome": "Prefeitura de Indaiatuba: Negociação de Débitos",
+          "url": "https://www.indaiatuba.sp.gov.br/juridico/divida-ativa/negociacao_de_debitos/"
+        },
+        {
+          "nome": "Lei nº 8.292/2025 (REFIS-2025)",
+          "url": "https://www.indaiatuba.sp.gov.br/download/72319/"
+        },
+        {
+          "nome": "Lei nº 8.384/2025 (prorroga a adesão ao REFIS-2025)",
+          "url": "https://www.indaiatuba.sp.gov.br/download/72320/"
+        },
+        {
+          "nome": "Prefeitura de Indaiatuba: Certidão de Valor Venal",
+          "url": "https://www.indaiatuba.sp.gov.br/fazenda/rendas-imobiliarias/certidao-de-valor-venal/"
+        },
+        {
+          "nome": "Prefeitura de Indaiatuba: Certidão de Pagamento de ITBI",
+          "url": "https://www.indaiatuba.sp.gov.br/fazenda/rendas-imobiliarias/certidao_pagamento_itbi/"
+        },
+        {
+          "nome": "Prefeitura de Indaiatuba: Carta de Não Incidência IPTU",
+          "url": "https://www.indaiatuba.sp.gov.br/fazenda/rendas-imobiliarias/carta-de-nao-incidencia-iptu/"
+        },
+        {
+          "nome": "Prefeitura de Indaiatuba: Cadastro Fiscal Mobiliário (Alvará)",
+          "url": "https://www.indaiatuba.sp.gov.br/fazenda/rendas-mobiliarias/alvara-digital/"
+        },
+        {
+          "nome": "Prefeitura de Indaiatuba: Consulta de Situação Cadastral Mobiliária",
+          "url": "https://www.indaiatuba.sp.gov.br/fazenda/rendas-mobiliarias/consulta-situacao-cadastral/"
+        },
+        {
+          "nome": "Prefeitura de Indaiatuba: Cadastro Mobiliário",
+          "url": "https://www.indaiatuba.sp.gov.br/fazenda/rendas-mobiliarias/cadastro-mobiliario/"
+        },
+        {
+          "nome": "Prefeitura de Indaiatuba: Fiscalização Tributária",
+          "url": "https://www.indaiatuba.sp.gov.br/fazenda/rendas-mobiliarias/fiscalizacao-tributaria/"
+        },
+        {
+          "nome": "Prefeitura de Indaiatuba: Carnês e guias de recolhimento",
+          "url": "https://www.indaiatuba.sp.gov.br/tributos/"
+        },
+        {
+          "nome": "Prefeitura de Indaiatuba: Carta de Serviços ao Usuário",
+          "url": "https://www.indaiatuba.sp.gov.br/servicos/"
+        },
+        {
+          "nome": "Código Tributário Nacional (Lei nº 5.172/1966)",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html"
+        },
+        {
+          "nome": "Receita Federal: certidões",
+          "url": "https://servicos.receitafederal.gov.br/servico/certidoes/"
+        },
+        {
+          "nome": "Caixa: regularidade do empregador (FGTS)",
+          "url": "https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf"
+        },
+        {
+          "nome": "TST: Certidão Negativa de Débitos Trabalhistas",
+          "url": "https://www.tst.jus.br/certidao1"
+        },
+        {
+          "nome": "Junta Comercial do Estado de São Paulo",
+          "url": "https://www.jucesp.sp.gov.br/"
+        },
+        {
+          "nome": "REDESIM",
+          "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim"
+        }
+      ]
     },
     {
       "cidade": "Ipiranga do Norte",
@@ -2531,10 +2709,115 @@
       "documentos": [
         "Certidão Negativa de Débitos"
       ],
-      "guia": null,
+      "guia": "https://hathdata.com/certidao-negativa-municipal-rondonopolis",
       "api": null,
-      "atualizadoEm": null,
-      "fontesOficiais": []
+      "atualizadoEm": "2026-11-21",
+      "fontesOficiais": [
+        {
+          "nome": "Prefeitura de Rondonópolis: serviço CND",
+          "url": "https://www.rondonopolis.mt.gov.br/servicos/cnd-imovel/"
+        },
+        {
+          "nome": "Portal do Cidadão ÁGILI Blue: Boletins e Certidões",
+          "url": "https://blue.rondonopolis.mt.gov.br/portal/rondonopolis/#/certidao"
+        },
+        {
+          "nome": "Portal do Cidadão ÁGILI Blue: autenticidade de documento",
+          "url": "https://blue.rondonopolis.mt.gov.br/portal/rondonopolis/#/autenticidade"
+        },
+        {
+          "nome": "Prefeitura de Rondonópolis: Autenticidade de Documentos",
+          "url": "https://www.rondonopolis.mt.gov.br/servicos/autenticidade-de-documentos/"
+        },
+        {
+          "nome": "Código Tributário Municipal (Lei nº 1.800/1990), texto consolidado publicado pela Prefeitura",
+          "url": "https://www.rondonopolis.mt.gov.br/media/docs/servicos/codigo-tributario-municipal.pdf.pdf"
+        },
+        {
+          "nome": "Prefeitura de Rondonópolis: Município busca modernização de leis para emissão de CND (24/02/2025)",
+          "url": "https://www.rondonopolis.mt.gov.br/noticias/municipio-busca-modernizacao-de-leis-para-emissao-de-cnd/"
+        },
+        {
+          "nome": "Prefeitura de Rondonópolis: novidades para quem busca Certidão Negativa de Débito (25/02/2025)",
+          "url": "https://www.rondonopolis.mt.gov.br/noticias/prefeitura-anuncia-novidades-para-quem-busca-cnd/"
+        },
+        {
+          "nome": "Prefeitura de Rondonópolis: aprovação do PLC nº 038 (taxas de guia)",
+          "url": "https://www.rondonopolis.mt.gov.br/noticias/projeto-derruba-cobranca-de-taxas-para-emissao-de-guias-e-licenca-para-mototaxistas/"
+        },
+        {
+          "nome": "Prefeitura de Rondonópolis: aprovação do PL nº 345/2025 (art. 133 do Código)",
+          "url": "https://www.rondonopolis.mt.gov.br/noticias/projeto-do-prefeito-que-revoga-taxa-e-aprovado-pela-camara/"
+        },
+        {
+          "nome": "Secretaria Municipal de Fazenda de Rondonópolis",
+          "url": "https://www.rondonopolis.mt.gov.br/orgaos-municipais/secretaria-municipal-de-fazenda/"
+        },
+        {
+          "nome": "Fazenda de Rondonópolis: Dúvidas Frequentes, onde faço a emissão de uma certidão",
+          "url": "https://www.rondonopolis.mt.gov.br/orgaos-municipais/secretaria-municipal-de-fazenda/duvidas-frequentes/onde-faco-a-emissao-de-uma-certidao/"
+        },
+        {
+          "nome": "Fazenda de Rondonópolis: Dúvidas Frequentes, certidão positiva com efeito negativa",
+          "url": "https://www.rondonopolis.mt.gov.br/orgaos-municipais/secretaria-municipal-de-fazenda/duvidas-frequentes/o-que-e-certidao-positiva-com-efeito-negativa/"
+        },
+        {
+          "nome": "Fazenda de Rondonópolis: Dúvidas Frequentes, quando a negativa não é emitida",
+          "url": "https://www.rondonopolis.mt.gov.br/orgaos-municipais/secretaria-municipal-de-fazenda/duvidas-frequentes/o-que-devo-fazer-quando-a-certidao-negativa-de-debitos-nao-for-em-itida-pelo-portal-da-prefeitura/"
+        },
+        {
+          "nome": "Requerimentos da Secretaria da Fazenda",
+          "url": "https://www.rondonopolis.mt.gov.br/requerimentos-secretaria-da-fazenda/"
+        },
+        {
+          "nome": "Requerimento de certidão de débitos da pessoa jurídica (formulário)",
+          "url": "https://www.rondonopolis.mt.gov.br/media/docs/requerimentos/requerimento-de-certidao-positiva-de-debitos-pessoa-juridica_9PPpsG8.docx"
+        },
+        {
+          "nome": "Programa de Parcelamento Online de IPTU",
+          "url": "https://www.rondonopolis.mt.gov.br/servicos/iptu-parcelamento-2025/"
+        },
+        {
+          "nome": "Certidão de inexistência de titularidade de imóveis",
+          "url": "https://www.rondonopolis.mt.gov.br/servicos/certidao-de-inexistencia-de-titularidade-de-imoveis/"
+        },
+        {
+          "nome": "BAEC Eletrônico",
+          "url": "https://www.rondonopolis.mt.gov.br/servicos/baec-eletronico/"
+        },
+        {
+          "nome": "Portal de protocolo da Prefeitura de Rondonópolis",
+          "url": "https://protocolo.rondonopolis.mt.gov.br/services"
+        },
+        {
+          "nome": "Vídeo oficial: instruções para emissão de CND",
+          "url": "http://www.rondonopolis.mt.gov.br/media/docs/servicos/cnd/tutorial-emissao-de-cnd.mp4"
+        },
+        {
+          "nome": "Código Tributário Nacional (Lei nº 5.172/1966)",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html"
+        },
+        {
+          "nome": "Receita Federal: certidões",
+          "url": "https://servicos.receitafederal.gov.br/servico/certidoes/"
+        },
+        {
+          "nome": "Caixa: regularidade do empregador (FGTS)",
+          "url": "https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf"
+        },
+        {
+          "nome": "TST: Certidão Negativa de Débitos Trabalhistas",
+          "url": "https://www.tst.jus.br/certidao1"
+        },
+        {
+          "nome": "Junta Comercial do Estado de Mato Grosso (JUCEMAT)",
+          "url": "https://www.jucemat.mt.gov.br/"
+        },
+        {
+          "nome": "REDESIM",
+          "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim"
+        }
+      ]
     },
     {
       "cidade": "Salvador",
@@ -2801,10 +3084,111 @@
       "documentos": [
         "Certidão Negativa de Débitos"
       ],
-      "guia": null,
+      "guia": "https://hathdata.com/certidao-negativa-municipal-sao-carlos",
       "api": null,
-      "atualizadoEm": null,
-      "fontesOficiais": []
+      "atualizadoEm": "2026-11-21",
+      "fontesOficiais": [
+        {
+          "nome": "Prefeitura de São Carlos: Certidão Negativa de Débitos (empresa)",
+          "url": "http://saocarlos.sp.gov.br/index.php/fazenda-financas/154057-certidao-negativa-de-firma.html"
+        },
+        {
+          "nome": "Prefeitura de São Carlos: Certidão Negativa de Débitos no Cadastro Mobiliário",
+          "url": "http://saocarlos.sp.gov.br/index.php/outros-servicos/154318-certidao-negativa-de-debitos-no-cadastro-mobiliario.html"
+        },
+        {
+          "nome": "Prefeitura de São Carlos: Certidão Negativa ou Positiva com Efeito de Negativa do Cadastro Mobiliário",
+          "url": "http://saocarlos.sp.gov.br/index.php/outros-servicos/154866-certidao-negativa-ou-positiva-com-efeito-de-negativa-de-debito-do-cadastro-mobiliario-empresa-fisica-ou-juridica.html"
+        },
+        {
+          "nome": "Prefeitura de São Carlos: Certidão Negativa de Débitos no Cadastro Imobiliário",
+          "url": "http://saocarlos.sp.gov.br/index.php/outros-servicos/155440-certidao-negativa-de-debitos-no-cadastro-imobiliario.html"
+        },
+        {
+          "nome": "Prefeitura de São Carlos: Certidão Positiva com Efeito de Negativa de Imóvel",
+          "url": "http://saocarlos.sp.gov.br/index.php/outros-servicos/154864-certidao-positiva-com-efeito-de-negativa-de-imovel.html"
+        },
+        {
+          "nome": "Prefeitura de São Carlos: Certidão Positiva Imobiliária (de débitos)",
+          "url": "http://saocarlos.sp.gov.br/index.php/outros-servicos/154323-certidao-positiva-imobiliaria-de-debitos.html"
+        },
+        {
+          "nome": "Prefeitura de São Carlos: SIM Online",
+          "url": "http://simonline.saocarlos.sp.gov.br/"
+        },
+        {
+          "nome": "Prefeitura de São Carlos: Serviços Integrados do Município (SIM)",
+          "url": "http://saocarlos.sp.gov.br/index.php/prefeitura/utilidade-publica/servicos-integrados-do-municipio-sim.html"
+        },
+        {
+          "nome": "Prefeitura de São Carlos: Extrato de Débitos Inscritos em Dívida Ativa",
+          "url": "http://saocarlos.sp.gov.br/index.php/fazenda-financas/154063-extrato-de-debitos-inscritos-em-divida-ativa.html"
+        },
+        {
+          "nome": "Prefeitura de São Carlos: Parcelamento de Débitos",
+          "url": "http://saocarlos.sp.gov.br/index.php/outros-servicos/154885-parcelamento-de-debitos.html"
+        },
+        {
+          "nome": "Prefeitura de São Carlos: Regularização de Baixas de Pagamentos",
+          "url": "http://saocarlos.sp.gov.br/index.php/outros-servicos/154310-regularizacao-de-baixas-de-pagamentos.html"
+        },
+        {
+          "nome": "Lei nº 14.364/2007 (parcelamento de dívida ativa), versão publicada pela Prefeitura",
+          "url": "http://saocarlos.sp.gov.br/images/stories/pdf/lei14364%20com%20alteracao.pdf"
+        },
+        {
+          "nome": "Câmara de São Carlos: Lei nº 5.495/1966 (Código Tributário Municipal)",
+          "url": "https://file.camarasaocarlos.sp.gov.br/70792/lei/arquivo/CODIGOLEI_1292.pdf"
+        },
+        {
+          "nome": "Câmara de São Carlos: Lei nº 12.752/2001 (Código de Defesa do Contribuinte)",
+          "url": "https://file.camarasaocarlos.sp.gov.br/70792/lei/arquivo/CODIGOLEI_7276.pdf"
+        },
+        {
+          "nome": "Câmara de São Carlos: Lei nº 22.380/2024 (cobrança administrativa da dívida ativa)",
+          "url": "https://file.camarasaocarlos.sp.gov.br/70792/lei/arquivo/CODIGOLEI_68098.pdf"
+        },
+        {
+          "nome": "Câmara de São Carlos: Lei nº 23.781/2025 (REFIS)",
+          "url": "https://file.camarasaocarlos.sp.gov.br/70792/lei/arquivo/CODIGOLEI_69946.pdf"
+        },
+        {
+          "nome": "Câmara de São Carlos: Lei nº 23.865/2025 (prorroga o REFIS)",
+          "url": "https://file.camarasaocarlos.sp.gov.br/70792/lei/arquivo/CODIGOLEI_70031.pdf"
+        },
+        {
+          "nome": "Câmara de São Carlos: pesquisa de leis",
+          "url": "https://camarasaocarlos.sp.gov.br/lei/"
+        },
+        {
+          "nome": "Prefeitura de São Carlos: notícia sobre regularização e desconto no IPTU 2027",
+          "url": "http://saocarlos.sp.gov.br/index.php/noticias-2026/181523-regularizacao-de-debitos-ate-31-de-outubro-garante-10-de-desconto-no-iptu-2027.html"
+        },
+        {
+          "nome": "Prefeitura de São Carlos: Outros Serviços",
+          "url": "http://saocarlos.sp.gov.br/index.php/outros-servicos.html"
+        },
+        {
+          "nome": "Código Tributário Nacional (Lei nº 5.172/1966)",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html"
+        },
+        {
+          "nome": "Receita Federal: certidões",
+          "url": "https://servicos.receitafederal.gov.br/servico/certidoes/"
+        },
+        {
+          "nome": "Caixa: regularidade do empregador (FGTS)",
+          "url": "https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf"
+        },
+        {
+          "nome": "TST: Certidão Negativa de Débitos Trabalhistas",
+          "url": "https://www.tst.jus.br/certidao1"
+        },
+        {
+          "nome": "Junta Comercial do Estado de São Paulo",
+          "url": "https://www.jucesp.sp.gov.br/"
+        }
+      ]
     },
     {
       "cidade": "São Francisco do Sul",
