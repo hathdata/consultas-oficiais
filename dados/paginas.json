@@ -2,17 +2,17 @@
   "fonte": "https://hathdata.com",
   "descricao": "Todas as páginas públicas do hathdata.com (sitemap), com título, tipo, data e as consultas que cada uma atende.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-21",
-  "total": 1167,
-  "slogan": "Toda consulta online, automatizada.",
+  "geradoEm": "2026-11-22",
+  "total": 1218,
+  "slogan": "A inteligência do tempo real direto na sua operação. Toda consulta online, automatizada.",
   "tipos": {
     "API de CND por cidade": 81,
     "artigo": 25,
     "catálogo de consultas": 20,
     "CND estadual": 27,
-    "consulta por órgão": 426,
+    "consulta por órgão": 437,
     "consulta: comarca do TJMG": 298,
-    "guia de cidade": 149,
+    "guia de cidade": 189,
     "guia e página de produto": 98,
     "home": 1,
     "integração Omie": 7,
@@ -1015,9 +1015,9 @@
     {
       "url": "https://hathdata.com/consultas",
       "tipo": "catálogo de consultas",
-      "titulo": "Catálogo de coletas: 1281+ consultas oficiais por CNPJ",
+      "titulo": "Catálogo de coletas: 1289+ consultas oficiais por CNPJ",
       "h1": "Consultas por órgão, renovadas antes de vencer",
-      "descricao": "1281+ consultas oficiais coletadas por automação em órgãos públicos, 1162+ com documento em PDF emitido na própria fonte e 13.963+ atributos retornados, nos 27 estados. Busque por órgão, categoria, estado e abrangência.",
+      "descricao": "1289+ consultas oficiais coletadas por automação em órgãos públicos, 1170+ com documento em PDF emitido na própria fonte e 14.050+ atributos retornados, nos 27 estados. Busque por órgão, categoria, estado e abrangência.",
       "atualizadoEm": null,
       "consultas": []
     },
@@ -1138,17 +1138,13 @@
       "descricao": "Certidão de distribuição de ações trabalhistas nos Tribunais Regionais do Trabalho, por CNPJ, emitida por automação com o documento oficial do órgão.",
       "atualizadoEm": null,
       "consultas": [
-        "TRT1 / Certidão Eletrônica de Ações Trabalhistas (CEAT)",
         "TRT11 / Certidão Eletrônica de Ações Trabalhistas (CEAT)",
         "TRT15 / Certidão Eletrônica de Ações Trabalhistas (CEAT)",
         "TRT17 / Certidão Eletrônica de Ações Trabalhistas (CEAT)",
         "TRT18 / Certidão Eletrônica de Ações Trabalhistas (CEAT)",
         "TRT21 / Certidão Eletrônica de Ações Trabalhistas (CEAT)",
-        "TRT3 / Certidão Eletrônica de Ações Trabalhistas (CEAT)",
-        "TRT5 / Certidão Eletrônica de Ações Trabalhistas (CEAT)",
         "TRT7 / Certidão Eletrônica de Ações Trabalhistas (CEAT)",
         "TRT9 / Certidão Eletrônica de Ações Trabalhistas (CEAT)",
-        "TRT4 / Certidão Trabalhista",
         "TRT6 / Certidão Trabalhista",
         "TRT8 / Certidão Trabalhista",
         "TRT10 / Certidão Trabalhista",
@@ -5204,6 +5200,26 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-sefaz-rj-certidao-conjunta",
+      "tipo": "consulta por órgão",
+      "titulo": "API Certidão Conjunta SEFAZ e PGE do RJ (CCRF-RJ)",
+      "h1": "API Certidão Conjunta de Regularidade Fiscal do RJ (SEFAZ e PGE): Fazenda e Dívida Ativa num só PDF",
+      "descricao": "",
+      "atualizadoEm": "2026-11-21",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-sefaz-rj-relatorio-de-debitos",
+      "tipo": "consulta por órgão",
+      "titulo": "API Relatório de Débitos da SEFAZ-RJ (Certidão Conjunta)",
+      "h1": "API Relatório de Débitos da Certidão Conjunta do RJ: o relatório que diz o porquê",
+      "descricao": "API do Relatório de Débitos da CCRF-RJ (Atendimento Digital, serviço 567): o que gerou a positiva, item por item, com o certificado A1 da própria empresa.",
+      "atualizadoEm": "2026-11-21",
+      "consultas": [
+        "SEFAZ / RJ / Relatório de Débitos da Certidão Conjunta (ADRJ)"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-sefaz-rj-validar-certidao",
       "tipo": "consulta por órgão",
       "titulo": "API Autenticidade da Certidão de Regularidade Fiscal do RJ",
@@ -5212,6 +5228,17 @@
       "atualizadoEm": "2026-10-28",
       "consultas": [
         "SEFAZ / RJ / Autenticidade da Certidão de Regularidade Fiscal"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-sefaz-rj-validar-certidao-conjunta",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar Certidão Conjunta do RJ (CCRF) pelo hash",
+      "h1": "Validar a Certidão Conjunta de Regularidade Fiscal do RJ: o hash e a resposta do estado",
+      "descricao": "API da verificação de autenticidade da CCRF-RJ: o hash impresso na certidão basta. Volta a sigla, o número, o nome, a emissão e a validade, ou INVALIDA.",
+      "atualizadoEm": "2026-11-21",
+      "consultas": [
+        "SEFAZ / RJ / Autenticidade da Certidão Conjunta"
       ]
     },
     {
@@ -6002,6 +6029,17 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-trt1-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão do TRT1 (RJ) pelo código de verificação",
+      "h1": "Validar certidão trabalhista do TRT1 (Rio de Janeiro): o código de 12 dígitos",
+      "descricao": "API da verificação de certidões do TRT1: o código de verificação basta. Volta VALIDA, com a certidão relida, ou INVALIDA. Serve também para a de advogado.",
+      "atualizadoEm": "2026-11-21",
+      "consultas": [
+        "TRT1 / Verificar Certidão Trabalhista e de Advogado"
+      ]
+    },
+    {
       "url": "https://hathdata.com/api-trt12-certidao",
       "tipo": "consulta por órgão",
       "titulo": "API Certidão Trabalhista do TRT12 (SC)",
@@ -6020,6 +6058,77 @@
       "consultas": [
         "TRT2 / Certidão Trabalhista de Processos Físicos",
         "TRT2 / Certidão Trabalhista Eletrônica"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-trt3-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "API Certidão Trabalhista do TRT3 (MG): CEAT e PJe",
+      "h1": "API Certidão Trabalhista do TRT3 (Minas Gerais): dois sistemas do TRT3",
+      "descricao": "API da certidão trabalhista do TRT3 (MG) nos dois sistemas: a CEAT, com processos físicos e do PJe e 30 dias de validade, e o PJe Certidões, pela raiz do CNPJ.",
+      "atualizadoEm": "2026-11-21",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-trt3-certidao-objeto-e-pe",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de Objeto e Pé do TRT3 (MG) pelo número",
+      "h1": "API Certidão de Objeto e Pé do TRT3 (Minas Gerais): o processo resumido em PDF",
+      "descricao": "API da Certidão Eletrônica de Objeto e Pé do TRT3: pelo número do processo, o resumo com classe, partes, valor da causa, assuntos e andamentos, em PDF.",
+      "atualizadoEm": "2026-11-21",
+      "consultas": [
+        "TRT3 / Certidão de Objeto e Pé"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-trt3-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão do TRT3 (MG): CEAT, PJe e Objeto e Pé",
+      "h1": "Validar certidão do TRT3 (Minas Gerais): quatro conferências, uma chamada",
+      "descricao": "API que confere certidões do TRT3: CEAT e Objeto e Pé por número/ano e código de autenticidade; PJe e certidão de advogado pelo código de verificação.",
+      "atualizadoEm": "2026-11-21",
+      "consultas": [
+        "TRT3 / Autenticar Certidão (PJe, CEAT e Objeto e Pé)"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-trt4-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "API Certidão Trabalhista do TRT4 (RS) com o BNDT",
+      "h1": "API Certidão Trabalhista do TRT4 (Rio Grande do Sul): TRT4 e o BNDT juntos",
+      "descricao": "",
+      "atualizadoEm": "2026-11-21",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-trt4-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão do TRT4 (RS): trabalhista e de advogado",
+      "h1": "Validar certidão trabalhista do TRT4 (Rio Grande do Sul): antes de aceitar o documento",
+      "descricao": "API que confere no PJe Certidões do TRT4 se uma certidão trabalhista ou de advogado existe. Envie o código; volta VALIDA com os dados ou INVALIDA.",
+      "atualizadoEm": "2026-11-21",
+      "consultas": [
+        "TRT4 / Verificar Certidão Trabalhista e de Advogado"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-trt5-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "API Certidão Trabalhista do TRT5 (BA) pelo PJe",
+      "h1": "API Certidão Trabalhista do TRT5 (Bahia): o PJe do TRT5",
+      "descricao": "",
+      "atualizadoEm": "2026-11-21",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-trt5-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão do TRT5 (BA): código de verificação",
+      "h1": "Validar certidão trabalhista do TRT5 (Bahia): trabalhista ou de advogado",
+      "descricao": "API que verifica uma certidão do PJe Certidões do TRT5 (Bahia) pelo código impresso: VALIDA com os dados da certidão ou INVALIDA. Inclui a de advogado.",
+      "atualizadoEm": "2026-11-21",
+      "consultas": [
+        "TRT5 / Verificar Certidão Trabalhista e de Advogado"
       ]
     },
     {
@@ -9360,6 +9469,33 @@
       ]
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-aguas-lindas-de-goias",
+      "tipo": "guia de cidade",
+      "titulo": "CND Águas Lindas de Goiás: certidão do imóvel e da empresa",
+      "h1": "CND de Águas Lindas de Goiás (GO): imóvel e contribuinte no mesmo sistema",
+      "descricao": "CND de Águas Lindas de Goiás (GO): a Prefeitura emite pelo sistema SIG, por imóvel ou por contribuinte. Veja o Código Tributário de 2014 e como validar.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-alvorada",
+      "tipo": "guia de cidade",
+      "titulo": "CND Alvorada (RS): Lei nº 2.586/2012 fixa 10 dias úteis",
+      "h1": "CND de Alvorada (RS): o que o Código de 2012 exige e onde a emissão trava",
+      "descricao": "CND de Alvorada (RS): o Código Tributário (Lei nº 2.586/2012, art. 242) dá 10 dias úteis para a certidão. Emissão on-line, recusa, parcelamento e autenticidade.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-americana",
+      "tipo": "guia de cidade",
+      "titulo": "CND Americana: imóvel sai no SPE, empresa pede no 1Doc",
+      "h1": "CND de Americana (SP): um caminho para o imóvel, outro para a empresa",
+      "descricao": "CND de Americana (SP): a do imóvel sai na hora no SPE da Prefeitura; a da empresa é pedida no protocolo 1Doc. Lei nº 4.930/2009 e CTN lidos aqui.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-ananindeua",
       "tipo": "guia de cidade",
       "titulo": "CND Ananindeua (PA): certidões digitais do município",
@@ -9396,12 +9532,39 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-aracatuba",
+      "tipo": "guia de cidade",
+      "titulo": "CND Araçatuba: uma tela para empresa, imóvel ou contribuinte",
+      "h1": "CND de Araçatuba (SP): escolha a natureza e o documento certo",
+      "descricao": "CND de Araçatuba (SP): a tela do ISS Online emite por natureza (geral, mobiliário ou imobiliário) e a Autenticação de Certidões confere pelo código.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-aracruz",
       "tipo": "guia de cidade",
       "titulo": "CND Aracruz (ES): certidão no Portal de Serviços, 60 dias",
       "h1": "CND de Aracruz: sessenta dias na negativa",
       "descricao": "Em Aracruz a certidão de débitos sai no Portal de Serviços da prefeitura pelo CNPJ ou pela inscrição, sem cadastro. A negativa vale 60 dias; o modelo com efeito de negativa, 30.",
       "atualizadoEm": "2026-11-06",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-araguaina",
+      "tipo": "guia de cidade",
+      "titulo": "CND Araguaína: 90 dias de validade pelo Código Tributário",
+      "h1": "CND de Araguaína (TO): validade de 90 dias, CPD/EN e o caminho pelo SIG da Prefeitura",
+      "descricao": "CND de Araguaína (TO): o Código Tributário (LC 058/2017) fixa 90 dias de validade e 10 dias para o pedido no balcão. Emissão pelo SIG da Prefeitura.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-arapiraca",
+      "tipo": "guia de cidade",
+      "titulo": "CND Arapiraca: validade de 60 dias e 5 dias para sair",
+      "h1": "CND de Arapiraca (AL): o que a Lei nº 2.342/2003 fixa e onde a certidão sai",
+      "descricao": "CND de Arapiraca (AL): a Lei nº 2.342/2003 dá 60 dias de validade e até 5 dias para a Fazenda expedir. Veja a Certidão Contribuinte Geral no portal.",
+      "atualizadoEm": "2026-11-22",
       "consultas": []
     },
     {
@@ -9517,6 +9680,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-braganca-paulista",
+      "tipo": "guia de cidade",
+      "titulo": "CND Bragança Paulista: empresa pede pelo Cidadão Bragantino",
+      "h1": "CND de Bragança Paulista (SP): Serviços Online ou Cidadão Bragantino, conforme a situação",
+      "descricao": "CND de Bragança Paulista (SP): a negativa do mobiliário sai nos Serviços Online; com débito ou acordo, a empresa pede a positiva no Cidadão Bragantino.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-brasilia",
       "tipo": "guia de cidade",
       "titulo": "CND Brasília (DF): certidão negativa da Receita do DF",
@@ -9532,6 +9704,33 @@
       "h1": "CND de Brusque: negativa ou aviso de pendência",
       "descricao": "Em Brusque (SC) a CND sai no Atende.Net da Prefeitura, pelo CNPJ ou pelo imóvel. Com pendência, o portal não emite positiva: entrega um aviso em PDF.",
       "atualizadoEm": "2026-11-13",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-cabo-de-santo-agostinho",
+      "tipo": "guia de cidade",
+      "titulo": "CND Cabo de Santo Agostinho: validade de 60 dias no CTM",
+      "h1": "CND do Cabo de Santo Agostinho (PE): certidão da Fazenda Municipal, do imóvel e do ITBI",
+      "descricao": "CND do Cabo de Santo Agostinho (PE): certidão unificada da Fazenda Municipal, válida por 60 dias (art. 180 do CTM).",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-cabo-frio",
+      "tipo": "guia de cidade",
+      "titulo": "CND Cabo Frio: CNDM ou CRF, com validade de 90 dias",
+      "h1": "CND de Cabo Frio (RJ): CNDM, CRF e o que o Código Tributário exige de cada uma",
+      "descricao": "CND de Cabo Frio (RJ): o Código Tributário (LC nº 2/2002) prevê a CNDM e a CRF, e o Decreto nº 4.379/2011 dá 90 dias de validade à certidão do e-GOV.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-cachoeiro-de-itapemirim",
+      "tipo": "guia de cidade",
+      "titulo": "CND Cachoeiro de Itapemirim: validade de 60 dias no CTM",
+      "h1": "CND de Cachoeiro de Itapemirim (ES): o que o Código Tributário exige e onde emitir",
+      "descricao": "CND de Cachoeiro de Itapemirim (ES): o Código Tributário (Lei 5.394/2002, art. 149) fixa validade de 60 dias e código de autenticidade na via eletrônica.",
+      "atualizadoEm": "2026-11-22",
       "consultas": []
     },
     {
@@ -9616,6 +9815,15 @@
       "consultas": [
         "Prefeitura / PR / Cascavel / Certidão Negativa de Débitos"
       ]
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-castanhal",
+      "tipo": "guia de cidade",
+      "titulo": "CND Castanhal: duas certidões no Portal de Serviços da SEFIN",
+      "h1": "Certidão negativa de débitos em Castanhal (PA): o Portal de Serviços da SEFIN, o Código de 2001 e o que fazer com uma positiva",
+      "descricao": "CND de Castanhal (PA): a SEFIN emite a certidão pelo CNPJ e a do imóvel no Portal de Serviços. O Código Tributário (LC 001/2001) exige a negativa para licitar.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/certidao-negativa-municipal-catanduva",
@@ -9783,6 +9991,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-ferraz-de-vasconcelos",
+      "tipo": "guia de cidade",
+      "titulo": "CND Ferraz de Vasconcelos: validade de 180 dias no Código",
+      "h1": "Certidão negativa de débitos em Ferraz de Vasconcelos (SP): CND, CPND e CPD no Código de 2017, o Portal do Cidadão e o pedido da certidão da empresa",
+      "descricao": "CND de Ferraz de Vasconcelos (SP): o Código (LC 320/2017) dá 180 dias de validade. A do imóvel sai no Portal do Cidadão; a da empresa, por requerimento.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-florianopolis",
       "tipo": "guia de cidade",
       "titulo": "CND Florianópolis: certidão municipal vale 120 dias",
@@ -9879,6 +10096,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-hortolandia",
+      "tipo": "guia de cidade",
+      "titulo": "CND Hortolândia: negativa imediata, com efeito em 5 dias",
+      "h1": "CND de Hortolândia (SP): a certidão que a Dívida Ativa entrega e o que fazer quando ela trava",
+      "descricao": "CND de Hortolândia (SP): a negativa de débitos mobiliários e imobiliários sai na hora; a positiva com efeito de negativa leva 5 dias, pela Carta de Serviços.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-igarassu",
       "tipo": "guia de cidade",
       "titulo": "CND Igarassu (PE): certidão negativa mercantil",
@@ -9915,12 +10141,39 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-ipatinga",
+      "tipo": "guia de cidade",
+      "titulo": "CND Ipatinga: Código de 1983 dá 10 dias para a certidão",
+      "h1": "CND de Ipatinga (MG): Certidão Online, Código de 1983 e o que fazer quando sai positiva",
+      "descricao": "CND de Ipatinga (MG): a Lei nº 819/1983 manda entregar a certidão em 10 dias e indeferir quando há débito vencido. Veja o portal, o parcelamento e a validação.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-ipiranga-do-norte",
       "tipo": "guia de cidade",
       "titulo": "CND Ipiranga do Norte (MT): Portal do Cidadão, sem login",
       "h1": "CND de Ipiranga do Norte: no Portal do Cidadão",
       "descricao": "Em Ipiranga do Norte a certidão de débitos sai no Portal do Cidadão pelo CNPJ, sem login. A prefeitura não emite positiva: com débito, a certidão não sai. Passo a passo e autenticidade.",
       "atualizadoEm": "2026-11-06",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-itaborai",
+      "tipo": "guia de cidade",
+      "titulo": "CND Itaboraí: Certidão de Débitos Fazendários pelo CNPJ",
+      "h1": "CND de Itaboraí (RJ): a Certidão de Débitos Fazendários do Portal Tributário, passo a passo",
+      "descricao": "CND de Itaboraí (RJ): a Certidão de Débitos Fazendários sai pelo CNPJ no Portal Tributário da Prefeitura; a do imóvel, pela inscrição imobiliária.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-itabuna",
+      "tipo": "guia de cidade",
+      "titulo": "CND Itabuna: o que diz o Código Tributário (Lei 2.173/2010)",
+      "h1": "CND de Itabuna (BA): o portal do Departamento de Tributos e o Código de 2010",
+      "descricao": "CND de Itabuna (BA): emitida pela Secretaria da Fazenda e Orçamento no portal do Departamento de Tributos, sob a Lei 2.173/2010. Passo a passo e recusa.",
+      "atualizadoEm": "2026-11-22",
       "consultas": []
     },
     {
@@ -9939,6 +10192,15 @@
       "h1": "Certidão de Itapema: todos os cadastros num documento",
       "descricao": "Em Itapema a certidão de débitos cobre todos os cadastros do contribuinte, e a prefeitura consulta débitos de ISS e IPTU pelo WhatsApp (47) 99200-0597, com o CNPJ.",
       "atualizadoEm": "2026-10-07",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-itapevi",
+      "tipo": "guia de cidade",
+      "titulo": "CND Itapevi: o Código de 2005 dá 180 dias de validade",
+      "h1": "CND de Itapevi (SP): 180 dias de validade e o caminho no portal da Prefeitura",
+      "descricao": "CND de Itapevi (SP): pela Lei Complementar nº 34/2005, a certidão sai em até 10 dias e vale 180. Emissão no portal Serviços OnLine da Prefeitura.",
+      "atualizadoEm": "2026-11-22",
       "consultas": []
     },
     {
@@ -9969,6 +10231,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-jacarei",
+      "tipo": "guia de cidade",
+      "titulo": "CND Jacareí: imobiliária ou mobiliária no Siap e-GOV",
+      "h1": "CND de Jacareí (SP): a certidão que sai pela inscrição",
+      "descricao": "CND de Jacareí (SP): no Siap e-GOV você escolhe certidão imobiliária ou mobiliária e digita a inscrição. Veja prazo, anistia de 2026 e como validar.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-jaragua-do-sul",
       "tipo": "guia de cidade",
       "titulo": "CND Jaraguá do Sul (SC): certidão de contribuinte pelo CNPJ",
@@ -9996,6 +10267,15 @@
       "consultas": [
         "Prefeitura / SC / Joinville / Certidão Negativa de Débitos"
       ]
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-juazeiro-ba",
+      "tipo": "guia de cidade",
+      "titulo": "CND Juazeiro (BA): negativa vale 90 dias, a com efeito 30",
+      "h1": "CND de Juazeiro (BA): as três certidões do Código Tributário e onde cada uma sai",
+      "descricao": "CND de Juazeiro (BA): o Código Tributário (LC nº 003/2009) dá 90 dias à negativa, 30 à positiva com efeito de negativa e 10 dias para a Prefeitura expedir.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/certidao-negativa-municipal-juazeiro-do-norte",
@@ -10043,6 +10323,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-lauro-de-freitas",
+      "tipo": "guia de cidade",
+      "titulo": "CND Lauro de Freitas: negativa vale 90 dias pelo Código",
+      "h1": "CND de Lauro de Freitas (BA): prazo de 90 dias, inscrição CGA e o sistema da SEFAZ",
+      "descricao": "CND de Lauro de Freitas (BA): sai no TR2 da SEFAZ pela inscrição. Pelo Código (Lei 1.572/2015), negativa vale 90 dias e positiva com efeito, 30.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-limeira",
       "tipo": "guia de cidade",
       "titulo": "CND Limeira (SP): tributos mobiliários e ISSQN",
@@ -10061,6 +10350,15 @@
       "consultas": [
         "Prefeitura / PR / Londrina / Certidão Negativa de Débitos"
       ]
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-luziania",
+      "tipo": "guia de cidade",
+      "titulo": "CND Luziânia: Código de 1979 manda expedir em 5 dias",
+      "h1": "CND de Luziânia (GO): Certidão do Contribuinte, Certidão do Imóvel e as regras do Código de 1979",
+      "descricao": "CND de Luziânia (GO): a Lei nº 966/1979 exige a certidão em até 5 dias do pedido. Veja a Certidão do Contribuinte, o processo tributário de 2025 e o débito.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/certidao-negativa-municipal-macae",
@@ -10090,6 +10388,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-mage",
+      "tipo": "guia de cidade",
+      "titulo": "CND Magé: decreto de 2025 fixa validade de 30 dias",
+      "h1": "CND de Magé (RJ): o decreto de 2025 que mudou a certidão da Prefeitura",
+      "descricao": "CND de Magé (RJ): o Decreto nº 3.831/2025 fixa 30 dias de validade, uma certidão por raiz de CNPJ (matriz e filiais) e emissão só eletrônica.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-manaus",
       "tipo": "guia de cidade",
       "titulo": "CND Manaus (Semef Atende): certidão municipal, 180 dias",
@@ -10107,6 +10414,24 @@
       "h1": "CND de Marabá (PA): 60 dias de validade e o que mais o Código manda",
       "descricao": "CND de Marabá (PA): o Código Tributário (LC nº 4/2010) dá 60 dias de validade à certidão negativa e 10 dias úteis para a Gestão Fazendária entregar o pedido.",
       "atualizadoEm": "2026-11-20",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-maracanau",
+      "tipo": "guia de cidade",
+      "titulo": "CND Maracanaú: Código Tributário novo e prazo de 10 dias",
+      "h1": "CND de Maracanaú (CE): a certidão no Código Tributário de 2026 e no Governo Eletrônico",
+      "descricao": "CND de Maracanaú (CE): o Código Tributário em vigor desde janeiro de 2026 (Lei nº 3.805/2025) dá 10 dias para a certidão sair e veda cobrar taxa.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-marilia",
+      "tipo": "guia de cidade",
+      "titulo": "CND Marília: 180 dias de validade pela LC nº 889/2019",
+      "h1": "CND de Marília (SP): 180 dias escritos no Código Tributário",
+      "descricao": "CND de Marília (SP): o Código Tributário (LC nº 889/2019, art. 132) fixa 180 dias de validade. Veja CND, CPD e CPD/EN, onde emitir e como validar.",
+      "atualizadoEm": "2026-11-22",
       "consultas": []
     },
     {
@@ -10179,12 +10504,39 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-nossa-senhora-do-socorro",
+      "tipo": "guia de cidade",
+      "titulo": "CND Nossa Senhora do Socorro: mercantil on-line desde 2025",
+      "h1": "CND de Nossa Senhora do Socorro (SE): certidão mercantil e certidão do imóvel",
+      "descricao": "CND de Nossa Senhora do Socorro (SE): a certidão mercantil sai on-line desde fevereiro de 2025 no Portal do Contribuinte; a do imóvel, pela inscrição.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-nova-friburgo",
+      "tipo": "guia de cidade",
+      "titulo": "CND Nova Friburgo: o que a LC 124/2018 diz da certidão",
+      "h1": "CND de Nova Friburgo (RJ): o pedido, o indeferimento e o parcelamento que libera a certidão",
+      "descricao": "CND de Nova Friburgo (RJ): o Código Tributário (LC 124/2018, art. 352) indefere o pedido com débito aberto. Veja onde emitir e como parcelar.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-nova-iguacu",
       "tipo": "guia de cidade",
       "titulo": "CND Nova Iguaçu (RJ): pelo CNPJ, com chave de autenticação",
       "h1": "CND de Nova Iguaçu (RJ): CNPJ, imóvel ou documento do titular",
       "descricao": "Em Nova Iguaçu (RJ) a CND municipal sai pelo CNPJ no Portal do Contribuinte da SEMEF. A lei prevê CND, CPND e CPD; a validade é a impressa na certidão.",
       "atualizadoEm": "2026-11-10",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-novo-hamburgo",
+      "tipo": "guia de cidade",
+      "titulo": "CND Novo Hamburgo: Certidão Geral do Contribuinte",
+      "h1": "CND de Novo Hamburgo (RS): Certidão Geral do Contribuinte ou certidão do imóvel",
+      "descricao": "CND de Novo Hamburgo (RS): pelo CNPJ sai a Certidão Geral do Contribuinte; pelo DIC, a do IPTU. Parcelamento da Lei 2.137/2010 dá efeito de negativa.",
+      "atualizadoEm": "2026-11-22",
       "consultas": []
     },
     {
@@ -10250,6 +10602,15 @@
       "h1": "CND de Parnamirim (RN): a certidão da Fazenda Municipal e as outras duas do portal da SEMUT",
       "descricao": "CND de Parnamirim (RN): o portal da SEMUT separa as certidões da Fazenda Municipal, imobiliária e de ITIV. Veja qual a empresa usa e como validar.",
       "atualizadoEm": "2026-11-21",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-passo-fundo",
+      "tipo": "guia de cidade",
+      "titulo": "CND Passo Fundo: validade de 6 meses pela Lei nº 1.779/1977",
+      "h1": "CND de Passo Fundo (RS): seis meses de validade e o motivo de cada recusa",
+      "descricao": "CND de Passo Fundo (RS): o Código Tributário (Lei nº 1.779/1977, art. 136) dá 6 meses de validade. Veja a emissão, o motivo da recusa e a autenticidade.",
+      "atualizadoEm": "2026-11-22",
       "consultas": []
     },
     {
@@ -10327,6 +10688,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-presidente-prudente",
+      "tipo": "guia de cidade",
+      "titulo": "CND Presidente Prudente: pelo gov.br ou pelo nº do cadastro",
+      "h1": "CND de Presidente Prudente (SP): duas portas para a mesma certidão",
+      "descricao": "CND de Presidente Prudente (SP): emissão pelo Portal do Contribuinte com gov.br ou pelo número do cadastro. Veja a LC 199/2015 e o aviso do Simples 2027.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-ribeirao-das-neves",
       "tipo": "guia de cidade",
       "titulo": "CND Ribeirão das Neves (MG): certidão de contribuinte",
@@ -10356,12 +10726,39 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-rio-claro",
+      "tipo": "guia de cidade",
+      "titulo": "CND Rio Claro: duas vias para empresa desde junho de 2023",
+      "h1": "CND de Rio Claro (SP): a certidão da empresa vem em duas vias",
+      "descricao": "CND de Rio Claro (SP): desde 01/06/2023 a certidão mobiliária sai em duas vias, uma do ISSQN no GISS Online e outra dos impostos no Portal de Tributos.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-rio-de-janeiro",
       "tipo": "guia de cidade",
       "titulo": "CND Rio de Janeiro: certidão municipal de empresa e imóvel",
       "h1": "Certidão negativa municipal do Rio de Janeiro: como emitir sem perder tempo",
       "descricao": "No Rio, a certidão de imóvel mais pedida é a de Situação Fiscal e Enfitêutica (Carioca Digital). Veja também a certidão da empresa e onde emitir cada uma.",
       "atualizadoEm": "2026-11-10",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-rio-grande",
+      "tipo": "guia de cidade",
+      "titulo": "CND Rio Grande: 180 dias de validade pela IN 001/2018",
+      "h1": "CND de Rio Grande (RS): pedido no SIGISS, análise da Fazenda e 180 dias de prazo",
+      "descricao": "CND de Rio Grande (RS): a IN 001/2018 da Fazenda dá 180 dias de validade e o pedido sai pelo SIGISS. Veja CND × CPEN, recusa via DTE e autenticidade.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-rio-verde",
+      "tipo": "guia de cidade",
+      "titulo": "CND Rio Verde: Código Tributário fixa 5 dias para a certidão",
+      "h1": "CND de Rio Verde (GO): o serviço Certidões CND, o Código de 2009 e o caminho quando há débito",
+      "descricao": "CND de Rio Verde (GO): a LC nº 5.727/2009 dá 5 dias para a certidão e prevê a positiva com efeito de negativa. Veja o portal, o parcelamento e os erros.",
+      "atualizadoEm": "2026-11-22",
       "consultas": []
     },
     {
@@ -10383,6 +10780,24 @@
       "consultas": [
         "Prefeitura / BA / Salvador / Certidão Negativa de Débitos"
       ]
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-santa-barbara-d-oeste",
+      "tipo": "guia de cidade",
+      "titulo": "CND Santa Bárbara d'Oeste: a negativa da empresa no SIL",
+      "h1": "Certidão negativa de débitos em Santa Bárbara d'Oeste (SP): os Serviços Online do SIL, o Código de 2009 e o caminho quando o resultado vem positivo",
+      "descricao": "CND de Santa Bárbara d'Oeste (SP): a certidão da empresa sai nos Serviços Online do SIL pelo CNPJ. O Código Tributário (LC 54/2009) dispensa taxa e dá 10 dias.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-santa-luzia",
+      "tipo": "guia de cidade",
+      "titulo": "CND Santa Luzia: Código de 2010 prevê três certidões",
+      "h1": "CND de Santa Luzia (MG): Portal Tributário, Código de 2010 e o caminho quando a certidão sai positiva",
+      "descricao": "CND de Santa Luzia (MG): a Lei Complementar nº 3.160/2010 define negativa, positiva e positiva com efeito de negativa. Veja o Portal Tributário e a validação.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/certidao-negativa-municipal-santa-maria",
@@ -10605,6 +11020,33 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-sete-lagoas",
+      "tipo": "guia de cidade",
+      "titulo": "CND Sete Lagoas: Código Tributário de 2002 em revisão",
+      "h1": "CND de Sete Lagoas (MG): e-Cidade Cidadão, 7L Resolve e o que fazer quando há débito",
+      "descricao": "CND de Sete Lagoas (MG): pedido pelo e-Cidade Cidadão e pelo 7L Resolve, Código de 2002 em revisão desde 2025 e CECON na Lagoa Paulino. Veja o passo a passo.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-sinop",
+      "tipo": "guia de cidade",
+      "titulo": "CND Sinop: opção Certidão e Valor Venal no Portal Tributário",
+      "h1": "CND de Sinop (MT): o portal tributário, o Regulariza 2026 e a CPEN",
+      "descricao": "CND de Sinop (MT): sai na opção Certidão e Valor Venal do Portal Tributário. Com parcelamento em dia, a Prefeitura emite a positiva com efeito (CPEN).",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-sobral",
+      "tipo": "guia de cidade",
+      "titulo": "CND Sobral: opção Econômico no portal, validade de 90 dias",
+      "h1": "CND de Sobral (CE): imóvel, econômico ou contribuinte, com validade de 90 dias",
+      "descricao": "CND de Sobral (CE): empresa emite pela opção Econômico do Portal do Contribuinte. O Código Tributário (LC 39/2013) fixa validade de 90 dias.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-sorocaba",
       "tipo": "guia de cidade",
       "titulo": "CND Sorocaba: mobiliária e imobiliária no Portal SIAT",
@@ -10661,6 +11103,15 @@
       "consultas": []
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-timon",
+      "tipo": "guia de cidade",
+      "titulo": "CND Timon: contribuinte, estabelecimento ou imóvel",
+      "h1": "CND de Timon (MA): três certidões no portal tributário e o que o Código exige de cada uma",
+      "descricao": "CND de Timon (MA): o Portal de Serviços Tributários emite três certidões. O Código (LC 25/2013, art. 450) dá 10 dias para o pedido de balcão.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-tres-pontas",
       "tipo": "guia de cidade",
       "titulo": "CND Três Pontas (MG): quatro formas de emitir, 180 dias",
@@ -10692,12 +11143,30 @@
       ]
     },
     {
+      "url": "https://hathdata.com/certidao-negativa-municipal-valparaiso-de-goias",
+      "tipo": "guia de cidade",
+      "titulo": "CND Valparaíso de Goiás: certidão do contribuinte no SIAT",
+      "h1": "CND de Valparaíso de Goiás (GO): débito do contribuinte ou débito do imóvel, no SIAT Online",
+      "descricao": "CND de Valparaíso de Goiás (GO): sai no SIAT Online da Prefeitura pelo CNPJ. Código Tributário (LC 114/2018): pedido atendido em até 5 dias.",
+      "atualizadoEm": "2026-11-22",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/certidao-negativa-municipal-varzea-grande",
       "tipo": "guia de cidade",
       "titulo": "CND Várzea Grande (MT): certidão de débitos sem login",
       "h1": "CND de Várzea Grande: cinco certidões numa página só",
       "descricao": "Em Várzea Grande a página de Certidões da prefeitura reúne a Certidão de Débitos, a do imóvel, a de baixa de atividade, o valor venal e a emissão via autenticação.",
       "atualizadoEm": "2026-11-19",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/certidao-negativa-municipal-viamao",
+      "tipo": "guia de cidade",
+      "titulo": "CND Viamão: emissão em até 10 dias pela Lei nº 4.556/2016",
+      "h1": "CND de Viamão (RS): o que o Código de 2016 exige e onde emitir",
+      "descricao": "CND de Viamão (RS): a Lei nº 4.556/2016 manda expedir em até 10 dias (art. 382). Veja a emissão no ArCidadão, a autenticidade e o parcelamento.",
+      "atualizadoEm": "2026-11-22",
       "consultas": []
     },
     {
@@ -11659,7 +12128,7 @@
       "tipo": "home",
       "titulo": "Hath Data | Coleta de dados ao vivo em órgãos públicos, sob demanda",
       "h1": "A inteligência do tempo real direto na sua operação.",
-      "descricao": "Certidões, cadastros e processos públicos coletados na fonte, sem ninguém abrir portal. A Hath Data não armazena cópias paradas: os robôs vão ao órgão oficial, coletam na fonte em 1281+ consultas, emitem o documento em PDF na própria fonte e entregam estruturado no seu ERP, CRM ou por API.",
+      "descricao": "Certidões, cadastros e processos públicos coletados na fonte, sem ninguém abrir portal. A Hath Data não armazena cópias paradas: os robôs vão ao órgão oficial, coletam na fonte em 1289+ consultas, emitem o documento em PDF na própria fonte e entregam estruturado no seu ERP, CRM ou por API.",
       "atualizadoEm": null,
       "consultas": []
     },
@@ -11731,7 +12200,7 @@
       "tipo": "integração RD Station CRM",
       "titulo": "Integração RD Station CRM: dados do cliente em 1 clique",
       "h1": "Integração RD Station CRM: a ficha completa do cliente em 1 clique",
-      "descricao": "Integração do RD Station CRM com a Hath Data: conecte em um clique e cada negociação ganha a ficha completa do cliente, com cadastro, certidões, processos e sanções de fontes oficiais. Preenchimento automático, funil organizado e 1.281+ consultas.",
+      "descricao": "Integração do RD Station CRM com a Hath Data: conecte em um clique e cada negociação ganha a ficha completa do cliente, com cadastro, certidões, processos e sanções de fontes oficiais. Preenchimento automático, funil organizado e 1.289+ consultas.",
       "atualizadoEm": "2026-10-15",
       "consultas": []
     },

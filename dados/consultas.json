@@ -2,9 +2,9 @@
   "fonte": "https://hathdata.com",
   "descricao": "Consultas a órgãos oficiais feitas pelo CNPJ ou pela inscrição da empresa.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-21",
-  "total": 1076,
-  "slogan": "Toda consulta online, automatizada.",
+  "geradoEm": "2026-11-22",
+  "total": 1079,
+  "slogan": "A inteligência do tempo real direto na sua operação. Toda consulta online, automatizada.",
   "consultas": [
     {
       "nome": "Anatel / Consulta Celular Legal",
@@ -5227,6 +5227,32 @@
       "pagina": "https://hathdata.com/api-sefaz-rj-validar-certidao"
     },
     {
+      "nome": "SEFAZ / RJ / Autenticidade da Certidão Conjunta",
+      "orgao": "SEFAZ",
+      "esfera": "estadual",
+      "ufs": [
+        "RJ"
+      ],
+      "entrada": [
+        "Código de autenticação"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-sefaz-rj-validar-certidao-conjunta"
+    },
+    {
+      "nome": "SEFAZ / RJ / Relatório de Débitos da Certidão Conjunta (ADRJ)",
+      "orgao": "SEFAZ",
+      "esfera": "estadual",
+      "ufs": [
+        "RJ"
+      ],
+      "entrada": [
+        "Certificado A1"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-sefaz-rj-relatorio-de-debitos"
+    },
+    {
       "nome": "SEFAZ / RS / CADIN e CFIL",
       "orgao": "SEFAZ",
       "esfera": "estadual",
@@ -6068,19 +6094,6 @@
       "pagina": "https://hathdata.com/api-trf4-certidao"
     },
     {
-      "nome": "TRT1 / Certidão Eletrônica de Ações Trabalhistas (CEAT)",
-      "orgao": "Justiça do Trabalho",
-      "esfera": "judiciario",
-      "ufs": [
-        "RJ"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/consultas/certidao-trabalhista"
-    },
-    {
       "nome": "TRT11 / Certidão Eletrônica de Ações Trabalhistas (CEAT)",
       "orgao": "Justiça do Trabalho",
       "esfera": "judiciario",
@@ -6132,6 +6145,71 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/consultas/certidao-trabalhista"
+    },
+    {
+      "nome": "TRT1 / Verificar Certidão Trabalhista e de Advogado",
+      "orgao": "Justiça do Trabalho",
+      "esfera": "judiciario",
+      "ufs": [
+        "RJ"
+      ],
+      "entrada": [
+        "Código de verificação"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-trt1-validar-certidao"
+    },
+    {
+      "nome": "TRT3 / Certidão de Objeto e Pé",
+      "orgao": "Justiça do Trabalho",
+      "esfera": "judiciario",
+      "ufs": [
+        "MG"
+      ],
+      "entrada": [
+        "Número do processo"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-trt3-certidao-objeto-e-pe"
+    },
+    {
+      "nome": "TRT3 / Autenticar Certidão (PJe, CEAT e Objeto e Pé)",
+      "orgao": "Justiça do Trabalho",
+      "esfera": "judiciario",
+      "ufs": [
+        "MG"
+      ],
+      "entrada": [
+        "Código de verificação"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-trt3-validar-certidao"
+    },
+    {
+      "nome": "TRT4 / Verificar Certidão Trabalhista e de Advogado",
+      "orgao": "Justiça do Trabalho",
+      "esfera": "judiciario",
+      "ufs": [
+        "RS"
+      ],
+      "entrada": [
+        "Código de verificação"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-trt4-validar-certidao"
+    },
+    {
+      "nome": "TRT5 / Verificar Certidão Trabalhista e de Advogado",
+      "orgao": "Justiça do Trabalho",
+      "esfera": "judiciario",
+      "ufs": [
+        "BA"
+      ],
+      "entrada": [
+        "Código de verificação"
+      ],
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-trt5-validar-certidao"
     },
     {
       "nome": "TJMG / Certidão Judicial (RUPE, 1ª e 2ª instância, 298 comarcas)",
@@ -6189,32 +6267,6 @@
       "esfera": "judiciario",
       "ufs": [
         "RN"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/consultas/certidao-trabalhista"
-    },
-    {
-      "nome": "TRT3 / Certidão Eletrônica de Ações Trabalhistas (CEAT)",
-      "orgao": "Justiça do Trabalho",
-      "esfera": "judiciario",
-      "ufs": [
-        "MG"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/consultas/certidao-trabalhista"
-    },
-    {
-      "nome": "TRT5 / Certidão Eletrônica de Ações Trabalhistas (CEAT)",
-      "orgao": "Justiça do Trabalho",
-      "esfera": "judiciario",
-      "ufs": [
-        "BA"
       ],
       "entrada": [
         "CNPJ"
@@ -13618,19 +13670,6 @@
       ],
       "situacao": "em produção",
       "pagina": "https://hathdata.com/api-uk-sancoes"
-    },
-    {
-      "nome": "TRT4 / Certidão Trabalhista",
-      "orgao": "Justiça do Trabalho",
-      "esfera": "judiciario",
-      "ufs": [
-        "RS"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "em produção",
-      "pagina": "https://hathdata.com/consultas/certidao-trabalhista"
     },
     {
       "nome": "TRT6 / Certidão Trabalhista",

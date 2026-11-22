@@ -1,6 +1,6 @@
 # Consultas oficiais por documento: dados abertos
 
-**Toda consulta online, automatizada.**
+**A inteligência do tempo real direto na sua operação. Toda consulta online, automatizada.**
 
 Lista aberta das consultas que a [Hath Data](https://hathdata.com) faz em órgãos oficiais pelo documento da
 empresa: certidões, situação cadastral, processos e listas oficiais. Cada prefeitura vem com a guia da cidade e as
@@ -10,33 +10,33 @@ páginas oficiais (gov.br, jus.br, leg.br) que sustentam cada regra.
 
 | Arquivo | O que tem | Registros |
 | --- | --- | --- |
-| [`dados/consultas.json`](dados/consultas.json) | consulta, órgão, esfera, UFs, dado de entrada, situação e página | 1.076 |
+| [`dados/consultas.json`](dados/consultas.json) | consulta, órgão, esfera, UFs, dado de entrada, situação e página | 1.079 |
 | [`dados/prefeituras.json`](dados/prefeituras.json) | cidade, UF, documentos, guia, página de API e fontes oficiais | 125 (81 em produção, 21 estados) |
-| [`dados/fontes-oficiais.json`](dados/fontes-oficiais.json) | página oficial citada e as guias que a citam | 1.426 |
-| [`dados/paginas.json`](dados/paginas.json) | todas as páginas públicas do hathdata.com: título, tipo, data e consultas atendidas | 1.167 |
+| [`dados/fontes-oficiais.json`](dados/fontes-oficiais.json) | página oficial citada e as guias que a citam | 1.942 |
+| [`dados/paginas.json`](dados/paginas.json) | todas as páginas públicas do hathdata.com: título, tipo, data e consultas atendidas | 1.218 |
 
 **Catálogo completo**, por esfera e órgão, com link para cada consulta: [`CATALOGO.md`](CATALOGO.md) e
 [página com filtro](https://hathdata.github.io/consultas-oficiais/consultas.html). **Mapa do site**, página por página: [https://hathdata.github.io/consultas-oficiais/paginas.html](https://hathdata.github.io/consultas-oficiais/paginas.html).
 
-Atualizado em 21/11/2026, todo dia, a partir de `https://hathdata.com/dados/abertos/`.
+Atualizado em 22/11/2026, todo dia, a partir de `https://hathdata.com/dados/abertos/`.
 
 ## Consultas por esfera
 
 | Esfera | Consultas |
 | --- | --- |
-| Judiciário | 567 |
+| Judiciário | 568 |
 | Municipal | 255 |
 | Federal | 137 |
-| Estadual | 110 |
+| Estadual | 112 |
 | Internacional | 7 |
 
 ## Páginas do site por tipo
 
 | Tipo | Páginas |
 | --- | --- |
-| Consulta por órgão | 426 |
+| Consulta por órgão | 437 |
 | Consulta: comarca do TJMG | 298 |
-| Guia de cidade | 149 |
+| Guia de cidade | 189 |
 | Guia e página de produto | 98 |
 | API de CND por cidade | 81 |
 | CND estadual | 27 |

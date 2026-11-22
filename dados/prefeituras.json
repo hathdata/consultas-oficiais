@@ -2,9 +2,9 @@
   "fonte": "https://hathdata.com",
   "descricao": "Prefeituras atendidas, com a guia de cada cidade e as fontes oficiais citadas nela.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-21",
+  "geradoEm": "2026-11-22",
   "total": 125,
-  "slogan": "Toda consulta online, automatizada.",
+  "slogan": "A inteligência do tempo real direto na sua operação. Toda consulta online, automatizada.",
   "producao": 81,
   "estados": 21,
   "prefeituras": [
@@ -1437,10 +1437,67 @@
       "documentos": [
         "Certidão Negativa de Débitos"
       ],
-      "guia": null,
+      "guia": "https://hathdata.com/certidao-negativa-municipal-hortolandia",
       "api": null,
-      "atualizadoEm": null,
-      "fontesOficiais": []
+      "atualizadoEm": "2026-11-22",
+      "fontesOficiais": [
+        {
+          "nome": "Prefeitura de Hortolândia: Certidão Negativa de Débitos (Mobiliários e Imobiliários)",
+          "url": "https://www.hortolandia.sp.gov.br/certidao-negativa-de-debitos-mobiliarios-e-imobiliarios/"
+        },
+        {
+          "nome": "Prefeitura de Hortolândia: Certidão Positiva com Efeito de Negativa",
+          "url": "https://www.hortolandia.sp.gov.br/certidao-positiva-com-efeito-de-negativa/"
+        },
+        {
+          "nome": "Prefeitura de Hortolândia: Certidão Positiva (Mobiliário e Imobiliário)",
+          "url": "https://www.hortolandia.sp.gov.br/certidao-positiva-mobiliario-e-imobiliario/"
+        },
+        {
+          "nome": "Prefeitura de Hortolândia: Dívida Ativa",
+          "url": "https://www.hortolandia.sp.gov.br/dividaativa/"
+        },
+        {
+          "nome": "Prefeitura de Hortolândia: Parcelamento de Débitos em Dívida Ativa",
+          "url": "https://www.hortolandia.sp.gov.br/parcelamento-de-debitos-em-divida-ativa/"
+        },
+        {
+          "nome": "Prefeitura de Hortolândia: Carta de Anuência (baixa no protesto)",
+          "url": "https://www.hortolandia.sp.gov.br/carta-de-anuencia-baixa-no-protesto/"
+        },
+        {
+          "nome": "Prefeitura de Hortolândia: balanço do Negocia Hortolândia (13/11/2026)",
+          "url": "https://www.hortolandia.sp.gov.br/2026/11/13/quase-800-contribuintes-aproveitam-descontos-de-ate-100-em-juros-e-multas-e-quitam-dividas-antigas/"
+        },
+        {
+          "nome": "Prefeitura de Hortolândia: Portal de Finanças (05/11/2026)",
+          "url": "https://www.hortolandia.sp.gov.br/2026/11/05/hortolandia-cria-portal-de-financas/"
+        },
+        {
+          "nome": "Serviços online da Prefeitura de Hortolândia (SIL)",
+          "url": "https://siltecnologia.hortolandia.sp.gov.br/tbw/loginWeb.jsp?execobj=ServicosWebSite"
+        },
+        {
+          "nome": "Código Tributário Nacional (Lei nº 5.172/1966)",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html"
+        },
+        {
+          "nome": "Receita Federal: certidões",
+          "url": "https://servicos.receitafederal.gov.br/servico/certidoes/"
+        },
+        {
+          "nome": "Caixa: Certificado de Regularidade do FGTS",
+          "url": "https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf"
+        },
+        {
+          "nome": "TST: Certidão Negativa de Débitos Trabalhistas",
+          "url": "https://www.tst.jus.br/certidao1"
+        },
+        {
+          "nome": "Sefaz-SP: certidão de débitos tributários",
+          "url": "https://www10.fazenda.sp.gov.br/CertidaoNegativaDeb/Pages/EmissaoCertidaoNegativa.aspx"
+        }
+      ]
     },
     {
       "cidade": "Igarassu",
@@ -2697,10 +2754,103 @@
       "documentos": [
         "Certidão Negativa de Débitos"
       ],
-      "guia": null,
+      "guia": "https://hathdata.com/certidao-negativa-municipal-rio-verde",
       "api": null,
-      "atualizadoEm": null,
-      "fontesOficiais": []
+      "atualizadoEm": "2026-11-22",
+      "fontesOficiais": [
+        {
+          "nome": "Prefeitura de Rio Verde: Certidões CND",
+          "url": "https://www.rioverde.go.gov.br/servico/certidoes-cnd/"
+        },
+        {
+          "nome": "Prefeitura de Rio Verde: Secretaria da Fazenda",
+          "url": "https://www.rioverde.go.gov.br/secretaria-da-fazenda/"
+        },
+        {
+          "nome": "Prefeitura de Rio Verde: ficha da Secretaria da Fazenda (endereço e contatos)",
+          "url": "https://www.rioverde.go.gov.br/estrutura/secretaria-da-fazenda/"
+        },
+        {
+          "nome": "Lei Complementar nº 5.727/2009 (Código Tributário do Município de Rio Verde), texto consolidado",
+          "url": "https://www.rioverde.go.gov.br/wp-content/uploads/2021/01/CODIGO-TRIBUTARIO-MUNICIPAL-DE-RIO-VERDE-GO.pdf"
+        },
+        {
+          "nome": "Prefeitura de Rio Verde: Download de Arquivos Sefaz",
+          "url": "https://www.rioverde.go.gov.br/download/anexos-secretaria-da-fazenda/"
+        },
+        {
+          "nome": "Prefeitura de Rio Verde: Requerimentos da Fazenda",
+          "url": "https://www.rioverde.go.gov.br/secretaria-da-fazenda/download/requerimentos/"
+        },
+        {
+          "nome": "Prefeitura de Rio Verde: Certidão Cadastral",
+          "url": "https://www.rioverde.go.gov.br/servico/certidao-cadastral/"
+        },
+        {
+          "nome": "Prefeitura de Rio Verde: Débitos Contribuinte",
+          "url": "https://www.rioverde.go.gov.br/servico/extrato-contribuinte-empresas-emissao-de-debitos/"
+        },
+        {
+          "nome": "Prefeitura de Rio Verde: Débitos Atividade Econômica",
+          "url": "https://www.rioverde.go.gov.br/servico/iptu/"
+        },
+        {
+          "nome": "Prefeitura de Rio Verde: IPTU Emissão",
+          "url": "https://www.rioverde.go.gov.br/servico/extrato-do-contribuinte/"
+        },
+        {
+          "nome": "Prefeitura de Rio Verde: Abertura Protocolo de Serviços",
+          "url": "https://www.rioverde.go.gov.br/servico/protocolo-de-servicos/"
+        },
+        {
+          "nome": "Prefeitura de Rio Verde: Consultar Protocolo",
+          "url": "https://www.rioverde.go.gov.br/servico/consulta-processual/"
+        },
+        {
+          "nome": "Prefeitura de Rio Verde: passo a passo de abertura de protocolo",
+          "url": "https://www.rioverde.go.gov.br/secretaria-da-fazenda/wp-content/uploads/sites/8/2022/08/Passo-a-passo-ABERTURA-PROTOCOLO-DE-SERVICOS.pdf"
+        },
+        {
+          "nome": "Prefeitura de Rio Verde: REFIS 2026 (Lei nº 7.905/2026)",
+          "url": "https://www.rioverde.go.gov.br/refis-2026-comecou-nesta-quinta-feira-1o-com-ate-90-de-desconto-em-juros-e-multas/"
+        },
+        {
+          "nome": "Prefeitura de Rio Verde: pagamento de tributos com cartão e liberação da CND",
+          "url": "https://www.rioverde.go.gov.br/tributos-e-demais-receitas-municipais-poderao-ser-pagas-com-cartoes-de-credito-e-debito/"
+        },
+        {
+          "nome": "Prefeitura de Rio Verde: Fazenda no novo Paço Municipal",
+          "url": "https://www.rioverde.go.gov.br/secretario-da-fazenda-anuncia-novidades-novo-endereco-prorrogacao-do-refis-e-desconto-no-itbi/"
+        },
+        {
+          "nome": "Prefeitura de Rio Verde: Autenticar NFS-e e NFS-a",
+          "url": "https://www.rioverde.go.gov.br/servico/autenticar-nf-e/"
+        },
+        {
+          "nome": "Código Tributário Nacional (Lei nº 5.172/1966)",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html"
+        },
+        {
+          "nome": "Receita Federal: certidões",
+          "url": "https://servicos.receitafederal.gov.br/servico/certidoes/"
+        },
+        {
+          "nome": "Caixa: regularidade do empregador (FGTS)",
+          "url": "https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf"
+        },
+        {
+          "nome": "TST: Certidão Negativa de Débitos Trabalhistas",
+          "url": "https://www.tst.jus.br/certidao1"
+        },
+        {
+          "nome": "Junta Comercial do Estado de Goiás",
+          "url": "https://www.juceg.go.gov.br/"
+        },
+        {
+          "nome": "REDESIM",
+          "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim"
+        }
+      ]
     },
     {
       "cidade": "Rondonópolis",
