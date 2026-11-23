@@ -10,34 +10,34 @@ páginas oficiais (gov.br, jus.br, leg.br) que sustentam cada regra.
 
 | Arquivo | O que tem | Registros |
 | --- | --- | --- |
-| [`dados/consultas.json`](dados/consultas.json) | consulta, órgão, esfera, UFs, dado de entrada, situação e página | 1.079 |
+| [`dados/consultas.json`](dados/consultas.json) | consulta, órgão, esfera, UFs, dado de entrada, situação e página | 782 |
 | [`dados/prefeituras.json`](dados/prefeituras.json) | cidade, UF, documentos, guia, página de API e fontes oficiais | 125 (81 em produção, 21 estados) |
-| [`dados/fontes-oficiais.json`](dados/fontes-oficiais.json) | página oficial citada e as guias que a citam | 1.942 |
-| [`dados/paginas.json`](dados/paginas.json) | todas as páginas públicas do hathdata.com: título, tipo, data e consultas atendidas | 1.218 |
+| [`dados/fontes-oficiais.json`](dados/fontes-oficiais.json) | página oficial citada e as guias que a citam | 2.879 |
+| [`dados/paginas.json`](dados/paginas.json) | todas as páginas públicas do hathdata.com: título, tipo, data e consultas atendidas | 1.316 |
 
 **Catálogo completo**, por esfera e órgão, com link para cada consulta: [`CATALOGO.md`](CATALOGO.md) e
 [página com filtro](https://hathdata.github.io/consultas-oficiais/consultas.html). **Mapa do site**, página por página: [https://hathdata.github.io/consultas-oficiais/paginas.html](https://hathdata.github.io/consultas-oficiais/paginas.html).
 
-Atualizado em 22/11/2026, todo dia, a partir de `https://hathdata.com/dados/abertos/`.
+Atualizado em 23/11/2026, todo dia, a partir de `https://hathdata.com/dados/abertos/`.
 
 ## Consultas por esfera
 
 | Esfera | Consultas |
 | --- | --- |
-| Judiciário | 568 |
-| Municipal | 255 |
+| Judiciário | 269 |
+| Municipal | 256 |
 | Federal | 137 |
-| Estadual | 112 |
+| Estadual | 113 |
 | Internacional | 7 |
 
 ## Páginas do site por tipo
 
 | Tipo | Páginas |
 | --- | --- |
-| Consulta por órgão | 437 |
+| Consulta por órgão | 441 |
 | Consulta: comarca do TJMG | 298 |
-| Guia de cidade | 189 |
-| Guia e página de produto | 98 |
+| Guia de cidade | 233 |
+| Guia e página de produto | 148 |
 | API de CND por cidade | 81 |
 | CND estadual | 27 |
 | Artigo | 25 |
@@ -63,7 +63,7 @@ cada cidade traz o passo a passo e a norma, com link para a fonte oficial.
 | São Luís | MA | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-sao-luis) |
 | Belo Horizonte | MG | Certidão Negativa de Débitos; Certidão de Quitação de IPTU e Taxas; Certidão de Quitação de ISS | [guia](https://hathdata.com/certidao-negativa-municipal-belo-horizonte) |
 | Betim | MG | Certidão Negativa de Débitos; Certidão de Imóvel por Inscrição; Validação de Certidão | [guia](https://hathdata.com/certidao-negativa-municipal-betim) |
-| Contagem | MG | Certidão Negativa de Débitos; Certidão Negativa por Cadastro (IPTU ou Mobiliário) | [guia](https://hathdata.com/certidao-negativa-municipal-contagem) |
+| Contagem | MG | Certidão Negativa de Débitos; Certidão Negativa por Cadastro (IPTU ou Mobiliário); Autenticidade da Certidão Negativa | [guia](https://hathdata.com/certidao-negativa-municipal-contagem) |
 | Coqueiral | MG | Certidão de Débitos Municipais (CNPJ); Validação de Certidão | [guia](https://hathdata.com/certidao-negativa-municipal-coqueiral) |
 | Divinópolis | MG | Certidão Negativa de Débitos; Validação de Certidão | [guia](https://hathdata.com/certidao-negativa-municipal-divinopolis) |
 | Montes Claros | MG | Certidão Negativa de Débitos; Certidão Negativa de Débitos do Imóvel; Autenticidade da CND | [guia](https://hathdata.com/certidao-negativa-municipal-montes-claros) |

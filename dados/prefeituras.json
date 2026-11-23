@@ -2,7 +2,7 @@
   "fonte": "https://hathdata.com",
   "descricao": "Prefeituras atendidas, com a guia de cada cidade e as fontes oficiais citadas nela.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-22",
+  "geradoEm": "2026-11-23",
   "total": 125,
   "slogan": "A inteligência do tempo real direto na sua operação. Toda consulta online, automatizada.",
   "producao": 81,
@@ -813,7 +813,8 @@
       "situacao": "em produção",
       "documentos": [
         "Certidão Negativa de Débitos",
-        "Certidão Negativa por Cadastro (IPTU ou Mobiliário)"
+        "Certidão Negativa por Cadastro (IPTU ou Mobiliário)",
+        "Autenticidade da Certidão Negativa"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-contagem",
       "api": null,
@@ -2009,6 +2010,58 @@
         {
           "nome": "Prefeitura de Lages: serviços fiscais",
           "url": "https://fiscalizacao.lages.sc.gov.br/servicos.php"
+        },
+        {
+          "nome": "Prefeitura de Lages: legislação municipal do portal fiscal",
+          "url": "https://fiscalizacao.lages.sc.gov.br/legislacao.php"
+        },
+        {
+          "nome": "Código Tributário do Município de Lages (Lei nº 721/83, consolidada)",
+          "url": "https://fiscalizacao.lages.sc.gov.br/admin/arquivo/LEI_N%C2%BA_721_CODIGO_TRIBUTARIO.pdf"
+        },
+        {
+          "nome": "Lei nº 3388/2007: Parcelamento de Débitos Tributários (PART)",
+          "url": "https://fiscalizacao.lages.sc.gov.br/admin/arquivo/Lei_Ordinaria_N%C2%BA_3388_-_PARCELAMENTO_DE_DEBITOS_TRIBUTARIOS_PART.pdf"
+        },
+        {
+          "nome": "Lei Complementar nº 148/2001: processo administrativo tributário",
+          "url": "https://fiscalizacao.lages.sc.gov.br/admin/arquivo/Lei_Complementar_N%C2%BA_148_-_PROCESSO_ADMINISTRATIVO_TRIBUTARIO.pdf"
+        },
+        {
+          "nome": "Lei Complementar nº 151/2001: extinção de créditos por prescrição",
+          "url": "https://fiscalizacao.lages.sc.gov.br/admin/arquivo/Lei_Complementar_N%C2%BA_151_-_EXTINCAO_DE_CREDITOS_TRIBUTARIOS_POR_PRESCRICAO.pdf"
+        },
+        {
+          "nome": "Instrução Normativa nº 018/2016: tramitação de processos",
+          "url": "https://fiscalizacao.lages.sc.gov.br/admin/arquivo/INSTRUCAO_NORMATIVA_018-2016_TRAMITACAO_DE_PROCESSOS.pdf"
+        },
+        {
+          "nome": "Instrução Normativa nº 021/2016: pareceres no Cidadão Web",
+          "url": "https://fiscalizacao.lages.sc.gov.br/admin/arquivo/INSTRUCAO_NORMATIVA_021-2016_PARECERES_PROCESSOS.pdf"
+        },
+        {
+          "nome": "Prefeitura de Lages: formulários",
+          "url": "https://fiscalizacao.lages.sc.gov.br/formularios.php"
+        },
+        {
+          "nome": "Formulário de impugnação de lançamento",
+          "url": "https://fiscalizacao.lages.sc.gov.br/admin/arquivo/Impugnacao_de_Lancamento_IN_024.docx"
+        },
+        {
+          "nome": "Formulário de cancelamento de débitos",
+          "url": "https://fiscalizacao.lages.sc.gov.br/admin/arquivo/Form._Req._Cancelamento_de_Debitos_IN_024_%285%29.docx"
+        },
+        {
+          "nome": "Formulário de baixa do cadastro fiscal (pessoa jurídica)",
+          "url": "https://fiscalizacao.lages.sc.gov.br/admin/arquivo/Baixa_PJ_IN_024.docx"
+        },
+        {
+          "nome": "Código Tributário Nacional (Lei nº 5.172/1966)",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm"
+        },
+        {
+          "nome": "Lei nº 14.133/2021, art. 68",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
         }
       ]
     },
@@ -3046,10 +3099,87 @@
       "documentos": [
         "Certidão Negativa de Débitos"
       ],
-      "guia": null,
+      "guia": "https://hathdata.com/certidao-negativa-municipal-santa-cruz-do-sul",
       "api": null,
-      "atualizadoEm": null,
-      "fontesOficiais": []
+      "atualizadoEm": "2026-11-22",
+      "fontesOficiais": [
+        {
+          "nome": "Prefeitura de Santa Cruz do Sul: Certidão de Regularidade Fiscal",
+          "url": "https://www.santacruz.rs.gov.br/conteudo/certidao-regularidade"
+        },
+        {
+          "nome": "Certidão de Regularidade Fiscal, CNPJ (orientações)",
+          "url": "https://www.santacruz.rs.gov.br/conteudo/certidao-de-regularidade-fiscal-cnpj"
+        },
+        {
+          "nome": "Emissão da Certidão CNPJ no sistema GRP",
+          "url": "https://grp.santacruz.rs.gov.br/grp/acessoexterno/programaAcessoExterno.faces?codigo=670689"
+        },
+        {
+          "nome": "Certidão de Regularidade Fiscal, imóvel",
+          "url": "https://www.santacruz.rs.gov.br/conteudo/certidao-de-regularidade-fiscal-imovel"
+        },
+        {
+          "nome": "Validador de Chancela",
+          "url": "http://grp.santacruz.rs.gov.br/grp/acessoexterno/programaAcessoExterno.faces?codigo=670270"
+        },
+        {
+          "nome": "Certidões do cadastro mobiliário",
+          "url": "https://www.santacruz.rs.gov.br/conteudo/certidoes-mobiliario"
+        },
+        {
+          "nome": "Legislação Tributária da Secretaria de Fazenda",
+          "url": "https://www.santacruz.rs.gov.br/secretarias/legislacao-tributaria"
+        },
+        {
+          "nome": "Código Tributário Municipal consolidado (LC nº 887/2022, até a LC nº 1.070/2026), PDF",
+          "url": "https://www.santacruz.rs.gov.br/upload_page/75/LC_887_CTM_LC_1070.pdf"
+        },
+        {
+          "nome": "Lei Complementar nº 1.070/2026 (Câmara de Vereadores)",
+          "url": "https://www.camarasantacruz.rs.gov.br/documento/lei-complementar-no-1070-2026-85533"
+        },
+        {
+          "nome": "Lei Complementar nº 1.072/2026, programa de recuperação de créditos (Câmara)",
+          "url": "https://www.camarasantacruz.rs.gov.br/documento/lei-complementar-no-1072-2026-85716"
+        },
+        {
+          "nome": "Carta de Serviços da Secretaria Municipal de Fazenda",
+          "url": "https://www.santacruz.rs.gov.br/download/carta_servicos_sefaz.pdf"
+        },
+        {
+          "nome": "Secretaria Municipal de Fazenda",
+          "url": "https://www.santacruz.rs.gov.br/secretarias/fazenda"
+        },
+        {
+          "nome": "Serviços para Empresas",
+          "url": "https://www.santacruz.rs.gov.br/servicos/servicos-para-empresas"
+        },
+        {
+          "nome": "Alvará Digital",
+          "url": "https://www.santacruz.rs.gov.br/conteudo/alvara-digital"
+        },
+        {
+          "nome": "ITBI",
+          "url": "https://www.santacruz.rs.gov.br/servicos/itbi"
+        },
+        {
+          "nome": "Serviços IPTU",
+          "url": "https://www.santacruz.rs.gov.br/conteudo/servicos-iptu"
+        },
+        {
+          "nome": "Formulário de Cadastro e Requerimento (Anexo 2)",
+          "url": "https://www.santacruz.rs.gov.br/anexo2/"
+        },
+        {
+          "nome": "Código Tributário Nacional (Lei nº 5.172/1966)",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html"
+        },
+        {
+          "nome": "Certidão de Situação Fiscal, Receita Estadual do RS",
+          "url": "https://atendimento.receita.rs.gov.br/certidao-de-situacao-fiscal"
+        }
+      ]
     },
     {
       "cidade": "Santa Vitória",
