@@ -2,7 +2,7 @@
   "fonte": "https://hathdata.com",
   "descricao": "Páginas oficiais (gov.br, jus.br, leg.br) citadas nas guias do hathdata.com.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-23",
+  "geradoEm": "2026-11-24",
   "total": 2879,
   "slogan": "A inteligência do tempo real direto na sua operação. Toda consulta online, automatizada.",
   "fontes": [
@@ -4664,7 +4664,14 @@
       "nome": "GRPFOR: Emitir Certidão",
       "dominio": "grpfor.sefin.fortaleza.ce.gov.br",
       "citadaEm": [
-        "https://hathdata.com/certidao-negativa-municipal-fortaleza"
+        "https://hathdata.com/certidao-negativa-municipal-fortaleza",
+        "https://hathdata.com/api-fortaleza-certidao-iptu",
+        "https://hathdata.com/api-fortaleza-certidao-iss",
+        "https://hathdata.com/api-fortaleza-certidao-de-nao-retencao",
+        "https://hathdata.com/api-fortaleza-certidao-de-averbacao",
+        "https://hathdata.com/api-fortaleza-certidao-de-nao-inscricao",
+        "https://hathdata.com/api-fortaleza-certidao-de-baixa",
+        "https://hathdata.com/api-fortaleza-validar-certidao"
       ]
     },
     {

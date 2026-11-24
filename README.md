@@ -13,12 +13,12 @@ páginas oficiais (gov.br, jus.br, leg.br) que sustentam cada regra.
 | [`dados/consultas.json`](dados/consultas.json) | consulta, órgão, esfera, UFs, dado de entrada, situação e página | 782 |
 | [`dados/prefeituras.json`](dados/prefeituras.json) | cidade, UF, documentos, guia, página de API e fontes oficiais | 125 (81 em produção, 21 estados) |
 | [`dados/fontes-oficiais.json`](dados/fontes-oficiais.json) | página oficial citada e as guias que a citam | 2.879 |
-| [`dados/paginas.json`](dados/paginas.json) | todas as páginas públicas do hathdata.com: título, tipo, data e consultas atendidas | 1.316 |
+| [`dados/paginas.json`](dados/paginas.json) | todas as páginas públicas do hathdata.com: título, tipo, data e consultas atendidas | 1.321 |
 
 **Catálogo completo**, por esfera e órgão, com link para cada consulta: [`CATALOGO.md`](CATALOGO.md) e
 [página com filtro](https://hathdata.github.io/consultas-oficiais/consultas.html). **Mapa do site**, página por página: [https://hathdata.github.io/consultas-oficiais/paginas.html](https://hathdata.github.io/consultas-oficiais/paginas.html).
 
-Atualizado em 23/11/2026, todo dia, a partir de `https://hathdata.com/dados/abertos/`.
+Atualizado em 24/11/2026, todo dia, a partir de `https://hathdata.com/dados/abertos/`.
 
 ## Consultas por esfera
 
@@ -34,7 +34,7 @@ Atualizado em 23/11/2026, todo dia, a partir de `https://hathdata.com/dados/aber
 
 | Tipo | Páginas |
 | --- | --- |
-| Consulta por órgão | 441 |
+| Consulta por órgão | 446 |
 | Consulta: comarca do TJMG | 298 |
 | Guia de cidade | 233 |
 | Guia e página de produto | 148 |
@@ -57,7 +57,7 @@ cada cidade traz o passo a passo e a norma, com link para a fonte oficial.
 | Manaus | AM | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-manaus) |
 | Feira de Santana | BA | Certidão Negativa de Débitos (empresa); Validação da Certidão de Débitos; Comprovante de Inscrição | [guia](https://hathdata.com/certidao-negativa-municipal-feira-de-santana) |
 | Salvador | BA | Certidão Negativa de Débitos; NFS-e (Nota Fiscal Eletrônica de Serviços) | [guia](https://hathdata.com/certidao-negativa-municipal-salvador) |
-| Fortaleza | CE | Certidão Negativa de Débitos; CPOM | [guia](https://hathdata.com/certidao-negativa-municipal-fortaleza) |
+| Fortaleza | CE | Certidão Negativa de Débitos; Certidão Negativa de Débitos de IPTU; Certidão Negativa de Débitos de ISS | [guia](https://hathdata.com/certidao-negativa-municipal-fortaleza) |
 | Aracruz | ES | Certidão Negativa de Débitos (CNPJ) | [guia](https://hathdata.com/certidao-negativa-municipal-aracruz) |
 | Goiânia | GO | Certidão Negativa de Débitos; Comprovante de Pagamento; Certidão Conjunta de Débitos Mobiliários (CAE) | [guia](https://hathdata.com/certidoes-prefeitura-de-goiania) |
 | São Luís | MA | Certidão Negativa de Débitos | [guia](https://hathdata.com/certidao-negativa-municipal-sao-luis) |

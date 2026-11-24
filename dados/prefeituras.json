@@ -2,7 +2,7 @@
   "fonte": "https://hathdata.com",
   "descricao": "Prefeituras atendidas, com a guia de cada cidade e as fontes oficiais citadas nela.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-23",
+  "geradoEm": "2026-11-24",
   "total": 125,
   "slogan": "A inteligência do tempo real direto na sua operação. Toda consulta online, automatizada.",
   "producao": 81,
@@ -1158,7 +1158,8 @@
       "situacao": "em produção",
       "documentos": [
         "Certidão Negativa de Débitos",
-        "CPOM"
+        "Certidão Negativa de Débitos de IPTU",
+        "Certidão Negativa de Débitos de ISS"
       ],
       "guia": "https://hathdata.com/certidao-negativa-municipal-fortaleza",
       "api": "https://hathdata.com/api-cnd-fortaleza",

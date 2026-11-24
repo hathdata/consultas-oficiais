@@ -2,15 +2,15 @@
   "fonte": "https://hathdata.com",
   "descricao": "Todas as páginas públicas do hathdata.com (sitemap), com título, tipo, data e as consultas que cada uma atende.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-23",
-  "total": 1316,
+  "geradoEm": "2026-11-24",
+  "total": 1321,
   "slogan": "A inteligência do tempo real direto na sua operação. Toda consulta online, automatizada.",
   "tipos": {
     "API de CND por cidade": 81,
     "artigo": 25,
     "catálogo de consultas": 20,
     "CND estadual": 27,
-    "consulta por órgão": 441,
+    "consulta por órgão": 446,
     "consulta: comarca do TJMG": 298,
     "guia de cidade": 233,
     "guia e página de produto": 148,
@@ -271,8 +271,8 @@
       "url": "https://hathdata.com/api-cnd-fortaleza",
       "tipo": "API de CND por cidade",
       "titulo": "API de CND de Fortaleza: Sefin, tributos e ISS",
-      "h1": "API de CND de Fortaleza: as duas certidões da Sefin numa chamada",
-      "descricao": "API de CND de Fortaleza: a Sefin emite duas certidões da empresa, a de tributos municipais e a de ISS e não retenção na fonte, ambas de 90 dias. Como fica a chamada, o JSON das duas e o cadastro que trava o pedido.",
+      "h1": "API de CND de Fortaleza: as certidões da Sefin pelo documento",
+      "descricao": "",
       "atualizadoEm": "2026-10-14",
       "consultas": []
     },
@@ -1015,9 +1015,9 @@
     {
       "url": "https://hathdata.com/consultas",
       "tipo": "catálogo de consultas",
-      "titulo": "Catálogo de coletas: 1293+ consultas oficiais por CNPJ",
+      "titulo": "Catálogo de coletas: 1300+ consultas oficiais por CNPJ",
       "h1": "Consultas por órgão, renovadas antes de vencer",
-      "descricao": "1293+ consultas oficiais coletadas por automação em órgãos públicos, 1174+ com documento em PDF emitido na própria fonte e 14.094+ atributos retornados, nos 27 estados. Busque por órgão, categoria, estado e abrangência.",
+      "descricao": "1300+ consultas oficiais coletadas por automação em órgãos públicos, 1181+ com documento em PDF emitido na própria fonte e 14.170+ atributos retornados, nos 27 estados. Busque por órgão, categoria, estado e abrangência.",
       "atualizadoEm": null,
       "consultas": []
     },
@@ -2808,6 +2808,53 @@
       "consultas": [
         "Prefeitura / BA / Feira de Santana / Certidão Valor Venal para Averbação"
       ]
+    },
+    {
+      "url": "https://hathdata.com/api-fortaleza-certidao-de-averbacao",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de averbação de Fortaleza por API: Sefin, imóvel",
+      "h1": "Certidão de averbação de Fortaleza: pelo imóvel, no portal da Sefin",
+      "descricao": "",
+      "atualizadoEm": "2026-11-24",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-fortaleza-certidao-de-baixa",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de baixa de Fortaleza por API: inscrição CPBS",
+      "h1": "Certidão de baixa de Fortaleza: o encerramento no cadastro",
+      "descricao": "API da Certidão de Baixa da Sefin de Fortaleza: envie a inscrição ISS (CPBS) da atividade encerrada e receba o PDF emitido pelo portal GRPFOR.",
+      "atualizadoEm": "2026-11-24",
+      "consultas": [
+        "Prefeitura / CE / Fortaleza / Certidão de Baixa"
+      ]
+    },
+    {
+      "url": "https://hathdata.com/api-fortaleza-certidao-de-nao-retencao",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de não-retenção do ISS em Fortaleza por API",
+      "h1": "Certidão de não-retenção de Fortaleza: o documento que o tomador pede",
+      "descricao": "",
+      "atualizadoEm": "2026-11-24",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-fortaleza-certidao-iptu",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão de IPTU de Fortaleza por API: inscrição do imóvel",
+      "h1": "Certidão de débitos de IPTU de Fortaleza: a regularidade de um imóvel",
+      "descricao": "",
+      "atualizadoEm": "2026-11-24",
+      "consultas": []
+    },
+    {
+      "url": "https://hathdata.com/api-fortaleza-validar-certidao",
+      "tipo": "consulta por órgão",
+      "titulo": "Validar certidão da Prefeitura de Fortaleza (Sefin)",
+      "h1": "Validar certidão da Sefin de Fortaleza: documento e número",
+      "descricao": "",
+      "atualizadoEm": "2026-11-24",
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-foz-do-iguacu-validar-certidao",
@@ -9602,9 +9649,7 @@
       "h1": "Certidão negativa municipal de Fortaleza: as certidões da Sefin",
       "descricao": "As certidões da Sefin Fortaleza: tributos municipais, IPTU e ISS, todas com validade de 90 dias. Onde emitir, o cadastro exigido e a positiva com efeito de negativa.",
       "atualizadoEm": "2026-11-10",
-      "consultas": [
-        "Prefeitura / CE / Fortaleza / Certidão Negativa de Débitos"
-      ]
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/certidao-negativa-municipal-foz-do-iguacu",
@@ -12417,7 +12462,7 @@
       "tipo": "home",
       "titulo": "Hath Data | Coleta de dados ao vivo em órgãos públicos, sob demanda",
       "h1": "A inteligência do tempo real direto na sua operação.",
-      "descricao": "Certidões, cadastros e processos públicos coletados na fonte, sem ninguém abrir portal. A Hath Data não armazena cópias paradas: os robôs vão ao órgão oficial, coletam na fonte em 1293+ consultas, emitem o documento em PDF na própria fonte e entregam estruturado no seu ERP, CRM ou por API.",
+      "descricao": "Certidões, cadastros e processos públicos coletados na fonte, sem ninguém abrir portal. A Hath Data não armazena cópias paradas: os robôs vão ao órgão oficial, coletam na fonte em 1300+ consultas, emitem o documento em PDF na própria fonte e entregam estruturado no seu ERP, CRM ou por API.",
       "atualizadoEm": null,
       "consultas": []
     },
@@ -12489,7 +12534,7 @@
       "tipo": "integração RD Station CRM",
       "titulo": "Integração RD Station CRM: dados do cliente em 1 clique",
       "h1": "Integração RD Station CRM: a ficha completa do cliente em 1 clique",
-      "descricao": "Integração do RD Station CRM com a Hath Data: conecte em um clique e cada negociação ganha a ficha completa do cliente, com cadastro, certidões, processos e sanções de fontes oficiais. Preenchimento automático, funil organizado e 1.293+ consultas.",
+      "descricao": "Integração do RD Station CRM com a Hath Data: conecte em um clique e cada negociação ganha a ficha completa do cliente, com cadastro, certidões, processos e sanções de fontes oficiais. Preenchimento automático, funil organizado e 1.300+ consultas.",
       "atualizadoEm": "2026-10-15",
       "consultas": []
     },
