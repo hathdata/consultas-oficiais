@@ -2,7 +2,7 @@
   "fonte": "https://hathdata.com",
   "descricao": "Todas as páginas públicas do hathdata.com (sitemap), com título, tipo, data e as consultas que cada uma atende.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-24",
+  "geradoEm": "2026-11-25",
   "total": 1321,
   "slogan": "A inteligência do tempo real direto na sua operação. Toda consulta online, automatizada.",
   "tipos": {
@@ -1015,9 +1015,9 @@
     {
       "url": "https://hathdata.com/consultas",
       "tipo": "catálogo de consultas",
-      "titulo": "Catálogo de coletas: 1300+ consultas oficiais por CNPJ",
+      "titulo": "Catálogo de coletas: 1301+ consultas oficiais por CNPJ",
       "h1": "Consultas por órgão, renovadas antes de vencer",
-      "descricao": "1300+ consultas oficiais coletadas por automação em órgãos públicos, 1181+ com documento em PDF emitido na própria fonte e 14.170+ atributos retornados, nos 27 estados. Busque por órgão, categoria, estado e abrangência.",
+      "descricao": "1301+ consultas oficiais coletadas por automação em órgãos públicos, 1182+ com documento em PDF emitido na própria fonte e 14.181+ atributos retornados, nos 27 estados. Busque por órgão, categoria, estado e abrangência.",
       "atualizadoEm": null,
       "consultas": []
     },
@@ -12462,7 +12462,7 @@
       "tipo": "home",
       "titulo": "Hath Data | Coleta de dados ao vivo em órgãos públicos, sob demanda",
       "h1": "A inteligência do tempo real direto na sua operação.",
-      "descricao": "Certidões, cadastros e processos públicos coletados na fonte, sem ninguém abrir portal. A Hath Data não armazena cópias paradas: os robôs vão ao órgão oficial, coletam na fonte em 1300+ consultas, emitem o documento em PDF na própria fonte e entregam estruturado no seu ERP, CRM ou por API.",
+      "descricao": "Certidões, cadastros e processos públicos coletados na fonte, sem ninguém abrir portal. A Hath Data não armazena cópias paradas: os robôs vão ao órgão oficial, coletam na fonte em 1301+ consultas, emitem o documento em PDF na própria fonte e entregam estruturado no seu ERP, CRM ou por API.",
       "atualizadoEm": null,
       "consultas": []
     },
@@ -12534,7 +12534,7 @@
       "tipo": "integração RD Station CRM",
       "titulo": "Integração RD Station CRM: dados do cliente em 1 clique",
       "h1": "Integração RD Station CRM: a ficha completa do cliente em 1 clique",
-      "descricao": "Integração do RD Station CRM com a Hath Data: conecte em um clique e cada negociação ganha a ficha completa do cliente, com cadastro, certidões, processos e sanções de fontes oficiais. Preenchimento automático, funil organizado e 1.300+ consultas.",
+      "descricao": "Integração do RD Station CRM com a Hath Data: conecte em um clique e cada negociação ganha a ficha completa do cliente, com cadastro, certidões, processos e sanções de fontes oficiais. Preenchimento automático, funil organizado e 1.301+ consultas.",
       "atualizadoEm": "2026-10-15",
       "consultas": []
     },

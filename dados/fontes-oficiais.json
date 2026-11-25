@@ -2,7 +2,7 @@
   "fonte": "https://hathdata.com",
   "descricao": "Páginas oficiais (gov.br, jus.br, leg.br) citadas nas guias do hathdata.com.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-24",
+  "geradoEm": "2026-11-25",
   "total": 2879,
   "slogan": "A inteligência do tempo real direto na sua operação. Toda consulta online, automatizada.",
   "fontes": [
@@ -10080,7 +10080,8 @@
       "nome": "Sefaz-SC: Comprovante de Inscrição e de Situação Cadastral (exemplo)",
       "dominio": "sat.sef.sc.gov.br",
       "citadaEm": [
-        "https://hathdata.com/consulta-sintegra"
+        "https://hathdata.com/consulta-sintegra",
+        "https://hathdata.com/api-sefaz-sc-inscricao-estadual"
       ]
     },
     {
@@ -23287,9 +23288,10 @@
     },
     {
       "url": "https://www.sef.sc.gov.br/saiba-mais/cadastro-tributario-suspensao-de-inscricao-estadual",
-      "nome": "Sefaz-SC: suspensão de inscrição estadual",
+      "nome": "SEF/SC: Suspensão de inscrição estadual",
       "dominio": "www.sef.sc.gov.br",
       "citadaEm": [
+        "https://hathdata.com/api-sefaz-sc-inscricao-estadual",
         "https://hathdata.com/consulta-inscricao-estadual"
       ]
     },
@@ -23305,9 +23307,10 @@
     },
     {
       "url": "https://www.sef.sc.gov.br/servicos/cadastro-comprovante-de-inscricao-estadual-pf-e-pj",
-      "nome": "Sefaz-SC: comprovante de inscrição estadual",
+      "nome": "SEF/SC: Comprovante de Inscrição Estadual (PF e PJ)",
       "dominio": "www.sef.sc.gov.br",
       "citadaEm": [
+        "https://hathdata.com/api-sefaz-sc-inscricao-estadual",
         "https://hathdata.com/consulta-inscricao-estadual"
       ]
     },

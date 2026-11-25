@@ -18,7 +18,7 @@ páginas oficiais (gov.br, jus.br, leg.br) que sustentam cada regra.
 **Catálogo completo**, por esfera e órgão, com link para cada consulta: [`CATALOGO.md`](CATALOGO.md) e
 [página com filtro](https://hathdata.github.io/consultas-oficiais/consultas.html). **Mapa do site**, página por página: [https://hathdata.github.io/consultas-oficiais/paginas.html](https://hathdata.github.io/consultas-oficiais/paginas.html).
 
-Atualizado em 24/11/2026, todo dia, a partir de `https://hathdata.com/dados/abertos/`.
+Atualizado em 25/11/2026, todo dia, a partir de `https://hathdata.com/dados/abertos/`.
 
 ## Consultas por esfera
 
