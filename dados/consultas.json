@@ -3,7 +3,7 @@
   "descricao": "Consultas a órgãos oficiais feitas pelo CNPJ ou pela inscrição da empresa.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
   "geradoEm": "2026-11-25",
-  "total": 782,
+  "total": 780,
   "slogan": "A inteligência do tempo real direto na sua operação. Toda consulta online, automatizada.",
   "consultas": [
     {
@@ -692,17 +692,15 @@
       "pagina": null
     },
     {
-      "nome": "MPT / MG / Certidão Negativa de Feitos",
+      "nome": "MPT / MG e SP / Validação de Certidão",
       "orgao": "MPT",
       "esfera": "federal",
-      "ufs": [
-        "MG"
-      ],
+      "ufs": [],
       "entrada": [
-        "CNPJ"
+        "Código de autenticidade"
       ],
-      "situacao": "sob demanda",
-      "pagina": null
+      "situacao": "em produção",
+      "pagina": "https://hathdata.com/api-mpt-validar-certidao"
     },
     {
       "nome": "MPT / MS / Certidão Negativa de Feitos",
@@ -840,32 +838,6 @@
       "esfera": "federal",
       "ufs": [
         "SE"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "sob demanda",
-      "pagina": null
-    },
-    {
-      "nome": "MPT / SP / Campinas / Certidão Negativa de Feitos",
-      "orgao": "MPT",
-      "esfera": "federal",
-      "ufs": [
-        "SP"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "sob demanda",
-      "pagina": null
-    },
-    {
-      "nome": "MPT / SP / Certidão Negativa de Feitos",
-      "orgao": "MPT",
-      "esfera": "federal",
-      "ufs": [
-        "SP"
       ],
       "entrada": [
         "CNPJ"

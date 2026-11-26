@@ -3,7 +3,7 @@
   "descricao": "Páginas oficiais (gov.br, jus.br, leg.br) citadas nas guias do hathdata.com.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
   "geradoEm": "2026-11-25",
-  "total": 2879,
+  "total": 2882,
   "slogan": "A inteligência do tempo real direto na sua operação. Toda consulta online, automatizada.",
   "fontes": [
     {
@@ -22075,6 +22075,35 @@
       "citadaEm": [
         "https://hathdata.com/consulta-veicular-placa",
         "https://hathdata.com/veiculo-roubado-pela-placa"
+      ]
+    },
+    {
+      "url": "https://www.prt15.mpt.mp.br/servicos/certidaoneg",
+      "nome": "MPT em Campinas: Certidão Negativa de Feitos",
+      "dominio": "www.prt15.mpt.mp.br",
+      "citadaEm": [
+        "https://hathdata.com/api-mpt-certidao",
+        "https://hathdata.com/api-mpt-certidao-sp"
+      ]
+    },
+    {
+      "url": "https://www.prt2.mpt.mp.br/servicos/certidao-positiva-negativa",
+      "nome": "MPT em São Paulo: Certidão Negativa de Feitos",
+      "dominio": "www.prt2.mpt.mp.br",
+      "citadaEm": [
+        "https://hathdata.com/api-mpt-certidao",
+        "https://hathdata.com/api-mpt-certidao-sp",
+        "https://hathdata.com/api-mpt-validar-certidao"
+      ]
+    },
+    {
+      "url": "https://www.prt3.mpt.mp.br/servicos/certidao-positiva-negativa",
+      "nome": "MPT em Minas Gerais: Certidão Negativa de Feitos",
+      "dominio": "www.prt3.mpt.mp.br",
+      "citadaEm": [
+        "https://hathdata.com/api-mpt-certidao",
+        "https://hathdata.com/api-mpt-certidao-mg",
+        "https://hathdata.com/api-mpt-validar-certidao"
       ]
     },
     {
