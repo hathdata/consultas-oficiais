@@ -2,15 +2,15 @@
   "fonte": "https://hathdata.com",
   "descricao": "Todas as páginas públicas do hathdata.com (sitemap), com título, tipo, data e as consultas que cada uma atende.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-25",
-  "total": 1323,
+  "geradoEm": "2026-11-27",
+  "total": 1325,
   "slogan": "A inteligência do tempo real direto na sua operação. Toda consulta online, automatizada.",
   "tipos": {
     "API de CND por cidade": 81,
     "artigo": 25,
     "catálogo de consultas": 20,
     "CND estadual": 27,
-    "consulta por órgão": 448,
+    "consulta por órgão": 450,
     "consulta: comarca do TJMG": 298,
     "guia de cidade": 233,
     "guia e página de produto": 148,
@@ -1015,9 +1015,9 @@
     {
       "url": "https://hathdata.com/consultas",
       "tipo": "catálogo de consultas",
-      "titulo": "Catálogo de coletas: 1302+ consultas oficiais por CNPJ",
+      "titulo": "Catálogo de coletas: 1303+ consultas oficiais por CNPJ",
       "h1": "Consultas por órgão, renovadas antes de vencer",
-      "descricao": "1302+ consultas oficiais coletadas por automação em órgãos públicos, 1183+ com documento em PDF emitido na própria fonte e 14.192+ atributos retornados, nos 27 estados. Busque por órgão, categoria, estado e abrangência.",
+      "descricao": "1303+ consultas oficiais coletadas por automação em órgãos públicos, 1184+ com documento em PDF emitido na própria fonte e 14.203+ atributos retornados, nos 27 estados. Busque por órgão, categoria, estado e abrangência.",
       "atualizadoEm": null,
       "consultas": []
     },
@@ -3897,6 +3897,15 @@
       ]
     },
     {
+      "url": "https://hathdata.com/api-mpt-certidao-pe",
+      "tipo": "consulta por órgão",
+      "titulo": "Certidão MPT PE: PRT 6ª Região, Recife, Caruaru e Petrolina",
+      "h1": "Certidão do MPT em Pernambuco (PRT 6ª Região): três unidades, uma certidão",
+      "descricao": "",
+      "atualizadoEm": "2026-11-27",
+      "consultas": []
+    },
+    {
       "url": "https://hathdata.com/api-mpt-certidao-sp",
       "tipo": "consulta por órgão",
       "titulo": "Certidão MPT SP: PRT 2ª e 15ª Região numa só consulta",
@@ -3910,10 +3919,10 @@
       "tipo": "consulta por órgão",
       "titulo": "Validar certidão do MPT pelo código de autenticidade",
       "h1": "Validar certidão do MPT: o código responde na regional que emitiu",
-      "descricao": "API que confere se uma certidão do Ministério Público do Trabalho é autêntica, em MG e SP: envie o código e receba confirmada, com o resultado da certidão, ou não confirmada.",
+      "descricao": "API que confere se uma certidão do Ministério Público do Trabalho é autêntica, em MG, SP, RJ, RS, BA, PE e PR: envie o código e receba confirmada, com o resultado, ou não confirmada.",
       "atualizadoEm": "2026-11-25",
       "consultas": [
-        "MPT / MG e SP / Validação de Certidão"
+        "MPT / MG, SP, RJ, RS, BA, PE e PR / Validação de Certidão"
       ]
     },
     {
@@ -4378,6 +4387,15 @@
       "consultas": [
         "Receita Federal / Dados do CNPJ (base pública)"
       ]
+    },
+    {
+      "url": "https://hathdata.com/api-receita-e-processo",
+      "tipo": "consulta por órgão",
+      "titulo": "e-Processo Receita: processos e peças do CNPJ por API",
+      "h1": "e-Processo da Receita Federal (processos e documentos): os processos do CNPJ sem dar ciência por engano",
+      "descricao": "",
+      "atualizadoEm": "2026-11-27",
+      "consultas": []
     },
     {
       "url": "https://hathdata.com/api-receita-empresas-no-mesmo-cep",
@@ -12482,7 +12500,7 @@
       "tipo": "home",
       "titulo": "Hath Data | Coleta de dados ao vivo em órgãos públicos, sob demanda",
       "h1": "A inteligência do tempo real direto na sua operação.",
-      "descricao": "Certidões, cadastros e processos públicos coletados na fonte, sem ninguém abrir portal. A Hath Data não armazena cópias paradas: os robôs vão ao órgão oficial, coletam na fonte em 1302+ consultas, emitem o documento em PDF na própria fonte e entregam estruturado no seu ERP, CRM ou por API.",
+      "descricao": "Certidões, cadastros e processos públicos coletados na fonte, sem ninguém abrir portal. A Hath Data não armazena cópias paradas: os robôs vão ao órgão oficial, coletam na fonte em 1303+ consultas, emitem o documento em PDF na própria fonte e entregam estruturado no seu ERP, CRM ou por API.",
       "atualizadoEm": null,
       "consultas": []
     },
@@ -12554,7 +12572,7 @@
       "tipo": "integração RD Station CRM",
       "titulo": "Integração RD Station CRM: dados do cliente em 1 clique",
       "h1": "Integração RD Station CRM: a ficha completa do cliente em 1 clique",
-      "descricao": "Integração do RD Station CRM com a Hath Data: conecte em um clique e cada negociação ganha a ficha completa do cliente, com cadastro, certidões, processos e sanções de fontes oficiais. Preenchimento automático, funil organizado e 1.302+ consultas.",
+      "descricao": "Integração do RD Station CRM com a Hath Data: conecte em um clique e cada negociação ganha a ficha completa do cliente, com cadastro, certidões, processos e sanções de fontes oficiais. Preenchimento automático, funil organizado e 1.303+ consultas.",
       "atualizadoEm": "2026-10-15",
       "consultas": []
     },

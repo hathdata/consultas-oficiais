@@ -2,8 +2,8 @@
   "fonte": "https://hathdata.com",
   "descricao": "Consultas a órgãos oficiais feitas pelo CNPJ ou pela inscrição da empresa.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-25",
-  "total": 780,
+  "geradoEm": "2026-11-27",
+  "total": 775,
   "slogan": "A inteligência do tempo real direto na sua operação. Toda consulta online, automatizada.",
   "consultas": [
     {
@@ -616,19 +616,6 @@
       "pagina": null
     },
     {
-      "nome": "MPT / BA / Certidão Negativa de Feitos",
-      "orgao": "MPT",
-      "esfera": "federal",
-      "ufs": [
-        "BA"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "sob demanda",
-      "pagina": null
-    },
-    {
       "nome": "MPT / CE / Certidão Negativa de Feitos",
       "orgao": "MPT",
       "esfera": "federal",
@@ -692,7 +679,7 @@
       "pagina": null
     },
     {
-      "nome": "MPT / MG e SP / Validação de Certidão",
+      "nome": "MPT / MG, SP, RJ, RS, BA, PE e PR / Validação de Certidão",
       "orgao": "MPT",
       "esfera": "federal",
       "ufs": [],
@@ -742,19 +729,6 @@
       "pagina": null
     },
     {
-      "nome": "MPT / PE / Certidão Negativa de Feitos",
-      "orgao": "MPT",
-      "esfera": "federal",
-      "ufs": [
-        "PE"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "sob demanda",
-      "pagina": null
-    },
-    {
       "nome": "MPT / PI / Certidão Negativa de Feitos",
       "orgao": "MPT",
       "esfera": "federal",
@@ -768,50 +742,11 @@
       "pagina": null
     },
     {
-      "nome": "MPT / PR / Certidão Negativa de Feitos",
-      "orgao": "MPT",
-      "esfera": "federal",
-      "ufs": [
-        "PR"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "sob demanda",
-      "pagina": null
-    },
-    {
-      "nome": "MPT / RJ / Certidão Negativa de Feitos",
-      "orgao": "MPT",
-      "esfera": "federal",
-      "ufs": [
-        "RJ"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "sob demanda",
-      "pagina": null
-    },
-    {
       "nome": "MPT / RN / Certidão Negativa de Feitos",
       "orgao": "MPT",
       "esfera": "federal",
       "ufs": [
         "RN"
-      ],
-      "entrada": [
-        "CNPJ"
-      ],
-      "situacao": "sob demanda",
-      "pagina": null
-    },
-    {
-      "nome": "MPT / RS / Certidão Negativa de Feitos",
-      "orgao": "MPT",
-      "esfera": "federal",
-      "ufs": [
-        "RS"
       ],
       "entrada": [
         "CNPJ"

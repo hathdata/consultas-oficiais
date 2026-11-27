@@ -2,8 +2,8 @@
   "fonte": "https://hathdata.com",
   "descricao": "Páginas oficiais (gov.br, jus.br, leg.br) citadas nas guias do hathdata.com.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-25",
-  "total": 2882,
+  "geradoEm": "2026-11-27",
+  "total": 2898,
   "slogan": "A inteligência do tempo real direto na sua operação. Toda consulta online, automatizada.",
   "fontes": [
     {
@@ -17946,6 +17946,14 @@
       ]
     },
     {
+      "url": "https://www.gov.br/pt-br/servicos/cadastrar-ou-cancelar-procuracao-para-acesso-ao-e-cac",
+      "nome": "gov.br: Cadastrar ou cancelar procuração para acesso ao e-CAC",
+      "dominio": "www.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-receita-e-processo"
+      ]
+    },
+    {
       "url": "https://www.gov.br/pt-br/servicos/cadastrar-se-como-proprietario-de-veiculo-no-aplicativo-sinesp-cidadao",
       "nome": "gov.br: Cadastrar-se como proprietário no Sinesp Cidadão",
       "dominio": "www.gov.br",
@@ -18079,6 +18087,14 @@
       "dominio": "www.gov.br",
       "citadaEm": [
         "https://hathdata.com/api-incra-sigef-parcelas"
+      ]
+    },
+    {
+      "url": "https://www.gov.br/pt-br/servicos/consultar-processo",
+      "nome": "gov.br: Consultar processo",
+      "dominio": "www.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-receita-e-processo"
       ]
     },
     {
@@ -18529,6 +18545,14 @@
       ]
     },
     {
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/processos-digitais",
+      "nome": "Receita Federal: Processos Digitais (e-Processo)",
+      "dominio": "www.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-receita-e-processo"
+      ]
+    },
+    {
       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/apresentacoes/outros-eventos/cnpj-alfanumerico.pdf",
       "nome": "Receita Federal: apresentação do CNPJ alfanumérico (PDF)",
       "dominio": "www.gov.br",
@@ -18560,6 +18584,14 @@
       "citadaEm": [
         "https://hathdata.com/conferir-nfse-de-fornecedor",
         "https://hathdata.com/simples-nacional-do-fornecedor"
+      ]
+    },
+    {
+      "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/manuais/manual-do-e-processo",
+      "nome": "Receita Federal: Manual do e-Processo",
+      "dominio": "www.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-receita-e-processo"
       ]
     },
     {
@@ -21392,6 +21424,14 @@
       ]
     },
     {
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto/d70235cons.htm",
+      "nome": "Decreto 70.235/1972 (processo administrativo fiscal), art. 23",
+      "dominio": "www.planalto.gov.br",
+      "citadaEm": [
+        "https://hathdata.com/api-receita-e-processo"
+      ]
+    },
+    {
       "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
       "nome": "Código Civil (Lei nº 10.406/2002), arts. 1.155 a 1.167",
       "dominio": "www.planalto.gov.br",
@@ -22078,6 +22118,23 @@
       ]
     },
     {
+      "url": "https://www.prt1.mpt.mp.br/mpt-rj/unidades",
+      "nome": "MPT no Rio de Janeiro: unidades",
+      "dominio": "www.prt1.mpt.mp.br",
+      "citadaEm": [
+        "https://hathdata.com/api-mpt-certidao-rj"
+      ]
+    },
+    {
+      "url": "https://www.prt1.mpt.mp.br/servicos/certidao-positiva-negativa",
+      "nome": "MPT no Rio de Janeiro: Certidão Negativa de Feitos",
+      "dominio": "www.prt1.mpt.mp.br",
+      "citadaEm": [
+        "https://hathdata.com/api-mpt-certidao",
+        "https://hathdata.com/api-mpt-certidao-rj"
+      ]
+    },
+    {
       "url": "https://www.prt15.mpt.mp.br/servicos/certidaoneg",
       "nome": "MPT em Campinas: Certidão Negativa de Feitos",
       "dominio": "www.prt15.mpt.mp.br",
@@ -22103,6 +22160,79 @@
       "citadaEm": [
         "https://hathdata.com/api-mpt-certidao",
         "https://hathdata.com/api-mpt-certidao-mg",
+        "https://hathdata.com/api-mpt-validar-certidao"
+      ]
+    },
+    {
+      "url": "https://www.prt4.mpt.mp.br/mpt-rs/unidades",
+      "nome": "MPT no Rio Grande do Sul: unidades",
+      "dominio": "www.prt4.mpt.mp.br",
+      "citadaEm": [
+        "https://hathdata.com/api-mpt-certidao-rs"
+      ]
+    },
+    {
+      "url": "https://www.prt4.mpt.mp.br/servicos/certidao-positiva-negativa",
+      "nome": "MPT no Rio Grande do Sul: Certidão Negativa de Feitos",
+      "dominio": "www.prt4.mpt.mp.br",
+      "citadaEm": [
+        "https://hathdata.com/api-mpt-certidao-rs"
+      ]
+    },
+    {
+      "url": "https://www.prt5.mpt.mp.br/mpt-ba/unidades",
+      "nome": "MPT na Bahia: unidades",
+      "dominio": "www.prt5.mpt.mp.br",
+      "citadaEm": [
+        "https://hathdata.com/api-mpt-certidao-ba"
+      ]
+    },
+    {
+      "url": "https://www.prt5.mpt.mp.br/servicos/certidao-positiva-negativa",
+      "nome": "MPT na Bahia: Certidão Negativa de Feitos",
+      "dominio": "www.prt5.mpt.mp.br",
+      "citadaEm": [
+        "https://hathdata.com/api-mpt-certidao-ba"
+      ]
+    },
+    {
+      "url": "https://www.prt5.mpt.mp.br/servicos/procuradoria-por-municipio",
+      "nome": "MPT na Bahia: Procuradoria por município",
+      "dominio": "www.prt5.mpt.mp.br",
+      "citadaEm": [
+        "https://hathdata.com/api-mpt-certidao-ba"
+      ]
+    },
+    {
+      "url": "https://www.prt6.mpt.mp.br/mpt-pe/unidades",
+      "nome": "MPT em Pernambuco: unidades",
+      "dominio": "www.prt6.mpt.mp.br",
+      "citadaEm": [
+        "https://hathdata.com/api-mpt-certidao-pe"
+      ]
+    },
+    {
+      "url": "https://www.prt6.mpt.mp.br/servicos/certidao-positiva-negativa",
+      "nome": "MPT em Pernambuco: Certidão Negativa de Feitos",
+      "dominio": "www.prt6.mpt.mp.br",
+      "citadaEm": [
+        "https://hathdata.com/api-mpt-certidao-pe"
+      ]
+    },
+    {
+      "url": "https://www.prt9.mpt.mp.br/mpt-pr/unidades",
+      "nome": "MPT no Paraná: unidades",
+      "dominio": "www.prt9.mpt.mp.br",
+      "citadaEm": [
+        "https://hathdata.com/api-mpt-certidao-pr"
+      ]
+    },
+    {
+      "url": "https://www.prt9.mpt.mp.br/servicos/certidao-positiva-negativa",
+      "nome": "MPT no Paraná: Certidão Negativa de Feitos",
+      "dominio": "www.prt9.mpt.mp.br",
+      "citadaEm": [
+        "https://hathdata.com/api-mpt-certidao-pr",
         "https://hathdata.com/api-mpt-validar-certidao"
       ]
     },
