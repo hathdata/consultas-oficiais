@@ -12,13 +12,13 @@ páginas oficiais (gov.br, jus.br, leg.br) que sustentam cada regra.
 | --- | --- | --- |
 | [`dados/consultas.json`](dados/consultas.json) | consulta, órgão, esfera, UFs, dado de entrada, situação e página | 775 |
 | [`dados/prefeituras.json`](dados/prefeituras.json) | cidade, UF, documentos, guia, página de API e fontes oficiais | 125 (81 em produção, 21 estados) |
-| [`dados/fontes-oficiais.json`](dados/fontes-oficiais.json) | página oficial citada e as guias que a citam | 2.898 |
-| [`dados/paginas.json`](dados/paginas.json) | todas as páginas públicas do hathdata.com: título, tipo, data e consultas atendidas | 1.325 |
+| [`dados/fontes-oficiais.json`](dados/fontes-oficiais.json) | página oficial citada e as guias que a citam | 3.521 |
+| [`dados/paginas.json`](dados/paginas.json) | todas as páginas públicas do hathdata.com: título, tipo, data e consultas atendidas | 1.384 |
 
 **Catálogo completo**, por esfera e órgão, com link para cada consulta: [`CATALOGO.md`](CATALOGO.md) e
 [página com filtro](https://hathdata.github.io/consultas-oficiais/consultas.html). **Mapa do site**, página por página: [https://hathdata.github.io/consultas-oficiais/paginas.html](https://hathdata.github.io/consultas-oficiais/paginas.html).
 
-Atualizado em 27/11/2026, todo dia, a partir de `https://hathdata.com/dados/abertos/`.
+Atualizado em 28/11/2026, todo dia, a partir de `https://hathdata.com/dados/abertos/`.
 
 ## Consultas por esfera
 
@@ -36,7 +36,7 @@ Atualizado em 27/11/2026, todo dia, a partir de `https://hathdata.com/dados/aber
 | --- | --- |
 | Consulta por órgão | 450 |
 | Consulta: comarca do TJMG | 298 |
-| Guia de cidade | 233 |
+| Guia de cidade | 292 |
 | Guia e página de produto | 148 |
 | API de CND por cidade | 81 |
 | CND estadual | 27 |

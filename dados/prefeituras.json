@@ -2,7 +2,7 @@
   "fonte": "https://hathdata.com",
   "descricao": "Prefeituras atendidas, com a guia de cada cidade e as fontes oficiais citadas nela.",
   "licenca": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.pt_BR): cite \"Hath Data (hathdata.com)\" com link.",
-  "geradoEm": "2026-11-27",
+  "geradoEm": "2026-11-28",
   "total": 125,
   "slogan": "A inteligência do tempo real direto na sua operação. Toda consulta online, automatizada.",
   "producao": 81,
@@ -659,10 +659,75 @@
       "documentos": [
         "Certidão Negativa de Débitos"
       ],
-      "guia": null,
+      "guia": "https://hathdata.com/certidao-negativa-municipal-catalao",
       "api": null,
-      "atualizadoEm": null,
-      "fontesOficiais": []
+      "atualizadoEm": "2026-11-28",
+      "fontesOficiais": [
+        {
+          "nome": "Prefeitura de Catalão: Certidões Negativas",
+          "url": "https://www.catalao.go.gov.br/certidoes-negativas"
+        },
+        {
+          "nome": "Prefeitura de Catalão: Portal de Serviços",
+          "url": "https://catalao.go.gov.br/transparencia/ouvidoria/servicos"
+        },
+        {
+          "nome": "Lei Complementar nº 3.952/2021 (Novo Código Tributário), página da lei",
+          "url": "https://catalao.go.gov.br/transparencia/legislacao/leis/14"
+        },
+        {
+          "nome": "Lei Complementar nº 3.952/2021, texto em PDF",
+          "url": "https://catalao.go.gov.br/storage/legislacao/3d19df05d7d378f641afa69016dbe593.pdf"
+        },
+        {
+          "nome": "Lei Complementar nº 4.299/2025 (altera o art. 99 do Código)",
+          "url": "https://catalao.go.gov.br/transparencia/legislacao/leis/2236"
+        },
+        {
+          "nome": "Lei que altera o art. 254 do Código",
+          "url": "https://catalao.go.gov.br/transparencia/legislacao/leis/2464"
+        },
+        {
+          "nome": "Prefeitura de Catalão: Leis Municipais",
+          "url": "https://catalao.go.gov.br/transparencia/legislacao/leis"
+        },
+        {
+          "nome": "Prefeitura de Catalão: Cadastro de Contribuinte",
+          "url": "https://contribuinte.catalao.go.gov.br/"
+        },
+        {
+          "nome": "Prefeitura de Catalão: Cadastro de Fornecedor",
+          "url": "https://catalao.go.gov.br/cadastro-de-fornecedor"
+        },
+        {
+          "nome": "Prefeitura de Catalão: Carta de Serviço ao Usuário",
+          "url": "https://catalao.go.gov.br/transparencia/ouvidoria/carta-servico-ao-usuario"
+        },
+        {
+          "nome": "Prefeitura de Catalão: Sobre a cidade",
+          "url": "https://catalao.go.gov.br/sobre-a-cidade"
+        },
+        {
+          "nome": "Código Tributário Nacional (Lei nº 5.172/1966)",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm"
+        },
+        {
+          "nome": "Receita Federal: certidões",
+          "url": "https://servicos.receitafederal.gov.br/servico/certidoes/"
+        },
+        {
+          "nome": "Caixa: consulta de regularidade do FGTS",
+          "url": "https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf"
+        },
+        {
+          "nome": "TST: Certidão Negativa de Débitos Trabalhistas",
+          "url": "https://cndt-certidao.tst.jus.br/inicio.faces"
+        },
+        {
+          "nome": "Economia de Goiás: emissão de certidão",
+          "url": "http://www.sefaz.go.gov.br/Certidao/Emissao/"
+        }
+      ]
     },
     {
       "cidade": "Catanduva",
@@ -1822,10 +1887,95 @@
       "documentos": [
         "Certidão Negativa de Débitos"
       ],
-      "guia": null,
+      "guia": "https://hathdata.com/certidao-negativa-municipal-itumbiara",
       "api": null,
-      "atualizadoEm": null,
-      "fontesOficiais": []
+      "atualizadoEm": "2026-11-28",
+      "fontesOficiais": [
+        {
+          "nome": "Prefeitura de Itumbiara: Emissão de Certidão Negativa (carta do serviço)",
+          "url": "https://itumbiara.go.gov.br/servico/emissao-de-certidao-negativa/"
+        },
+        {
+          "nome": "Prefeitura de Itumbiara: Serviços da Secretaria de Finanças",
+          "url": "https://itumbiara.go.gov.br/servicos-da-secretaria-de-financas/"
+        },
+        {
+          "nome": "Prefeitura de Itumbiara: Secretaria Municipal de Finanças",
+          "url": "https://itumbiara.go.gov.br/estrutura/secretaria-municipal-de-financas/"
+        },
+        {
+          "nome": "Prefeitura de Itumbiara: Pedido de Prescrição Tributária",
+          "url": "https://itumbiara.go.gov.br/pedido-de-prescricao-tributaria/"
+        },
+        {
+          "nome": "Prefeitura de Itumbiara: guia oficial de prescrição (PDF)",
+          "url": "https://itumbiara.go.gov.br/wp-content/uploads/2026/06/Guia-Impresso.pdf"
+        },
+        {
+          "nome": "Prefeitura de Itumbiara: Conselho Municipal de Contribuintes",
+          "url": "https://itumbiara.go.gov.br/comissoes/conselho-municipal-de-contribuintes/"
+        },
+        {
+          "nome": "Lei Complementar nº 267/2025 (Alvará de Levantamento)",
+          "url": "https://itumbiara.go.gov.br/wp-content/uploads/2026/01/10-267___Lei_Complementar_267_de_2025___Regularizacao_de_edificacoes-1.pdf"
+        },
+        {
+          "nome": "Prefeitura de Itumbiara: REFIS 2026",
+          "url": "https://itumbiara.go.gov.br/refis-2026-com-ate-100-de-desconto-em-juros-e-multas/"
+        },
+        {
+          "nome": "Prefeitura de Itumbiara: encerramento do REFIS 2025",
+          "url": "https://itumbiara.go.gov.br/refis-chega-ao-fim-nesta-quarta-dia-19-de-novembro/"
+        },
+        {
+          "nome": "Prefeitura de Itumbiara: avaliação para fins de ITBI",
+          "url": "https://itumbiara.go.gov.br/itbi-imposto-sobre-a-transmissao-de-bens-imoveis/instrucoes-para-pedido-de-avaliacao-para-fins-de-itbi/"
+        },
+        {
+          "nome": "Prefeitura de Itumbiara: Abertura de Processos",
+          "url": "https://itumbiara.go.gov.br/servico/abertura-de-processos/"
+        },
+        {
+          "nome": "Prefeitura de Itumbiara: Consultar Protocolo",
+          "url": "https://itumbiara.go.gov.br/servico/consultar-protocolo/"
+        },
+        {
+          "nome": "SEI de Itumbiara: acesso externo",
+          "url": "https://sei.itumbiara.go.gov.br/sei/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0"
+        },
+        {
+          "nome": "Prefeitura de Itumbiara: História",
+          "url": "https://itumbiara.go.gov.br/historia/"
+        },
+        {
+          "nome": "Código Tributário Nacional (Lei nº 5.172/1966)",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm"
+        },
+        {
+          "nome": "Receita Federal: certidões",
+          "url": "https://servicos.receitafederal.gov.br/servico/certidoes/"
+        },
+        {
+          "nome": "Economia de Goiás: emissão de certidão",
+          "url": "https://www.sefaz.go.gov.br/Certidao/Emissao/default.asp"
+        },
+        {
+          "nome": "Economia de Goiás: validação de certidão",
+          "url": "https://www.sefaz.go.gov.br/Certidao/Validacao/default.asp"
+        },
+        {
+          "nome": "Caixa: consulta de regularidade do FGTS",
+          "url": "https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf"
+        },
+        {
+          "nome": "TST: Certidão Negativa de Débitos Trabalhistas",
+          "url": "https://cndt-certidao.tst.jus.br/inicio.faces"
+        },
+        {
+          "nome": "TJGO: certidão negativa e positiva pública",
+          "url": "https://projudi.tjgo.jus.br/CertidaoNegativaPositivaPublica"
+        }
+      ]
     },
     {
       "cidade": "Jaguaretama",
@@ -1920,10 +2070,47 @@
       "documentos": [
         "Certidão Negativa de Débitos"
       ],
-      "guia": null,
+      "guia": "https://hathdata.com/certidao-negativa-municipal-jatai",
       "api": null,
-      "atualizadoEm": null,
-      "fontesOficiais": []
+      "atualizadoEm": "2026-11-28",
+      "fontesOficiais": [
+        {
+          "nome": "Lei Complementar nº 1.445/1990, Código Tributário Municipal (Câmara Municipal de Jataí)",
+          "url": "https://www.jatai.go.leg.br/ta/1117/text"
+        },
+        {
+          "nome": "Código Tributário Municipal (Secretaria de Fazenda de Jataí)",
+          "url": "https://www.jatai.go.gov.br/download/codigo-tributario-municipal/"
+        },
+        {
+          "nome": "Lei Complementar nº 35/2025 (Câmara Municipal de Jataí)",
+          "url": "https://www.jatai.go.leg.br/ta/10056/text"
+        },
+        {
+          "nome": "Secretaria de Fazenda de Jataí",
+          "url": "https://www.jatai.go.gov.br/secretaria-de-fazenda/"
+        },
+        {
+          "nome": "Comunicado aos contadores: Simples Nacional 2027",
+          "url": "https://www.jatai.go.gov.br/prefeitura-orienta-contadores-sobre-regularidade-fiscal-de-empresas-do-simples-nacional-para-2027/"
+        },
+        {
+          "nome": "REFIS 2026 (Lei nº 4.999/2026), adesão encerrada em 13/11/2026",
+          "url": "https://www.jatai.go.gov.br/regularizacao-da-divida-ativa-tem-descontos-de-ate-100-com-o-refis-2026/"
+        },
+        {
+          "nome": "Novo sistema de ISS e NFS-e (1º/10/2026)",
+          "url": "https://www.jatai.go.gov.br/novo-sistema-de-iss-e-nfs-e/"
+        },
+        {
+          "nome": "Diário Oficial do Município de Jataí",
+          "url": "https://intranet.jatai.go.gov.br/intranet/sistemas/diario-oficial/diario-site.php"
+        },
+        {
+          "nome": "Código Tributário Nacional, arts. 205 e 206 (Câmara dos Deputados)",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html"
+        }
+      ]
     },
     {
       "cidade": "Joinville",
@@ -2427,10 +2614,67 @@
       "documentos": [
         "Certidão Negativa de Débitos"
       ],
-      "guia": null,
+      "guia": "https://hathdata.com/certidao-negativa-municipal-nova-serrana",
       "api": null,
-      "atualizadoEm": null,
-      "fontesOficiais": []
+      "atualizadoEm": "2026-11-28",
+      "fontesOficiais": [
+        {
+          "nome": "Prefeitura de Nova Serrana: Acesso Fácil",
+          "url": "https://www.novaserrana.mg.gov.br/portal/acesso-facil"
+        },
+        {
+          "nome": "Diário Oficial de Nova Serrana, edição nº 2560 (30/09/2025): Lei Complementar nº 66/2025",
+          "url": "https://www.novaserrana.mg.gov.br/portal/diario-oficial/ver/4217"
+        },
+        {
+          "nome": "Diário Oficial de Nova Serrana, edição extra nº 2561 (30/09/2025): retificação da Lei Complementar nº 66/2025",
+          "url": "https://www.novaserrana.mg.gov.br/portal/diario-oficial/ver/4218"
+        },
+        {
+          "nome": "Prefeitura de Nova Serrana: Diário Oficial",
+          "url": "https://www.novaserrana.mg.gov.br/portal/diario-oficial"
+        },
+        {
+          "nome": "Prefeitura de Nova Serrana: Secretaria Municipal de Fazenda",
+          "url": "https://www.novaserrana.mg.gov.br/portal/secretarias/8/Fazenda"
+        },
+        {
+          "nome": "Prefeitura de Nova Serrana: formulário de ITBI",
+          "url": "https://www.novaserrana.mg.gov.br/formulario-de-itbi/"
+        },
+        {
+          "nome": "Prefeitura de Nova Serrana: notícia sobre IPTU e CND online",
+          "url": "https://www.novaserrana.mg.gov.br/portal/noticias/0/3/1139/em-nova-serrana-agora-e-assim-iptu-se-transforma-em-saude-educacao-e-infraestrutura"
+        },
+        {
+          "nome": "Câmara Municipal de Nova Serrana: Lei Orgânica e Regimento Interno",
+          "url": "https://www.novaserrana.cam.mg.gov.br/detalhe-da-materia/info/lei-organica-e-regimento-interno/37473"
+        },
+        {
+          "nome": "Portal da Transparência de Nova Serrana",
+          "url": "https://transparencia.novaserrana.mg.gov.br/"
+        },
+        {
+          "nome": "Código Tributário Nacional (Lei nº 5.172/1966)",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html"
+        },
+        {
+          "nome": "Receita Federal: certidões",
+          "url": "https://servicos.receitafederal.gov.br/servico/certidoes/"
+        },
+        {
+          "nome": "Caixa: consulta de regularidade do FGTS",
+          "url": "https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf"
+        },
+        {
+          "nome": "TST: Certidão Negativa de Débitos Trabalhistas",
+          "url": "https://cndt-certidao.tst.jus.br/inicio.faces"
+        },
+        {
+          "nome": "Secretaria de Estado de Fazenda de Minas Gerais: SIARE",
+          "url": "https://www2.fazenda.mg.gov.br/sol/"
+        }
+      ]
     },
     {
       "cidade": "Osasco",
